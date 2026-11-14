@@ -1,3 +1,8 @@
+# Language / Язык / Мова / Taal / Sprache / Langue
+[🇬🇧 English](README.md) • [🇳🇱 Nederlands](README.nl.md) • [🇺🇦 Українська](README.uk.md) • [🇩🇪 Deutsch](README.de.md) • [🇫🇷 Français](README.fr.md) • [🇷🇺 Русский](README.ru.md)
+
+---
+
 # Unified Phase Dynamics of Feynman Path Contours
 ## Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem
 
@@ -5,6 +10,7 @@
 **Affiliation:** Independent Researcher  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Primary Repository:** Zenodo (CERN / OpenAIRE) — DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Permanent GitHub Repository:** [github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
 
@@ -35,7 +41,7 @@ This research monograph establishes a unified, non-perturbative quantum framewor
   * **Chapter 2: Emergent Gravity, Quantum Nature of the Equivalence Principle, and Horizon Thermodynamics**
     * 2.1. Massless Spin-2 Gauge Field and Non-Linear Gravitational Self-Interaction (Feynman-Deser Theorem)
     * 2.2. Variational Derivation of Einstein Field Equations and Reduction to Classical GR in the Strong-Field Regime
-    * 2.3. Non-Abelian Yang-Mills Gauge Dynamics, Wilson Loops, and Contour Origin of Hadron Mass
+    * 2.3. Non-Abelian Yang-Mills Gauge Dynamics, Wilson Loops, and Contour Origin of Hadron Mass (§2.3.6 Resolution of the Mass Gap Problem)
     * 2.4. Vacuum Phase Density Gradient, Margolus-Levitin Theorem, and Quantum Refraction of de Broglie Waves
     * 2.5. Analytical Proof of the Equivalence Principle ($m_{\text{in}} \equiv m_{\text{grav}}$)
     * 2.6. Conclusions of Chapter 2
@@ -89,6 +95,7 @@ Or uploaded as a `.zip` archive to **Overleaf** (select TeX Live / pdfLaTeX engi
   author={Pavliuk, Hryhorii},
   year={2026},
   publisher={Zenodo},
-  doi={10.5281/zenodo.24226130}
+  doi={10.5281/zenodo.24226130},
+  url={https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours}
 }
 ```
