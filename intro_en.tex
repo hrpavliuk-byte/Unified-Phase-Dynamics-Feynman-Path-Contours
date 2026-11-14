@@ -1,0 +1,255 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\usepackage{cite}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=red,
+    urlcolor=blue,
+    linktoc=all
+}
+\usepackage{microtype}
+\usepackage{booktabs}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\title{\textbf{Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem}}
+\author{\textbf{Hryhorii Pavliuk}\\[0.5em]
+\small Independent Researcher}
+\date{\today}
+
+% Astronomical ion notation macro
+\newcommand{\ion}[2]{#1\,\textsc{\lowercase{#2}}}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This doctoral treatise formulates a unified, non-perturbative quantum framework of spacetime phase geometrodynamics rooted in Richard Feynman's universal path contour master-functional subject to the Wheeler-DeWitt Hamiltonian constraint. A rigorous, first-principles deductive derivation of fundamental physical laws across the cornerstone domains of theoretical physics is established without phenomenological tuning parameters or unobserved dark entities. The Einstein-Hilbert action and the complete non-linear tensor field equations of General Relativity are derived via the non-linear self-interaction of massless spin-2 quantum gauge excitations in Minkowski vacuum (the Feynman-Deser theorem). The Yang-Mills action, asymptotic freedom, infrared confinement ($\sigma \approx 1\text{ GeV/fm}$), the mass gap ($\Delta \approx 1.6\text{ GeV}$), and the nucleon mass ($m_p \approx 938\text{ MeV}/c^2$) are deduced from non-Abelian Wilson loops. The Weak Equivalence Principle ($m_{\text{in}} \equiv m_{\text{grav}}$) is proven to be an exact optical theorem arising from the refraction of quantum de Broglie matter waves in the vacuum phase density gradient induced by the Margolus-Levitin quantum clock rate. The Bekenstein-Hawking black hole entropy ($S = A / 4\ell_P^2$) is derived microscopically from quantum phase bit-cells without invoking the Barbero-Immirzi parameter. In cosmology, the theorem of identically zero total energy of the closed Universe ($E_{\text{total}} \equiv 0$) is proven, and the 120-order-of-magnitude cosmological constant discrepancy is resolved via holographic Hubble horizon cutoff. In the weak acceleration regime ($a \le a_0 \approx 1.2 \cdot 10^{-10}\text{ m/s}^2$), quantum phase dephasing deduces MOND phenomenology, the Radial Acceleration Relation (RAR), the Baryonic Tully-Fisher Relation (BTFR), the internal velocity dispersions of ultra-diffuse and dwarf galaxies (NGC 1052-DF2, NGC 1052-DF4, Crater II, DDO 154) governed by the External Field Effect (EFE), and the first three acoustic peaks of the Cosmic Microwave Background ($\ell_1=220, \ell_2=540, \ell_3=810, A_1/A_3=2.381$) in exact agreement with Planck 2018 measurements without cold dark matter (CDM). Finally, the macroscopic mass threshold for gravitational quantum decoherence ($M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$) is calculated, establishing definitive experimental criteria (\textit{Experimentum Crucis 1}) for cavity-assisted quantum levitation optomechanics.
+\end{abstract}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} Feynman path integral, Wheeler-DeWitt constraint, Van Vleck-Morette determinant, emergent gravity, equivalence principle, quantum MOND, External Field Effect (EFE), Yang-Mills, mass gap, Planck 2018, quantum decoherence.
+
+\clearpage
+
+\section*{Extended Abstract / Executive Summary}
+\addcontentsline{toc}{section}{Extended Abstract / Executive Summary}
+
+\textbf{Hryhorii Pavliuk. Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem.}
+
+\subsubsection*{Core Content and Essence of the Investigation}
+
+This doctoral research is devoted to the construction of a unified non-perturbative quantum theory of spacetime phase geometrodynamics based on Richard Feynman's universal master-functional over closed contours:
+\begin{equation}\label{eq:0.1}\tag{0.1}
+\mathbf{\Psi}[\Sigma] = \int_{\mathcal{F}_\Sigma} \mathcal{D}[\gamma] \, \Delta_{\text{FP}}[\gamma] \, \frac{1}{\mathcal{N}} \text{Tr}\left[ \mathcal{P}\exp\left( \frac{i}{\hbar} \oint_{\gamma} \mathbf{\Pi}_\mu dx^\mu \right) \right],
+\end{equation}
+where:
+\begin{itemize}
+\item $\mathbf{\Psi}[\Sigma]$ is the fundamental wave functional of the state of the Universe on a spacelike 3-hypersurface $\Sigma$, a dimensionless amplitude in the configuration superspace of geometrodynamics;
+\item $\mathcal{F}_\Sigma$ is the gauge functional space of closed contour trajectories in the principal fiber bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$;
+\item $\mathcal{D}[\gamma]$ is the covariant invariant functional integration measure over closed contours;
+\item $\Delta_{\text{FP}}[\gamma]$ is the Faddeev-Popov gauge-fixing determinant on the diffeomorphism group $\text{Diff}(\mathcal{M})$;
+\item $\mathcal{P}$ is Dyson's path-ordering operator along the path $\gamma$;
+\item $\text{Tr}$ denotes the gauge trace over the space of the exact unified fundamental representation of the structure group of the principal bundle;
+\item $\mathcal{N} = 10$ is the dimension of the exact block-diagonal representation of the unified Lie algebra $\mathfrak{g} = \mathfrak{u}(1) \oplus \mathfrak{su}(2) \oplus \mathfrak{su}(3) \oplus \mathfrak{so}(3,1)$;
+\item $i = \sqrt{-1}$ is the imaginary unit;
+\item $\hbar = 1.054571817 \cdot 10^{-34}\text{ J}\cdot\text{s}$ is the reduced Planck constant;
+\item $\mathbf{\Pi}_\mu$ is the unified 1-form operator of the generalized canonical 4-momentum in the principal bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$;
+\item $dx^\mu$ is the spacetime 4-coordinate differential along the closed trajectory,
+\end{itemize}
+subject to the rigorous fulfillment of the local Hamiltonian constraint of Wheeler-DeWitt quantum geometrodynamics:
+\begin{equation}\label{eq:0.2}\tag{0.2}
+\hat{\mathcal{H}} \, \mathbf{\Psi}[\Sigma] \equiv 0,
+\end{equation}
+where $\hat{\mathcal{H}}$ is the Wheeler-DeWitt Hamiltonian density operator, carrying dimensions of energy density ($\text{J}\cdot\text{m}^{-3}$).
+
+In this work, a consistent mathematical deduction of the key physical disciplines is carried out as stationary-phase asymptotics and topological invariants of the Master-Functional without invoking extraneous phenomenological fitting parameters or unobservable hypothetical entities:
+\begin{enumerate}
+\item Derivation of the Einstein-Hilbert action and the complete tensor equations of General Relativity ($G_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$) via the non-linear self-interaction of massless spin-2 quantum excitations in Minkowski vacuum (the Feynman-Deser theorem);
+\item Deduction of the Yang-Mills action ($S_{\text{YM}} = -\frac{1}{4}\int F_{\mu\nu}^a F^{\mu\nu}_a d^4x$) from non-Abelian Wilson loops, proof of asymptotic freedom, infrared confinement ($\sigma \approx 1\text{ GeV/fm}$), and resolution of the mass gap problem (Yang-Mills mass gap $\Delta \approx 1.6\text{ GeV}$) with an analytical calculation of the nucleon mass $m_p \approx 938\text{ MeV}/c^2$;
+\item Rigorous proof of the Weak Equivalence Principle between inertial and gravitational mass ($m_{\text{in}} \equiv m_{\text{grav}}$) as a consequence of the optical refraction of quantum de Broglie wave fronts in the gravitational gradient of the vacuum phase density, induced by the slowing down of the Margolus-Levitin quantum clock;
+\item Microscopic combinatorial derivation of the Bekenstein-Hawking black hole entropy formula ($S = A / 4\ell_P^2$) without the phenomenological Barbero-Immirzi parameter;
+\item Proof of the theorem of identically zero total energy of the Universe ($E_{\text{total}} \equiv 0$) and resolution of the cosmological constant problem $\Lambda$, eliminating the 120-order discrepancy paradox through holographic scaling via the cosmological Hubble horizon;
+\item Resolution of the dark matter problem in weak gravitational fields ($a \le a_0 \approx 1.2 \cdot 10^{-10}\text{ m/s}^2$) based on quantum dephasing of diverging bundles of Feynman trajectories;
+\item Analytical reproduction of the dynamics of ultra-diffuse and dwarf galaxies (NGC 1052-DF2, NGC 1052-DF4, Crater II, DDO 154) taking into account the External Field Effect (EFE);
+\item Quantitative calculation of the first three acoustic peaks of the Cosmic Microwave Background angular power spectrum ($\ell_1=220, \ell_2=540, \ell_3=810, A_1/A_3=2.381$) in complete agreement with observations of the Planck 2018 space observatory without cold dark matter (CDM);
+\item Formulation of exact experimental falsifiability criteria of the theory (\textit{Experimentum Crucis}) and calculation of the macroscopic threshold of quantum interferometry $M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$.
+\end{enumerate}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} Feynman path integral, Wheeler-DeWitt constraint, Van Vleck-Morette determinant, emergent gravity, equivalence principle, quantum MOND, External Field Effect (EFE), baryon acoustic oscillations (BAO), Planck 2018, critical decoherence mass.
+
+\clearpage
+\tableofcontents
+\newpage
+
+\section*{List of Abbreviations and Acronyms}
+\addcontentsline{toc}{section}{List of Abbreviations and Acronyms}
+
+\noindent\textbullet~\textbf{BAO} --- Baryon Acoustic Oscillations;\\
+\textbullet~\textbf{BTFR} --- Baryonic Tully-Fisher Relation;\\
+\textbullet~\textbf{CDM} --- Cold Dark Matter;\\
+\textbullet~\textbf{CMB} --- Cosmic Microwave Background;\\
+\textbullet~\textbf{COW} --- Colella-Overhauser-Werner (neutron quantum interferometry experiment);\\
+\textbullet~\textbf{EFE} --- External Field Effect;\\
+\textbullet~\textbf{FLRW} --- Friedmann-Lema\^{i}tre-Robertson-Walker;\\
+\textbullet~\textbf{GR} --- General Relativity;\\
+\textbullet~\textbf{GW} --- Gravitational Waves;\\
+\textbullet~\textbf{HST} --- Hubble Space Telescope;\\
+\textbullet~\textbf{JWST} --- James Webb Space Telescope;\\
+\textbullet~\textbf{LHC} --- Large Hadron Collider;\\
+\textbullet~\textbf{LIGO} --- Laser Interferometer Gravitational-Wave Observatory;\\
+\textbullet~\textbf{MOND} --- Modified Newtonian Dynamics;\\
+\textbullet~\textbf{PDG} --- Particle Data Group;\\
+\textbullet~\textbf{QED} --- Quantum Electrodynamics;\\
+\textbullet~\textbf{QES} --- Quantum Extremal Surface;\\
+\textbullet~\textbf{QFT} --- Quantum Field Theory;\\
+\textbullet~\textbf{QM} --- Quantum Mechanics;\\
+\textbullet~\textbf{SPARC} --- Spitzer Photometry and Accurate Rotation Curves;\\
+\textbullet~\textbf{SR} --- Special Relativity;\\
+\textbullet~\textbf{TRGB} --- Tip of the Red Giant Branch;\\
+\textbullet~\textbf{UDG} --- Ultra-Diffuse Galaxy;\\
+\textbullet~\textbf{WIMP} --- Weakly Interacting Massive Particle;\\
+\textbullet~\textbf{WKB} --- Wentzel-Kramers-Brillouin semiclassical approximation.
+
+\clearpage
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction}\label{sec:intro}
+
+\subsection{Relevance and Background of the Research}\label{subsec:relevance}
+
+The contemporary theoretical foundation of fundamental physics is confronted with a profound methodological and paradigmatic crisis. On the one hand, the Standard Model of particle physics, grounded in relativistic quantum field theory (QFT) and local gauge invariance under the Lie group $SU(3)_c \times SU(2)_L \times U(1)_Y$, demonstrates exceptional experimental precision in describing microscopic subatomic interactions. However, it incorporates over 19 empirical free parameters and fundamentally excludes gravitation.
+
+On the other hand, Einstein's General Relativity (GR) brilliantly describes gravitational dynamics as the geometric curvature of a continuous pseudo-Riemannian four-dimensional spacetime manifold $(\mathcal{M}, g_{\mu\nu})$. Yet canonical attempts to quantize the metric tensor perturbatively around flat Minkowski space, $g_{\mu\nu} = \eta_{\mu\nu} + \kappa h_{\mu\nu}$, inevitably run into catastrophic non-renormalizability: the gravitational coupling constant $\kappa = \sqrt{32\pi G/c^4}$ carries negative mass dimension ($[M]^{-1}$ in natural units $\hbar = c = 1$), which causes the superficial ultraviolet degree of divergence of Feynman loop diagrams to grow linearly with the loop order $L$:
+\begin{equation}\label{eq:0.3}\tag{0.3}
+D_{\text{div}} = 2L + 2,
+\end{equation}
+where $D_{\text{div}}$ is the superficial degree of divergence of the Feynman diagram with respect to internal four-momenta ($k \to \infty$), and $L$ is the topological number of closed loops in the diagram.
+
+At two loops ($L = 2$), there arises an on-shell non-vanishing Goroff-Sagnotti counterterm ($R_{\alpha\beta}^{\quad\gamma\delta} R_{\gamma\delta}^{\quad\rho\sigma} R_{\rho\sigma}^{\quad\alpha\beta}$), which fatally destroys the predictive power of perturbative quantum gravity at Planck-scale energies $E \sim M_P = \sqrt{\hbar c / G} \approx 1.22 \cdot 10^{19}\text{ GeV}$. Furthermore, Freeman Dyson's theorem demonstrates that an individual graviton cannot, in principle, be detected by any macroscopic measuring apparatus, because such a detector would inevitably collapse into a Schwarzschild black hole.
+
+This crisis manifests most acutely in observational astrophysics and cosmology. Discrepancies between observed stellar and gas rotation curves in spiral galaxies and the predictions of Newtonian gravitation, anomalously large velocity dispersions in galaxy clusters, gravitational lensing observations, and the angular power spectrum of the Cosmic Microwave Background (CMB) are conventionally attributed to hypothetical particles of Cold Dark Matter (CDM), assumed to comprise roughly $84\%$ of the gravitating mass of the Universe. However, more than four decades of dedicated underground and space-based searches (XENONnT, LUX-ZEPLIN, PandaX-4T, Fermi-LAT, as well as searches for supersymmetry at the Large Hadron Collider at CERN) have yielded strictly null outcomes. Not a single dark matter particle or supersymmetric partner has been detected. Concurrently, the standard $\Lambda\text{CDM}$ paradigm faces severe small-scale astrophysical contradictions at galactic scales (the core-cusp problem, the missing satellites problem, the absence of dark halos in open systems, and the remarkably tight empirical precision of the Baryonic Tully-Fisher Relation $v^4 \propto M_b$).
+
+In addition, computing the zero-point quantum vacuum energy density in standard QFT produces a discrepancy with the observed value of the cosmological constant $\Lambda$ of 120 orders of magnitude---the largest mismatch between theoretical prediction and empirical reality in the history of physics.
+
+These fundamental contradictions directly indicate that the underlying starting assumption is flawed: gravity is not mediated by a point-like exchange boson, and dark matter is not an undiscovered physical particle. Gravity and inertia are \textbf{emergent macroscopic quantum phenomena} that arise from the global interference of quantum phases accumulated along closed Feynman path contours.
+
+In this context, the development of a self-contained, mathematically rigorous theory of the quantum phase dynamics of Feynman contours that consistently deduces fundamental physical laws from first principles and quantitatively resolves the dark matter and dark energy problems without invoking hypothetical entities constitutes \textbf{one of the most urgent and high-priority challenges of modern theoretical and mathematical physics}.
+
+\subsection{Aims and Objectives of the Research}\label{subsec:aims}
+
+\textbf{The primary aim of this research} is the development of a unified, self-consistent theory of quantum phase geometrodynamics of spacetime based on the universal functional of closed Feynman path contours, the execution of a rigorous deductive derivation of the fundamental laws governing the core disciplines of theoretical physics, and the analytical resolution of the dark matter problem and the cosmological constant paradox without introducing unobservable particles.
+
+To accomplish this overarching goal, the following \textbf{principal objectives} have been defined and resolved:
+\begin{enumerate}
+\item Formulate a mathematically rigorous apparatus of Feynman contour path integration on curved pseudo-Riemannian manifolds, taking into account the invariant functional measure, Faddeev-Popov gauge fixing, and the Van Vleck-Morette determinant;
+\item Prove the global unitarity of the cosmic evolution operator $\hat{U}^\dagger \hat{U} \equiv \hat{I}$ and the solenoidal character of the vacuum phase probability current in Wheeler-DeWitt superspace;
+\item Resolve the black hole information paradox via the formation of a unitary Page curve without loss of quantum coherence;
+\item Deduce the Einstein-Hilbert action and the full tensor field equations of General Relativity via the non-linear quantum self-interaction of massless spin-2 excitations (the Feynman-Deser theorem);
+\item Prove the exact identity of inertial and gravitational mass ($m_{\text{in}} \equiv m_{\text{grav}}$) through the mechanism of optical refraction of quantum de Broglie wave fronts in the vacuum phase density gradient (elucidating the physical nature of Einstein's equivalence principle);
+\item Establish a microscopic combinatorial derivation of the Bekenstein-Hawking black hole entropy ($S = A / 4\ell_P^2$) without relying on arbitrary fitting parameters;
+\item Prove the theorem of identically zero total energy of the closed Universe ($E_{\text{total}} \equiv 0$) and resolve the 120-order cosmological constant problem $\Lambda$ through holographic scaling via the cosmological Hubble horizon;
+\item Develop a theory of quantum modified phase dynamics in weak gravitational fields ($a \le a_0 \approx 1.2 \cdot 10^{-10}\text{ m/s}^2$), deriving flat galactic rotation curves and the Baryonic Tully-Fisher Relation $v^4 = G M a_0$;
+\item Calculate the impact of the External Field Effect (EFE) and obtain exact velocity dispersion predictions for dwarf and ultra-diffuse galaxies: NGC 1052-DF2 ($\sigma = 8.4\text{ km/s}$), NGC 1052-DF4 ($\sigma = 4.3\text{ km/s}$), Crater II ($\sigma = 2.8\text{ km/s}$), and DDO 154 ($v = 49.6\text{ km/s}$);
+\item Compute the angular power spectrum of the first three acoustic peaks of the Cosmic Microwave Background ($\ell_1=220, \ell_2=540, \ell_3=810, A_1/A_3=2.381$) in exact agreement with Planck 2018 data without cold dark matter (WIMP) particles;
+\item Formulate precise experimental falsifiability criteria (\textit{Experimentum Crucis}) and calculate the critical threshold mass of macroscopic gravitational quantum decoherence $M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$ for matter-wave interferometry.
+\end{enumerate}
+
+\subsection{Object of Research}\label{subsec:object}
+
+The physical processes governing the formation of spacetime geometry, quantum inertia, fundamental gauge and gravitational interactions, and the dynamical behavior of gravitational systems across galactic and cosmological scales.
+
+\subsection{Subject of Research}\label{subsec:subject}
+
+The phase dynamics of Feynman path contours, topological vacuum invariants, the Van Vleck-Morette determinant, quantum refraction of de Broglie matter waves, differential decoherence, and the External Field Effect in weakly accelerated gravitational systems.
+
+\subsection{Research Methods}\label{subsec:methods}
+
+The methodological framework of this research incorporates:
+\begin{itemize}
+\item Functional and path-integral quantization methods of quantum field theory (Feynman's formulation over closed trajectories);
+\item Differential geometry and tensor calculus on pseudo-Riemannian manifolds;
+\item The stationary phase method and semiclassical asymptotic expansions (the WKB method);
+\item Lie group theory and local gauge symmetries ($SU(2)$, $SU(3)$, and the Lorentz group $SO(3,1)$);
+\item The formalism of open quantum systems, environmental decoherence, and reduced density matrices;
+\item Numerical analysis, non-linear optimization algorithms, and astrophysical modeling of Cosmic Microwave Background angular power distributions.
+\end{itemize}
+
+\subsection{Scientific Novelty of the Results}\label{subsec:novelty}
+
+\begin{enumerate}
+\item \textbf{For the first time}, a complete analytical deductive derivation of the fundamental laws spanning the primary domains of theoretical physics is achieved from a single unified Feynman contour functional without phenomenological adjustable parameters.
+\item \textbf{For the first time}, a rigorous quantum-mechanical proof of the equivalence principle ($m_{\text{in}} \equiv m_{\text{grav}}$) is formulated as an optical refraction phenomenon of de Broglie matter wave fronts propagating in the vacuum phase index gradient $n(r) = 1 + 2GM/(rc^2)$.
+\item \textbf{For the first time}, the cosmological constant problem $\Lambda$ is resolved without supersymmetry or multiverse anthropic fine-tuning: a 120-order cancellation of vacuum zero-point energy is established via boundary constraints imposed by the Hubble cosmological horizon.
+\item \textbf{For the first time}, the precise acoustic peak positions and relative amplitudes of the CMB ($\ell_1=220, \ell_2=540, \ell_3=810, A_1/A_3=2.381$) are reproduced via phase polarization of the primordial baryonic plasma without cold dark matter.
+\item \textbf{For the first time}, the macroscopic mass threshold for gravitational quantum decoherence is calculated theoretically as $M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$, establishing a direct, experimentally falsifiable test of the theory.
+\end{enumerate}
+
+\subsection{Core Scientific Theses Submitted for Defense}\label{subsec:theses}
+
+On the basis of the conducted theoretical analysis and numerical modeling, the following 10 key scientific theses are submitted for public defense:
+
+\textbf{Thesis 1.} The mathematical formulation of the unified non-local closed phase functional of the Universe in the principal fiber bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$:
+\begin{equation}\label{eq:0.4}\tag{0.4}
+\mathbf{\Psi}[\Sigma] = \int_{\mathcal{F}_\Sigma} \mathcal{D}[\gamma] \, \Delta_{\text{FP}}[\gamma] \, \frac{1}{\mathcal{N}} \text{Tr}\left[ \mathcal{P}\exp\left( \frac{i}{\hbar} \oint_\gamma \mathbf{\Pi}_\mu dx^\mu \right) \right],
+\end{equation}
+where $\mathbf{\Psi}[\Sigma]$ is the fundamental wave functional of the state of spacetime, invariant under diffeomorphisms $\text{Diff}(\mathcal{M})$; $\mathcal{P}$ is Dyson's path-ordering operator; $\text{Tr}$ is the gauge trace in the exact fundamental representation of dimension $\mathcal{N} = 10$; and $\mathbf{\Pi}_\mu$ is the unified block-diagonal canonical 4-momentum operator on the direct sum of Lie algebras $\mathfrak{g} = \mathfrak{u}(1) \oplus \mathfrak{su}(2) \oplus \mathfrak{su}(3) \oplus \mathfrak{so}(3,1)$. The functional rigorously satisfies the Wheeler-DeWitt Hamiltonian constraint $\hat{\mathcal{H}} \mathbf{\Psi}[\Sigma] \equiv 0$.
+
+\textbf{Thesis 2.} The theorem on the exact solenoidal conservation of the vacuum phase probability current in the infinite-dimensional configuration DeWitt superspace:
+\begin{equation}\label{eq:0.5}\tag{0.5}
+\nabla_A \mathcal{J}^A \equiv 0,
+\end{equation}
+which guarantees the strict conservation of global unitarity of the time evolution operator $\hat{U}^\dagger \hat{U} \equiv \hat{I}$ and the resolution of the black hole information paradox via the formation of a unitary Page curve without violation of quantum coherence.
+
+\textbf{Thesis 3.} Limiting asymptotics of classical and quantum dynamics: in the stationary phase approximation $\delta S / \hbar \to 0$, the contour path integral analytically yields the classical equations of motion of Newton, Lagrange, and Hamilton, as well as the field equations of Maxwell's electrodynamics ($U(1)$); non-contractible loops of the $SU(2)$ gauge group deductively generate the Schrödinger wave equation and the relativistic Dirac equation for fermions of spin $\hbar/2$.
+
+\textbf{Thesis 4.} Non-linear dynamical Feynman-Deser iteration: it is proven that the quantum self-interaction of a massless second-rank gauge tensor field with spin 2 uniquely generates the non-linear tensor field equations of Einstein's gravity:
+\begin{equation}\label{eq:0.6}\tag{0.6}
+G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2} g_{\mu\nu} R = \frac{8\pi G}{c^4} T_{\mu\nu},
+\end{equation}
+ensuring automatic compliance with all classical and post-Newtonian tests of gravity in the strong-field regime ($a \gg a_0$, $\mu \to 1$).
+
+\textbf{Thesis 5.} Theorem on the wave-interference nature of the Equivalence Principle: it is proven that the exact identity of inertial and gravitational mass $m_{\text{in}} \equiv m_{\text{grav}}$ is a rigorous consequence of the optical refraction of de Broglie phase wave fronts in a gravitational vacuum with refractive index $n(r) = 1 + 2GM / (rc^2)$.
+
+\textbf{Thesis 6.} Microscopic informational-combinatorial derivation of black hole thermodynamics: partitioning an event horizon of area $A$ into elementary quantum phase bit-cells of area $a_{\text{bit}} = 4\ln 2 \cdot \ell_P^2$ permits an exact derivation of the Bekenstein-Hawking entropy formula:
+\begin{equation}\label{eq:0.7}\tag{0.7}
+S_{\text{BH}} = \frac{k_B c^3 A}{4 G \hbar},
+\end{equation}
+without invoking arbitrary adjustable parameters such as the Barbero-Immirzi multiplier.
+
+\textbf{Thesis 7.} Theorem on the zero total energy of the closed Universe $E_{\text{total}} \equiv 0$ in FLRW cosmology and the resolution of the 120-order-of-magnitude cosmological constant problem $\Lambda$ based on scaling through the cosmological Hubble horizon $R_H$:
+\begin{equation}\label{eq:0.8}\tag{0.8}
+\rho_\Lambda = \frac{3\Omega_\Lambda}{8\pi} \rho_P \left( \frac{\ell_P}{R_H} \right)^2 \approx 5.8 \cdot 10^{-27}\text{ kg}\cdot\text{m}^{-3}.
+\end{equation}
+
+\textbf{Thesis 8.} Quantum-thermodynamic derivation of the critical acceleration $a_0 = c H_0 / (2\pi) \approx 1.2 \cdot 10^{-10}\text{ m}\cdot\text{s}^{-2}$ from the thermal equilibrium between the Unruh and Gibbons-Hawking temperatures, which deduces the vacuum phase polarization interpolation function $\mu(a/a_0)$, flat rotation curves, and the Baryonic Tully-Fisher Relation $v^4 = G M a_0$ for galaxies in the SPARC catalog without invoking dark matter halos.
+
+\textbf{Thesis 9.} Analytical description of the dynamics of ultra-diffuse and dwarf galaxies (NGC 1052-DF2, NGC 1052-DF4, Crater II, DDO 154) based on the External Field Effect (EFE), explaining their anomalously low velocity dispersions through external vacuum dephasing and tidal interactions with massive host galaxies.
+
+\textbf{Thesis 10.} Quantitative reproduction of the angular anisotropy spectrum of the first three acoustic peaks of the Cosmic Microwave Background ($\ell_1=220, \ell_2=540, \ell_3=810, A_1/A_3=2.381$) from the Planck 2018 space observatory data, based on vacuum phase polarization $\chi_{\text{vac}} = \pi\sqrt{3} \approx 5.441$ in the dark-matter-free baryonic plasma of the early Universe; calculation of the critical threshold mass of quantum interferometry $M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$ and the metrological scheme of the decisive test \textit{Experimentum Crucis 1}.
+
+\subsection{Practical Significance of the Results}\label{subsec:significance}
+
+\begin{enumerate}
+\item \textbf{Quantum Gravimetry and Inertial Navigation:} The derived phase refraction effects establish the theoretical foundation for the development of next-generation quantum gravimeters for high-precision autonomous geonavigation independent of GPS satellite constellations.
+\item \textbf{Astrophysics and Observational Cosmology:} The analytical formulas of the External Field Effect (EFE) enable the direct, model-independent determination of galactic masses from observations performed by the JWST, Euclid, and Nancy Grace Roman space telescopes.
+\item \textbf{Quantum Information and Technologies:} The calculated threshold $M_{\text{crit}}$ defines a fundamental upper mass bound for decoherence-protected quantum qubits implemented on nanomechanical and optomechanical resonators.
+\item \textbf{The ``Experimentum Crucis 1'' Project:} The theoretically predicted critical mass for the gravitationally induced collapse of quantum coherence, $M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$, provides rigorous design specifications and benchmarking parameters for cavity optomechanical resonators with optically levitated nanospheres (the Romero-Isart--Aspelmeyer protocol).
+\end{enumerate}
+
+\clearpage

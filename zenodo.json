@@ -1,0 +1,34 @@
+{
+  "title": "Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem",
+  "upload_type": "publication",
+  "publication_type": "monograph",
+  "description": "<p><b>Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem</b></p><p><b>Author:</b> Hryhorii Pavliuk (Independent Researcher)</p><p><b>Abstract:</b> This research monograph formulates a non-perturbative quantum framework of spacetime phase geometrodynamics rooted in Richard Feynman's universal path-integral formulation. Governed by the universal contour master-functional &Psi;[&Sigma;] subject to the Wheeler&ndash;DeWitt constraint &Hcirc;&Psi;[&Sigma;] &equiv; 0, the theory establishes:</p><ul><li><b>Emergence of Spacetime and Einstein Field Equations:</b> Derived via the Feynman&ndash;Deser spin-2 bootstrap and Van Vleck&ndash;Morette phase determinant without ad hoc classical geometrization.</li><li><b>Weak Equivalence Principle:</b> Deductively proven as the optical refraction of de Broglie matter waves within the Margolus&ndash;Levitin phase gradient of the quantum vacuum.</li><li><b>Resolution of the Dark Matter Problem:</b> Vacuum phase polarization dynamically reproduces the Milgromian acceleration threshold <i>a</i><sub>0</sub> = <i>c H</i><sub>0</sub> / (2&pi;) on galactic scales. In Appendix C, a 4-vector phase current &Uscr;<sub>&mu;</sub> and effective optical metric &gtilde;<sub>&mu;&nu;</sub> are shown to generate the required gravitational light deflection (including the Bullet Cluster) and sustain the 2nd and 3rd acoustic peaks of the Cosmic Microwave Background (Planck 2018), while strictly preserving <i>c</i><sub><i>T</i></sub> &equiv; <i>c</i> in compliance with GW170817.</li><li><b>Quantum Chromodynamics & Mass Gap:</b> Topological center &Zopf;<sub>3</sub> vortex confinement and an analytic derivation of the scalar glueball mass gap &Delta; &approx; 1.5&ndash;1.7 GeV on flat &Ropf;<sup>4</sup> strictly without external gravitational scales.</li><li><b>Falsifiable Metrological Experiment (Experimentum Crucis 1):</b> In Section 5.3, a cavity-assisted quantum levitation optomechanics protocol (the Romero-Isart&ndash;Aspelmeyer scheme) is formulated for a trapped silicon nanosphere of critical mass <i>M</i><sub>crit</sub> &approx; 3.13 &times; 10<sup>12</sup> amu, predicting an anomalous gravitationally induced coherence decay time &tau;<sub>crit</sub> &approx; 10 ms against an environmental baseline &tau;<sub>env</sub> &gt; 800 s.</li><li><b>Mathematical Foundations (Appendix C):</b> Exact closure of the Wheeler&ndash;DeWitt constraint algebra on knot states [&Hcirc;(<i>N</i><sub>1</sub>), &Hcirc;(<i>N</i><sub>2</sub>)] &equiv; 0 (Thiemann quantum spin dynamics) and cancellation of the 2-loop Goroff&ndash;Sagnotti divergence via entire-order non-local Schwinger contour form-factors in Minkowski signature.</li></ul>",
+  "creators": [
+    {
+      "name": "Pavliuk, Hryhorii",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Feynman path integral",
+    "Wheeler-DeWitt equation",
+    "quantum gravity",
+    "macroscopic quantum decoherence",
+    "levitated optomechanics",
+    "Diósi-Penrose model",
+    "dark matter",
+    "modified Newtonian dynamics",
+    "MOND",
+    "cosmic microwave background",
+    "Planck 2018",
+    "gravitational waves",
+    "GW170817",
+    "Yang-Mills mass gap",
+    "Goroff-Sagnotti divergence",
+    "non-local quantum field theory"
+  ],
+  "language": "eng",
+  "notes": "Full doctoral research monograph (320+ pages equivalent LaTeX monograph) with complete mathematical proofs, cosmological comparisons with SPARC galaxies and Planck 2018 CMB data, and detailed experimental protocols."
+}

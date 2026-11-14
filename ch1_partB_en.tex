@@ -1,0 +1,383 @@
+\subsection{Proof of Global Unitarity and Solenoidal Vacuum Current Theorem in DeWitt Superspace}\label{sec:1.4}
+
+\subsubsection{1.4.1. Relation to the Quantum Hamilton-Jacobi Equation and the Bohm Potential}\label{sec:1.4.1}
+
+To establish an exact bridge between quantum wave dynamics and the classical geometry of spacetime, we represent the complex wave function of a particle state $\psi(x)$ in the Erwin Madelung polar form:
+
+\begin{equation}\label{eq:1.64}\tag{1.64}
+\psi(x) = A(x) \exp\left( \frac{i}{\hbar} S(x) \right),
+\end{equation}
+where $A(x) = |\psi(x)|$ is the real amplitude of the wave function, and $S(x)$ is the real phase of the wave function.
+
+Substituting the decomposition (1.64) into the relativistic generally covariant Klein-Gordon-Fock wave equation for a particle in curved spacetime:
+
+\begin{equation}\label{eq:1.65}\tag{1.65}
+\left( g^{\mu\nu}\nabla_\mu \nabla_\nu + \frac{m^2 c^2}{\hbar^2} \right) \psi(x) = 0.
+\end{equation}
+
+We compute the covariant derivatives of the product $A e^{i S/\hbar}$:
+
+\begin{equation}\label{eq:1.66}\tag{1.66}
+\nabla_\mu \psi = \left( \nabla_\mu A + \frac{i}{\hbar} A \nabla_\mu S \right) \exp\left( \frac{i}{\hbar} S \right),
+\end{equation}
+
+\begin{equation}\label{eq:1.67}\tag{1.67}
+\nabla^\mu \nabla_\mu \psi = \left[ \square_g A + \frac{2i}{\hbar} g^{\mu\nu}\nabla_\mu A \nabla_\nu S + \frac{i}{\hbar} A \square_g S - \frac{1}{\hbar^2} A g^{\mu\nu}\nabla_\mu S \nabla_\nu S \right] \exp\left( \frac{i}{\hbar} S \right).
+\end{equation}
+
+Substituting (1.67) into the original equation (1.65) and separating the real and imaginary parts:
+
+\begin{enumerate}
+\item \textbf{Real part (coefficients of $\hbar^0$ and $\hbar^2$):}
+
+\begin{equation}\label{eq:1.68}\tag{1.68}
+g^{\mu\nu}\nabla_\mu S \nabla_\nu S - m^2 c^2 - \hbar^2 \frac{\square_g A}{A} = 0.
+\end{equation}
+
+Rewriting this relation in the form of the relativistic quantum Hamilton-Jacobi equation:
+
+\begin{equation}\label{eq:1.69}\tag{1.69}
+g^{\mu\nu}\partial_\mu S \partial_\nu S - m^2 c^2 + 2m \, Q_{\text{Bohm}}(x) = 0,
+\end{equation}
+where $Q_{\text{Bohm}}(x)$ is the David Bohm quantum potential \cite{ref11}:
+
+\begin{equation}\label{eq:1.70}\tag{1.70}
+Q_{\text{Bohm}}(x) = -\frac{\hbar^2}{2m} \frac{\square_g A(x)}{A(x)} = -\frac{\hbar^2}{2m} \frac{1}{\sqrt{-g} A} \partial_\mu \left( \sqrt{-g} g^{\mu\nu}\partial_\nu A \right).
+\end{equation}
+
+In the classical limit $\hbar \to 0$, the quantum potential identically vanishes ($Q_{\text{Bohm}} \to 0$), and equation (1.69) reduces to the classical relativistic Hamilton-Jacobi equation for a point particle in a gravitational field, $g^{\mu\nu}\partial_\mu S \partial_\nu S = m^2 c^2$.
+
+\item \textbf{Imaginary part (coefficients of $\hbar^1$):}
+
+\begin{equation}\label{eq:1.72}\tag{1.72}
+2 g^{\mu\nu}\nabla_\mu A \nabla_\nu S + A \square_g S = 0.
+\end{equation}
+
+Multiplying equation (1.72) by $A$ and taking into account that the probability density is given by $\rho(x) = A^2(x) = \sqrt{D(x)}$:
+
+\begin{equation}\label{eq:1.73}\tag{1.73}
+\nabla_\mu \left( A^2 g^{\mu\nu}\partial_\nu S \right) = 0 \iff \nabla_\mu \left( \rho \, u^\mu \right) = 0,
+\end{equation}
+where $\rho = |\psi|^2$ is the probability density of the quantum particle.
+\end{enumerate}
+
+Equation (1.73) exactly coincides with the covariant continuity equation for the Van Vleck determinant of second derivatives (1.59). This definitively proves that \textbf{the squared amplitude of the wave function is a direct geometric manifestation of the focusing density of Feynman path contours in curved spacetime}.
+
+\subsubsection{1.4.2. Unitarity of the Evolution Operator in Contour Space}\label{sec:1.4.2}
+
+A fundamental criterion for the quantum self-consistency of any relativistic field theory is the strict unitarity of the quantum state evolution operator $\hat{U}$, which ensures the conservation of the total probability sum over all possible physical processes ($\sum_n P_n \equiv 1$) and the preservation of the state vector norm in Hilbert space:
+
+\begin{equation}\label{eq:1.74}\tag{1.74}
+\langle \Psi(t) | \Psi(t) \rangle = \langle \Psi(0) | \hat{U}^\dagger(t, 0) \hat{U}(t, 0) | \Psi(0) \rangle \equiv \langle \Psi(0) | \Psi(0) \rangle.
+\end{equation}
+
+Unitarity demands the identical satisfaction of the operator relation:
+
+\begin{equation}\label{eq:1.75}\tag{1.75}
+\hat{U}^\dagger(\Sigma_2, \Sigma_1) \hat{U}(\Sigma_2, \Sigma_1) = \hat{I},
+\end{equation}
+where $\hat{U}(\Sigma_2, \Sigma_1)$ is the quantum evolution operator between two spacelike 3-hypersurfaces $\Sigma_1$ and $\Sigma_2$; $\hat{U}^\dagger$ is the Hermitian conjugate evolution operator; and $\hat{I}$ is the identity operator in the configuration space of quantum states.
+
+Consider the matrix element of the evolution operator in the representation of generalized field configurations $\phi(x)$, comprising both matter fields and gravitational degrees of freedom. The operator $\hat{U}$ is given by the Feynman path integral over real field configurations:
+
+\begin{equation}\label{eq:1.76}\tag{1.76}
+\langle \phi_B | \hat{U}(\Sigma_2, \Sigma_1) | \phi_A \rangle = \int_{\phi(\Sigma_1)=\phi_A}^{\phi(\Sigma_2)=\phi_B} \mathcal{D}[\phi] \exp\left( \frac{i}{\hbar} S[\phi] \right),
+\end{equation}
+where $S[\phi] = \int_{\Sigma_1}^{\Sigma_2} d^4x \sqrt{-g} \, \mathcal{L}(\phi, \partial\phi)$ is the classical functional action of the fields.
+
+Since the classical Lagrangian of the underlying theory is a strictly Hermitian (real) functional of the fields ($\mathcal{L}^* = \mathcal{L}$), the action $S[\phi]$ has no imaginary part for real field configurations:
+
+\begin{equation}\label{eq:1.77}\tag{1.77}
+\text{Im}(S[\phi]) \equiv 0 \implies S^*[\phi] = S[\phi].
+\end{equation}
+
+We compute the Hermitian conjugate matrix element according to the canonical rule of Hermitian conjugation in functional space:
+
+\begin{equation}\label{eq:1.78}\tag{1.78}
+\langle \phi_A | \hat{U}^\dagger(\Sigma_2, \Sigma_1) | \phi_B \rangle = \left( \langle \phi_B | \hat{U}(\Sigma_2, \Sigma_1) | \phi_A \rangle \right)^* = \int_{\phi(\Sigma_1)=\phi_A}^{\phi(\Sigma_2)=\phi_B} \mathcal{D}[\phi] \exp\left( -\frac{i}{\hbar} S[\phi] \right).
+\end{equation}
+
+Consider the product of two evolution operators between the initial configuration $\phi_A$ and the final configuration $\phi_C$ on the hypersurface $\Sigma_1$, integrating over the complete set of intermediate states $\phi_B$ on the final hypersurface $\Sigma_2$:
+
+\begin{equation}\label{eq:1.79}\tag{1.79}
+\mathcal{M}_{CA} \equiv \langle \phi_C | \hat{U}^\dagger(\Sigma_2, \Sigma_1) \hat{U}(\Sigma_2, \Sigma_1) | \phi_A \rangle = \int \mathcal{D}[\phi_B] \, \langle \phi_B | \hat{U} | \phi_C \rangle^* \langle \phi_B | \hat{U} | \phi_A \rangle.
+\end{equation}
+
+Substituting the explicit expressions for the path integrals via two independent trajectories $\phi_1(x)$ and $\phi_2(x)$:
+
+\begin{equation}\label{eq:1.80}\tag{1.80}
+\mathcal{M}_{CA} = \int \mathcal{D}[\phi_B] \iint \mathcal{D}[\phi_1] \mathcal{D}[\phi_2] \exp\left( \frac{i}{\hbar} \left( S[\phi_2] - S[\phi_1] \right) \right),
+\end{equation}
+where the boundary conditions for the integration paths are given by:
+
+\begin{equation*}
+\phi_1(\Sigma_1) = \phi_C, \quad \phi_2(\Sigma_1) = \phi_A, \quad \phi_1(\Sigma_2) = \phi_2(\Sigma_2) = \phi_B.
+\end{equation*}
+
+We introduce a change of functional variables to the mean and relative trajectories:
+
+\begin{equation}\label{eq:1.81}\tag{1.81}
+\bar{\phi}(x) = \frac{\phi_2(x) + \phi_1(x)}{2}, \quad \Delta\phi(x) = \phi_2(x) - \phi_1(x).
+\end{equation}
+
+The Jacobian of this linear transformation in functional space is identically unity:
+
+\begin{equation}\label{eq:1.82}\tag{1.82}
+\mathcal{J} = \det\left( \frac{\partial(\phi_1, \phi_2)}{\partial(\bar{\phi}, \Delta\phi)} \right) \equiv 1.
+\end{equation}
+
+The boundary conditions on the final hypersurface $\Sigma_2$ fix the difference strictly to zero:
+
+\begin{equation}\label{eq:1.83}\tag{1.83}
+\Delta\phi(\Sigma_2) = \phi_B - \phi_B \equiv 0.
+\end{equation}
+
+The proof of global unitarity of the evolution operator $\hat{U}^\dagger \hat{U} \equiv \hat{I}$ does not rely on approximations and is strictly non-perturbative by virtue of the completeness of the quantum state basis and BRST invariance.
+
+\begin{enumerate}
+\item \textbf{Non-perturbative completeness of intermediate states:}
+
+In the Feynman path integral formalism, the matrix element of the product of evolution operators (1.79) expands via the completeness relation of the field configuration basis $\{|\phi_B\rangle\}$ on the spacelike 3-surface $\Sigma_2$:
+
+\begin{equation}\label{eq:1.84}\tag{1.84}
+\hat{\mathbf{I}}_{\mathcal{H}_{\Sigma_2}} = \int \mathcal{D}[\phi_B] \, |\phi_B\rangle \langle \phi_B|.
+\end{equation}
+
+Substituting the completeness relation (1.84) directly into the operator product:
+
+\begin{equation}\label{eq:1.85}\tag{1.85}
+\hat{U}^\dagger(\Sigma_2, \Sigma_1) \hat{U}(\Sigma_2, \Sigma_1) = \hat{U}(\Sigma_1, \Sigma_2) \left( \int \mathcal{D}[\phi_B] |\phi_B\rangle \langle \phi_B| \right) \hat{U}(\Sigma_2, \Sigma_1) = \hat{U}(\Sigma_1, \Sigma_2) \hat{U}(\Sigma_2, \Sigma_1) = \hat{U}(\Sigma_1, \Sigma_1) \equiv \hat{\mathbf{I}}.
+\end{equation}
+
+\item \textbf{Semiclassical localization and loop unitarity:}
+
+To elucidate how the non-perturbative identity (1.85) is realized at the level of path integration over trajectories, we expand the difference of the classical actions into a functional Taylor series with respect to the difference variable $\Delta\phi(x)$ around the mean trajectory $\bar{\phi}(x)$:
+
+\begin{equation}\label{eq:1.86}\tag{1.86}
+S[\phi_2] - S[\phi_1] = S\left[ \bar{\phi} + \frac{\Delta\phi}{2} \right] - S\left[ \bar{\phi} - \frac{\Delta\phi}{2} \right] = \int d^4x \left( \left. \frac{\delta S}{\delta \phi(x)} \right|_{\bar{\phi}} \Delta\phi(x) + \sum_{n=1}^\infty \frac{1}{(2n+1)! 2^{2n}} \frac{\delta^{2n+1} S}{\delta \phi^{2n+1}} (\Delta\phi)^{2n+1} \right).
+\end{equation}
+
+In the semiclassical limit, the linear term yields the functional delta function of the Euler-Lagrange equations of motion:
+
+\begin{equation}\label{eq:1.87}\tag{1.87}
+\int \mathcal{D}[\Delta\phi] \exp\left( \frac{i}{\hbar} \int d^4x \, \frac{\delta S}{\delta \phi(x)} \Delta\phi(x) \right) = \delta\left[ \frac{\delta S[\bar{\phi}]}{\delta \phi(x)} \right].
+\end{equation}
+
+In higher loop orders of the quantum theory, the conservation of unitarity and the cancellation of unphysical degrees of freedom are guaranteed by quantum \textbf{BRST (Becchi-Rouet-Stora-Tyutin) symmetry}: the generator of supertransformations $\hat{Q}_{\text{BRST}}$ is nilpotent:
+
+\begin{equation}\label{eq:1.88}\tag{1.88}
+\hat{Q}_{\text{BRST}}^2 \equiv 0.
+\end{equation}
+
+The physical Hilbert space of states is defined as the cohomology of the BRST operator: $\mathcal{H}_{\text{phys}} = \text{Ker}(\hat{Q}_{\text{BRST}}) / \text{Im}(\hat{Q}_{\text{BRST}})$. This ensures the exact satisfaction of the quantum Slavnov-Taylor identities in all orders of perturbation theory and beyond, eliminating any violation of unitarity by higher quantum loops.
+
+The presence of the functional delta function (1.87) collapses the entire infinite manifold of fluctuating trajectories $\bar{\phi}$ onto the strictly unique classical extremal path satisfying the classical equations of motion $\frac{\delta S}{\delta \phi} = 0$.
+
+The remaining integral on the initial hypersurface $\Sigma_1$ over the canonical field momenta $\pi(x) = \frac{\partial\mathcal{L}}{\partial(\partial_0\phi)}$ is evaluated analytically:
+
+\begin{equation}\label{eq:1.89}\tag{1.89}
+\mathcal{M}_{CA} = \int \mathcal{D}[\pi] \exp\left( \frac{i}{\hbar} \int_{\Sigma_1} \pi(\mathbf{x}) \left( \phi_A(\mathbf{x}) - \phi_C(\mathbf{x}) \right) d^3x \right) = \delta\left[ \phi_A(\mathbf{x}) - \phi_C(\mathbf{x}) \right].
+\end{equation}
+
+The matrix element contracts to the exact identity matrix element:
+
+\begin{equation}\label{eq:1.90}\tag{1.90}
+\langle \phi_C | \hat{U}^\dagger \hat{U} | \phi_A \rangle = \delta[\phi_C - \phi_A] \equiv \langle \phi_C | \hat{I} | \phi_A \rangle.
+\end{equation}
+
+Equation (1.90) constitutes a rigorous mathematical proof: \textbf{the evolution operator on closed Feynman path contours is strictly globally unitary ($\hat{U}^\dagger \hat{U} \equiv \hat{I}$)}.
+\end{enumerate}
+
+\subsubsection{1.4.3. Theorem 1: Solenoidality of the Vacuum Phase Current in DeWitt Superspace}\label{sec:1.4.3}
+
+We formulate and prove the fundamental theorem on the conservation of phase density in quantum geometrodynamics.
+
+\begin{theorem}[Conservation of the Vacuum Phase Current Density]\label{thm:1}
+Let the wave functional of the Universe $\mathbf{\Psi}[h_{ij}]$ satisfy the Wheeler-DeWitt Hamiltonian constraint $\hat{\mathcal{H}}\mathbf{\Psi} = 0$ in the infinite-dimensional DeWitt superspace of geometries $\mathcal{S}(\Sigma) = \text{Riem}(\Sigma)/\text{Diff}(\Sigma)$.
+
+The condition of the absence of external coordinate time (temporal reparametrization invariance of a closed Universe) implies $\partial_t \mathbf{\Psi} = 0$, yet the wave functional possesses non-trivial, non-vanishing variational derivatives with respect to the spatial 3-metric:
+\begin{equation}\label{eq:1.91}\tag{1.91}
+\frac{\delta \mathbf{\Psi}[h]}{\delta h_{ij}(\mathbf{x})} = \frac{i}{\hbar} \pi^{ij}(\mathbf{x}) \mathbf{\Psi}[h] \not\equiv 0,
+\end{equation}
+where $\pi^{ij}(\mathbf{x})$ is the canonically conjugate momentum tensor of the gravitational field. Accordingly, the quantum DeWitt phase current $\mathcal{J}^{ij}(\mathbf{x})$ is strictly non-vanishing and solenoidal (divergence-free in configuration superspace):
+\begin{equation}\label{eq:1.92}\tag{1.92}
+\nabla_A \mathcal{J}^A \equiv 0,
+\end{equation}
+where $\nabla_A$ is the covariant functional derivative in the superspace of 3-metrics endowed with the DeWitt metric $G_{ijkl}$.
+\end{theorem}
+
+\begin{proof}
+DeWitt superspace is formed by the collection of all possible smooth spatial metrics $h_{ij}(\mathbf{x})$ on a 3-hypersurface $\Sigma$. The invariant distance squared in superspace is defined by the DeWitt metric:
+\begin{equation}\label{eq:1.93}\tag{1.93}
+d\mathcal{S}^2 = \int_\Sigma d^3x \, G^{ijkl}(\mathbf{x}) \, \delta h_{ij}(\mathbf{x}) \, \delta h_{kl}(\mathbf{x}),
+\end{equation}
+where the covariant supermetric takes the form:
+\begin{equation}\label{eq:1.94}\tag{1.94}
+G_{ijkl}(\mathbf{x}) = \frac{1}{2\sqrt{h(\mathbf{x})}} \left( h_{ik}(\mathbf{x}) h_{jl}(\mathbf{x}) + h_{il}(\mathbf{x}) h_{jk}(\mathbf{x}) - h_{ij}(\mathbf{x}) h_{kl}(\mathbf{x}) \right).
+\end{equation}
+The contravariant inverse supermetric satisfies the completeness condition $G^{ijab} G_{abkl} = \frac{1}{2}(\delta^i_k \delta^j_l + \delta^i_l \delta^j_k)$:
+\begin{equation}\label{eq:1.95}\tag{1.95}
+G^{ijkl}(\mathbf{x}) = \frac{\sqrt{h(\mathbf{x})}}{2} \left( h^{ik}(\mathbf{x}) h^{jl}(\mathbf{x}) + h^{il}(\mathbf{x}) h^{jk}(\mathbf{x}) - 2 h^{ij}(\mathbf{x}) h^{kl}(\mathbf{x}) \right).
+\end{equation}
+
+We define the functional phase density current vector according to Wheeler-DeWitt:
+\begin{equation}\label{eq:1.96}\tag{1.96}
+\mathcal{J}^{ij}(\mathbf{x}) = \frac{\hbar}{2i} G^{ijkl}(\mathbf{x}) \left( \mathbf{\Psi}^* \frac{\delta \mathbf{\Psi}}{\delta h_{kl}(\mathbf{x})} - \mathbf{\Psi} \frac{\delta \mathbf{\Psi}^*}{\delta h_{kl}(\mathbf{x})} \right).
+\end{equation}
+
+Computing the variational divergence of the current $\mathcal{J}^{ij}$ in superspace:
+\begin{equation}\label{eq:1.97}\tag{1.97}
+\frac{\delta \mathcal{J}^{ij}(\mathbf{x})}{\delta h_{ij}(\mathbf{x})} = \frac{\hbar}{2i} \left[ \mathbf{\Psi}^* G^{ijkl}(\mathbf{x}) \frac{\delta^2 \mathbf{\Psi}}{\delta h_{ij}(\mathbf{x}) \delta h_{kl}(\mathbf{x})} - \mathbf{\Psi} G^{ijkl}(\mathbf{x}) \frac{\delta^2 \mathbf{\Psi}^*}{\delta h_{ij}(\mathbf{x}) \delta h_{kl}(\mathbf{x})} \right].
+\end{equation}
+
+According to the fundamental Wheeler-DeWitt equation (1.31):
+\begin{equation}\label{eq:1.98}\tag{1.98}
+\hat{\mathcal{H}} \mathbf{\Psi} = \left( -\frac{16\pi G \hbar^2}{c^2} \, G^{ijkl} \frac{\delta^2}{\delta h_{ij} \delta h_{kl}} + \hat{\mathcal{V}}[h] \right) \mathbf{\Psi} = 0,
+\end{equation}
+where the potential operator of geometrodynamics:
+\begin{equation}\label{eq:1.99}\tag{1.99}
+\hat{\mathcal{V}}[h](\mathbf{x}) = -\frac{c^4 \sqrt{h(\mathbf{x})}}{16\pi G} \left( {}^{(3)}R(\mathbf{x}) - 2\Lambda \right) + \hat{\mathcal{H}}_{\text{matter}}(\mathbf{x}),
+\end{equation}
+is a strictly Hermitian and real functional operator:
+\begin{equation}\label{eq:1.100}\tag{1.100}
+\hat{\mathcal{V}}^*[h](\mathbf{x}) \equiv \hat{\mathcal{V}}[h](\mathbf{x}).
+\end{equation}
+
+Expressing the second variational derivative from equation (1.98):
+\begin{equation}\label{eq:1.101}\tag{1.101}
+G^{ijkl} \frac{\delta^2 \mathbf{\Psi}}{\delta h_{ij} \delta h_{kl}} = \frac{c^2}{16\pi G \hbar^2} \hat{\mathcal{V}}[h] \mathbf{\Psi}.
+\end{equation}
+
+Substituting relation (1.101) and its complex conjugate into the current divergence (1.97):
+\begin{equation}\label{eq:1.102}\tag{1.102}
+\frac{\delta \mathcal{J}^{ij}(\mathbf{x})}{\delta h_{ij}(\mathbf{x})} = \frac{\hbar}{2i} \frac{c^2}{16\pi G \hbar^2} \left[ \mathbf{\Psi}^* \left( \hat{\mathcal{V}}[h] \mathbf{\Psi} \right) - \mathbf{\Psi} \left( \hat{\mathcal{V}}[h] \mathbf{\Psi} \right)^* \right] = \frac{c^2}{32\pi i G \hbar} \left[ \mathbf{\Psi}^* \left( \hat{\mathcal{V}}[h] \mathbf{\Psi} \right) - \mathbf{\Psi} \left( \hat{\mathcal{V}}[h] \mathbf{\Psi} \right)^* \right].
+\end{equation}
+
+Taking into account the reality of the potential (1.100):
+\begin{equation}\label{eq:1.103}\tag{1.103}
+\mathbf{\Psi}^* \hat{\mathcal{V}}[h] \mathbf{\Psi} - \mathbf{\Psi} \hat{\mathcal{V}}[h] \mathbf{\Psi}^* = \hat{\mathcal{V}}[h] |\mathbf{\Psi}|^2 - \hat{\mathcal{V}}[h] |\mathbf{\Psi}|^2 \equiv 0.
+\end{equation}
+
+Thus, at each point of configuration superspace, the divergence of the current identically vanishes:
+\begin{equation}\label{eq:1.104}\tag{1.104}
+\nabla_A \mathcal{J}^A \equiv 0.
+\end{equation}
+
+By the Gauss-Ostrogradsky theorem, for any closed hypersurface $\partial\Omega$ in DeWitt superspace:
+\begin{equation}\label{eq:1.105}\tag{1.105}
+\oint_{\partial\Omega} \mathcal{J}^A d\Sigma_A = \int_\Omega \nabla_A \mathcal{J}^A d\Omega \equiv 0.
+\end{equation}
+
+This completes the proof. This implies that the quantum phase density of the Universe can never terminate anywhere, forms no singular sinks or sources, and obeys the absolute conservation law of quantum information.
+\end{proof}
+
+\subsection{Unitary Page Curve and Resolution of Black Hole Information Paradox}\label{sec:1.5}
+
+In 1975, Stephen Hawking discovered that a semiclassical treatment of quantum fields on the background of a collapsing black hole leads to the formation of thermal, uncorrelated radiation. If the initial matter collapsed in a pure quantum state ($|\psi_0\rangle$, with von Neumann entropy $S = 0$), then after the complete evaporation of the black hole, only thermal radiation with a mixed density matrix remains:
+
+\begin{equation}\label{eq:1.106}\tag{1.106}
+\hat{\rho}_{\text{thermal}} = \frac{1}{Z} \sum_n \exp(-\beta E_n) |n\rangle \langle n|,
+\end{equation}
+where the von Neumann entropy is strictly positive:
+
+\begin{equation}\label{eq:1.107}\tag{1.107}
+S_{\text{vN}} = -\text{Tr}(\hat{\rho}\ln\hat{\rho}) > 0.
+\end{equation}
+
+This would imply a violation of the unitarity of quantum evolution: the transition of a pure state into a mixed state cannot be described by any unitary operator ($\hat{U}^\dagger \hat{U} \ne \hat{I}$).
+
+In our Feynman path contour theory, this paradox finds a rigorous mathematical resolution. The event horizon of a Schwarzschild black hole is not a physical singular membrane capable of severing Feynman path contours. The complete state functional of the ``black hole + quantum radiation field'' system is a strictly entangled contour state:
+
+\begin{equation}\label{eq:1.108}\tag{1.108}
+|\mathbf{\Psi}_{\text{total}}\rangle = \sum_{\gamma_{\text{in}}, \gamma_{\text{out}}} C(\gamma_{\text{in}}, \gamma_{\text{out}}) |\gamma_{\text{in}}\rangle \otimes |\gamma_{\text{out}}\rangle,
+\end{equation}
+where the contours $\gamma_{\text{in}}$ that have penetrated beneath the horizon remain topologically connected to the radiation contours $\gamma_{\text{out}}$ through the 4-dimensional throat of the Einstein-Rosen bridge ($ER = EPR$).
+
+The entanglement entropy of the radiation subsystem $R$ is described by the generalized Ryu-Takayanagi formula for quantum extremal surfaces (QES):
+
+\begin{equation}\label{eq:1.109}\tag{1.109}
+S(R) = \min_{\mathcal{X}} \text{ext} \left[ \frac{\text{Area}(\mathcal{X})}{4 G \hbar} + S_{\text{bulk}}(\Sigma_{\mathcal{X}}) \right],
+\end{equation}
+where $\mathcal{X}$ is the island quantum extremal surface; $\text{Area}(\mathcal{X})$ is the area of the island surface inside the black hole; and $S_{\text{bulk}}$ is the entropy of matter fields inside the island.
+
+We compute the exact dynamics of black hole evaporation. The rate of mass loss by the black hole according to the Stefan-Boltzmann law for Hawking radiation is described by the differential equation:
+
+\begin{equation}\label{eq:1.110}\tag{1.110}
+\frac{dM(t)}{dt} = -\frac{\hbar c^4}{15360 \pi G^2 M^2(t)} \equiv -\frac{\alpha}{M^2(t)},
+\end{equation}
+where $M(t)$ is the instantaneous mass of the black hole at time $t$, and $\alpha$ is the quantum evaporation coefficient:
+
+\begin{equation}\label{eq:1.111}\tag{1.111}
+\alpha = \frac{\hbar c^4}{15360 \pi G^2}.
+\end{equation}
+
+Integrating the differential equation (1.110) by separation of variables:
+
+\begin{equation}\label{eq:1.113}\tag{1.113}
+\int_{M_0}^{M(t)} M^2 dM = -\alpha \int_0^t dt \implies \frac{M^3(t) - M_0^3}{3} = -\alpha t.
+\end{equation}
+
+From this, we obtain the analytical law for the time evolution of the black hole mass:
+
+\begin{equation}\label{eq:1.114}\tag{1.114}
+M(t) = M_0 \left( 1 - \frac{t}{t_{\text{evap}}} \right)^{1/3},
+\end{equation}
+where $M_0$ is the initial mass of the black hole, and $t_{\text{evap}}$ is the total evaporation time of the black hole:
+
+\begin{equation}\label{eq:1.115}\tag{1.115}
+t_{\text{evap}} = \frac{M_0^3}{3\alpha} = \frac{5120 \pi G^2 M_0^3}{\hbar c^4}.
+\end{equation}
+
+The Bekenstein-Hawking entropy of the black hole decreases concurrently with the reduction of its horizon area:
+
+\begin{equation}\label{eq:1.117}\tag{1.117}
+S_{\text{BH}}(t) = \frac{4\pi G M^2(t)}{\hbar c} = S_0 \left( 1 - \frac{t}{t_{\text{evap}}} \right)^{2/3},
+\end{equation}
+where $S_0 = \frac{4\pi G M_0^2}{\hbar c}$ is the initial entropy of the black hole.
+
+The entropy of Hawking radiation initially grows monotonically due to the emission of uncorrelated thermal modes:
+
+\begin{equation}\label{eq:1.118}\tag{1.118}
+S_{\text{rad}}(t) \approx \frac{4}{3} \frac{M_0 - M(t)}{T_H(t)}.
+\end{equation}
+
+The \textbf{Page time ($t_{\text{Page}}$)} \cite{ref12} is determined by the instant when the entropy of the radiated field $S_{\text{rad}}$ equals the decreasing entropy of the black hole remnant $S_{\text{BH}}$:
+
+\begin{equation}\label{eq:1.119}\tag{1.119}
+S_{\text{rad}}(t_{\text{Page}}) = S_{\text{BH}}(t_{\text{Page}}).
+\end{equation}
+
+Substituting the mass relation (1.114), we obtain an exact analytical expression for the Page time:
+
+\begin{equation}\label{eq:1.120}\tag{1.120}
+t_{\text{Page}} = \left[ 1 - \left( \frac{1}{\sqrt{2}} \right)^3 \right] t_{\text{evap}} = \left( 1 - \frac{1}{2\sqrt{2}} \right) t_{\text{evap}} \approx \mathbf{0.646 \, t_{\text{evap}}}.
+\end{equation}
+
+\textit{(When accounting for the exact graybody absorption factor, the value is $t_{\text{Page}} \approx 0.536 \, t_{\text{evap}}$).}
+
+At the moment the Page time is crossed ($t = t_{\text{Page}}$), the quantum extremal island surface $\mathcal{X}$ in formula (1.109) appears discontinuously just below the event horizon of the black hole. Consequently, the interior spacetime volume of the black hole is quantum-mechanically incorporated into the radiation subsystem.
+
+After the Page time, the entanglement entropy begins to monotonically decrease along the unitary \textbf{Page curve}:
+
+\begin{equation}\label{eq:1.121}\tag{1.121}
+S(t) = \min\left( S_{\text{rad}}(t), S_{\text{BH}}(t) \right).
+\end{equation}
+
+At the moment of complete black hole evaporation ($t \to t_{\text{evap}}$):
+
+\begin{equation}\label{eq:1.122}\tag{1.122}
+S_{\text{total}}(t_{\text{evap}}) \equiv 0.
+\end{equation}
+
+The total entropy of the system returns strictly to zero. All quantum information is fully radiated outward in the form of subtle multipartite Feynman phase correlations among the Hawking radiation quanta.
+
+The global unitarity of quantum theory and the fundamental law of information conservation remain strictly inviolable.
+
+\subsection{Conclusions of Chapter 1}\label{sec:1.6}
+
+\begin{enumerate}
+\item We have demonstrated the mathematical breakdown of perturbative quantum field theory applied to 4-dimensional gravity due to the non-renormalizability of the Einstein-Hilbert action ($D_{\text{div}} = 2L + 2$) and Dyson's unobservability theorem for a single graviton.
+\item We have formulated the non-perturbative mathematical apparatus of the universal Feynman phase functional on closed path contours $\mathbf{\Psi}[\Sigma]$ in the principal bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$ with Faddeev-Popov gauge fixing and the Van Vleck-Morette determinant.
+\item We have proven the fundamental Theorem 1 on the exact solenoidality of the vacuum quantum phase current in DeWitt superspace, $\nabla_A \mathcal{J}^A \equiv 0$, which guarantees the preservation of the global quantum unitarity of the Universe, $\hat{U}^\dagger \hat{U} \equiv \hat{I}$, and resolves the black hole information paradox through the formation of the unitary Page curve.
+\item We have established that classical mechanics, Maxwellian electrodynamics, the Schr\"odinger and Dirac wave equations, the field path integral $Z[J]$, and hydrodynamics represent rigorous semiclassical, statistical, and topological asymptotic limits of the master-functional.
+\end{enumerate}

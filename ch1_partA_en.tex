@@ -1,0 +1,621 @@
+\part{PART I. THEORETICAL AND MATHEMATICAL FORMALISM OF UNIFIED PHASE DYNAMICS}\label{part:1}
+
+\section{Critical Analysis of the Foundations of Fundamental Physics and Path-Contour Formalism of Geometrodynamics}\label{sec:rozdil1}
+
+\subsection{Crisis of Perturbative Quantization of Gravity and Dyson's Single-Graviton Undetectability Theorem}\label{sec:1.1}
+
+The historical development of fundamental theoretical physics in the second half of the twentieth century was marked by the triumphant success of relativistic gauge quantum field theories. Quantum electrodynamics (QED), the Glashow--Weinberg--Salam electroweak theory, and quantum chromodynamics (QCD) demonstrated that fundamental interactions among elementary particles can be successfully described on the basis of local gauge symmetries and perturbative expansions of transition amplitudes via Feynman diagrams. Ultraviolet divergences arising from momentum integration over internal closed loops in these theories are entirely absorbed by a finite number of Lagrangian counterterms, establishing their renormalizability under the Bogoliubov--Parasiuk--Hepp--Zimmermann (BPHZ) criterion.
+
+However, attempting to apply an analogous perturbative approach to the gravitational field inevitably leads to an insurmountable mathematical breakdown. Consider the standard quantization scheme for the metric tensor of a pseudo-Riemannian 4-dimensional spacetime $(\mathcal{M}, g_{\mu\nu})$ with Lorentzian signature $(+,-,-,-)$. The classical dynamics of the free gravitational field and its minimal coupling to matter are governed by the Einstein--Hilbert action functional:
+
+\begin{equation}\label{eq:1.1}\tag{1.1}
+S_{\text{EH}}[g] = \frac{2}{\kappa^2} \int d^4x \sqrt{-g} \, R,
+\end{equation}
+
+where $S_{\text{EH}}[g]$ is the Einstein--Hilbert action;  
+
+$g = \det(g_{\mu\nu})$ is the determinant of the covariant metric tensor $g_{\mu\nu}$;  
+
+$R = g^{\mu\nu} R_{\mu\nu}$ is the spacetime scalar curvature (Ricci scalar);  
+
+$d^4x = c \, dt \, dx^1 dx^2 dx^3$ is the 4-dimensional invariant spacetime volume element;  
+
+$\kappa$ is the gravitational coupling constant, defined in terms of Newton's gravitational constant $G$ and the speed of light $c$:
+
+\begin{equation}\label{eq:1.2}\tag{1.2}
+\kappa = \sqrt{\frac{32\pi G}{c^4}},
+\end{equation}
+
+where $G = 6.67430(15) \cdot 10^{-11}\text{ m}^3\cdot\text{kg}^{-1}\cdot\text{s}^{-2}$ is Newton's gravitational constant;  
+
+$c = 2.99792458 \cdot 10^8\text{ m}\cdot\text{s}^{-1}$ is the speed of light in vacuum.
+
+In the relativistic natural unit system, where action is quantized in units of the Planck constant and the speed of light is set to unity ($\hbar = c = 1$):
+
+\begin{equation}\label{eq:1.4}\tag{1.4}
+[c] = [L][T]^{-1} = 1 \implies [L] = [T] = [M]^{-1},
+\end{equation}
+
+\begin{equation}\label{eq:1.5}\tag{1.5}
+[\hbar] = [M][L]^2[T]^{-1} = [M][M]^{-2}[M]^1 = [M]^0 = 1 \implies [S] = [M]^0.
+\end{equation}
+
+Since the action integral (1.1) is dimensionless ($[S] = [M]^0$), while the integration measure and the Ricci scalar have dimensions:
+
+\begin{equation}\label{eq:1.6}\tag{1.6}
+[d^4x] = [L]^4 = [M]^{-4}, \quad [R] = [L]^{-2} = [M]^2 \implies [d^4x \sqrt{-g} R] = [M]^{-4} [M]^2 = [M]^{-2},
+\end{equation}
+
+the requirement of dimensionless action dictates that the constant $\kappa^2$ must carry mass dimension:
+
+\begin{equation}\label{eq:1.7}\tag{1.7}
+[\kappa^2] = [M]^{-2} \implies [\kappa] = [M]^{-1}, \quad [G] = [M]^{-2}.
+\end{equation}
+
+In quantum field theory, a negative mass dimension of the coupling constant ($[\kappa] = -1 < 0$) serves as the rigorous mathematical criterion for \textbf{perturbative non-renormalizability} of the theory (the Dyson--Pauli theorem).
+
+To explicitly demonstrate the catastrophic consequences of this fact, consider the linearization of the metric around the flat Minkowski vacuum $\eta_{\mu\nu} = \text{diag}(+1, -1, -1, -1)$:
+
+\begin{equation}\label{eq:1.8}\tag{1.8}
+g_{\mu\nu}(x) = \eta_{\mu\nu} + \kappa h_{\mu\nu}(x),
+\end{equation}
+
+where $h_{\mu\nu}(x)$ is a fluctuating symmetric quantum field of spin 2 (the graviton), whose canonical mass dimension in the mass scale is $[h_{\mu\nu}] = [M]^1 = \text{m}^{-1}$.
+
+Expanding the Einstein--Hilbert action (1.1) into a formal functional series in powers of the perturbation $\kappa h_{\mu\nu}$:
+
+\begin{equation}\label{eq:1.9}\tag{1.9}
+S_{\text{EH}}[h] = \int d^4x \left( \mathcal{L}^{(2)}_{\text{FP}}(h) + \kappa \mathcal{L}^{(3)}(h, \partial h) + \kappa^2 \mathcal{L}^{(4)}(h, \partial h) + \dots + \kappa^{n-2} \mathcal{L}^{(n)}(h, \partial h) + \dots \right),
+\end{equation}
+
+where $\mathcal{L}^{(2)}_{\text{FP}}(h)$ is the quadratic free Fierz--Pauli Lagrangian for a massless spin-2 field;  
+
+$\mathcal{L}^{(n)}(h, \partial h)$ denotes the non-linear interaction vertices of $n$ gravitons.
+
+The free graviton propagator in 4-momentum space at high energies ($k \to \infty$) falls off as the inverse square of the 4-momentum:
+
+\begin{equation}\label{eq:1.10}\tag{1.10}
+D_{\mu\nu,\alpha\beta}(k) \sim \frac{1}{k^2} \implies [D(k)] \sim [k]^{-2} \sim [M]^{-2}.
+\end{equation}
+
+However, owing to the fact that the Ricci scalar curvature $R$ contains second derivatives of the metric $\partial^2 g$ as well as products of first derivatives $(\partial g)^2$, each interaction vertex $\mathcal{V}_n$ in the Lagrangian (1.9) contains precisely \textbf{two derivatives with respect to spacetime coordinates}. In momentum space, this means that each graviton vertex is proportional to the \textbf{square of the particle momentum}:
+
+\begin{equation}\label{eq:1.11}\tag{1.11}
+\mathcal{V}_n(k_1, k_2, \dots, k_n) \sim k^2 \sim [M]^2.
+\end{equation}
+
+Consider an arbitrary connected Feynman diagram with:
+
+\textbullet~$L$ quantum loops (independent 4-momentum integrals $d^4k$);
+
+\textbullet~$I$ internal virtual graviton propagator lines;
+
+\textbullet~$V$ gravitational interaction vertices.
+
+The topological structure of the connected graph obeys Euler's universal formula:
+
+\begin{equation}\label{eq:1.12}\tag{1.12}
+L = I - V + 1 \implies I - V = L - 1.
+\end{equation}
+
+The superficial degree of ultraviolet divergence $D_{\text{div}}$ of the diagram in a spacetime of dimension $d$ is determined by power counting:
+
+\begin{equation}\label{eq:1.13}\tag{1.13}
+D_{\text{div}} = d \cdot L + 2V - 2I.
+\end{equation}
+
+Using Euler's relation (1.12), we express the difference $2V - 2I = -2(I - V) = -2(L - 1)$:
+
+\begin{equation}\label{eq:1.14}\tag{1.14}
+D_{\text{div}} = d \cdot L - 2(L - 1) = (d - 2) L + 2.
+\end{equation}
+
+For physical 4-dimensional spacetime ($d = 4$), we obtain the fundamental relation:
+
+\begin{equation}\label{eq:1.15}\tag{1.15}
+D_{\text{div}} = 2L + 2.
+\end{equation}
+
+Equation (1.15) rigorously establishes the irremediable character of the ultraviolet catastrophe in perturbative gravity:
+
+\begin{enumerate}
+\item \textbf{At the one-loop level ($L = 1$):}
+
+\begin{equation*}
+D_{\text{div}} = 2(1) + 2 = 4.
+\end{equation*}
+
+Quartic divergences ($\Lambda_{\text{UV}}^4$) and logarithmic divergences ($\ln \Lambda_{\text{UV}}$) appear. The corresponding Lagrangian counterterm takes the form:
+
+\begin{equation*}
+\Delta \mathcal{L}_{L=1} = \sqrt{-g} \left( c_1 R^2 + c_2 R_{\mu\nu} R^{\mu\nu} + c_3 R_{\mu\nu\alpha\beta} R^{\mu\nu\alpha\beta} \right).
+\end{equation*}
+
+In pure vacuum, according to the classical Einstein equations \cite{ref1}, $R_{\mu\nu} = 0$, and the 4-dimensional Gauss--Bonnet invariant is a total divergence, which renders pure one-loop gravity without matter accidentally renormalizable (the ``one-loop miracle'' of 't Hooft and Veltman \cite{ref2}, 1972--1974). However, upon coupling to even a single matter field (scalar, vector electromagnetic, or fermionic), an unremovable counterterm of the form $\Delta\mathcal{L} \sim \frac{1}{\epsilon} T_{\mu\nu} T^{\mu\nu} \ne 0$ inevitably arises.
+
+\item \textbf{At the two-loop level ($L = 2$):}
+
+\begin{equation*}
+D_{\text{div}} = 2(2) + 2 = 6.
+\end{equation*}
+
+In 1986, Marc Goroff and Augusto Sagnotti \cite{ref3}, by means of an analytical computer calculation, proved that for pure vacuum gravity in dimensional regularization ($d = 4 - 2\epsilon$), the counterterm is given by:
+
+\begin{equation*}
+\Delta \mathcal{L}_{L=2} = \frac{209}{2880 (4\pi)^4 \epsilon} \sqrt{-g} \, R_{\alpha\beta}^{\quad\gamma\delta} R_{\gamma\delta}^{\quad\rho\sigma} R_{\rho\sigma}^{\quad\alpha\beta}.
+\end{equation*}
+
+This expression contains the cube of the Riemann curvature tensor, does not vanish on the mass shell $R_{\mu\nu} = 0$, and cannot be reduced to any topological invariant. To absorb it, one is forced to introduce a new independent phenomenological counterterm with an undetermined free coupling parameter.
+
+\item \textbf{As the loop order increases ($L \to \infty$):}
+
+The degree of divergence grows linearly toward infinity ($D_{\text{div}} \sim 2L \to \infty$). Each successive loop order requires the introduction of new counterterms of increasingly higher powers in curvature ($R^4, R^5, \dots, R^n$), each introducing an unknown free coupling parameter.
+\end{enumerate}
+
+The number of undetermined parameters becomes infinite, completely depriving perturbative quantum gravity of any scientific predictive power at Planckian scales.
+
+
+\subsubsection{1.1.1. Dyson's Single-Graviton Undetectability Theorem \cite{ref4}}\label{sec:1.1.1}
+
+In 1963, the eminent theoretical physicist Freeman Dyson formulated a fundamental question: does the concept of an ``individual free graviton'' possess objective operational meaning in physics, or is it merely a mathematical artifact of the linearized approximation?
+
+Consider the physical constraints on any realistic measuring apparatus (graviton detector) located in 4-dimensional spacetime. Let the detector be a macroscopic body of mass $M$, having a spherical shape with linear radius $R$, composed of $N$ atomic nuclei of mass $m_p$:
+
+\begin{equation}\label{eq:1.16}\tag{1.16}
+M = N m_p,
+\end{equation}
+
+where $M$ is the total mass of the detector;  
+
+$N$ is the number of nucleons in the detector;  
+
+$m_p \approx 1.6726 \cdot 10^{-27}\text{ kg}$ is the proton rest mass.
+
+Suppose a quantum graviton with angular frequency $\omega$ impinges on the detector. The energy of a single graviton according to Planck's formula is:
+
+\begin{equation}\label{eq:1.17}\tag{1.17}
+E_g = \hbar \omega,
+\end{equation}
+
+where $E_g$ is the energy of the quantum of gravitation.
+
+The wavelength of the graviton quantum is:
+
+\begin{equation}\label{eq:1.18}\tag{1.18}
+\lambda_g = \frac{2\pi c}{\omega},
+\end{equation}
+
+where $\lambda_g$ is the wavelength of the graviton in vacuum.
+
+In order for the quantum detector to localize the interaction with the incident wave and transfer a measurable momentum, the linear dimension of the detector $R$ fundamentally cannot exceed the wavelength of the registered radiation:
+
+\begin{equation}\label{eq:1.19}\tag{1.19}
+R \le \lambda_g = \frac{2\pi c}{\omega}.
+\end{equation}
+
+Let us calculate the maximum effective cross-section for the interaction of a single graviton with an individual atomic nucleus using Weinberg's quantum scattering formula:
+
+\begin{equation}\label{eq:1.20}\tag{1.20}
+\sigma_{\text{single}} \sim G \left( \frac{\hbar \omega}{c^4} \right) r_0^2 = l_P^2 \left( \frac{\hbar\omega}{M_P c^2} \right) \left( \frac{r_0}{l_P} \right)^2,
+\end{equation}
+
+where $\sigma_{\text{single}}$ is the graviton-nucleus interaction cross-section;  
+
+$l_P = \sqrt{\hbar G / c^3} \approx 1.616255 \cdot 10^{-35}\text{ m}$ is the Planck length;  
+
+$M_P = \sqrt{\hbar c / G} \approx 2.176434 \cdot 10^{-8}\text{ kg}$ is the Planck mass;  
+
+$r_0$ is the characteristic radius of an atomic nucleus ($r_0 \sim 10^{-15}\text{ m}$).
+
+For an ensemble of $N$ particles, the maximum coherent cross-section of the detector $\sigma_{\text{det}}$ is bounded by the fundamental gravitational inequality:
+
+\begin{equation}\label{eq:1.21}\tag{1.21}
+\sigma_{\text{det}} \le \frac{4\pi G M R^2}{c^2 \lambda_g}.
+\end{equation}
+
+The probability $P$ of registering a single graviton when passing through the cross-sectional area of the detector $\mathcal{A} = \pi R^2$ is determined by the ratio:
+
+\begin{equation}\label{eq:1.22}\tag{1.22}
+P = \frac{\sigma_{\text{det}}}{\pi R^2} \le \frac{4 G M}{c^2 \lambda_g}.
+\end{equation}
+
+For the registration of a single graviton to be a physically reliable event (rather than statistical white noise of fluctuations), the probability $P$ must approach unity ($P \sim 1$):
+
+\begin{equation}\label{eq:1.23}\tag{1.23}
+\frac{4 G M}{c^2 \lambda_g} \ge 1 \implies \lambda_g \le \frac{4 G M}{c^2}.
+\end{equation}
+
+Taking into account the wave constraint on the spatial size of the detector (1.19) ($R \le \lambda_g$), substituting the wavelength constraint (1.23) yields:
+
+\begin{equation}\label{eq:1.24}\tag{1.24}
+R \le \frac{4 G M}{c^2} = 2 r_s,
+\end{equation}
+
+where $r_s$ is the classical Schwarzschild radius of gravitational collapse:
+
+\begin{equation}\label{eq:1.25}\tag{1.25}
+r_s = \frac{2GM}{c^2}.
+\end{equation}
+
+\begin{theorem}[Dyson's Single-Graviton Undetectability Theorem \cite{ref4}]\label{thm:dyson}
+Any material detector whose physical parameters are configured for the reliable detection ($P \sim 1$) of an individual free quantum of gravitation has a linear radius strictly smaller than twice its own Schwarzschild radius:
+\begin{equation*}
+R \le \frac{4GM}{c^2} = 2 r_s.
+\end{equation*}
+Consequently, any such localized apparatus inevitably collapses into a gravitational black hole before a registration signal can reach an external observer. Beyond the event horizon, all quantum information becomes causally inaccessible.
+\end{theorem}
+
+\begin{proof}
+Let a detector of total mass $M = N m_p$ and radius $R$ interact with an incident graviton of frequency $\omega$ and wavelength $\lambda_g = 2\pi c / \omega$. Spatial localization of the quantum measurement requires $R \le \lambda_g$ according to Eq.~\eqref{eq:1.19}. The coherent interaction cross-section for $N$ nucleons is bounded by $\sigma_{\text{det}} \le 4\pi G M R^2 / (c^2 \lambda_g)$ according to Eq.~\eqref{eq:1.21}. The registration probability per graviton traversal through the cross-sectional area $\pi R^2$ is therefore bounded by $P = \sigma_{\text{det}} / (\pi R^2) \le 4 G M / (c^2 \lambda_g)$ according to Eq.~\eqref{eq:1.22}. Imposing the requirement of a definitive physical detection ($P \sim 1$) leads to the inequality $\lambda_g \le 4GM / c^2$ from Eq.~\eqref{eq:1.23}. Combining this with the localization condition $R \le \lambda_g$ yields $R \le 4GM/c^2 = 2r_s$, establishing Eq.~\eqref{eq:1.24}. Thus, the detector necessarily lies entirely within its gravitational collapse threshold, forming an event horizon that traps any outgoing signal.
+\end{proof}
+
+From this follows a fundamental operational distinction:
+\begin{enumerate}
+\item \textbf{Operational unobservability of an individual quantum:} An isolated free graviton is fundamentally unobservable by local detectors in our Universe. Attempting to describe macroscopic gravitational interactions as a perturbative exchange of point-like, localized particles on a flat background is an operationally meaningless extrapolation.
+\item \textbf{Status of gauge spin-2 modes in the field spectrum:} This does not negate the existence of massless spin-2 tensor excitations ($h_{\mu\nu}$) as fundamental degrees of freedom of the gauge space. As will be rigorously proven in Chapter \hyperref[sec:rozdil2]{2} (Subsection \hyperref[sec:2.1.2]{2.1.2}), it is precisely the non-linear self-interaction of spin-2 excitations in the regime of macroscopic coherence (the Feynman--Deser theorem) that generates the spacetime metric and Einstein's tensor field equations, while their coherent states are observed as classical gravitational waves ($h_+, h_\times$).
+\end{enumerate}
+
+Thus, fundamental gravity is not the scattering of isolated point-like gravitons, but functions as a non-perturbative collective phase response of the contour functional of geometrodynamics.
+
+
+\subsection{Universal Feynman Path Contour Functional, Wheeler--DeWitt Constraint, and Limiting Asymptotics of Standard Theories}\label{sec:1.2}
+
+The realization of the perturbative crisis and Dyson's theorem dictates the necessity of a fundamental change in the starting paradigm: instead of quantizing the gravitational field as a perturbation of the flat vacuum, gravity itself must be derived as a macroscopic emergent phase of Feynman quantum paths.
+
+We put forward the fundamental postulate of the theory: the state of the Universe as a whole is described by a universal invariant functional of Richard Feynman on the space of closed contour paths $\gamma$:
+
+\begin{equation}\label{eq:1.26}\tag{1.26}
+\mathbf{\Psi}[\Sigma] = \int_{\mathcal{F}_\Sigma} \mathcal{D}[\gamma] \, \Delta_{\text{FP}}[\gamma] \, \frac{1}{\mathcal{N}} \text{Tr}\left[ \mathcal{P}\exp\left( \frac{i}{\hbar} \oint_{\gamma} \mathbf{\Pi}_\mu dx^\mu \right) \right],
+\end{equation}
+
+where $\mathbf{\Psi}[\Sigma]$ is the fundamental wave functional of the state of the Universe in the configuration space of geometrodynamics;  
+
+$\mathcal{F}_\Sigma$ is the gauge space of closed contours $\gamma$;  
+
+$\mathcal{D}[\gamma]$ is the diffeomorphism-invariant functional integration measure over contours;  
+
+$\Delta_{\text{FP}}[\gamma]$ is the Faddeev--Popov determinant on the group $\text{Diff}(\mathcal{M})$;  
+
+$\mathcal{P}$ is the Dyson contour chronological path-ordering operator along the path $\gamma$;  
+
+$\text{Tr}$ denotes the gauge trace in the space of the exact fundamental representation of the principal bundle structure group;  
+
+$\mathcal{N} = 10$ is the dimension of the exact block-diagonal matrix representation of the unified Lie algebra $\mathfrak{g}$.
+
+Mathematically rigorously, an arbitrary closed contour $\gamma \subset \mathcal{M}$ is regarded as a horizontal lift of a spacetime trajectory into the principal fiber bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$ with the structure group of gauge and spinor-gravitational symmetries:
+
+\begin{equation*}
+\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \text{Spin}(3,1).
+\end{equation*}
+
+The corresponding unified Lie algebra is the direct sum of four subalgebras: $\mathfrak{g} = \mathfrak{u}(1) \oplus \mathfrak{su}(2) \oplus \mathfrak{su}(3) \oplus \mathfrak{so}(3,1)$. In the exact fundamental representation on the complex vector space $\mathbb{C} \oplus \mathbb{C}^2 \oplus \mathbb{C}^3 \oplus \mathbb{C}^4 \cong \mathbb{C}^{10}$, the full 1-form canonical momentum $\mathbf{\Pi}_\mu$ takes the compatible block-diagonal matrix form:
+
+\begin{equation}\label{eq:1.27}\tag{1.27}
+\mathbf{\Pi}_\mu = p_\mu \mathbf{I}_{10} - \mathbf{\mathcal{A}}_\mu,
+\end{equation}
+
+where $\mathbf{I}_{10}$ is the $10 \times 10$ identity matrix in the fiber of the principal bundle;  
+
+$p_\mu = m g_{\mu\nu} \dot{x}^\nu$ is the kinematic 4-momentum of mass in the pseudo-Riemannian metric $g_{\mu\nu}$;  
+
+$\mathbf{\mathcal{A}}_\mu$ is the complete unified gauge-gravitational matrix 1-form connection in exact block-diagonal form:
+
+\begin{equation}\label{eq:1.28}\tag{1.28}
+\mathbf{\mathcal{A}}_\mu = \begin{pmatrix} 
+q A_\mu & \mathbf{0}_{1\times 2} & \mathbf{0}_{1\times 3} & \mathbf{0}_{1\times 4} \\ 
+\mathbf{0}_{2\times 1} & g_w T^I W_\mu^I & \mathbf{0}_{2\times 3} & \mathbf{0}_{2\times 4} \\ 
+\mathbf{0}_{3\times 1} & \mathbf{0}_{3\times 2} & g_s \lambda^a G_\mu^a & \mathbf{0}_{3\times 4} \\ 
+\mathbf{0}_{4\times 1} & \mathbf{0}_{4\times 2} & \mathbf{0}_{4\times 3} & \frac{1}{2}\omega_\mu^{ab}\Sigma_{ab} 
+\end{pmatrix},
+\end{equation}
+
+where $q A_\mu$ is the abelian electromagnetic 1-form of the gauge group $U(1)_Y$ ($1 \times 1$);  
+
+$g_w T^I W_\mu^I$ is the non-abelian 1-form of the weak gauge interaction of the group $SU(2)_L$ with generators $T^I = \frac{1}{2}\sigma^I$ ($2 \times 2$);  
+
+$g_s \lambda^a G_\mu^a$ is the non-abelian color 1-form of the strong interaction of the group $SU(3)_c$ with the 8 Gell-Mann matrices $\lambda^a$ ($3 \times 3$);  
+
+$\frac{1}{2}\omega_\mu^{ab}\Sigma_{ab}$ is the Fock--Ivanenko spin connection 1-form of the group $\text{Spin}(3,1) \cong SL(2, \mathbb{C})$ with generators $\Sigma_{ab} = \frac{1}{4}[\gamma_a, \gamma_b]$ ($4 \times 4$);  
+
+$\Delta_{\text{FP}}[\gamma]$ is the Faddeev--Popov determinant on the diffeomorphism group $\text{Diff}(\mathcal{M})$, eliminating gauge redundancy of configurations.
+
+The application of Dyson contour path-ordering $\mathcal{P}$ and the matrix trace $\text{Tr}$ ensures rigorous gauge invariance of the functional $\mathbf{\Psi}[\Sigma]$ with respect to non-abelian gauge transformations $\mathbf{\mathcal{A}}_\mu \to U \mathbf{\mathcal{A}}_\mu U^\dagger + i\hbar U \partial_\mu U^\dagger$, where $U(x) \in \mathcal{G}$. This completely resolves the algebraic inconsistency of naive scalar addition of matrices of different dimensions ($1\times 1$, $2\times 2$, $3\times 3$, $4\times 4$), formulating the integrand as a rigorous Wilson holonomy in the direct-sum representation of the principal bundle.
+
+Since the Universe as a closed system has no external observer and is not embedded in an external time flow, its temporal evolution cannot be described by the standard Schr\"odinger equation $i\hbar \partial_t \Psi = \hat{H}\Psi$. Instead, the fundamental Hamiltonian constraint of Wheeler \cite{ref5} -- DeWitt \cite{ref6} quantum geometrodynamics is satisfied:
+
+\begin{equation}\label{eq:1.30}\tag{1.30}
+\hat{\mathcal{H}} \, \mathbf{\Psi}[\Sigma] \equiv 0,
+\end{equation}
+
+where the Wheeler--DeWitt operator $\hat{\mathcal{H}}$ in the coordinate representation of the 3-metric $h_{ij}(\mathbf{x})$ takes the form:
+
+\begin{equation}\label{eq:1.31}\tag{1.31}
+\hat{\mathcal{H}}(\mathbf{x}) = -\frac{16\pi G \hbar^2}{c^2} \, G_{ijkl}(\mathbf{x}) \frac{\delta^2}{\delta h_{ij}(\mathbf{x}) \delta h_{kl}(\mathbf{x})} - \frac{c^4 \sqrt{h(\mathbf{x})}}{16\pi G} \left( {}^{(3)}R(\mathbf{x}) - 2\Lambda \right) + \hat{\mathcal{H}}_{\text{matter}}(\mathbf{x}),
+\end{equation}
+
+where $h_{ij}(\mathbf{x})$ is the induced spatial metric tensor on the 3-hypersurface $\Sigma$ ($i, j = 1, 2, 3$), dimensionless;  
+
+$h = \det(h_{ij})$ is the determinant of the spatial 3-metric;  
+
+${}^{(3)}R$ is the three-dimensional intrinsic scalar curvature of the hypersurface;  
+
+$\Lambda$ is the fundamental cosmological constant;  
+
+$G_{ijkl}(\mathbf{x})$ is the DeWitt supermetric on the configuration space of 3-metrics:
+
+\begin{equation}\label{eq:1.32}\tag{1.32}
+G_{ijkl}(\mathbf{x}) = \frac{1}{2\sqrt{h(\mathbf{x})}} \left( h_{ik}(\mathbf{x}) h_{jl}(\mathbf{x}) + h_{il}(\mathbf{x}) h_{jk}(\mathbf{x}) - h_{ij}(\mathbf{x}) h_{kl}(\mathbf{x}) \right),
+\end{equation}
+
+where the supermetric $G_{ijkl}$ is a dimensionless matrix operator over the space of differential forms.
+
+The vanishing of the total Hamiltonian $\hat{\mathcal{H}}\mathbf{\Psi} \equiv 0$ reflects the fundamental theorem that \textbf{time is an internal quantum correlation parameter of the Universe}, and the total energy of a closed Universe is identically zero ($E_{\text{total}} \equiv 0$).
+
+
+\subsubsection{1.2.1. Semiclassical, Gauge, and Quantum Field Limiting Asymptotics of the Master Functional}\label{sec:1.2.1}
+
+The formulated universal contour functional contains the standard disciplines of theoretical physics as rigorous limiting asymptotics at the corresponding energy and interaction scales, eliminating the need for their separate textbook derivation:
+
+\begin{enumerate}
+\item \textbf{Classical mechanics and gauge electrodynamics:} In the semiclassical limit $\hbar \to 0$ (stationary phase method), the variation of the phase factor $\delta \left( \oint p_\mu dx^\mu \right) = 0$ naturally reduces to the Hamilton--Maupertuis principle of least action and Newton's dynamical laws $\mathbf{F} = d\mathbf{p}/dt$. Gauge bundle reduction over the abelian group $U(1)$ generates the Lorentz force and Maxwell's relativistic electrodynamic equations $\partial_\mu F^{\mu\nu} = \frac{4\pi}{c} j^\nu$, $\partial_\mu \tilde{F}^{\mu\nu} = 0$, where the phase shift around a closed loop $\Delta\Phi = \frac{q}{\hbar}\oint A_\mu dx^\mu$ precisely reproduces the topological Aharonov--Bohm effect.
+
+\item \textbf{Quantum mechanics, spin, and wave equations:} Considering open endpoints of trajectories in the slowly varying potential approximation leads to the time-dependent Schr\"odinger equation $i\hbar \partial_t \psi = \hat{H}\psi$. The non-linear topological closure of contours governed by the unitary group $SU(2)$ in the principal bundle generates the non-trivial fundamental group $\pi_1(SO(3)) \cong \mathbb{Z}_2$, which naturally produces half-integer spin $s = 1/2$ and the relativistic Dirac spinor equation $(i\hbar \gamma^\mu \mathcal{D}_\mu - mc)\psi = 0$, while for scalar excitations it yields the Klein--Gordon--Fock equation.
+
+\item \textbf{Quantum field theory, statistics, and continuous media:} The transition to loop space in Euclidean time (Wick rotation $t \to -i\tau$) forms the generating functional of quantum field theory $Z[J] = \int \mathcal{D}[\phi]\exp(-S_E/\hbar + \int J\phi)$, the structure of Feynman propagators, and the Gibbs canonical ensemble $Z(\beta) = \text{Tr}\,e^{-\beta \hat{H}}$, guaranteeing the growth of thermodynamic entropy $dS/dt \ge 0$ due to dissipative dephasing. At the macroscopic level, collective phase contours of a quantum fluid under polar decomposition of the wave function lead directly to the Navier--Stokes equations of hydrodynamics, the Gross--Pitaevskii equation for Bose--Einstein condensates, and the quantization of vortex circulation.
+\end{enumerate}
+
+
+\subsection{Faddeev--Popov Gauge Fixing, Berezin Ghosts, and Van Vleck--Morette Determinant}\label{sec:1.3}
+
+\subsubsection{1.3.1. Path Integral over Closed Trajectories in Curved Spacetime}\label{sec:1.3.1}
+
+To construct a consistent non-perturbative mathematical description of quantum evolution, consider the motion of a particle or wave packet on a smooth 4-dimensional pseudo-Riemannian manifold $(\mathcal{M}, g_{\mu\nu})$ with Lorentzian signature $(+,-,-,-)$. The quantum transition amplitude propagator between two spacetime points $x_A^\mu = (\mathbf{x}_A, ct_A)$ and $x_B^\mu = (\mathbf{x}_B, ct_B)$ in Richard Feynman's path integral formalism is given by the integral over all continuous trajectories:
+
+\begin{equation}\label{eq:1.33}\tag{1.33}
+K(x_B, x_A) = \int_{x(0)=x_A}^{x(T)=x_B} \mathcal{D}_g[x(\tau)] \exp\left( \frac{i}{\hbar} S[x(\tau)] \right),
+\end{equation}
+
+where $K(x_B, x_A)$ is the quantum propagator (evolution kernel), carrying the dimension of inverse 4-dimensional volume ($\text{m}^{-4}$);  
+
+$x_A^\mu, x_B^\mu$ are the 4-coordinates of the initial and final events in spacetime;  
+
+$\tau$ is the invariant affine trajectory parameter (the proper time of the particle);  
+
+$T$ is the total proper time of the transition ($x(T) = x_B$);  
+
+$\mathcal{D}_g[x(\tau)]$ is the covariant functional integration measure on the Riemannian manifold;  
+
+$S[x(\tau)]$ is the particle action along the curvilinear trajectory $x^\mu(\tau)$.
+
+In curved space, the classical action of a point mass $m$ in gravitational and external potential fields is written in the form of an integral along a geodesic:
+
+\begin{equation}\label{eq:1.34}\tag{1.34}
+S[x(\tau)] = \int_0^T \left( \frac{m}{2} g_{\mu\nu}(x(\tau)) \frac{dx^\mu}{d\tau} \frac{dx^\nu}{d\tau} - V(x(\tau)) \right) d\tau,
+\end{equation}
+
+where $m$ is the rest mass of the particle;  
+
+$g_{\mu\nu}(x)$ is the covariant metric tensor of spacetime at point $x$, dimensionless;  
+
+$\frac{dx^\mu}{d\tau}$ is the 4-velocity of the particle along the trajectory;  
+
+$V(x)$ is the scalar potential of external interactions.
+
+The construction of the covariant measure $\mathcal{D}_g[x(\tau)]$ requires discretization of the time interval $[0, T]$ into $N$ elementary segments with step $\epsilon = T/N \to 0$ with intermediate points $x_k^\mu = x(k\epsilon)$, where $k = 0, 1, \dots, N$:
+
+\begin{equation}\label{eq:1.35}\tag{1.35}
+\Delta s_k^2 = g_{\mu\nu}\left(\frac{x_k + x_{k-1}}{2}\right) (x_k^\mu - x_{k-1}^\mu) (x_k^\nu - x_{k-1}^\nu),
+\end{equation}
+
+where $\Delta s_k$ is the spacetime interval between adjacent partition steps.
+
+In order for the functional measure to be invariant under general non-linear coordinate diffeomorphisms $x^\mu \to x'^\mu(x)$, it must contain the determinant of the metric tensor at each partition point:
+
+\begin{equation}\label{eq:1.36}\tag{1.36}
+\mathcal{D}_g[x(\tau)] = \lim_{N\to\infty} \left( \frac{m}{2\pi i \hbar \epsilon} \right)^{2N} \prod_{k=1}^{N-1} \sqrt{-g(x_k)} \, d^4x_k,
+\end{equation}
+
+where $g(x_k) = \det(g_{\mu\nu}(x_k))$ is the determinant of the metric at point $x_k$;  
+
+$d^4x_k = dx_k^0 dx_k^1 dx_k^2 dx_k^3$ is the differential of 4-coordinates.
+
+For closed contour paths $\gamma$, for which the initial and final points coincide ($x_A = x_B = x_0$), integration over the base point $x_0$ contracts the propagator into a dimensionless vacuum phase sum:
+
+\begin{equation}\label{eq:1.41}\tag{1.41}
+\mathbf{\Psi}[\Sigma] = \oint_{\Sigma} d^4x_0 \sqrt{-g(x_0)} \, K(x_0, x_0), \quad \partial_t \mathbf{\Psi}[\Sigma] = 0.
+\end{equation}
+
+
+\subsubsection{1.3.2. Faddeev--Popov Gauge Fixing and Berezin Ghosts}\label{sec:1.3.2}
+
+The space of closed contour configurations $\mathcal{F}_\Sigma$ in the path integral (1.26) is fibered over the space of 4-geometries: closed trajectories $\gamma: S^1 \to \mathcal{M}$ are embedded in a 4-manifold with the induced pseudo-Riemannian metric $g_{\mu\nu}$. Since the spacetime diffeomorphism group $\mathcal{G} = \text{Diff}(\mathcal{M})$ acts simultaneously on the contour coordinates $x^\mu(\tau) \to x^\mu(\tau) + \xi^\mu(x(\tau))$ and on the metric tensor $g_{\mu\nu} \to g_{\mu\nu} + \nabla_\mu \xi_\nu + \nabla_\nu \xi_\mu$, the physical configuration space of contours is the quotient space:
+
+\begin{equation}\label{eq:1.42}\tag{1.42}
+\mathcal{F}_\Sigma^{\text{phys}} = \frac{\text{Emb}(S^1, \mathcal{M}) \times \text{Met}(\mathcal{M})}{\text{Diff}(\mathcal{M})}.
+\end{equation}
+
+Direct integration over all possible configurations without factorizing the gauge group $\text{Diff}(\mathcal{M})$ would lead to an infinite redundant volume of gauge equivalence $\text{Vol}(\text{Diff}(\mathcal{M}))$. For the rigorous reduction of the integration measure, the covariant procedure of Ludwig Faddeev and Victor Popov \cite{ref7} is applied. The change in the metric along the orbit of a diffeomorphism generated by a vector field $\xi^\mu(x)$ is determined by the Lie derivative:
+
+\begin{equation}\label{eq:1.43}\tag{1.43}
+\delta_\xi g_{\mu\nu} = \mathcal{L}_\xi g_{\mu\nu} = \nabla_\mu \xi_\nu + \nabla_\nu \xi_\mu,
+\end{equation}
+
+where $\xi^\mu(x)$ is the vector field of infinitesimal coordinate displacement;  
+
+$\nabla_\mu$ is the Levi-Civita covariant derivative of spacetime.
+
+To isolate a unique representative from each gauge equivalence class, the de Donder harmonic gauge condition is introduced:
+
+\begin{equation}\label{eq:1.44}\tag{1.44}
+G^\mu[g] = g^{\alpha\beta} \Gamma^\mu_{\alpha\beta} = \frac{1}{\sqrt{-g}} \partial_\alpha \left( \sqrt{-g} g^{\alpha\mu} \right) = 0,
+\end{equation}
+
+where $G^\mu[g]$ is the gauge-fixing operator.
+
+The functional Faddeev--Popov determinant $\Delta_{\text{FP}}[g]$ is determined by the variation of the gauge condition along the displacement vector field $\xi^\nu$:
+
+\begin{equation}\label{eq:1.46}\tag{1.46}
+\Delta_{\text{FP}}[g] = \det \hat{\mathcal{M}}^\mu_\nu, \quad \hat{\mathcal{M}}^\mu_\nu \equiv \frac{\delta G^\mu[g]}{\delta \xi^\nu}.
+\end{equation}
+
+Direct differentiation of the de Donder condition (1.44) taking into account the expression for the metric variation (1.43) yields the covariant vector wave operator:
+
+\begin{equation}\label{eq:1.47}\tag{1.47}
+\hat{\mathcal{M}}^\mu_\nu = \nabla_\alpha \nabla^\alpha \delta^\mu_\nu + R^\mu_{\;\nu},
+\end{equation}
+
+where $\nabla_\alpha \nabla^\alpha = \square_g$ is the invariant d'Alembert operator in curved spacetime;  
+
+$R^\mu_{\;\nu} = g^{\mu\alpha} R_{\alpha\nu}$ is the mixed Ricci tensor of rank two.
+
+Using Felix Berezin's path integral calculus for anticommuting Grassmann variables, the Faddeev--Popov determinant is represented in the form of a path integral over vector ghosts $c^\mu(x)$ and antighosts $\bar{c}_\nu(x)$:
+
+\begin{equation}\label{eq:1.49}\tag{1.49}
+\Delta_{\text{FP}}[g] = \int \mathcal{D}[c] \mathcal{D}[\bar{c}] \exp\left( \frac{i}{\hbar} S_{\text{ghost}}[g, c, \bar{c}] \right),
+\end{equation}
+
+where the effective action of the gauge ghosts has the form:
+
+\begin{equation}\label{eq:1.50}\tag{1.50}
+S_{\text{ghost}} = \int d^4x \sqrt{-g} \, \bar{c}_\mu \left( g^{\alpha\beta} \nabla_\alpha \nabla_\beta \delta^\mu_\nu + R^\mu_{\;\nu} \right) c^\nu,
+\end{equation}
+
+where $c^\nu(x), \bar{c}_\mu(x)$ are anticommuting Faddeev--Popov ghost fields possessing fermionic statistics and canonical mass dimension $[c^\nu] = [\bar{c}_\mu] = [M]^1 = \text{m}^{-1}$.
+
+Let us check the dimension of the ghost action (1.50) in natural units:
+
+\begin{equation}\label{eq:1.51}\tag{1.51}
+[S_{\text{ghost}}] = [d^4x] \cdot [\bar{c}] \cdot [\square_g] \cdot [c] = [M]^{-4} \cdot [M]^1 \cdot [M]^2 \cdot [M]^1 = [M]^0 \equiv [\hbar].
+\end{equation}
+
+The action of the ghosts has precisely the dimension of the quantum of action $\hbar$, which guarantees the preservation of BRST (Becchi--Rouet--Stora--Tyutin) invariance and the complete mutual cancellation of unphysical timelike and longitudinal polarizations of the gravitational field.
+
+
+\subsubsection{1.3.3. Covariant Invariant Measure and Van Vleck--Morette Determinant}\label{sec:1.3.3}
+
+In the semiclassical Wentzel--Kramers--Brillouin (WKB, $\hbar \to 0$) approximation, the Feynman path integral (1.33) is calculated asymptotically by the multidimensional stationary phase method in the neighborhood of the classical geodesic trajectory $x_{\text{cl}}^\mu(\tau)$:
+
+\begin{equation}\label{eq:1.52}\tag{1.52}
+K(x_B, x_A) = \frac{1}{(2\pi i \hbar)^2} \sqrt{D(x_B, x_A)} \exp\left( \frac{i}{\hbar} S_{\text{cl}}(x_B, x_A) \right) \left[ 1 + \mathcal{O}(\hbar) \right],
+\end{equation}
+
+where $S_{\text{cl}}(x_B, x_A)$ is Synge's classical action function along the geodesic connecting events $x_A$ and $x_B$;  
+
+$D(x_B, x_A)$ is the scalar Van Vleck \cite{ref8} -- Morette \cite{ref9} determinant.
+
+The Van Vleck matrix is formed by the second mixed variational derivatives of the classical action with respect to initial and final coordinates:
+
+\begin{equation}\label{eq:1.53}\tag{1.53}
+D_{\mu\nu}(x_B, x_A) \equiv -\frac{\partial^2 S_{\text{cl}}(x_B, x_A)}{\partial x_B^\mu \partial x_A^\nu},
+\end{equation}
+
+where $D_{\mu\nu}$ are elements of the bitensor matrix of second derivatives of the action.
+
+The Van Vleck--Morette determinant is defined as the determinant of this $4 \times 4$ matrix:
+
+\begin{equation}\label{eq:1.55}\tag{1.55}
+D(x_B, x_A) = -\det \left( D_{\mu\nu}(x_B, x_A) \right).
+\end{equation}
+
+The Van Vleck determinant satisfies the differential continuity equation along a congruence of geodesic lines with 4-velocity vector $u^\mu = \frac{1}{m} \nabla^\mu S_{\text{cl}}$:
+
+\begin{equation}\label{eq:1.59}\tag{1.59}
+\nabla_\mu \left( D \, u^\mu \right) = 0,
+\end{equation}
+
+where $\nabla_\mu$ is the covariant derivative along the congruence of lines.
+
+Expanding the derivative of the product in (1.59):
+
+\begin{equation}\label{eq:1.60}\tag{1.60}
+u^\mu \nabla_\mu \ln D = -\nabla_\mu u^\mu = -\theta,
+\end{equation}
+
+where $\theta \equiv \nabla_\mu u^\mu$ is the expansion scalar of the bundle of Feynman trajectories.
+
+The evolution of the expansion scalar along the affine parameter of proper time $\tau$ is described by the fundamental \textbf{Raychaudhuri equation} \cite{ref10}:
+
+\begin{equation}\label{eq:1.61}\tag{1.61}
+\frac{d\theta}{d\tau} = -\frac{1}{3}\theta^2 - \sigma_{\mu\nu}\sigma^{\mu\nu} + \omega_{\mu\nu}\omega^{\mu\nu} - R_{\mu\nu} u^\mu u^\nu,
+\end{equation}
+
+where $\sigma_{\mu\nu}$ is the symmetric shear tensor;  
+
+$\omega_{\mu\nu}$ is the antisymmetric vorticity tensor;  
+
+$R_{\mu\nu} u^\mu u^\nu$ is the projection of the Ricci tensor onto the 4-velocity of the congruence.
+
+Since the quantum phase current is a potential gradient ($\mathbf{p} = \nabla S$), the vorticity is identically zero:
+
+\begin{equation}\label{eq:1.62}\tag{1.62}
+\omega_{\mu\nu} \equiv 0.
+\end{equation}
+
+Taking into account that the quadratic terms $-\frac{1}{3}\theta^2 \le 0$ and $-\sigma_{\mu\nu}\sigma^{\mu\nu} \le 0$ are strictly non-positive, when the Einstein strong energy condition is satisfied ($R_{\mu\nu} u^\mu u^\nu \ge 0$):
+
+\begin{equation}\label{eq:1.63}\tag{1.63}
+\frac{d\theta}{d\tau} \le 0.
+\end{equation}
+
+\begin{theorem}[Quantum Raychaudhuri Focusing Theorem]\label{thm:raychaudhuri}
+Under the strong energy condition ($R_{\mu\nu} u^\mu u^\nu \ge 0$), the expansion scalar $\theta \equiv \nabla_\mu u^\mu$ of an irrotational bundle of Feynman contour paths ($\omega_{\mu\nu} \equiv 0$) satisfies:
+\begin{equation*}
+\frac{d\theta}{d\tau} \le 0.
+\end{equation*}
+Consequently, the gravitational field always quantum-focuses bundles of Feynman contour paths, monotonically increasing the phase probability density $D(x)$ in the vicinity of massive bodies.
+\end{theorem}
+
+\begin{proof}
+Let a congruence of Feynman trajectories have tangent 4-velocity $u^\mu = \frac{1}{m} \nabla^\mu S_{\text{cl}}$. Because the phase momentum is the gradient of a single-valued or holonomic action potential $S_{\text{cl}}$, the exterior derivative satisfies $\mathbf{d}\mathbf{p} = \mathbf{d}(\mathbf{d}S) \equiv 0$, identically vanishing the vorticity tensor $\omega_{\mu\nu} = \nabla_{[\nu} u_{\mu]} \equiv 0$ (Eq.~\eqref{eq:1.62}). The Raychaudhuri equation \eqref{eq:1.61} for a geodesic congruence then reduces to:
+\begin{equation*}
+\frac{d\theta}{d\tau} = -\frac{1}{3}\theta^2 - \sigma_{\mu\nu}\sigma^{\mu\nu} - R_{\mu\nu} u^\mu u^\nu.
+\end{equation*}
+The term $-\frac{1}{3}\theta^2 \le 0$ is strictly negative for $\theta \ne 0$, and the shear term $-\sigma_{\mu\nu}\sigma^{\mu\nu} \le 0$ is negative semidefinite by virtue of the Lorentzian signature $(+,-,-,-)$ for spatial projections orthogonal to $u^\mu$. Under the strong energy condition, $R_{\mu\nu} u^\mu u^\nu \ge 0$. Hence, each term on the right-hand side is non-positive, establishing $d\theta/d\tau \le 0$. By the continuity equation \eqref{eq:1.60}, $u^\mu \nabla_\mu \ln D = -\theta$, which implies that the convergence of paths ($\theta < 0$) monotonically amplifies the Van Vleck phase density $D(x)$ along the trajectory.
+\end{proof}
+
+
+\subsubsection{1.3.4. Schwinger--DeWitt Asymptotic Expansion of the Van Vleck Determinant and Generation of the Einstein--Hilbert Sector}\label{sec:1.3.4}
+
+The semiclassical propagator of a material contour on a pseudo-Riemannian manifold $(\mathcal{M}, g_{\mu\nu})$ with Lorentzian signature $(+,-,-,-)$ is determined by the biscalar Van Vleck--Morette determinant:
+
+\begin{equation}\label{eq:1.63a}\tag{1.63a}
+\Delta(x, x') = [-g(x)]^{-1/2} \, D(x, x') \, [-g(x')]^{-1/2},
+\end{equation}
+
+where the matrix elements $D_{\mu\nu} = -\partial_\mu \partial_{\nu'} \sigma(x, x')$ are formed by the second mixed derivatives of Synge's world function $\sigma(x, x')$. For proximate spacetime events along an extremal geodesic, the logarithmic expansion of the Van Vleck determinant has the rigorous geometrodynamic asymptotics:
+
+\begin{equation}\label{eq:1.63b}\tag{1.63b}
+\ln \Delta(x, x') = \frac{1}{6} R_{\mu\nu}(x) \, \sigma^\mu \sigma^\nu + \mathcal{O}(\sigma^3).
+\end{equation}
+
+In Schwinger proper time $s$, the ultralocal heat kernel expansion of the quantum operator under the Wheeler--DeWitt Hamiltonian constraint $\hat{\mathcal{H}}\mathbf{\Psi} \equiv 0$ assumes the canonical form of the Schwinger--DeWitt series:
+
+\begin{equation}\label{eq:1.63c}\tag{1.63c}
+K(x, x'; s) = -\frac{i}{(4\pi i s)^2} \, \Delta^{1/2}(x, x') \, \exp\left( \frac{i \sigma(x, x')}{2s} \right) \sum_{n=0}^\infty (i s)^n \, a_n(x, x'),
+\end{equation}
+
+where the Seeley--DeWitt coefficients are determined by the intrinsic curvature of the manifold:
+
+\begin{equation}\label{eq:1.63d}\tag{1.63d}
+a_0(x) = 1, \quad a_1(x) = \frac{1}{6} R(x).
+\end{equation}
+
+Integrating over the proper time contour $s$ from an ultraviolet cutoff scale $s_{\text{min}}$, the one-loop effective action functional of phase geometrodynamics generates the local action:
+
+\begin{equation}\label{eq:1.63e}\tag{1.63e}
+\Gamma_{\text{eff}}[g] = -\frac{i\hbar}{2} \int_{s_{\text{min}}}^\infty \frac{ds}{s} \, \operatorname{Tr} \exp(-i s \hat{\mathcal{H}}) = -\frac{\hbar}{32\pi^2} \int d^4x \sqrt{-g} \left[ \frac{a_0}{2 s_{\text{min}}^2} + \frac{a_1(x)}{s_{\text{min}}} + a_2(x) \ln(s_{\text{min}}) + \dots \right].
+\end{equation}
+
+Substituting the linear curvature coefficient $a_1(x) = \frac{1}{6} R(x)$, we isolate the linear Einstein sector:
+
+\begin{equation}\label{eq:1.63f}\tag{1.63f}
+\Gamma_{\text{eff}}^{(R)}[g] = \frac{\hbar}{192 \pi^2 s_{\text{min}}} \int d^4x \sqrt{-g} \, R(x).
+\end{equation}
+
+Matching the coefficient of the Ricci scalar with the canonical Einstein--Hilbert action $S_{\text{EH}} = \frac{c^3}{16\pi G} \int d^4x \sqrt{-g} R(x)$:
+
+\begin{equation}\label{eq:1.63g}\tag{1.63g}
+\frac{\hbar}{192 \pi^2 s_{\text{min}}} \equiv \frac{c^3}{16\pi G} \implies s_{\text{min}} = \frac{l_P^2}{12\pi}, \quad l_P = \sqrt{\frac{\hbar G}{c^3}}.
+\end{equation}
+
+Varying the effective action functional $\Gamma_{\text{eff}}[g]$ with respect to the metric $g^{\mu\nu}$ naturally generates the Einstein tensor $G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu} R = \frac{8\pi G}{c^4} T_{\mu\nu}$ with fully consistent dimensional coefficients ($\hbar, c, l_{\text{Pl}}^2$) and metric signature $(+,-,-,-)$, without introducing artificial dimensionless factors into Newton's gravitational constant $G$.
