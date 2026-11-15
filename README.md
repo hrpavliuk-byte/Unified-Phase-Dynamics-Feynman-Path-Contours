@@ -1,8 +1,3 @@
-# Language / Язык / Мова / Taal / Sprache / Langue
-[🇬🇧 English](README.md) • [🇳🇱 Nederlands](README.nl.md) • [🇺🇦 Українська](README.uk.md) • [🇩🇪 Deutsch](README.de.md) • [🇫🇷 Français](README.fr.md) • [🇷🇺 Русский](README.ru.md)
-
----
-
 # Unified Phase Dynamics of Feynman Path Contours
 ## Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem
 
@@ -10,7 +5,6 @@
 **Affiliation:** Independent Researcher  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Primary Repository:** Zenodo (CERN / OpenAIRE) — DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Permanent GitHub Repository:** [github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
 
@@ -24,6 +18,8 @@ This research monograph establishes a unified, non-perturbative quantum framewor
 4. **Yang--Mills Confinement and Mass Gap:** Center $\mathbb{Z}_3$ topological symmetry and the Margolus--Levitin rate theorem establish an analytical scalar glueball mass gap $\Delta \approx 1.5\text{--}1.7\text{ GeV} > 0$ on flat $\mathbb{R}^4$ strictly without external gravitational scales.
 5. **Decisive Experimental Test (*Experimentum Crucis 1*):** Formulates a time-domain cryogenic cavity optomechanics protocol (Romero-Isart--Aspelmeyer scheme) for a levitated silicon nanosphere at critical mass $M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$, predicting gravitationally induced decoherence at $\tau_{\text{crit}} \approx 10\text{ ms}$ against an environmental baseline $\tau_{\text{env}} > 800\text{ s}$.
 6. **Mathematical Rigor (Appendix C):** Exact closure of the Wheeler--DeWitt constraint algebra on knot states $[\hat{\mathcal{H}}(N_1), \hat{\mathcal{H}}(N_2)] \equiv 0$ (in accordance with Thiemann's quantum spin dynamics) and cancellation of the 2-loop Goroff--Sagnotti divergence via entire-order non-local Schwinger contour form-factors in Minkowski signature.
+7. **Cellular Substrate and Discrete Foundations (Appendix D):** Discretization on 4D Delone-regular Voronoi--Delaunay cellular complexes establishes exact reflection positivity (OS2) without ghost instabilities and provides a discrete topological substrate for $SU(3)$ baryonic $Y$-junctions via Frank--Kasper $Z_{15}$ polyhedra. Delone packing naturally truncates black hole gravitational collapse at a finite Planck core $R_{\text{core}} \sim (M/M_P)^{1/3} l_P$, while Gibson--Ashby cellular foam elasticity derives the MOND scaling $g = \sqrt{a_0 g_N}$ from strut bending below $a_0 = c H_0 / 2\pi$.
+
 
 ---
 
@@ -41,7 +37,7 @@ This research monograph establishes a unified, non-perturbative quantum framewor
   * **Chapter 2: Emergent Gravity, Quantum Nature of the Equivalence Principle, and Horizon Thermodynamics**
     * 2.1. Massless Spin-2 Gauge Field and Non-Linear Gravitational Self-Interaction (Feynman-Deser Theorem)
     * 2.2. Variational Derivation of Einstein Field Equations and Reduction to Classical GR in the Strong-Field Regime
-    * 2.3. Non-Abelian Yang-Mills Gauge Dynamics, Wilson Loops, and Contour Origin of Hadron Mass (§2.3.6 Resolution of the Mass Gap Problem)
+    * 2.3. Non-Abelian Yang-Mills Gauge Dynamics, Wilson Loops, and Contour Origin of Hadron Mass
     * 2.4. Vacuum Phase Density Gradient, Margolus-Levitin Theorem, and Quantum Refraction of de Broglie Waves
     * 2.5. Analytical Proof of the Equivalence Principle ($m_{\text{in}} \equiv m_{\text{grav}}$)
     * 2.6. Conclusions of Chapter 2
@@ -95,7 +91,6 @@ Or uploaded as a `.zip` archive to **Overleaf** (select TeX Live / pdfLaTeX engi
   author={Pavliuk, Hryhorii},
   year={2026},
   publisher={Zenodo},
-  doi={10.5281/zenodo.24226130},
-  url={https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours}
+  doi={10.5281/zenodo.24226130}
 }
 ```
