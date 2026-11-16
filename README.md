@@ -6,10 +6,7 @@
 **Affiliation:** Independent Researcher  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Primary Repository:** Zenodo (CERN / OpenAIRE) — DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Dedicated Yang-Mills Proof:** Zenodo — DOI: [10.5281/zenodo.24231513](https://doi.org/10.5281/zenodo.24231513) / [10.5281/zenodo.24247286](https://doi.org/10.5281/zenodo.24247286)  
-**GitHub Repositories:**  
-* Core Monograph: [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-* Dedicated Clay Proof: [Yang-Mills-Existence-and-Mass-Gap-Clay-Proof](https://github.com/hrpavliuk-byte/Yang-Mills-Existence-and-Mass-Gap-Clay-Proof)  
+**GitHub Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
 
@@ -51,45 +48,41 @@ This research monograph establishes a unified, non-perturbative quantum framewor
 * **Introduction**
 * **Part I: Theoretical and Mathematical Apparatus of Feynman Contours**
   * **Chapter 1: Critical Analysis of the Foundations of Fundamental Physics and Path-Contour Formalism of Geometrodynamics**
-    * 1.1. Crisis of Perturbative Quantization of Gravity and Dyson's Single-Graviton Undetectability Theorem
-    * 1.2. Universal Feynman Path Contour Functional, Wheeler--DeWitt Constraint, and Limiting Asymptotics of Standard Theories
-    * 1.3. Faddeev--Popov Gauge Fixing, Berezin Ghosts, and Van Vleck--Morette Determinant
-    * 1.4. Proof of Global Unitarity and Solenoidal Vacuum Current Theorem in DeWitt Superspace
-    * 1.5. Unitary Page Curve and Resolution of Black Hole Information Paradox
-    * 1.6. Conclusions of Chapter 1
-  * **Chapter 2: Emergent Gravity, Quantum Nature of the Equivalence Principle, and Horizon Thermodynamics**
-    * 2.1. Massless Spin-2 Gauge Field and Non-Linear Gravitational Self-Interaction (Feynman-Deser Theorem)
-    * 2.2. Variational Derivation of Einstein Field Equations and Reduction to Classical GR in the Strong-Field Regime
-    * 2.3. Non-Abelian Yang-Mills Gauge Dynamics, Wilson Loops, and Contour Origin of Hadron Mass
-    * 2.4. Vacuum Phase Density Gradient, Margolus-Levitin Theorem, and Quantum Refraction of de Broglie Waves
-    * 2.5. Analytical Proof of the Equivalence Principle ($m_{\text{in}} \equiv m_{\text{grav}}$)
-    * 2.6. Conclusions of Chapter 2
-* **Part II: Cosmological and Astrophysical Applications**
-  * **Chapter 3: Cosmological Dynamics, Zero Total Energy Balance of the Universe, and the Cosmological Constant Problem**
-    * 3.1. Complete Compensation of Quantum Vacuum Energy via Counter-Phase Boundary Contours
-    * 3.2. Deductive Solution to the 120-Order-of-Magnitude Cosmological Constant Problem ($\Lambda = 3(H_0/c)^2$)
-    * 3.3. Evolution of Scale Factor and Equation of State $w(z)$ in Path-Integral Cosmology
-    * 3.4. Conclusions of Chapter 3
-  * **Chapter 4: Quantum MOND, External Field Effect, and Astrophysical Verification without Dark Matter**
-    * 4.1. Quantum Vacuum Polarization as the Physical Mechanism of MOND Acceleration $a_0 = c H_0 / 2\pi$
-    * 4.2. Statistical Analysis of SPARC Galaxies and Galactic Rotation Curves
-    * 4.3. External Field Effect (EFE) Across 175 SPARC Galaxies and Dwarf Spheroidals (NGC 1052-DF2/DF4, Crater II)
-    * 4.4. Conclusions of Chapter 4
-* **Part III: Quantum Foundations and Experimental Verification**
-  * **Chapter 5: Macroscopic Decoherence Transition and Experimental Verification**
-    * 5.1. Phase Synchronization of a Many-Body Ensemble and Center-of-Mass Decoherence
-    * 5.2. Diósi--Penrose Gravitationally-Induced Dephasing and Critical Mass $M_{\text{crit}} \approx 3.13 \cdot 10^{12}\text{ amu}$
-    * 5.3. Metrological Scheme of the Decisive Experiment (*Experimentum Crucis 1*): Cryogenic Cavity Optomechanics
-    * 5.4. Stress-Testing the Theory in Extreme Regimes (Planck Densities, LHC Bounds, de Sitter Horizon, Casimir Effect)
-    * 5.5. Conclusions of Chapter 5
-* **General Conclusions**
+    * 1.1. Methodological Crisis in Quantum Gravity and High-Energy Physics
+    * 1.2. The Universal Master Functional $\mathbf{\Psi}[\Sigma]$ on the Principal Bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$
+    * 1.3. Gauge Symmetry $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \text{Spin}(3,1)$
+    * 1.4. Invariant Non-Perturbative Measure $\mathcal{D}\mu[\Sigma]$ and Functional Integration Over Smooth Closed Contours
+    * 1.5. Geometric Representation of Fundamental Fields Through Holonomy Ensembles
+  * **Chapter 2: Emergence of Spacetime and General Relativity from Path-Contour Interference**
+    * 2.1. The Relational Emergence of Coordinate Time ($\hat{\mathcal{H}} \mathbf{\Psi} \equiv 0$, $E_{\text{total}} \equiv 0$)
+    * 2.2. Failure of Perturbative Spin-2 Quantum Gravity: Freeman Dyson's Detection Bound
+    * 2.3. Gravity as Quantum Refraction of de Broglie Waves in Vacuum Phase Gradients ($\mathbf{F} = -m\nabla\Phi$)
+    * 2.4. Deductive Derivation of the Weak Equivalence Principle ($m_{\text{in}} \equiv m_{\text{grav}} \equiv \mathcal{M}_0$)
+    * 2.5. Van Vleck--Morette Determinant and the Macroscopic Einstein Field Equations
+    * 2.6. Non-Perturbative Mass Gap in Pure $SU(3)$ Gauge Theory without Gravity Coupling
+* **Part II: Physical Applications and Resolution of Fundamental Problems**
+  * **Chapter 3: Quantum Cosmology, the Horizon Problem, and the Nature of Dark Energy**
+    * 3.1. Relational Boundary Conditions and Exact Solution to the Wheeler--DeWitt Equation
+    * 3.2. Vacuum Quantum Interference and Cosmological Constant Hierarchy ($\Lambda_{\text{obs}} \sim 10^{-122} M_{\text{Pl}}^4$)
+    * 3.3. Phase Relaxation of the Primordial Horizon and Singularity Resolution
+  * **Chapter 4: Deductive Derivation of MOND and Resolution of the Dark Matter Problem**
+    * 4.1. Thermal Balance at Cosmological Horizons: Thermodynamic Derivation of Critical Acceleration $a_0 = c H_0 / 2\pi$
+    * 4.2. Vacuum Phase Polarization and Flat Rotation Curves ($v_{\text{flat}}^4 = G M_b a_0$)
+    * 4.3. Relativistic 4-Vector Phase Current $\mathcal{U}_\mu$ and Optical Metric $\tilde{g}_{\mu\nu}$
+    * 4.4. Bullet Cluster Gravitational Lensing and Planck CMB Acoustic Peaks with $c_T \equiv c$
+  * **Chapter 5: Experimentum Crucis 1: Macroscopic Quantum Superposition and Optomechanics**
+    * 5.1. Critical Mass Boundary for Spontaneous Gravitationally Induced Phase Decoherence
+    * 5.2. Cryogenic Optical Cavity Protocol for Levitated Silicon Nanospheres ($R = 81.1\text{ nm}$)
+    * 5.3. 21-Channel Metrological Noise Budget and Error Mitigation
+    * 5.4. High-Significance Verification Metric ($\text{SNR} > 80,000 : 1$)
+* **Conclusion: Synthesis of the Contours Program and Physical Reality**
 * **Appendices**
-  * **Appendix A:** Summary Table of Parameters and Observational Calculations for SPARC Galaxies and Dwarf Systems Under EFE
-  * **Appendix B:** Comparative Table of CMB Anisotropy Power Spectra and Planck 2018 Observational Data
-  * **Appendix C:** Exact Non-Perturbative Contour Formulation and Resolution of Boundary Theoretical Problems
-    * C.1. Contour Holonomy Representation of Wheeler--DeWitt Constraints and Exact Dirac Algebra Closure
-    * C.2. Lorentzian Unitarity and Non-Local Cancellation of the 2-Loop Goroff--Sagnotti Divergence
-    * C.3. Topological Mass Gap in Pure Yang--Mills Theory Without External Gravitational Scales
+  * **Appendix A:** Comprehensive Numerical Proofs and Algorithmic Implementations
+  * **Appendix B:** Full Metrological Specification of Experimentum Crucis 1
+  * **Appendix C: Mathematical Appendices**
+    * C.1. Functional Measure and Convergence on Knot and Link Classes
+    * C.2. Self-Adjointness and Spectral Properties of the Hamiltonian Operator $\hat{\mathcal{H}}$
+    * C.3. Analytical Computation of the 2-Loop Graviton Self-Energy and Non-Local Cancellation of the Goroff--Sagnotti Divergence
     * C.4. Vector Structure of the Vacuum Phase Current: Relativistic Lensing and CMB Acoustic Peaks
 * **References** (Foundational peer-reviewed citations)
 
@@ -111,10 +104,10 @@ The definitive empirical test of the theory is fully specified, engineered, and 
     ```bash
     python experimentum_crucis_1_simulation.py
     ```
-    Generates three publication-grade figures: fig1_wigner_tomography_evolution.png (Wigner tomography), fig2_visibility_decay_comparison.png (visibility & negativity decay), and fig3_three_point_mass_scaling.png (three-point mass scaling sweep).
+    Generates three publication-grade figures: `fig1_wigner_tomography_evolution.png` (Wigner tomography), `fig2_visibility_decay_comparison.png` (visibility & negativity decay), and `fig3_three_point_mass_scaling.png` (three-point mass scaling sweep).
 
 * **Monte Carlo Statistical Verification (1,000 Shots):** [experimentum_crucis_1_monte_carlo_1000.py](experimentum_crucis_1_monte_carlo_1000.py)  
-  * Simulates 1,000 stochastic quantum measurement cycles (equivalent to 50 seconds of real-time experimental data), demonstrating a decisive detection significance of $\text{SNR} = 358\sigma$ ($p < 10^{-300}$). Output: fig4_monte_carlo_1000_shots.png.
+  * Simulates 1,000 stochastic quantum measurement cycles (equivalent to 50 seconds of real-time experimental data), demonstrating a decisive detection significance of $\text{SNR} = 358\sigma$ ($p < 10^{-300}$). Output: `fig4_monte_carlo_1000_shots.png`.
 
 ---
 
