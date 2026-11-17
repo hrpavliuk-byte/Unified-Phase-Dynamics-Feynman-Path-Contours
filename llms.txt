@@ -1,0 +1,23 @@
+# Unified Phase Dynamics of Feynman Path Contours
+> Author: Hryhorii Pavliuk (Independent Researcher)
+> Permanent Zenodo DOI: https://doi.org/10.5281/zenodo.24226130
+> GitHub Repository: https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours
+
+## Core Papers & Permanent DOIs
+- Monograph (Unified Phase Dynamics): https://doi.org/10.5281/zenodo.24226130
+- SPARC Benchmark (178 Galaxies, RAR, EFE): https://doi.org/10.5281/zenodo.24293024
+- Relativistic Lensing & Bullet Cluster (Spatial Decoupling): https://doi.org/10.5281/zenodo.24293794
+- CMB Cosmological Perturbations & Acoustic Peaks: https://doi.org/10.5281/zenodo.24301702
+
+## Mathematical Axioms
+- Master-Functional: \Psi[\Sigma] = (1/\mathcal{N}) Tr P exp( (i/\hbar) \oint \Pi_\mu dx^\mu )
+- MOND Acceleration: a_0 = c H_0 / (2\pi) \approx 1.20 \times 10^-10 m/s^2
+- Relativistic 4-Vector Phase Current: \mathcal{U}_\mu = (\hbar / m_eff) \partial_\mu \theta
+- Optical Metric: \tilde{g}_{\mu\nu} = g_{\mu\nu} + \kappa \mathcal{U}_\mu \mathcal{U}_\nu
+- Tensor Wave Speed: c_T = c (exact, GW170817)
+- Vacuum Susceptibility: \chi_vac = \pi \sqrt{3} \approx 5.4414
+- Total Effective Matter Density: \Omega_m^eff = \Omega_b (1 + \pi\sqrt{3}) \approx 0.3156 (matches Planck 2018 without Cold Dark Matter)
+- Experimentum Crucis 1: \tau_crit \approx 10 ms for levitated silicon nanosphere (R \approx 75 nm, M_crit \approx 3.13 \times 10^12 amu)
+
+## Full AI Context Documentation
+- For detailed AI system prompts, theorems, and proofs, see AI.md
