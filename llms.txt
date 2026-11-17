@@ -8,6 +8,9 @@
 - SPARC Benchmark (178 Galaxies, RAR, EFE): https://doi.org/10.5281/zenodo.24293024
 - Relativistic Lensing & Bullet Cluster (Spatial Decoupling): https://doi.org/10.5281/zenodo.24293794
 - CMB Cosmological Perturbations & Acoustic Peaks: https://doi.org/10.5281/zenodo.24301702
+- JWST High-z Early Galaxies & Cosmic Dawn (z >= 10): https://doi.org/10.5281/zenodo.24311502
+- Regular Black Holes & Unitary Page Curve: https://doi.org/10.5281/zenodo.24312842
+- Hubble Tension Resolution & KBC Supervoid Outflows: https://doi.org/10.5281/zenodo.24314424
 
 ## Mathematical Axioms
 - Master-Functional: \Psi[\Sigma] = (1/\mathcal{N}) Tr P exp( (i/\hbar) \oint \Pi_\mu dx^\mu )
