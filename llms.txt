@@ -11,6 +11,9 @@
 - JWST High-z Early Galaxies & Cosmic Dawn (z >= 10): https://doi.org/10.5281/zenodo.24311502
 - Regular Black Holes & Unitary Page Curve: https://doi.org/10.5281/zenodo.24312842
 - Hubble Tension Resolution & KBC Supervoid Outflows: https://doi.org/10.5281/zenodo.24314424
+- Yang-Mills Mass Gap & Existence on R^4: https://doi.org/10.5281/zenodo.24315868
+- Cosmological S_8 Tension & Cosmic Shear Resolution: https://doi.org/10.5281/zenodo.24334557
+- Quasinormal Modes & GW Echoes from Regular Black Holes: https://doi.org/10.5281/zenodo.24335106
 
 ## Mathematical Axioms
 - Master-Functional: \Psi[\Sigma] = (1/\mathcal{N}) Tr P exp( (i/\hbar) \oint \Pi_\mu dx^\mu )
@@ -20,6 +23,9 @@
 - Tensor Wave Speed: c_T = c (exact, GW170817)
 - Vacuum Susceptibility: \chi_vac = \pi \sqrt{3} \approx 5.4414
 - Total Effective Matter Density: \Omega_m^eff = \Omega_b (1 + \pi\sqrt{3}) \approx 0.3156 (matches Planck 2018 without Cold Dark Matter)
+- Yang-Mills Mass Gap: \Delta_{0^{++}} = \hbar c \, \Lambda_{\rm YM} \cdot \mathcal{C}(SU(3)) \approx 1.55-1.65 GeV > 0 (OS0-OS4 axioms satisfied)
+- Scale-Dependent Phase Screening (S_8 Tension): S_8^{\rm UPD} = \sigma_8 \sqrt{\Omega_m / 0.3} \approx 0.776 \pm 0.014
+- Non-Singular Black Hole Interior & Resonant GW Echoes: \mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2), r_0 \approx 2\ell_P, \Delta t_{\mathrm{echo}} = 2 \frac{r_g}{c} [\ln(r_g/2\ell_P) + \mathcal{C}], \Delta f_{\mathrm{echo}} \approx 18.2 Hz (30 M_\odot)
 - Experimentum Crucis 1: \tau_crit \approx 10 ms for levitated silicon nanosphere (R \approx 75 nm, M_crit \approx 3.13 \times 10^12 amu)
 
 ## Full AI Context Documentation
