@@ -18,6 +18,7 @@
 - Electroweak Scale & Higgs Mass (125.1 GeV): https://doi.org/10.5281/zenodo.24337610
 - Cosmological Constant & Vacuum Energy Relaxation: https://doi.org/10.5281/zenodo.24338194
 - Primordial Inflation Without Inflaton Fields: https://doi.org/10.5281/zenodo.24338710
+- Strong CP Problem & Axion-Free Solution: https://doi.org/10.5281/zenodo.24339308
 
 ## Mathematical Axioms
 - Master-Functional: \Psi[\Sigma] = (1/\mathcal{N}) Tr P exp( (i/\hbar) \oint \Pi_\mu dx^\mu )
