@@ -161,9 +161,9 @@ Newton's law of universal gravitation is the macroscopic manifestation of the qu
 
 ---
 
-## 6. Deductive Proof of the Weak Equivalence Principle
+## 6. Deductive Proof of the Weak Equivalence Principle and Dynamics of Massive Bodies
 
-In standard General Relativity, the Weak Equivalence Principle ($m_{\text{in}} = m_{\text{grav}}$) is an empirical postulate.
+In standard General Relativity, the Weak Equivalence Principle ($m_{\text{in}} = m_{\text{grav}}$) is an empirical postulate. In Unified Phase Dynamics, the equivalence principle is a rigorous mathematical theorem of quantum wave optics.
 
 **Theorem 6.1 (Exact Equivalence from Bundle Casimir Invariant):**  
 In Unified Phase Dynamics, physical states satisfy the quadratic Casimir eigenvalue equation:
@@ -174,7 +174,88 @@ Simultaneously, the phase coupling of the matter wave to the vacuum phase curren
 
 Therefore:
 $$\mathcal{M}_0 \mathbf{a} = - \mathcal{M}_0 \nabla \Phi \implies \mathbf{a} = - \nabla \Phi(\mathbf{r}) = - \frac{G M}{r^2} \hat{\mathbf{r}}$$
-The rest mass $\mathcal{M}_0$ cancels identically from both sides of the equation of motion. A feather and an iron anvil experience identical kinematic acceleration in a gravitational phase gradient, proven deductively without empirical tuning.
+The rest mass $\mathcal{M}_0$ cancels identically from both sides of the equation of motion.
+
+---
+
+### 6.1. Macroscopic Massive Bodies: Collective Coherent Phase and the Physical Origin of Weight
+
+Consider a realistic macroscopic body of large mass $M$ (such as a $1\text{ kg}$ lead sphere), comprising $N \sim 10^{26}$ nucleons and electrons bound by electromagnetic lattice forces.
+
+The quantum wave function of the macroscopic body factorizes into an internal bound state and a coherent center-of-mass wavepacket $\mathbf{R}$:
+$$\Psi_{\text{macro}}(\mathbf{R}, t) = \Phi_{\text{int}}(\{\mathbf{r}_j - \mathbf{R}\}) \cdot \exp\left( - i \int_0^t \Omega(\mathbf{R}, t') dt' \right)$$
+The total coherent Compton frequency of the macroscopic oscillator is:
+$$\Omega(\mathbf{R}) = \sum_{j=1}^N \omega_j = \frac{M c^2}{\hbar} \left( 1 + \frac{\Phi(\mathbf{R})}{c^2} \right)$$
+
+For a body of mass $M = 1\text{ kg}$:
+$$\Omega_0 = \frac{M c^2}{\hbar} = \frac{1\text{ kg} \times (2.997925 \times 10^8\text{ м/с})^2}{1.054572 \times 10^{-34}\text{ J}\cdot\text{s}} \approx 8.525 \times 10^{50}\text{ rad/s}$$
+
+#### Stationary Suspended State (Body Hanging on a Thread or Resting on a Scale):
+In Earth's gravitational field ($g = 9.80665\text{ m/s}^2$), the rate of relational proper time varies with elevation $z$. Because of this lapse gradient, the upper surface of the body undergoes phase oscillations faster than the lower surface:
+$$\frac{\partial \Omega}{\partial z} = \frac{\Omega_0 g}{c^2} = \frac{M g}{\hbar} \approx \frac{1\text{ kg} \times 9.80665\text{ m/s}^2}{1.054572 \times 10^{-34}\text{ J}\cdot\text{s}} \approx 9.299 \times 10^{34}\text{ rad/(s}\cdot\text{m)}$$
+
+This immense frequency gradient continuously drives a downward tilt of the matter wavefront, seeking to accumulate de Broglie momentum. However, **the suspension (thread or weighing pan) mechanically constrains the coordinates of the constituent atoms**:
+* The suspension injects an opposing phase momentum through the interatomic lattice tension.
+* The suspension tension $F_{\text{suspension}}$ required to maintain stationary phase fronts is:
+$$F_{\text{suspension}} = \hbar \left( \frac{\partial \Omega}{\partial z} \right) = \hbar \left( \frac{M g}{\hbar} \right) = M g$$
+For $M = 1\text{ kg}$, this yields precisely:
+$$F_{\text{suspension}} = 1\text{ kg} \times 9.80665\text{ m/s}^2 = 9.80665\text{ N}$$
+
+> **Quantum Definition of Weight:** The weight of a macroscopic body $W = M g$ is the mechanical impedance of supporting lattice bonds that actively counteracts the natural optical refraction of collective de Broglie phase fronts in the relational time gradient.
+
+---
+
+### 6.2. The Moment of Release ($t = 0$) and Free-Fall Kinematics
+
+When the suspension is cut or removed, the external restraining force drops to zero: $F_{\text{suspension}} \to 0$.
+
+1. **Unconstrained Collective Refraction:**  
+   The vacuum refractive index for matter waves $n(z) = 1 - \Phi(z)/c^2 \approx 1 + gz/c^2$ is larger at the bottom than at the top. The phase velocity $v_{\text{phase}}(z) = c/n(z)$ is retarded below. The collective wavefront rotates freely toward the region of slower phase speed (toward Earth's center).
+
+2. **Linear Wavevector Accumulation:**  
+   From $t = 0$ onward, the center-of-mass wavevector accumulates linearly in time:
+   $$K_z(t) = - \int_0^t \left( \frac{\partial \Omega}{\partial z} \right) dt' = - \left( \frac{M g}{\hbar} \right) t$$
+   For a $1\text{ kg}$ body, the accumulation rate is:
+   $$\frac{d K_z}{dt} = 9.299 \times 10^{34}\text{ m}^{-1}\text{s}^{-1}$$
+
+3. **Center-of-Mass Group Velocity and Acceleration:**  
+   The physical velocity of the body corresponds to the group velocity of the wavepacket:
+   $$V_g(t) = \frac{\partial E(K)}{\hbar \partial K_z} = \frac{\hbar K_z(t)}{M} = \frac{\hbar}{M} \left[ - \left( \frac{M g}{\hbar} \right) t \right] = - g t$$
+   Differentiating with respect to time yields the emergent acceleration:
+   $$A = \frac{d V_g}{dt} = - g = - 9.80665\text{ m/s}^2$$
+   Integrating over time reproduces Galileo's classical free-fall law:
+   $$Z(t) = Z_0 - \frac{1}{2} g t^2$$
+
+---
+
+### 6.3. Quantitative Comparative Benchmark: 1 kg Macroscopic Sphere vs. Single Free Neutron
+
+The table below contrasts the exact quantum-optical parameters for a macroscopic body ($1\text{ kg}$) versus an individual elementary quantum particle (cold neutron):
+
+| Physical Parameter | Macroscopic Sphere ($M = 1\text{ kg}$) | Single Neutron ($m_n = 1.675 \times 10^{-27}\text{ kg}$) | Scaling Ratio |
+| :--- | :--- | :--- | :--- |
+| **Compton Oscillator Frequency $\Omega_0$** | $8.525 \times 10^{50}\text{ rad/s}$ | $1.428 \times 10^{24}\text{ rad/s}$ | $6.0 \times 10^{26} \times$ larger |
+| **Phase Frequency Gradient $\partial\Omega/\partial z$** | $9.299 \times 10^{34}\text{ rad/(s}\cdot\text{m)}$ | $1.558 \times 10^{8}\text{ rad/(s}\cdot\text{m)}$ | $6.0 \times 10^{26} \times$ larger |
+| **Wavefront Tilt Rate $dK/dt$** | $9.299 \times 10^{34}\text{ м}^{-1}\text{s}^{-1}$ | $1.558 \times 10^{8}\text{ м}^{-1}\text{s}^{-1}$ | $6.0 \times 10^{26} \times$ faster |
+| **Inertial Mass in Velocity Denominator** | $M = 1.000\text{ kg}$ | $m_n = 1.675 \times 10^{-27}\text{ kg}$ | $6.0 \times 10^{26} \times$ larger |
+| **Emergent Acceleration $A = \frac{\hbar}{M} \frac{dK}{dt}$** | **$9.80665\text{ m/s}^2$** | **$9.80665\text{ m/s}^2$** | **Strictly $1 : 1$** |
+
+Although the macroscopic sphere experiences a phase tilt rate $6 \times 10^{26}$ times greater than that of a single neutron, its total inertial mass suppresses group velocity response by the exact same factor. Consequently, **the kinematic acceleration $A \equiv g$ is identical for all matter**, confirming the Weak Equivalence Principle across both microscopic quantum states and macroscopic classical bodies.
+
+---
+
+### 6.4. The State of Quantum Weightlessness in the Co-Moving Frame
+
+During free fall, the body travels with downward velocity $V(t) = -gt$. In the co-moving freely falling reference frame $Z'(t) = Z(t) - Z_0 + \frac{1}{2}gt^2$, a kinematic relativistic Doppler shift emerges across the vertical extent of the body:
+$$\Delta \Omega_{\text{Doppler}}(z') = - \frac{M}{\hbar} \frac{d V_g}{dt} z' = + \frac{M g}{\hbar} z'$$
+This dynamic Doppler shift **identically cancels the external gravitational frequency gradient**:
+$$\left( \frac{\partial \Omega'}{\partial z'} \right)_{\text{co-moving}} = \frac{M g}{\hbar} - \frac{M g}{\hbar} \equiv 0$$
+
+Within the freely falling frame:
+1. De Broglie wavefronts inside the macroscopic body regain perfect planarity and orthogonality to the 4-velocity $u^\mu$.
+2. Internal mechanical shear stresses across lattice planes vanish completely.
+3. The proper 4-acceleration of the body is strictly zero ($a^\mu = u^\nu \nabla_\nu u^\mu \equiv 0$).
+4. The state of **genuine quantum weightlessness** is realized, where any internal accelerometer or spring scale registers exactly zero.
 
 ---
 
