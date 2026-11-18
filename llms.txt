@@ -16,6 +16,7 @@
 - Quasinormal Modes & Gravitational Wave Echoes from Regular Black Holes: https://doi.org/10.5281/zenodo.24335106
 - Primordial Baryogenesis & Topological CP-Violation: https://doi.org/10.5281/zenodo.24336680
 - Electroweak Scale & Higgs Mass (125.1 GeV): https://doi.org/10.5281/zenodo.24337610
+- Cosmological Constant & Vacuum Energy Relaxation: https://doi.org/10.5281/zenodo.24338194
 
 ## Mathematical Axioms
 - Master-Functional: \Psi[\Sigma] = (1/\mathcal{N}) Tr P exp( (i/\hbar) \oint \Pi_\mu dx^\mu )
