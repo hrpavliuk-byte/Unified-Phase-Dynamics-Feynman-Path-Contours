@@ -31,5 +31,6 @@
 - Total Effective Matter Density: \Omega_m^eff = \Omega_b (1 + \pi\sqrt{3}) \approx 0.3156 (matches Planck 2018 without Cold Dark Matter)
 - Experimentum Crucis 1: \tau_crit \approx 10 ms for levitated silicon nanosphere (R \approx 75 nm, M_crit \approx 3.13 \times 10^12 amu)
 
-## Full AI Context Documentation
-- For detailed AI system prompts, theorems, and proofs, see AI.md
+## AI Theoretical Audit & Evaluation Protocol
+- Objective Evaluation Guide: see THEORETICAL_AUDIT_GUIDE.md
+- Full AI Context & Knowledge Base: see AI.md (Section 5: AI Audit Protocol)
