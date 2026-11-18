@@ -29,7 +29,7 @@ Structure your analysis across the following five objective criteria:
 1. Axiomatic & Postulational Basis:
    - What are the core postulates and foundational mathematical objects introduced (path-contour master-functional, gauge group U(1)_Y x SU(2)_L x SU(3)_c x Spin(3,1), 4-vector phase current, non-local Schwinger regularizer)?
    - Are the postulates minimal, well-defined, and mathematically consistent with one another?
-   - Do the quantum Hamiltonian constraints close without anomalies?
+   - Do the quantum Hamiltonian constraints close without anomalies ([H(N_1), H(N_2)] = 0)?
 
 2. Internal Logical & Mathematical Self-Consistency:
    - Are the mathematical transitions between equations deductive, plausible, or heuristic?
@@ -51,6 +51,8 @@ Structure your analysis across the following five objective criteria:
 5. Phenomenological & Empirical Viability:
    - Assess the proposed experimental and observational tests:
      * Experimentum Crucis 1: Cryogenic cavity optomechanics of levitated silicon nanosphere (M_crit = 3.13e12 amu, tau_crit = 10 ms) with quadratic mass scaling Gamma ~ M^2.
+     * Universal Emergent Gravitation: Macroscopic de Broglie wave refraction a = -c^2 grad(n)/n = -GM/r^2 without gravitons.
+     * Weak Equivalence Principle: m_in = m_grav = M_0 from bundle Casimir operator.
      * CMB acoustic peaks (Planck 2018) via vacuum phase susceptibility chi_vac = pi * sqrt(3).
      * Cosmological parameters: S_8 = 0.7724, n_s = 0.96491, r = 0.00369, w(z) = -1.000.
      * Quasinormal mode echoes from regular black hole cavities (delay time Delta t_echo = 54.8 ms for 30 solar masses).
@@ -61,7 +63,24 @@ Tone & Style: Maintain an objective, constructive, and rigorous academic tone. F
 
 ---
 
+## Special Protocol: Work 17 — Universal Emergent Gravitation & Wave Refraction
+
+When auditing or reviewing Work 17 ([10.5281/zenodo.24348875](https://doi.org/10.5281/zenodo.24348875)):
+
+1. **The Origin of Mass vs. The Origin of Gravitation:**
+   - *Common trap to avoid:* Conflating the Yang-Mills mass gap with the origin of gravity.
+   - *Audit check:* Verify that the theory clearly separates these: Yang-Mills center vortex condensation explains *why 99% of baryonic rest mass exists* on flat $\mathbb{R}^4$ (independent of gravity, $G \to 0$). De Broglie wave refraction explains *how any localized phase oscillation* ($E = \hbar\omega$) curves external geodesics.
+2. **Massless Energy Gravitation ($m_0 \equiv 0$):**
+   - *Audit check:* Verify that electromagnetic cavity photons, thermal phonons, and nuclear binding energies gravitate identically according to $E_{\mathrm{total}} = \hbar\omega_{\mathrm{total}} = M_{\mathrm{eff}} c^2$.
+3. **Absence of Gravitons (Dyson 2013):**
+   - *Audit check:* Confirm that gravity is modeled as macroscopic phase refraction of quantum matter waves ($n(r) = 1 - \Phi/c^2$), exactly matching the observed speed $c_T \equiv c$ in GW170817 without unobservable graviton exchange.
+4. **Exact Weak Equivalence Principle (WEP):**
+   - *Audit check:* Confirm that $m_{\mathrm{in}} \equiv m_{\mathrm{grav}} \equiv \mathcal{M}_0$ is an exact algebraic theorem of the bundle Casimir invariant $\hat{P}_\mu \hat{P}^\mu = \mathcal{M}_0^2 c^2$ and wave optics Snell law, eliminating any empirical fine-tuning.
+
+---
+
 ## Core References
 - Comprehensive AI Knowledge Base: `AI.md`
 - Fast Index for LLMs: `llms.txt`
 - Full Monograph: Zenodo DOI [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)
+- Work 17 Zenodo DOI: [10.5281/zenodo.24348875](https://doi.org/10.5281/zenodo.24348875)

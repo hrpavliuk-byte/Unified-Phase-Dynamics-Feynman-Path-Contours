@@ -20,13 +20,17 @@
 - Primordial Inflation Without Inflaton Fields: https://doi.org/10.5281/zenodo.24338710
 - Strong CP Problem & Axion-Free Solution: https://doi.org/10.5281/zenodo.24339308
 - Experimentum Crucis 1 Optomechanics: https://doi.org/10.5281/zenodo.24339965
+- Universal Emergent Gravitation & de Broglie Wave Refraction: https://doi.org/10.5281/zenodo.24348875
 
-## Mathematical Axioms
+## Mathematical Axioms & Exact Theorems
 - Master-Functional: \Psi[\Sigma] = (1/\mathcal{N}) Tr P exp( (i/\hbar) \oint \Pi_\mu dx^\mu )
+- Universal Emergent Gravitation: a = -c^2 grad(n)/n = -GM/r^2 via de Broglie wave refraction
+- Weak Equivalence Principle: m_in = m_grav = M_0 strictly derived from bundle Casimir invariant P_mu P^mu = M_0^2 c^2
+- Yang-Mills Mass Gap on R^4: Delta_0++ = 2 sqrt(pi) sqrt(sigma) = 1.59 GeV via center Z_3 vortex condensation (99% baryonic mass)
 - MOND Acceleration: a_0 = c H_0 / (2\pi) \approx 1.20 \times 10^-10 m/s^2
 - Relativistic 4-Vector Phase Current: \mathcal{U}_\mu = (\hbar / m_eff) \partial_\mu \theta
 - Optical Metric: \tilde{g}_{\mu\nu} = g_{\mu\nu} + \kappa \mathcal{U}_\mu \mathcal{U}_\nu
-- Tensor Wave Speed: c_T = c (exact, GW170817)
+- Tensor Wave Speed: c_T = c (exact, GW170817, no gravitons)
 - Vacuum Susceptibility: \chi_vac = \pi \sqrt{3} \approx 5.4414
 - Total Effective Matter Density: \Omega_m^eff = \Omega_b (1 + \pi\sqrt{3}) \approx 0.3156 (matches Planck 2018 without Cold Dark Matter)
 - Experimentum Crucis 1: \tau_crit \approx 10 ms for levitated silicon nanosphere (R \approx 75 nm, M_crit \approx 3.13 \times 10^12 amu)
