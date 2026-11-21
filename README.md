@@ -5,7 +5,7 @@
 **Author:** Hryhorii Pavliuk  
 **Affiliation:** Independent Researcher  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
-**Primary Repository:** Zenodo (CERN / OpenAIRE) — DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Primary Repository:** Zenodo (CERN / OpenAIRE) — Concept DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (Version 3.0: [10.5281/zenodo.24409618](https://doi.org/10.5281/zenodo.24409618))  
 **GitHub Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
@@ -42,6 +42,37 @@ This research monograph establishes a unified, non-perturbative quantum framewor
    Exact closure of the Wheeler--DeWitt constraint algebra on knot states $[\hat{\mathcal{H}}(N_1), \hat{\mathcal{H}}(N_2)] \equiv 0$ (in accordance with Thiemann's quantum spin dynamics) and non-local cancellation of the 2-loop Goroff--Sagnotti divergence via entire-order Schwinger contour form-factors $\mathcal{E}(\Box) = \exp(-s_{\min}^2\Box^2/\hbar^2)$ in Minkowski signature without Ostrogradsky ghosts ($\text{Res}_{\epsilon \to 0}\mathcal{A}_{\text{GS}}^{(2)} \equiv 0$).
 
 ---
+
+### The Complete Research Series: Standalone Thematic Works & Permanent DOIs
+
+All standalone peer-reviewed publications, analytical calculation engines, and metrological blueprints derived from the master-functional are available under Open Access (CC-BY-4.0) with dedicated Zenodo DOIs and complete Markdown source documents within this repository:
+
+| # | Work / Article Title | Markdown Source Document | Version DOI | Concept DOI |
+|---|---|---|---|---|
+| **0** | **Foundational Monograph:** *Unified Phase Dynamics of Feynman Path Contours* | [Unified_Phase_Dynamics_Monograph_v3.pdf](Unified_Phase_Dynamics_Monograph_v3.pdf) | [`10.5281/zenodo.24409618`](https://doi.org/10.5281/zenodo.24409618) (v3.0) | [`10.5281/zenodo.24226130`](https://doi.org/10.5281/zenodo.24226130) |
+| **1** | **Universal Emergent Gravitation:** *From Non-Perturbative YM Mass Gap to de Broglie Wave Refraction* | [Universal_Emergent_Gravitation_Phase_Dynamics.md](Universal_Emergent_Gravitation_Phase_Dynamics.md) | [`10.5281/zenodo.24410072`](https://doi.org/10.5281/zenodo.24410072) (v2.0) | [`10.5281/zenodo.24348874`](https://doi.org/10.5281/zenodo.24348874) |
+| **2** | **Regular Black Holes & Unitary Page Curve:** *Elimination of Singularities and Cauchy Horizon Stability* | [Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.md](Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.md) | [`10.5281/zenodo.24410119`](https://doi.org/10.5281/zenodo.24410119) (v2.0) | [`10.5281/zenodo.24312841`](https://doi.org/10.5281/zenodo.24312841) |
+| **3** | **Experimentum Crucis 1:** *Decisive Laboratory Optomechanics Benchmark ($R = 81.1\text{ nm}$ $^{28}\mathrm{Si}$)* | [Experimentum_Crucis_1_Optomechanics.md](Experimentum_Crucis_1_Optomechanics.md) | [`10.5281/zenodo.24410149`](https://doi.org/10.5281/zenodo.24410149) (v2.0) | [`10.5281/zenodo.24339964`](https://doi.org/10.5281/zenodo.24339964) |
+| **4** | **Deductive Derivation of Master-Functional:** *Relativistic Non-Abelian Stokes Theorem & Dirac Closure* | [Deductive_Derivation_of_Master_Functional_Phase_Dynamics.md](Deductive_Derivation_of_Master_Functional_Phase_Dynamics.md) | [`10.5281/zenodo.24409534`](https://doi.org/10.5281/zenodo.24409534) (v2.0) | [`10.5281/zenodo.24406587`](https://doi.org/10.5281/zenodo.24406587) |
+| **5** | **Yang–Mills Spectral Mass Gap & Existence on $\mathbb{R}^4$:** *Constructive Loop Measure & Center Vortices* | [Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.md](Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.md) | [`10.5281/zenodo.24409149`](https://doi.org/10.5281/zenodo.24409149) (v3.0) | [`10.5281/zenodo.24231512`](https://doi.org/10.5281/zenodo.24231512) |
+| **6** | **Yang–Mills on Voronoi–Delaunay Complexes:** *Analytical Mass Spectrum on Random Lattices* | [`zenodo.24247286`](https://doi.org/10.5281/zenodo.24247286) | [`10.5281/zenodo.24247286`](https://doi.org/10.5281/zenodo.24247286) | [`10.5281/zenodo.24247286`](https://doi.org/10.5281/zenodo.24247286) |
+| **7** | **Hadronic Nucleon Mass & Structure:** *Analytical Derivation of Proton and Neutron Structure* | [Nucleon_Mass_and_Yang_Mills_Gap_Phase_Dynamics.md](Nucleon_Mass_and_Yang_Mills_Gap_Phase_Dynamics.md) | [`10.5281/zenodo.24373382`](https://doi.org/10.5281/zenodo.24373382) (v2.0) | [`10.5281/zenodo.24373381`](https://doi.org/10.5281/zenodo.24373381) |
+| **8** | **Quantum Galileo & Equivalence Principle:** *Testing Against Atom Interferometry on Atom Chip* | [Quantum_Galileo_Phase_Dynamics.md](Quantum_Galileo_Phase_Dynamics.md) | [`10.5281/zenodo.24408031`](https://doi.org/10.5281/zenodo.24408031) | [`10.5281/zenodo.24408031`](https://doi.org/10.5281/zenodo.24408031) |
+| **9** | **SPARC Benchmark:** *Exact Rotation Curves for 178 Galaxies, RAR, and External Field Effect* | [SPARC_Benchmark_Phase_Dynamics.md](SPARC_Benchmark_Phase_Dynamics.md) | [`10.5281/zenodo.24293024`](https://doi.org/10.5281/zenodo.24293024) | [`10.5281/zenodo.24293024`](https://doi.org/10.5281/zenodo.24293024) |
+| **10** | **Relativistic Lensing & Spatial Decoupling:** *Bullet Cluster 1E 0657-56 and Merging Clusters* | [Relativistic_Lensing_Phase_Dynamics.md](Relativistic_Lensing_Phase_Dynamics.md) | [`10.5281/zenodo.24293794`](https://doi.org/10.5281/zenodo.24293794) | [`10.5281/zenodo.24293794`](https://doi.org/10.5281/zenodo.24293794) |
+| **11** | **CMB Acoustic Peaks & Perturbations:** *Acoustic Peaks $\ell_1\text{--}\ell_8$ and Damping Tail Without CDM* | [Cosmological_Perturbations_CMB_Phase_Dynamics.md](Cosmological_Perturbations_CMB_Phase_Dynamics.md) | [`10.5281/zenodo.24301702`](https://doi.org/10.5281/zenodo.24301702) | [`10.5281/zenodo.24301702`](https://doi.org/10.5281/zenodo.24301702) |
+| **12** | **JWST High-$z$ Early Galaxies & Cosmic Dawn:** *Structure Formation and Early Massive Galaxies ($z \ge 10$)* | [JWST_HighZ_Galaxies_Phase_Dynamics.md](JWST_HighZ_Galaxies_Phase_Dynamics.md) | [`10.5281/zenodo.24311502`](https://doi.org/10.5281/zenodo.24311502) | [`10.5281/zenodo.24311502`](https://doi.org/10.5281/zenodo.24311502) |
+| **13** | **Hubble Tension Resolution:** *Non-Linear Outflows and Kinematics in the Local KBC Supervoid* | [Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.md](Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.md) | [`10.5281/zenodo.24314424`](https://doi.org/10.5281/zenodo.24314424) | [`10.5281/zenodo.24314424`](https://doi.org/10.5281/zenodo.24314424) |
+| **14** | **Cosmological $S_8$ Tension & Cosmic Shear:** *Late-Time Phase-Current Screening on Quasi-Linear Scales* | [S8_Cosmic_Shear_Tension_Phase_Dynamics.md](S8_Cosmic_Shear_Tension_Phase_Dynamics.md) | [`10.5281/zenodo.24334557`](https://doi.org/10.5281/zenodo.24334557) | [`10.5281/zenodo.24334557`](https://doi.org/10.5281/zenodo.24334557) |
+| **15** | **Quasinormal Modes & GW Echoes:** *Non-Singular Quantum Core Reflectivity and Echo Delay Time* | [QNM_Gravitational_Wave_Echoes_Phase_Dynamics.md](QNM_Gravitational_Wave_Echoes_Phase_Dynamics.md) | [`10.5281/zenodo.24335106`](https://doi.org/10.5281/zenodo.24335106) | [`10.5281/zenodo.24335106`](https://doi.org/10.5281/zenodo.24335106) |
+| **16** | **Primordial Baryogenesis & CP-Violation:** *Exact Baryon Asymmetry $\eta_B = 6.12 \times 10^{-10}$* | [Primordial_Baryogenesis_Topological_Phase_Dynamics.md](Primordial_Baryogenesis_Topological_Phase_Dynamics.md) | [`10.5281/zenodo.24336680`](https://doi.org/10.5281/zenodo.24336680) | [`10.5281/zenodo.24336680`](https://doi.org/10.5281/zenodo.24336680) |
+| **17** | **Electroweak Hierarchy & Higgs Mass:** *Derivation of $m_H = 125.1\text{ GeV}$ and $v = 246.2\text{ GeV}$* | [Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.md](Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.md) | [`10.5281/zenodo.24337610`](https://doi.org/10.5281/zenodo.24337610) | [`10.5281/zenodo.24337610`](https://doi.org/10.5281/zenodo.24337610) |
+| **18** | **The Cosmological Constant Problem:** *120-Order Hierarchy Resolution via Dynamic Horizon Phase Relaxation* | [Cosmological_Constant_Phase_Relaxation.md](Cosmological_Constant_Phase_Relaxation.md) | [`10.5281/zenodo.24338194`](https://doi.org/10.5281/zenodo.24338194) | [`10.5281/zenodo.24338194`](https://doi.org/10.5281/zenodo.24338194) |
+| **19** | **Primordial Inflation Without Inflatons:** *Conformal Phase Perturbations ($n_s = 0.9649$, $r = 0.0037$)* | [Primordial_Inflation_Phase_Dynamics.md](Primordial_Inflation_Phase_Dynamics.md) | [`10.5281/zenodo.24338710`](https://doi.org/10.5281/zenodo.24338710) | [`10.5281/zenodo.24338710`](https://doi.org/10.5281/zenodo.24338710) |
+| **20** | **Strong CP Problem Without Axions:** *Center Vortex Topology and Exact Null Dipole $\bar{\theta} = 0$* | [Strong_CP_Problem_Phase_Dynamics.md](Strong_CP_Problem_Phase_Dynamics.md) | [`10.5281/zenodo.24339308`](https://doi.org/10.5281/zenodo.24339308) | [`10.5281/zenodo.24339308`](https://doi.org/10.5281/zenodo.24339308) |
+
+---
+
 
 ### Table of Contents (Aligned with Monograph Structure)
 

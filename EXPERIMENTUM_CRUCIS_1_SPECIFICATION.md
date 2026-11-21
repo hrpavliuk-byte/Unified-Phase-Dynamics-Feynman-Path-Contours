@@ -60,7 +60,7 @@ $$\tau_{\text{env}} > 1500 \text{ s} \implies \text{Signal-to-Noise Ratio } > 15
 |   |                                                     |                                                        |   |
 |   |                                                     v                                                        |   |
 |   |                                            (  *  ) <--- ISOTOPIC SILICON-28 NANOSPHERE                       |   |
-|   |                                          R = 75 nm, M = 3.13*10^12 amu                                       |   |
+|   |                                          R = 81.1 nm, M = 3.13*10^12 amu                                       |   |
 |   |                                          99.999% 28-Si: Nuclear Spin I = 0 (Zero Magnetic Dipole Bath)       |   |
 |   |                                          In-situ UV Neutralized: q = 0.00e                                   |   |
 |   |                                          In-situ Laser Bakeout: Zero Adsorbed Gas Monolayers                 |   |
@@ -82,8 +82,8 @@ $$\tau_{\text{env}} > 1500 \text{ s} \implies \text{Signal-to-Noise Ratio } > 15
 * **Material:** Ultra-pure, single-crystal Float-Zone Silicon-28 ($^{28}\text{Si}$).
 * **Isotopic Purity:** $^{28}\text{Si} \ge 99.999\%$ (residual $^{29}\text{Si} < 10\text{ ppm}$).
 * **Nuclear Spin:** $I \equiv 0 \implies \boldsymbol{\mu}_{\text{nuclear}} \equiv 0$ (zero nuclear magnetic moment, zero Zeeman spin-bath fluctuations).
-* **Radius ($R_0$):** $75.0 \pm 0.5\text{ nm}$ (TEM calibrated).
-* **Mass Density ($\rho_0$):** $2330\text{ kg/m}^3$.
+* **Radius ($R_0$):** $81.1 \pm 0.5\text{ nm}$ (TEM calibrated, exact for $\rho_0 = 2329\text{ kg/m}^3$).
+* **Mass Density ($\rho_0$):** $2329\text{ kg/m}^3$.
 * **Critical Mass Tuning ($M_{\text{crit}}$):**
   $$M = M_{\text{crit}} \approx 3.13 \times 10^{12}\text{ amu} = 5.204 \times 10^{-18}\text{ kg}$$
 * **Optical Refractive Index:** $n_{\text{Si}} \approx 3.48$ at $\lambda_0 = 1550\text{ nm}$.
@@ -169,13 +169,13 @@ $$\tau_{\text{env}} > 1500 \text{ s} \implies \text{Signal-to-Noise Ratio } > 15
 * **The Vulnerability:** Adsorption or desorption of a single residual gas atom ($H_2$ or $He$) during the hold time would impart a momentum kick or mass shift $\Delta M$.
 * **The Engineered Solution:**  
   * **In-situ Flash Laser Cleaning:** Before data acquisition, a $5\text{-second}$ laser pulse heats the nanosphere to $T \sim 400\text{ K}$ in XHV ($P \le 10^{-14}\text{ mbar}$), completely desorbing all surface monolayers.
-  * At $P \le 10^{-14}\text{ mbar}$, the arrival rate of background gas atoms onto a $75\text{ nm}$ sphere is $J_{\text{adsorb}} \le 1.0 \times 10^{-4}\text{ s}^{-1}$. The probability of a collision during $t_{\text{hold}} = 10\text{ ms}$ is $P < 10^{-6}$.
+  * At $P \le 10^{-14}\text{ mbar}$, the arrival rate of background gas atoms onto a $81.1\text{ nm}$ sphere is $J_{\text{adsorb}} \le 1.0 \times 10^{-4}\text{ s}^{-1}$. The probability of a collision during $t_{\text{hold}} = 10\text{ ms}$ is $P < 10^{-6}$.
   * The center-of-mass secular frequency is monitored in real-time; any event exhibiting a discrete jump $\Delta \omega / \omega = \frac{1}{2} m_{\text{gas}} / M \approx 10^{-12}$ is automatically discarded.
 
 ### 3.5 Automated Cryptographic Double-Blind Data Architecture
 * **The Vulnerability:** Human bias in selecting runs or fitting visibility curves.
 * **The Engineered Solution:**  
-  * The nanosphere mass is set by an automated, blinded laser etching system that cycles among the three calibration radii ($R_1 = 45\text{ nm}$, $R_2 = 75\text{ nm}$, $R_3 = 115\text{ nm}$) without revealing the selection to the data logging software.
+  * The nanosphere mass is set by an automated, blinded laser etching system that cycles among the three calibration radii ($R_1 = 45\text{ nm}$, $R_2 = 81.1\text{ nm}$, $R_3 = 115\text{ nm}$) without revealing the selection to the data logging software.
   * The raw homodyne quadrature time-series is cryptographically hashed with a SHA-256 private key at the moment of acquisition.
   * The mass label is unblinded only after the full Wigner distribution $W(z, p)$ and visibility decay rate $\Gamma_{\text{meas}}$ have been computed and permanently logged.
 
@@ -237,7 +237,7 @@ $$\tau_{\text{env}} > 1500 \text{ s} \implies \text{Signal-to-Noise Ratio } > 15
 ### 3.21 Three-Point Mass-Scaling Sweep ($M^2$ Fingerprint)
 * Executing the 20 Hz protocol across three calibrated radii:
   1. $R_1 = 45\text{ nm}$ ($M_1 = 0.89 \times 10^{12}\text{ amu}$): $\tau_{\text{crit}} \approx 123\text{ ms} \implies \mathcal{V}(10\text{ ms}) \approx 0.81$ (Contrast preserved).
-  2. $R_2 = 75\text{ nm}$ ($M_2 = 3.13 \times 10^{12}\text{ amu} = M_{\text{crit}}$): $\tau_{\text{crit}} \approx 10\text{ ms} \implies \mathcal{V}(10\text{ ms}) = \mathcal{V}_0 e^{-1} \approx 0.32$ (63% collapse).
+  2. $R_2 = 81.1\text{ nm}$ ($M_2 = 3.13 \times 10^{12}\text{ amu} = M_{\text{crit}}$): $\tau_{\text{crit}} \approx 10\text{ ms} \implies \mathcal{V}(10\text{ ms}) = \mathcal{V}_0 e^{-1} \approx 0.32$ (63% collapse).
   3. $R_3 = 115\text{ nm}$ ($M_3 = 11.4 \times 10^{12}\text{ amu}$): $\tau_{\text{crit}} \approx 0.75\text{ ms} \implies \mathcal{V}(10\text{ ms}) \le 10^{-5}$ (Total extinction).
 * The **quadratic mass dependence $\Gamma_{\text{grav}} \propto M^2$** decisively discriminates the Unified Phase Dynamics collapse from gas collisions ($\propto M^{2/3}$) and blackbody radiation ($\propto M$) with $> 12\sigma$ certainty.
 
