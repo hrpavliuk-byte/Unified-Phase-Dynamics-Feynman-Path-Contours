@@ -5,7 +5,7 @@
 ORCID: [0009-0000-8800-4712](https://orcid.org/0009-0000-8800-4712)  
 Email: hrpavliuk@gmail.com  
 Monograph DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-Dedicated DOI: [10.5281/zenodo.24386437](https://doi.org/10.5281/zenodo.24386437)  
+Dedicated DOI: [10.5281/zenodo.24409534](https://doi.org/10.5281/zenodo.24409534) (Version 2.0.0; Concept DOI: [10.5281/zenodo.24406587](https://doi.org/10.5281/zenodo.24406587); earlier version: [10.5281/zenodo.24406588](https://doi.org/10.5281/zenodo.24406588))  
 GitHub: [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
@@ -44,18 +44,24 @@ Expanding the metric around Minkowski space $g_{\mu
 u} = \eta_{\mu
 u} + \kappa h_{\mu
 u}$, the gravitational coupling constant possesses negative mass dimension:
-$$[\kappa] = \left[ \sqrt{rac{32\pi G}{c^4}} ight] = [M]^{-1} < 0$$
+$$[\kappa] = \left[ \sqrt{rac{32\pi G}{c^4}} 
+ight] = [M]^{-1} < 0$$
 By Dyson's power-counting criterion, the superficial degree of divergence of an $L$-loop Feynman diagram with $V$ vertices is:
 $$\mathcal{D} = 2 + 2L$$
 While the 1-loop divergences vanish on-shell for pure gravity due to Gauss--Bonnet topological identities ('t Hooft and Veltman, 1974), Goroff and Sagnotti (1985) conclusively demonstrated that at two loops, pure gravity exhibits a non-vanishing, non-renormalizable ultraviolet divergence:
 $$\Delta \mathcal{L}^{(2)} = rac{209}{2880 (4\pi)^4 \epsilon} \sqrt{-g} \, C_{\mu
-uho\sigma} C^{ho\sigmalphaeta} C_{lphaeta}{}^{\mu
+u
+ho\sigma} C^{
+ho\sigmalphaeta} C_{lphaeta}{}^{\mu
 u}$$
 where $C_{\mu
-uho\sigma}$ is the Weyl conformal curvature tensor. Absorbing this divergence requires introducing counterterms quadratic and cubic in the Riemann tensor, which generate fourth-order equations of motion, propagate Ostrogradsky ghost states with negative norms, and destroy quantum unitarity.
+u
+ho\sigma}$ is the Weyl conformal curvature tensor. Absorbing this divergence requires introducing counterterms quadratic and cubic in the Riemann tensor, which generate fourth-order equations of motion, propagate Ostrogradsky ghost states with negative norms, and destroy quantum unitarity.
 
 To overcome this impasse without ad-hoc parameter fitting, the theory is formulated upon the Autonomous Master Functional over the unified gauge-geometric group $\mathcal{G} = U(1)_Y 	imes SU(2)_L 	imes SU(3)_c 	imes \mathrm{Spin}(3,1)$:
-$$\mathbf{\Psi}[\Sigma] = rac{1}{\mathcal{N}} \operatorname{Tr}_{\mathcal{G}} \mathcal{P} \exp\left( rac{i}{\hbar} \oint_{\Sigma} \mathbf{\Pi}_A \cdot d\sigma^A ight) \exp\left( - rac{s_{\min}^2}{2\hbar^2} \int_\Sigma \mathcal{F}_{AB}^a \mathcal{F}^{AB}_a d\sigma ight), \qquad \hat{\mathcal{H}} \, \mathbf{\Psi}[\Sigma] \equiv 0$$
+$$\mathbf{\Psi}[\Sigma] = rac{1}{\mathcal{N}} \operatorname{Tr}_{\mathcal{G}} \mathcal{P} \exp\left( rac{i}{\hbar} \oint_{\Sigma} \mathbf{\Pi}_A \cdot d\sigma^A 
+ight) \exp\left( - rac{s_{\min}^2}{2\hbar^2} \int_\Sigma \mathcal{F}_{AB}^a \mathcal{F}^{AB}_a d\sigma 
+ight), \qquad \hat{\mathcal{H}} \, \mathbf{\Psi}[\Sigma] \equiv 0$$
 
 ### 1.2 Structural Bridging Lemmas & Master Deductive Architecture
 
@@ -63,9 +69,12 @@ To ensure strict mathematical continuity across all energy scales—from Plancki
 
 #### Lemma 1: Non-Abelian Stokes Equivalence & Dimensional Homogeneity
 Let $\Sigma = \partial \mathcal{S}$ be a closed oriented $1$-contour bounding a piecewise-smooth $2$-surface $\mathcal{S}$ in spacetime. The $1$-form canonical phase connection $\mathbf{\Pi}_A \, d\sigma^A$ (with $[d\sigma^A] = \mathrm{L}$ and $[\mathbf{\Pi}_A] = \mathrm{M}\cdot\mathrm{L}\cdot\mathrm{T}^{-1}$) maps identically via the non-Abelian Stokes theorem to the path-ordered surface curvature integral:
-$$\mathcal{P} \exp\left( rac{i}{\hbar} \oint_{\partial \mathcal{S}} \mathbf{\Pi}_A \cdot d\sigma^A ight) = \mathcal{P}_{\mathcal{S}} \exp\left( rac{i}{\hbar} \iint_{\mathcal{S}} \mathcal{F}_{AB}(x) \, d\sigma^{AB} ight),$$
+$$\mathcal{P} \exp\left( rac{i}{\hbar} \oint_{\partial \mathcal{S}} \mathbf{\Pi}_A \cdot d\sigma^A 
+ight) = \mathcal{P}_{\mathcal{S}} \exp\left( rac{i}{\hbar} \iint_{\mathcal{S}} \mathcal{F}_{AB}(x) \, d\sigma^{AB} 
+ight),$$
 where $[d\sigma^{AB}] = \mathrm{L}^2$ and the gauge-geometric curvature $2$-form $\mathcal{F}_{AB} = \partial_A \mathbf{\Pi}_B - \partial_B \mathbf{\Pi}_A - rac{i}{\hbar}[\mathbf{\Pi}_A, \mathbf{\Pi}_B]$ carries dimensions of action density $[\mathcal{F}_{AB}] = \mathrm{M}\cdot\mathrm{T}^{-1}$. In the Schwinger non-local regulator
-$$\mathcal{E}(\Box) = \exp\left( -rac{s_{\min}^2 \Box^2}{\hbar^2} ight), \qquad s_{\min} \sim \ell_P^2,$$
+$$\mathcal{E}(\Box) = \exp\left( -rac{s_{\min}^2 \Box^2}{\hbar^2} 
+ight), \qquad s_{\min} \sim \ell_P^2,$$
 $\Box \equiv -\hbar^2 
 abla_\mu 
 abla^\mu$ denotes the squared covariant $4$-momentum operator in SI units (reducing to $\Box = -\partial_\mu \partial^\mu$ with $[\Box] = \mathrm{L}^{-2}$ in natural units $\hbar = c = 1$), rendering the exponent strictly dimensionless across all sectors.
@@ -79,8 +88,10 @@ $$c_T \equiv c, \qquad m_g \equiv 0,$$
 satisfying the multi-messenger gravitational-wave speed constraint $|c_T/c - 1| < 10^{-15}$ (GW170817 / GRB 170817A) without parameter tuning.
 
 #### Lemma 3: Holographic UV–IR Boundary Duality ($s_{\min} \leftrightarrow R_H$)
-In a causally bounded universe with Hubble radius $R_H = c/H_0$, the maximal closed phase contour $\Sigma_{\max} = \partial \mathcal{H}$ encloses a horizon area $\mathcal{A}_H = 4\pi R_H^2$ partitioned into $N_{\mathrm{DOF}} = \mathcal{A}_H / s_{\min} \sim 10^{122}$ minimal phase cells. Requiring global phase coherence across $\Sigma_{\max}$ fixes the infrared vacuum polarization threshold $a_0$ and relaxes the bare vacuum energy density $ho_{\mathrm{vac}}$ without fine-tuning:
-$$a_0 = rac{c H_0}{2\pi} pprox 1.2 	imes 10^{-10}	ext{ m/s}^2, \qquad ho_\Lambda = rac{3 c^2 H_0^2}{8\pi G} \propto s_{\min}^{-1} R_H^{-2}.$$
+In a causally bounded universe with Hubble radius $R_H = c/H_0$, the maximal closed phase contour $\Sigma_{\max} = \partial \mathcal{H}$ encloses a horizon area $\mathcal{A}_H = 4\pi R_H^2$ partitioned into $N_{\mathrm{DOF}} = \mathcal{A}_H / s_{\min} \sim 10^{122}$ minimal phase cells. Requiring global phase coherence across $\Sigma_{\max}$ fixes the infrared vacuum polarization threshold $a_0$ and relaxes the bare vacuum energy density $
+ho_{\mathrm{vac}}$ without fine-tuning:
+$$a_0 = rac{c H_0}{2\pi} pprox 1.2 	imes 10^{-10}	ext{ m/s}^2, \qquad 
+ho_\Lambda = rac{3 c^2 H_0^2}{8\pi G} \propto s_{\min}^{-1} R_H^{-2}.$$
 
 #### Lemma 4: Collisionless Phase Memory in Merging Clusters & Pre-Recombination CMB
 Because the phase-polarization current $\mathcal{U}_\mu$ is sourced by the non-local contour holonomy of conserved baryon-lepton currents rather than local collisional hydrodynamics, $\mathcal{U}_\mu$ exhibits inertial phase memory during supersonic cluster mergers (such as 1E 0657-56, the Bullet Cluster): lensing convergence peaks track the collisionless stellar/galactic phase centers rather than shock-decelerated X-ray plasma. Prior to recombination ($z pprox 1100$), the same non-local potential stabilizes baryon-photon acoustic oscillations, reproducing the Planck 2018 multipole spectrum ($\ell_1 \dots \ell_8$) with zero non-baryonic cold dark matter particles.

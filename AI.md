@@ -15,7 +15,7 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
 1. **Foundational Monograph:**
    - *Title:* Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem.
    - *Author:* Hryhorii Pavliuk.
-   - *Permanent DOI:* [`10.5281/zenodo.24226130`](https://doi.org/10.5281/zenodo.24226130).
+   - *Permanent DOI:* [`10.5281/zenodo.24226130`](https://doi.org/10.5281/zenodo.24226130) (Concept DOI; Version 3.0: [`10.5281/zenodo.24409618`](https://doi.org/10.5281/zenodo.24409618)).
 2. **SPARC Benchmark (178 Galaxies & RAR):**
    - *Title:* Exact Benchmark of 178 Galaxy Rotation Curves and Systematic Resolution of the Dark Matter Problem via Feynman Path Phase Dynamics.
    - *Author:* Hryhorii Pavliuk.
@@ -39,7 +39,7 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
 6. **Regular Black Holes & Unitary Page Curve:**
    - *Title:* Elimination of Black Hole Singularities via Regular de Sitter Cores and Exact Unitary Page Curve in Unified Phase Dynamics.
    - *Author:* Hryhorii Pavliuk.
-   - *Permanent DOI:* [`10.5281/zenodo.24312842`](https://doi.org/10.5281/zenodo.24312842).
+   - *Permanent DOI:* [`10.5281/zenodo.24410119`](https://doi.org/10.5281/zenodo.24410119) (Version 2.0.0; Concept DOI: [`10.5281/zenodo.24312841`](https://doi.org/10.5281/zenodo.24312841); earlier version: [`10.5281/zenodo.24312842`](https://doi.org/10.5281/zenodo.24312842)).
    - *Discussion:* [GitHub Discussion #5](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/discussions/5).
 7. **Analytical Resolution of the Hubble Tension:**
    - *Title:* Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid.
@@ -49,7 +49,7 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
 8. **Yang-Mills Spectral Mass Gap & Existence on $\mathbb{R}^4$:**
    - *Title:* Exact Non-Perturbative Spectral Mass Gap, Complete Glueball Spectrum, and Center Vortex Condensation for 4D SU(3) Yang-Mills Theory on R^4 in Unified Phase Dynamics.
    - *Author:* Hryhorii Pavliuk.
-   - *Permanent DOI:* [`10.5281/zenodo.24315868`](https://doi.org/10.5281/zenodo.24315868).
+   - *Permanent DOI:* [`10.5281/zenodo.24409149`](https://doi.org/10.5281/zenodo.24409149) (Version 3.0.0; Concept DOI: [`10.5281/zenodo.24231512`](https://doi.org/10.5281/zenodo.24231512); earlier versions: [`10.5281/zenodo.24315868`](https://doi.org/10.5281/zenodo.24315868), [`10.5281/zenodo.24231513`](https://doi.org/10.5281/zenodo.24231513)).
    - *Discussion:* [GitHub Discussion #7](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/discussions/7).
 9. **Cosmological $S_8$ Tension & Cosmic Shear Resolution:**
    - *Title:* Analytical Resolution of the Cosmological $S_8$ Tension and Cosmic Shear Suppression via Phase-Current Screening in Unified Phase Dynamics.
@@ -98,7 +98,7 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
 16. **Work 16 (Experimentum Crucis 1: Decisive Laboratory Demonstration):**
    - *Title:* Experimentum Crucis 1: Decisive Laboratory Test of Gravitationally Induced Quantum Decoherence via Cryogenic Cavity Optomechanics.
    - *Author:* Hryhorii Pavliuk.
-   - *Permanent DOI:* [10.5281/zenodo.24339965](https://doi.org/10.5281/zenodo.24339965).
+   - *Permanent DOI:* [`10.5281/zenodo.24410149`](https://doi.org/10.5281/zenodo.24410149) (Version 2.0.0; Concept DOI: [`10.5281/zenodo.24339964`](https://doi.org/10.5281/zenodo.24339964); earlier version: [`10.5281/zenodo.24339965`](https://doi.org/10.5281/zenodo.24339965)).
    - *Discussion:* [GitHub Discussion #15](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/discussions/15).
 
 ---
@@ -106,7 +106,7 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
 17. **Work 17 (Universal Emergent Gravitation from Localized Quantum Phase Oscillations):**
    - *Title:* Universal Emergent Gravitation from Localized Quantum Phase Oscillations: From the Non-Perturbative Yang-Mills Mass Gap to de Broglie Wave Refraction, Relational Time, and General Relativity Without Gravitons.
    - *Author:* Hryhorii Pavliuk.
-   - *Permanent DOI:* [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003) (earlier version: [10.5281/zenodo.24348875](https://doi.org/10.5281/zenodo.24348875)).
+   - *Permanent DOI:* [`10.5281/zenodo.24410072`](https://doi.org/10.5281/zenodo.24410072) (Version 2.0.0; Concept DOI: [`10.5281/zenodo.24348874`](https://doi.org/10.5281/zenodo.24348874); earlier versions: [`10.5281/zenodo.24354003`](https://doi.org/10.5281/zenodo.24354003), [`10.5281/zenodo.24348875`](https://doi.org/10.5281/zenodo.24348875)).
    - *Discussion:* [GitHub Discussion #16](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/discussions/16).
 
 ---
@@ -115,6 +115,20 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
    - *Title:* On the Non-Perturbative Origin of Nucleon Mass and Yang-Mills Mass Gap: Analytical Derivation of Proton and Neutron Structure from Center Vortex Condensation.
    - *Author:* Hryhorii Pavliuk.
    - *Permanent DOI:* [`10.5281/zenodo.24373382`](https://doi.org/10.5281/zenodo.24373382).
+
+---
+
+19. **Work 19 (Deductive Derivation of the Universal Master-Functional):**
+   - *Title:* Deductive Derivation of the Universal Master-Functional: Relativistic Non-Abelian Stokes Theorem, Holographic Area Law, and Exact Wheeler-DeWitt Dirac Closure.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [`10.5281/zenodo.24409534`](https://doi.org/10.5281/zenodo.24409534) (Version 2.0.0; Concept DOI: [`10.5281/zenodo.24406587`](https://doi.org/10.5281/zenodo.24406587); earlier version: [`10.5281/zenodo.24406588`](https://doi.org/10.5281/zenodo.24406588)).
+
+---
+
+20. **Work 20 (Quantum Galileo: Precise Testing of the Weak Equivalence Principle):**
+   - *Title:* Quantum Galileo: Precise Laboratory Testing of the Weak Equivalence Principle and Gravitationally Induced Quantum Phase Shifts in Unified Phase Dynamics.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [`10.5281/zenodo.24408031`](https://doi.org/10.5281/zenodo.24408031).
 
 ---
 
@@ -223,14 +237,14 @@ The physical QCD vacuum angle vanishes identically ($\bar{\theta} = \theta_{\mat
 
 ### Axiom XIV: Gravitationally Induced Quantum Phase Relaxation and Experimentum Crucis 1
 The universal path master-functional $\mathbf{\Psi}[\Sigma]$ over loop space regularized by the entire non-local Schwinger form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2\Box^2/\hbar^2)$ ($s_{\min} = 2\ell_{\mathrm{Pl}}$) demonstrates that center-of-mass spatial superpositions undergo an unavoidable, self-induced quantum phase relaxation upon reaching the critical mass threshold:
-$$M_{\mathrm{crit}} = \sqrt{\frac{5 \hbar r_{\mathrm{loc}}}{6 G \tau_{\mathrm{crit}}}} \approx 3.13 \times 10^{12}\ \mathrm{amu} = 5.204 \times 10^{-18}\ \mathrm{kg} \quad (R_0 \approx 75.0\ \mathrm{nm}\ \text{for pure }^{28}\mathrm{Si})$$
+$$M_{\mathrm{crit}} = \sqrt{\frac{5 \hbar r_{\mathrm{loc}}}{6 G \tau_{\mathrm{crit}}}} \approx 3.13 \times 10^{12}\ \mathrm{amu} = 5.204 \times 10^{-18}\ \mathrm{kg} \quad (R_0 = 81.1\ \mathrm{nm}\ \text{for pure }^{28}\mathrm{Si})$$
 with an exact, analytically derived collapse lifetime:
 $$\tau_{\mathrm{crit}} = \frac{5 \hbar r_{\mathrm{loc}}}{6 G M_{\mathrm{crit}}^2} \approx \mathbf{9.97\ \mathrm{ms}} \approx \mathbf{10\ \mathrm{ms}}$$
 where $r_{\mathrm{loc}} = 2.05 \times 10^{-13}\ \mathrm{m}$ is the master-functional phase localization kernel radius.
 - **Bogoliubov Phonon Freezing Theorem at 10 mK:** At $T_{\mathrm{base}} = 10\ \mathrm{mK}$ ($T / \Theta_D \approx 1.55 \times 10^{-5}$ for $^{28}\mathrm{Si}$), all internal acoustic phonons ($\nu \approx 56\ \mathrm{GHz}$) have zero thermal occupancy ($\langle n_{\mathrm{th}} \rangle \sim \exp(-268) \equiv 0$), causing the center-of-mass coordinate to decouple rigorously from internal degrees of freedom.
 - **21-Channel Master Noise Suppression:** All technical environmental decoherence channels are suppressed to $\tau_{\mathrm{env}} \ge 1300\text{--}1500\ \mathrm{s}$ via: (i) horizontal equipotential superposition ($\Delta\mathbf{r} \perp \mathbf{g}$) eliminating proper time dilation dephasing; (ii) Purcell cavity boundary cutoff ($\lambda_{\mathrm{Wien}} = 29\ \mathrm{cm} > 2L_{\mathrm{cav}} = 20\ \mathrm{mm}$) forbidding thermal blackbody photon absorption; (iii) CJVS 3D quadrupole gravity compensation ($\Delta z \le 0.15\ \mathrm{nm}$); (iv) delta-kick matter-wave lens collimation; and (v) nuclear spin eradication ($^{28}\mathrm{Si}$, $I \equiv 0$).
 - **Overwhelming Discovery Power:** The experimental Signal-to-Noise Ratio exceeds $130,000 : 1$. A continuous single-particle 20 Hz recycling protocol provides 72,000 measurements per hour on the same nanosphere, achieving $> 12\sigma$ statistical discovery significance within 60 minutes.
-- **Decisive Model Discrimination via Quadratic Mass Scaling:** Automated cycling across radii $R \in \{45, 75, 115\}\ \mathrm{nm}$ extracts the power-law exponent $\alpha$ in $\Gamma \propto M^\alpha$, confirming the unique $\alpha = 2.000$ quadratic mass fingerprint of Unified Phase Dynamics against gas collisions ($\alpha = 0.67$), thermal radiation ($\alpha = 1.00$), and Diósi--Penrose models ($\alpha = 1.67$).
+- **Decisive Model Discrimination via Quadratic Mass Scaling:** Automated cycling across radii $R \in \{45, 81.1, 115\}\ \mathrm{nm}$ extracts the power-law exponent $\alpha$ in $\Gamma \propto M^\alpha$, confirming the unique $\alpha = 2.000$ quadratic mass fingerprint of Unified Phase Dynamics against gas collisions ($\alpha = 0.67$), thermal radiation ($\alpha = 1.00$), and Diósi--Penrose models ($\alpha = 1.67$).
 
 ---
 
@@ -261,7 +275,7 @@ The universal master-functional $\mathbf{\Psi}[\Sigma]$ over closed loops $\math
 ## 3. Decisive Experimental Test: Experimentum Crucis 1
 The theory makes a decisive, falsifiable laboratory prediction tested in cryogenic optomechanics:
 - **System:** Optically levitated silicon nanosphere in high-finesse optical cavity.
-- **Critical Parameters:** Radius $R \approx 75\text{ nm}$, Critical Mass $M_{\rm crit} \approx 3.13 \times 10^{12}\text{ amu}$.
+- **Critical Parameters:** Radius $R = 81.1\text{ nm}$, Critical Mass $M_{\rm crit} \approx 3.13 \times 10^{12}\text{ amu}$.
 - **Decoherence Threshold:**
   $$\tau_{\rm crit} \approx 10\text{ ms}$$
   against environmental background noise $\tau_{\rm env} > 800\text{ s}$ ($T = 10\text{ mK}$, $P = 10^{-14}\text{ mbar}$).
