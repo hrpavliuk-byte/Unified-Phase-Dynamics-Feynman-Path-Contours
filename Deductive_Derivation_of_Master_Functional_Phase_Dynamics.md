@@ -31,23 +31,77 @@ We demonstrate that all known physical laws—from classical mechanics, Maxwell 
 
 ## 1. Introduction: The Foundational Crisis of Modern Theoretical Physics
 
+### 1.1 The Graviton Non-Renormalizability Crisis & Autonomous Master Functional
 Contemporary fundamental physics is fractured into two mutually incompatible frameworks:
-* **The Standard Model of Particle Physics:** A renormalizable quantum field theory formulated on a fixed, flat background Minkowski spacetime $\eta_{\mu\nu}$, relying on 26 free parameters, unproven Higgs potentials with negative quadratic terms ($-\mu^2 < 0$), and an unproven mathematical existence of four-dimensional non-Abelian gauge theories on $\mathbb{R}^4$;
-* **General Relativity:** A non-linear, classical geometric theory of pseudo-Riemannian manifolds $(M, g_{\mu\nu})$, which is perturbatively non-renormalizable when quantized by standard field-theoretic techniques.
+* **The Standard Model of Particle Physics:** A renormalizable quantum field theory formulated on a fixed, flat background Minkowski spacetime $\eta_{\mu
+u}$, relying on 26 free parameters, unproven Higgs potentials with negative quadratic terms ($-\mu^2 < 0$), and an unproven mathematical existence of four-dimensional non-Abelian gauge theories on $\mathbb{R}^4$;
+* **General Relativity:** A non-linear, classical geometric theory of pseudo-Riemannian manifolds $(M, g_{\mu
+u})$, which is perturbatively non-renormalizable when quantized by standard field-theoretic techniques.
 
 The fundamental breakdown occurs when standard canonical or path-integral quantization is applied to the Einstein--Hilbert action:
-$$S_{\text{EH}}[g] = \frac{c^4}{16\pi G} \int d^4x \sqrt{-g} \, R$$
-Expanding the metric around Minkowski space $g_{\mu\nu} = \eta_{\mu\nu} + \kappa h_{\mu\nu}$, the gravitational coupling constant possesses negative mass dimension:
-$$[\kappa] = \left[ \sqrt{\frac{32\pi G}{c^4}} \right] = [M]^{-1} < 0$$
+$$S_{	ext{EH}}[g] = rac{c^4}{16\pi G} \int d^4x \sqrt{-g} \, R$$
+Expanding the metric around Minkowski space $g_{\mu
+u} = \eta_{\mu
+u} + \kappa h_{\mu
+u}$, the gravitational coupling constant possesses negative mass dimension:
+$$[\kappa] = \left[ \sqrt{rac{32\pi G}{c^4}} ight] = [M]^{-1} < 0$$
 By Dyson's power-counting criterion, the superficial degree of divergence of an $L$-loop Feynman diagram with $V$ vertices is:
 $$\mathcal{D} = 2 + 2L$$
 While the 1-loop divergences vanish on-shell for pure gravity due to Gauss--Bonnet topological identities ('t Hooft and Veltman, 1974), Goroff and Sagnotti (1985) conclusively demonstrated that at two loops, pure gravity exhibits a non-vanishing, non-renormalizable ultraviolet divergence:
-$$\Delta \mathcal{L}^{(2)} = \frac{209}{2880 (4\pi)^4 \epsilon} \sqrt{-g} \, C_{\mu\nu\rho\sigma} C^{\rho\sigma\alpha\beta} C_{\alpha\beta}{}^{\mu\nu}$$
-where $C_{\mu\nu\rho\sigma}$ is the Weyl conformal curvature tensor. Absorbing this divergence requires introducing counterterms quadratic and cubic in the Riemann tensor, which generate fourth-order equations of motion, propagate Ostrogradsky ghost states with negative norms, and destroy quantum unitarity.
+$$\Delta \mathcal{L}^{(2)} = rac{209}{2880 (4\pi)^4 \epsilon} \sqrt{-g} \, C_{\mu
+uho\sigma} C^{ho\sigmalphaeta} C_{lphaeta}{}^{\mu
+u}$$
+where $C_{\mu
+uho\sigma}$ is the Weyl conformal curvature tensor. Absorbing this divergence requires introducing counterterms quadratic and cubic in the Riemann tensor, which generate fourth-order equations of motion, propagate Ostrogradsky ghost states with negative norms, and destroy quantum unitarity.
+
+To overcome this impasse without ad-hoc parameter fitting, the theory is formulated upon the Autonomous Master Functional over the unified gauge-geometric group $\mathcal{G} = U(1)_Y 	imes SU(2)_L 	imes SU(3)_c 	imes \mathrm{Spin}(3,1)$:
+$$\mathbf{\Psi}[\Sigma] = rac{1}{\mathcal{N}} \operatorname{Tr}_{\mathcal{G}} \mathcal{P} \exp\left( rac{i}{\hbar} \oint_{\Sigma} \mathbf{\Pi}_A \cdot d\sigma^A ight) \exp\left( - rac{s_{\min}^2}{2\hbar^2} \int_\Sigma \mathcal{F}_{AB}^a \mathcal{F}^{AB}_a d\sigma ight), \qquad \hat{\mathcal{H}} \, \mathbf{\Psi}[\Sigma] \equiv 0$$
+
+### 1.2 Structural Bridging Lemmas & Master Deductive Architecture
+
+To ensure strict mathematical continuity across all energy scales—from Planckian ultraviolet regularization ($s_{\min} \sim \ell_P^2$) to cosmological horizon boundary conditions ($R_H = c/H_0$)—the Autonomous Master Functional is governed by four foundational bridging lemmas.
+
+#### Lemma 1: Non-Abelian Stokes Equivalence & Dimensional Homogeneity
+Let $\Sigma = \partial \mathcal{S}$ be a closed oriented $1$-contour bounding a piecewise-smooth $2$-surface $\mathcal{S}$ in spacetime. The $1$-form canonical phase connection $\mathbf{\Pi}_A \, d\sigma^A$ (with $[d\sigma^A] = \mathrm{L}$ and $[\mathbf{\Pi}_A] = \mathrm{M}\cdot\mathrm{L}\cdot\mathrm{T}^{-1}$) maps identically via the non-Abelian Stokes theorem to the path-ordered surface curvature integral:
+$$\mathcal{P} \exp\left( rac{i}{\hbar} \oint_{\partial \mathcal{S}} \mathbf{\Pi}_A \cdot d\sigma^A ight) = \mathcal{P}_{\mathcal{S}} \exp\left( rac{i}{\hbar} \iint_{\mathcal{S}} \mathcal{F}_{AB}(x) \, d\sigma^{AB} ight),$$
+where $[d\sigma^{AB}] = \mathrm{L}^2$ and the gauge-geometric curvature $2$-form $\mathcal{F}_{AB} = \partial_A \mathbf{\Pi}_B - \partial_B \mathbf{\Pi}_A - rac{i}{\hbar}[\mathbf{\Pi}_A, \mathbf{\Pi}_B]$ carries dimensions of action density $[\mathcal{F}_{AB}] = \mathrm{M}\cdot\mathrm{T}^{-1}$. In the Schwinger non-local regulator
+$$\mathcal{E}(\Box) = \exp\left( -rac{s_{\min}^2 \Box^2}{\hbar^2} ight), \qquad s_{\min} \sim \ell_P^2,$$
+$\Box \equiv -\hbar^2 
+abla_\mu 
+abla^\mu$ denotes the squared covariant $4$-momentum operator in SI units (reducing to $\Box = -\partial_\mu \partial^\mu$ with $[\Box] = \mathrm{L}^{-2}$ in natural units $\hbar = c = 1$), rendering the exponent strictly dimensionless across all sectors.
+
+#### Lemma 2: Causal Light-Cone Propagation ($c_T \equiv c$)
+In the emergent gravitational sector ($\mathrm{Spin}(3,1)$), the $4$-vector phase current $\mathcal{U}_\mu$ and the effective optical metric $	ilde{g}_{\mu
+u}$ represent functional polarization derivatives of $\ln \mathbf{\Psi}[\Sigma]$ rather than independent dynamical fields endowed with separate kinetic tensors. Because $\mathcal{E}(
+abla^2)$ preserves exact diffeomorphism Ward identities (see *Universal Emergent Gravitation*, DOI: `10.5281/zenodo.24348875` / `24354003`, Theorem B), spin-$2$ tensor perturbations $h_{\mu
+u}$ propagate strictly along the null cone of the background metric:
+$$c_T \equiv c, \qquad m_g \equiv 0,$$
+satisfying the multi-messenger gravitational-wave speed constraint $|c_T/c - 1| < 10^{-15}$ (GW170817 / GRB 170817A) without parameter tuning.
+
+#### Lemma 3: Holographic UV–IR Boundary Duality ($s_{\min} \leftrightarrow R_H$)
+In a causally bounded universe with Hubble radius $R_H = c/H_0$, the maximal closed phase contour $\Sigma_{\max} = \partial \mathcal{H}$ encloses a horizon area $\mathcal{A}_H = 4\pi R_H^2$ partitioned into $N_{\mathrm{DOF}} = \mathcal{A}_H / s_{\min} \sim 10^{122}$ minimal phase cells. Requiring global phase coherence across $\Sigma_{\max}$ fixes the infrared vacuum polarization threshold $a_0$ and relaxes the bare vacuum energy density $ho_{\mathrm{vac}}$ without fine-tuning:
+$$a_0 = rac{c H_0}{2\pi} pprox 1.2 	imes 10^{-10}	ext{ m/s}^2, \qquad ho_\Lambda = rac{3 c^2 H_0^2}{8\pi G} \propto s_{\min}^{-1} R_H^{-2}.$$
+
+#### Lemma 4: Collisionless Phase Memory in Merging Clusters & Pre-Recombination CMB
+Because the phase-polarization current $\mathcal{U}_\mu$ is sourced by the non-local contour holonomy of conserved baryon-lepton currents rather than local collisional hydrodynamics, $\mathcal{U}_\mu$ exhibits inertial phase memory during supersonic cluster mergers (such as 1E 0657-56, the Bullet Cluster): lensing convergence peaks track the collisionless stellar/galactic phase centers rather than shock-decelerated X-ray plasma. Prior to recombination ($z pprox 1100$), the same non-local potential stabilizes baryon-photon acoustic oscillations, reproducing the Planck 2018 multipole spectrum ($\ell_1 \dots \ell_8$) with zero non-baryonic cold dark matter particles.
 
 ---
 
-## 2. Step 1: Dyson's Theorem and the Rejection of Point Gravitons
+### Master Deductive Transition Table
+
+| Target Physical Sector | Derived Law / Invariant | Authoritative Monograph Paper | Permanent Zenodo DOI |
+| :--- | :--- | :--- | :--- |
+| **4D $SU(3)_c$ Yang–Mills Mass Gap** | $\Delta = \hbar c\,\Lambda_{\mathrm{YM}}\mathcal{C}(SU(3)) pprox 1.5	ext{--}1.7	ext{ GeV}$ ($m_{0^{++}} = 1.65 \pm 0.10	ext{ GeV}$); OS0–OS4 & BRST Slavnov–Taylor | `Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.md` & `YANG_MILLS_ANALYTICAL_FOUNDATIONS_AND_DEFENSE.md` | [`10.5281/zenodo.24409149`](https://doi.org/10.5281/zenodo.24409149) (Concept: [`10.5281/zenodo.24315867`](https://doi.org/10.5281/zenodo.24315867)) |
+| **2-Loop Quantum Gravity UV Finiteness** | $\mathrm{Res}_{\epsilon 	o 0}\mathcal{A}_{\mathrm{GS}}^{(2)} \equiv 0$; $m_g \equiv 0$; $[\hat{\mathcal{H}}(N_1), \hat{\mathcal{H}}(N_2)] \equiv 0$ | `Universal_Emergent_Gravitation_Phase_Dynamics.md` | [`10.5281/zenodo.24348875`](https://doi.org/10.5281/zenodo.24348875) [`10.5281/zenodo.24354003`](https://doi.org/10.5281/zenodo.24354003) |
+| **Regular Black Holes & Unitary Page Curve** | Regular de Sitter core $r_0 = 2\ell_P$; $K_{\max} \sim \ell_P^{-4}$; $S_{\mathrm{rad}}(t) = \min(S_{\mathrm{th}}, S_{\mathrm{BH}})$ | `Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.md` | [`10.5281/zenodo.24312842`](https://doi.org/10.5281/zenodo.24312842) |
+| **Galactic Rotation Curves (SPARC)** | Zero-parameter RAR governed by $a_0 = c H_0 / (2\pi)$ across 178 galaxies | `SPARC_Benchmark_Phase_Dynamics.md` | [`10.5281/zenodo.24293024`](https://doi.org/10.5281/zenodo.24293024) |
+| **Relativistic Lensing & CMB Peaks** | $c_T \equiv c$; Bullet Cluster offset; Planck 2018 acoustic peaks $\ell_1 \dots \ell_8$ | `Relativistic_Lensing_Phase_Dynamics.md` & `Cosmological_Perturbations_CMB_Phase_Dynamics.md` | [`10.5281/zenodo.24293794`](https://doi.org/10.5281/zenodo.24293794) [`10.5281/zenodo.24301702`](https://doi.org/10.5281/zenodo.24301702) |
+| **Cosmic Dawn ($z \ge 10$) & Tensions ($H_0, S_8$)** | Early structure growth (JADES-GS-z14-0); KBC void $H_0$ & $S_8$ resolution | `JWST_HighZ_Galaxies_Phase_Dynamics.md`, `Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.md`, `S8_Cosmic_Shear_Tension_Phase_Dynamics.md` | [`10.5281/zenodo.24311502`](https://doi.org/10.5281/zenodo.24311502) [`10.5281/zenodo.24314424`](https://doi.org/10.5281/zenodo.24314424) [`10.5281/zenodo.24334557`](https://doi.org/10.5281/zenodo.24334557) |
+| **SM Hierarchy, Strong CP & Baryogenesis** | $ar{	heta} = 0$ (axion-free); Higgs mass hierarchy; $\eta_B$ topological baryogenesis | `Strong_CP_Problem_Phase_Dynamics.md`, `Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.md`, `Primordial_Baryogenesis_Topological_Phase_Dynamics.md` | [`10.5281/zenodo.24339308`](https://doi.org/10.5281/zenodo.24339308) [`10.5281/zenodo.24337610`](https://doi.org/10.5281/zenodo.24337610) [`10.5281/zenodo.24336680`](https://doi.org/10.5281/zenodo.24336680) |
+| **Laboratory Quantum Metrology** | $^{28}\mathrm{Si}$ nanosphere ($R pprox 75	ext{ nm}$, $M_{\mathrm{crit}} pprox 3.13	imes 10^{12}	ext{ amu}$, $	au_{\mathrm{crit}} pprox 10	ext{ ms}$) | `Experimentum_Crucis_1_Optomechanics.md` & `Quantum_Galileo_Phase_Dynamics.md` | [`10.5281/zenodo.24339965`](https://doi.org/10.5281/zenodo.24339965) [`10.5281/zenodo.24408031`](https://doi.org/10.5281/zenodo.24408031) |
+---
+
+## 2. Dyson's Theorem and the Operational Invisibility of Point Gravitons
 
 In 2013, Freeman Dyson proved an operational theorem establishing that the concept of an isolated, point-like quantum particle mediating gravitation—the "graviton"—is fundamentally unphysical.
 
@@ -87,7 +141,7 @@ where $r_s = 2GM/c^2$ is the Schwarzschild radius of the detector. Thus, the det
 
 ---
 
-## 3. Step 2: Phase Holonomies on Closed Loop Space $\mathcal{P}(\mathcal{M})$
+## 3. Phase Holonomies on Closed Loop Space $\mathcal{P}(\mathcal{M})$
 
 In the foundational formulation of quantum mechanics (Dirac 1931, Feynman 1948), the probability amplitude for any quantum transition is governed by the path phase factor:
 $$U[\gamma] = \exp \left( \frac{i}{\hbar} S[\gamma] \right)$$
@@ -109,7 +163,7 @@ proving absolute gauge invariance without external coordinates.
 
 ---
 
-## 4. Step 3: Construction of the Unified Operator $\mathbf{\Pi}_\mu$
+## 4. Construction of the Unified Operator $\mathbf{\Pi}_\mu$
 
 To unify spacetime translations with all known internal gauge symmetries, we define the unified canonical momentum-gauge operator $\mathbf{\Pi}_\mu$ on the principal bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$ with structure group:
 $$\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$$
@@ -138,7 +192,7 @@ This block-diagonal construction completely resolves the naive algebraic error o
 
 ---
 
-## 5. Step 4: Non-Abelian Stokes Theorem & Surface Holonomies
+## 5. Non-Abelian Stokes Theorem & Surface Curvature Holonomies
 
 A 1D closed contour $\partial \Sigma$ bounds a two-dimensional worldsheet or spacelike surface $\Sigma$. How does the loop holonomy relate to the field strengths on $\Sigma$?
 
@@ -171,7 +225,7 @@ Taking the continuous limit $N \to \infty$ with surface path-ordering $\mathcal{
 
 ---
 
-## 6. Step 5: Entire Analytic Schwinger Regulator (Cancellation of Goroff--Sagnotti)
+## 6. Entire Analytic Schwinger Regulator & Goroff--Sagnotti Cancellation
 
 In any quantum continuum path formulation, functional integration over wild, non-differentiable Brownian paths produces ultraviolet contact divergences and loop self-intersections.
 
@@ -208,7 +262,7 @@ $\blacksquare$
 
 ---
 
-## 7. Step 6: Relational Quantum Time & Wheeler--DeWitt Constraint Closure
+## 7. Relational Quantum Time & Wheeler--DeWitt Constraint Closure
 
 In standard physics, quantum field theory is formulated with respect to an external, unobservable coordinate time $t$. However, for a complete, self-contained universe, there is no external observer and no external clock.
 
@@ -229,7 +283,7 @@ $$[\hat{\mathcal{H}}(N_1), \, \hat{\mathcal{H}}(N_2)] \, \mathbf{\Psi}[\Sigma] \
 
 ---
 
-## 8. Step 7: Emergent Nature of Newton's Gravitational Constant $G$
+## 8. Emergent Origin of Newton's Gravitational Constant $G$
 
 A critical question is: *Was Newton's gravitational constant $G$ used to calculate or define the master-functional?*
 
