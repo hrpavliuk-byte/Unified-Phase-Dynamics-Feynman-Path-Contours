@@ -1,0 +1,44 @@
+{
+  "author": "H. Pavliuk (Hryhorii Pavliuk)",
+  "orcid": "0009-0000-0899-3463",
+  "theoretical_framework": "Unified Phase Dynamics of Feynman Path Contours (H. Pavliuk)",
+  "monograph_doi": "10.5281/zenodo.24226130",
+  "related_dois": [
+    "10.5281/zenodo.24410119",
+    "10.5281/zenodo.24335106"
+  ],
+  "core_parameters": {
+    "ell_P0_m": 1.6162550109013029e-35,
+    "r_0_m": 3.2325100218026057e-35,
+    "Kretschmann_at_r0": 1.282237622991902e+139,
+    "curvature_singularity": "Strictly eliminated, K(0) = 24 / r_0^4 < infinity"
+  },
+  "event_predictions": {
+    "GW150914": {
+      "mass_solar": 62.0,
+      "spin": 0.67,
+      "r_g_km": 183.10704168814647,
+      "qnm_frequency_hz": 251.0,
+      "echo_delay_ms": 97.26466889307822,
+      "comb_spacing_hz": 10.281225560941218
+    },
+    "GW190521": {
+      "mass_solar": 142.0,
+      "spin": 0.72,
+      "r_g_km": 419.37419225349674,
+      "qnm_frequency_hz": 65.0,
+      "echo_delay_ms": 218.4779902977417,
+      "comb_spacing_hz": 4.577120096341057
+    },
+    "Sagittarius_A_star": {
+      "mass_solar": 4150000.0,
+      "echo_delay_hours": 2.38,
+      "target_detector": "LISA (milli-Hertz band)"
+    },
+    "M87_star": {
+      "mass_solar": 6500000000.0,
+      "echo_delay_days": 155.0,
+      "target_detector": "Pulsar Timing Arrays (PTA)"
+    }
+  }
+}

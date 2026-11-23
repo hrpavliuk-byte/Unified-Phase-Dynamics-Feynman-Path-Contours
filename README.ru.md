@@ -58,6 +58,7 @@
 | **21** | **Первичные чёрные дыры и фон NANOGrav:** *Конформная фазовая динамика и регулярные квантовые ядра* | [Primordial_Black_Holes_and_NANOGrav_Phase_Dynamics.md](Primordial_Black_Holes_and_NANOGrav_Phase_Dynamics.md) | [`10.5281/zenodo.24446706`](https://doi.org/10.5281/zenodo.24446706) (v2.0) | [`10.5281/zenodo.24429632`](https://doi.org/10.5281/zenodo.24429632) |
 | **22** | **Абсолютный спектр масс дираковских нейтрино и лептонные холономии:** *Разрешение предела DESI и нулевой распад $0\nu\beta\beta$* | [Absolute_Dirac_Neutrino_Mass_Spectrum_Phase_Dynamics.md](Absolute_Dirac_Neutrino_Mass_Spectrum_Phase_Dynamics.md) | [`10.5281/zenodo.24445778`](https://doi.org/10.5281/zenodo.24445778) | [`10.5281/zenodo.24445777`](https://doi.org/10.5281/zenodo.24445777) |
 | **23** | **Массовый зазор на 3D комплексе Вороного–Делоне:** *Полный спектр глюболов и конденсация центровых вихрей* | [Exact_Non_Perturbative_Mass_Gap_3D_Voronoi_Delaunay.md](Exact_Non_Perturbative_Mass_Gap_3D_Voronoi_Delaunay.md) | [`10.5281/zenodo.24449225`](https://doi.org/10.5281/zenodo.24449225) (v1.0.0) | [`10.5281/zenodo.24449224`](https://doi.org/10.5281/zenodo.24449224) |
+| **24** | **Динамическое насыщение планковской шкалы и эхо ГВ:** *Расцепление квантовых сингулярностей кривизны через конденсацию фаз горизонта* | [Dynamic_Planck_Scale_Saturation_and_GW_Echoes.md](Dynamic_Planck_Scale_Saturation_and_GW_Echoes.md) | [`10.5281/zenodo.24463836`](https://doi.org/10.5281/zenodo.24463836) (v1.0.0) | [`10.5281/zenodo.24463835`](https://doi.org/10.5281/zenodo.24463835) |
 
 ---
 

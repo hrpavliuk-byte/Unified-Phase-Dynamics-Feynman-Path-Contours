@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "title": "Dynamic Planck Scale Saturation and Non-Singular Gravitational Wave Echoes in Unified Phase Dynamics: Decoupling Quantum Curvature Singularities via Horizon Phase Condensation",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p>The central curvature singularity of classical black holes represents the most severe foundational crisis of gravitational physics, signaling the pathological breakdown of General Relativity and quantum field theory in curved spacetime. In this work, within the deductive framework of the <em>Unified Phase Dynamics of Feynman Path Contours</em>, we present an exact derivation of the radial profile of the effective Planck scale:</p><p>&ell;<sub>P</sub><sup>eff</sup>(r) = &ell;<sub>P,0</sub> &radic;[r<sup>3</sup> / (r<sup>3</sup> + r<sub>g</sub> r<sub>0</sub><sup>2</sup>)], &emsp; with r<sub>0</sub> = 2&ell;<sub>P</sub> &approx; 3.2325 &times; 10<sup>&minus;35</sup> m</p><p>where r<sub>g</sub> = 2GM/c<sup>2</sup> is the Schwarzschild radius and &ell;<sub>P,0</sub> = &radic;(&hbar;G/c<sup>3</sup>). We rigorously demonstrate that as r &rarr; 0, the effective gravitational coupling vanishes (G<sub>eff</sub>(r) &prop; r<sup>3</sup> &rarr; 0), entirely decoupling quantum gravitational fluctuations and freezing the interior geometry into a non-singular, maximally symmetric de Sitter vacuum core with a finite Kretschmann curvature scalar:</p><p>K(0) = 24 / r<sub>0</sub><sup>4</sup> = 1.2822 &times; 10<sup>139</sup> m<sup>&minus;4</sup> &lt; &infin;</p><p>Geodesics are globally complete (&lambda; &isin; (&minus;&infin;, +&infin;)), and the Cauchy horizon mass inflation instability is completely quenched by the non-local Schwinger contour form-factor &Epsilon;(&Box;) = exp(&minus;4&ell;<sub>P</sub><sup>2</sup> &Box;<sup>2</sup>). The quantum phase condensation boundary at r<sub>0</sub> acts as a microscopic reflective wall, establishing an acoustic cavity between the inner de Sitter core and the exterior photon sphere (r<sub>peak</sub> &approx; 1.5 r<sub>g</sub>). We solve the Regge&ndash;Wheeler and Zerilli perturbation equations, proving that while prompt quasinormal ringing remains observationally identical to General Relativity (&delta;&omega;/&omega; &sim; 10<sup>&minus;76</sup>), trapped flux produces a periodic train of delayed gravitational wave echoes.</p><p>We calculate exact echo arrival delays and resonant Fourier comb spacings across the entire astrophysical mass spectrum: for <strong>GW150914</strong> (62.0 M<sub>&odot;</sub>), &Delta;t<sub>echo</sub> = 97.26 ms (&Delta;f<sub>echo</sub> = 10.28 Hz); for <strong>GW190521</strong> (142.0 M<sub>&odot;</sub>), &Delta;t<sub>echo</sub> = 218.48 ms (&Delta;f<sub>echo</sub> = 4.58 Hz); for <strong>Sagittarius A*</strong> (4.15 &times; 10<sup>6</sup> M<sub>&odot;</sub>), &Delta;t<sub>echo</sub> = 2.38 hours (&Delta;f<sub>echo</sub> = 0.117 mHz, targeted by LISA); and for <strong>M87*</strong> (6.5 &times; 10<sup>9</sup> M<sub>&odot;</sub>), &Delta;t<sub>echo</sub> = 155.0 days (&Delta;f<sub>echo</sub> = 74.7 nHz, accessible to Pulsar Timing Arrays). These results provide a definitive, zero-parameter test of non-singular quantum horizon physics in current and upcoming gravitational wave observatories.</p>",
+    "creators": [
+      {
+        "name": "Pavliuk, Hryhorii",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0000-0899-3463"
+      }
+    ],
+    "access_right": "open",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Regular Black Holes",
+      "Gravitational Wave Echoes",
+      "Dynamic Planck Scale",
+      "Singularity Resolution",
+      "Unified Phase Dynamics",
+      "Kretschmann Curvature Scalar",
+      "Resonant Frequency Comb",
+      "LIGO",
+      "Virgo",
+      "LISA",
+      "H. Pavliuk"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24226130",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.5281/zenodo.24312842",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24335106",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24446706",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24445778",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24449225",
+        "relation": "cites",
+        "scheme": "doi"
+      }
+    ]
+  }
+}

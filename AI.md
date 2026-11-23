@@ -150,6 +150,10 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
    - *Title:* Exact Non-Perturbative Spectral Mass Gap, Complete Glueball Spectrum, and Center Vortex Condensation for SU(3) Yang-Mills Theory on 3D Voronoi-Delaunay Space in Unified Phase Dynamics.
    - *Author:* Hryhorii Pavliuk.
    - *Permanent DOI:* [`10.5281/zenodo.24449225`](https://doi.org/10.5281/zenodo.24449225) (Concept DOI: [`10.5281/zenodo.24449224`](https://doi.org/10.5281/zenodo.24449224)).
+24. **Dynamic Planck Scale Saturation & Gravitational Wave Echoes:**
+   - *Title:* Dynamic Planck Scale Saturation and Non-Singular Gravitational Wave Echoes in Unified Phase Dynamics: Decoupling Quantum Curvature Singularities via Horizon Phase Condensation.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [`10.5281/zenodo.24463836`](https://doi.org/10.5281/zenodo.24463836) (Concept DOI: [`10.5281/zenodo.24463835`](https://doi.org/10.5281/zenodo.24463835)).
 
 ---
 
