@@ -1,7 +1,7 @@
 # On the Non-Perturbative Origin of Nucleon Mass and Yang-Mills Mass Gap: Analytical Derivation of Proton and Neutron Structure from Center Vortex Condensation
 
 **Author:** Hryhorii Pavliuk (Independent Researcher)  
-**ORCID:** [0009-0000-8800-4712](https://orcid.org/0009-0000-8800-4712)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Version:** 2.0.0 (Release Update: Non-Perturbative Nucleon Mass Spectrum, Analytical YM Mass Gap, and Chiral-EM Splitting)  
 **Date:** November 2026  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  

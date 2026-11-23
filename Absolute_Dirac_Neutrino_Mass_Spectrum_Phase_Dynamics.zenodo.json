@@ -1,0 +1,161 @@
+{
+  "title": "Absolute Dirac Neutrino Mass Spectrum, Topological Lepton Holonomies, and the Resolution of the DESI Cosmological Mass Bound in Unified Phase Dynamics",
+  "description": "<p>We present a first-principles deductive derivation of the absolute neutrino mass spectrum, leptonic flavor mixing angles, and cosmological mass bounds without postulating ad-hoc beyond-the-Standard-Model (BSM) right-handed sterile neutrinos, high-scale Majorana seesaw mechanisms ( \\sim 10^{14}$ GeV), or fine-tuned Yukawa couplings (\\nu \\sim 10^{-12}$).</p><p>In the <i>Unified Phase Dynamics of Feynman Path Contours</i>, the universal master-functional $\\mathbf{\\Psi}[\\Sigma]$ over the gauge-spacetime bundle $\\mathcal{P}(\\mathcal{M}, \\mathcal{G})$ is formulated over strictly orientable 1D closed loops. Reversing path orientation implements charge conjugation $\\hat{\\mathcal{C}}$. A Majorana identification $\\nu \\equiv \\nu^c$ requires non-orientable loop topologies (cross-caps or M&ouml;bius strips) which destroy the $\\mathrm{Spin}(3,1) \\cong SL(2, \\mathbb{C})$ spin structure and are topologically excluded from the physical Hilbert space $\\mathcal{H}_{\\mathrm{phys}}$. Consequently, lepton number is strictly conserved ($\\Delta L \\equiv 0$), the Weinberg dimension-5 operator vanishes identically ($\\mathcal{O}_5 \\equiv 0$), and neutrinos are proven to be <b>strictly Dirac fermions</b>.</p><p>This provides an analytical resolution to the 40-year null experimental results in neutrinoless double beta decay (\\nu\\beta\\beta$), predicting exact null observables ({\\beta\\beta} \\equiv 0, T_{1/2}^{0\\nu\\beta\\beta} \\to \\infty$) for KamLAND-Zen, GERDA, LEGEND-1000, and nEXO. Absolute Dirac neutrino masses originate non-perturbatively from the topological phase winding of the electroweak vacuum condensate ( = 246.22$ GeV), yielding the normal-ordered mass eigenvalues  = 1.22$ meV,  = 8.76$ meV, and  = 49.85$ meV. The resulting squared mass splittings ($\\Delta m_{21}^2 = 7.525 \\times 10^{-5}\\text{ eV}^2$ and $\\Delta m_{31}^2 = 2.484 \\times 10^{-3}\\text{ eV}^2$) match global oscillation benchmarks (NuFIT 5.2) within .03\\sigma$ and .12\\sigma$.</p><p>The total cosmological neutrino mass sum $\\sum m_\\nu = 0.0598$ eV naturally resolves the acute cosmological crisis posed by the DESI 2024 spectroscopic upper bound ($\\sum m_\\nu < 0.072$ eV) and Planck 2018 lensing limits, while predicting an effective tritium beta-decay kinematic mass \\beta = 8.89$ meV for next-generation RF cyclotrons (Project 8).</p>",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-11-22",
+  "creators": [
+    {
+      "name": "Pavliuk, Hryhorii",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0000-0899-3463"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Unified Phase Dynamics",
+    "Dirac Neutrinos",
+    "Neutrino Mass Spectrum",
+    "Topological Holonomies",
+    "Lepton Number Conservation",
+    "Neutrinoless Double Beta Decay",
+    "0vbb Decay",
+    "DESI 2024",
+    "NuFIT 5.2",
+    "Normal Ordering",
+    "PMNS Matrix",
+    "KATRIN",
+    "Project 8",
+    "Feynman Path Contours"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24226130",
+      "relation": "isPartOf",
+      "resource_type": "publication-book"
+    },
+    {
+      "identifier": "10.5281/zenodo.24409618",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-book"
+    },
+    {
+      "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/hrpavliuk-byte/Yang-Mills-Existence-and-Mass-Gap-Clay-Proof",
+      "relation": "references",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.24429633",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24410072",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24410119",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24410149",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24409534",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24409149",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24247286",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.5281/zenodo.24373382",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24408031",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24293024",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24293794",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24301702",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24311502",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24314424",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24334557",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24335106",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24336680",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24337610",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24338194",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24338710",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24339308",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Standalone research article derived from the Unified Phase Dynamics of Feynman Path Contours (Monograph DOI: 10.5281/zenodo.24226130). Rigorous non-perturbative proof of strictly Dirac neutrino nature and exact derivation of the absolute mass spectrum concordant with DESI 2024 and NuFIT 5.2.",
+  "version": "1.0.0"
+}

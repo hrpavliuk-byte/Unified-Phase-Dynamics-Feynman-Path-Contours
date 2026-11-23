@@ -1,0 +1,44 @@
+{
+  "theory": "Unified Phase Dynamics of Feynman Path Contours",
+  "author": "H. Pavliuk",
+  "monograph_doi": "10.5281/zenodo.24226130",
+  "fermion_nature": {
+    "neutrino_type": "Strictly DIRAC Fermion",
+    "majorana_neutrino_possible": false,
+    "reason": "Topological orientability of Feynman path contours on P(M, G); Delta L = 2 violation is strictly forbidden",
+    "neutrinoless_double_beta_decay_m_betabeta_eV": 0.0,
+    "neutrinoless_double_beta_decay_half_life": "Infinity (Forbidden)"
+  },
+  "mass_eigenstates_eV": {
+    "m1": 0.00122,
+    "m2": 0.00876,
+    "m3": 0.04985,
+    "sum_m_nu": 0.05983,
+    "hierarchy": "Normal Ordering (NO, strictly favored)"
+  },
+  "mass_squared_splittings_eV2": {
+    "delta_m21_sq_theory": 7.524920000000001e-05,
+    "delta_m21_sq_obs": 7.53e-05,
+    "delta_m21_sq_discrepancy_sigmas": 0.028222222222216344,
+    "delta_m31_sq_theory": 0.0024835340999999995,
+    "delta_m31_sq_obs": 0.00245,
+    "delta_m31_sq_discrepancy_sigmas": 1.1178033333333197
+  },
+  "pmns_mixing_angles_degrees": {
+    "theta12": 33.41,
+    "theta23": 49.2,
+    "theta13": 8.57,
+    "delta_cp": 195.0
+  },
+  "effective_experimental_masses_eV": {
+    "m_beta_kinematic": 0.008885184891927555,
+    "m_beta_limit_KATRIN": 0.8,
+    "m_betabeta_majorana": 0.0
+  },
+  "cosmological_concordance": {
+    "DESI_2024_bound_eV": 0.072,
+    "Planck_2018_bound_eV": 0.12,
+    "theory_sum_eV": 0.05983,
+    "satisfied": true
+  }
+}
