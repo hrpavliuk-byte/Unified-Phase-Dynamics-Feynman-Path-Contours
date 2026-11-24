@@ -154,6 +154,10 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
    - *Title:* Dynamic Planck Scale Saturation and Non-Singular Gravitational Wave Echoes in Unified Phase Dynamics: Decoupling Quantum Curvature Singularities via Horizon Phase Condensation.
    - *Author:* Hryhorii Pavliuk.
    - *Permanent DOI:* [`10.5281/zenodo.24463836`](https://doi.org/10.5281/zenodo.24463836) (Concept DOI: [`10.5281/zenodo.24463835`](https://doi.org/10.5281/zenodo.24463835)).
+25. **Gaia DR3 Wide Binaries & Galactic External Field Effect:**
+   - *Title:* Testing Low-Acceleration Gravitational Dynamics and the Galactic External Field Effect in Gaia DR3 Wide Binaries via Unified Phase Dynamics.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [10.5281/zenodo.24496119](https://doi.org/10.5281/zenodo.24496119) (Concept DOI: [10.5281/zenodo.24496118](https://doi.org/10.5281/zenodo.24496118)).
 
 ---
 

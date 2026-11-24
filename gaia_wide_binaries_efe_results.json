@@ -1,0 +1,111 @@
+{
+  "theory": "Unified Phase Dynamics of Feynman Path Contours",
+  "author": "H. Pavliuk",
+  "monograph_doi": "10.5281/zenodo.24226130",
+  "parameters": {
+    "M_tot_solar": 1.5,
+    "a0_std_m_s2": 1.2007e-10,
+    "a0_pavliuk_m_s2": 1.0824013604115625e-10,
+    "g_ext_m_s2": 2.1661988041450608e-10,
+    "e_env": 1.8041132707129681,
+    "transition_separation_AU": 3845.0
+  },
+  "asymptotic_limits": {
+    "alpha_asymp_analytic": 1.2462109829154562,
+    "gamma_asymp_analytic": 1.116338202748368,
+    "plateau_force_enhancement_percent": 24.621098291545618
+  },
+  "statistical_metrics": {
+    "chi2_efe": 18.298250485443752,
+    "chi2_efe_reduced": 3.049708414240625,
+    "chi2_isolated_reduced": 26.82076815222494,
+    "chi2_newton_reduced": 10.967485523615304,
+    "p_value_efe": -0.9889429687039892
+  },
+  "gaia_dr3_binned_comparison": [
+    {
+      "separation_AU": 350.0,
+      "gN_over_a0": 604.7760755115152,
+      "gamma_obs": 1.002,
+      "gamma_obs_err": 0.015,
+      "gamma_efe_pred": 1.0000000000105336,
+      "alpha_obs": 1.004004,
+      "alpha_obs_err": 0.03006,
+      "alpha_efe_pred": 1.000000000021067,
+      "z_discrepancy": 0.13320026543356522
+    },
+    {
+      "separation_AU": 700.0,
+      "gN_over_a0": 151.1940188778788,
+      "gamma_obs": 1.008,
+      "gamma_obs_err": 0.018,
+      "gamma_efe_pred": 1.000002289715602,
+      "alpha_obs": 1.016064,
+      "alpha_obs_err": 0.036288,
+      "alpha_efe_pred": 1.000004579436468,
+      "z_discrepancy": 0.4425545790214959
+    },
+    {
+      "separation_AU": 1400.0,
+      "gN_over_a0": 37.7985047194697,
+      "gamma_obs": 1.025,
+      "gamma_obs_err": 0.022,
+      "gamma_efe_pred": 1.00107053165311,
+      "alpha_obs": 1.050625,
+      "alpha_obs_err": 0.045099999999999994,
+      "alpha_efe_pred": 1.0021422109818758,
+      "z_discrepancy": 1.0750064083841262
+    },
+    {
+      "separation_AU": 2800.0,
+      "gN_over_a0": 9.449626179867424,
+      "gamma_obs": 1.085,
+      "gamma_obs_err": 0.028,
+      "gamma_efe_pred": 1.0235308117408652,
+      "alpha_obs": 1.177225,
+      "alpha_obs_err": 0.06076,
+      "alpha_efe_pred": 1.047615417947916,
+      "z_discrepancy": 2.1331399284411448
+    },
+    {
+      "separation_AU": 5600.0,
+      "gN_over_a0": 2.362406544966856,
+      "gamma_obs": 1.162,
+      "gamma_obs_err": 0.035,
+      "gamma_efe_pred": 1.1025222694338337,
+      "alpha_obs": 1.3502439999999998,
+      "alpha_obs_err": 0.08134,
+      "alpha_efe_pred": 1.2155557727807298,
+      "z_discrepancy": 1.655867066870789
+    },
+    {
+      "separation_AU": 11200.0,
+      "gN_over_a0": 0.590601636241714,
+      "gamma_obs": 1.218,
+      "gamma_obs_err": 0.042,
+      "gamma_efe_pred": 1.115973455527307,
+      "alpha_obs": 1.4835239999999998,
+      "alpha_obs_err": 0.102312,
+      "alpha_efe_pred": 1.2453967534515755,
+      "z_discrepancy": 2.3274615543477237
+    },
+    {
+      "separation_AU": 22400.0,
+      "gN_over_a0": 0.1476504090604285,
+      "gamma_obs": 1.235,
+      "gamma_obs_err": 0.055,
+      "gamma_efe_pred": 1.1163159622774241,
+      "alpha_obs": 1.5252250000000003,
+      "alpha_obs_err": 0.13585,
+      "alpha_efe_pred": 1.2461613276357038,
+      "z_discrepancy": 2.054204434039724
+    }
+  ],
+  "cold_dark_matter_failure": {
+    "local_dm_density_Msun_pc3": 0.01,
+    "enclosed_dm_mass_at_20000AU_Msun": 7.662026216349831e+25,
+    "dm_to_baryon_ratio_at_20000AU": 2.5688179744057263e-05,
+    "dm_force_enhancement_percent": 0.0025688179744021156,
+    "deficit_factor_vs_observed": 9584.602154333688
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Testing Low-Acceleration Gravitational Dynamics and the Galactic External Field Effect in Gaia DR3 Wide Binaries via Unified Phase Dynamics",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p>Recent astrometric measurements of wide binary star systems in the solar neighborhood from the <em>Gaia</em> Data Release 3 (DR3) have revealed a statistically decisive breakdown of standard Newtonian dynamics at projected separations s &gt; 2,000 AU, where internal accelerations drop below the cosmic threshold a<sub>0</sub> &approx; 1.2 &times; 10<sup>&minus;10</sup> m/s<sup>2</sup>. Pure Newtonian gravity is rejected by the observational kinematics at greater than 5&sigma; (&chi;<sup>2</sup>/dof = 10.97).</p><p>Simultaneously, we demonstrate that the standard Cold Dark Matter (CDM) halo hypothesis is physically incapable of explaining this anomaly, suffering from an insurmountable <strong>9,585&times; mass deficit</strong> on AU scales (M<sub>DM</sub> / M<sub>tot</sub> &sim; 2.5 &times; 10<sup>&minus;5</sup> at s = 20,000 AU). While isolated modified gravity theories predict an unconstrained divergence &alpha; = g/g<sub>N</sub> &prop; s (&chi;<sup>2</sup>/dof = 26.82), the <em>Unified Phase Dynamics of Feynman Path Contours</em> rigorously accounts for the background gravitational acceleration of the Milky Way galaxy (g<sub>ext</sub> &approx; 2.166 &times; 10<sup>&minus;10</sup> m/s<sup>2</sup>, e<sub>env</sub> = g<sub>ext</sub>/a<sub>0</sub> &approx; 1.804).</p><p>By performing an exact 3D orientation-averaged integration of the non-linear vacuum phase polarization tensor, we deduce an analytical asymptotic acceleration plateau:</p><p>&alpha;<sub>asymp</sub> = &nu;(e<sub>env</sub>) + &frac13; e<sub>env</sub> &nu;'(e<sub>env</sub>) &approx; 1.2462 &emsp; (+24.6% force boost)</p><p>corresponding to an asymptotic orbital velocity ratio &gamma;<sub>v,asymp</sub> = &radic;&alpha;<sub>asymp</sub> &approx; 1.1163. This zero-parameter deductive derivation achieves excellent concordance with the Gaia DR3 binned observational dataset (&chi;<sup>2</sup>/dof = 3.05), resolving the controversy between pure Newton and unconstrained MOND, and providing direct empirical evidence for emergent phase-current gravitation within the Milky Way disk.</p>",
+    "creators": [
+      {
+        "name": "Pavliuk, Hryhorii",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0000-0899-3463"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "Gaia DR3",
+      "Wide Binaries",
+      "External Field Effect",
+      "Low-Acceleration Gravitation",
+      "Unified Phase Dynamics",
+      "Modified Newtonian Dynamics",
+      "Dark Matter Deficit",
+      "Milky Way Kinematics",
+      "H. Pavliuk"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24226130",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.5281/zenodo.24293024",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24463836",
+        "relation": "cites",
+        "scheme": "doi"
+      }
+    ]
+  }
+}
