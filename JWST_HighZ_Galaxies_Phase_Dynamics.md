@@ -1,9 +1,12 @@
 # Resolution of the JWST High-Redshift Galaxy Crisis ($z \ge 10$) and Accelerated Cosmic Structure Formation via Feynman Path Phase Dynamics Without Cold Dark Matter
 
-**Hryhorii Pavliuk**  
+**Hryhorii Pavliuk (H. Pavliuk)**  
 *Independent Researcher*  
-Email: hrpavliuk@gmail.com  
-ORCID: 0009-0000-8800-4712  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
+*  
+*Dedicated Article DOI:* [10.5281/zenodo.24311501](https://doi.org/10.5281/zenodo.24311501) *(Concept DOI: [10.5281/zenodo.24311501](https://doi.org/10.5281/zenodo.24311501))*  
+*Permanent Theory Monograph DOI:* [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+*Repository:* [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
 
@@ -41,7 +44,7 @@ The functional $\mathbf{\Psi}[\Sigma]$ satisfies the Wheeler–DeWitt Hamiltonia
 ### 2.1. The Cosmological Vacuum Polarization Acceleration
 At the cosmological boundary, the vacuum phase is bounded by the causal Hubble horizon $R_H(z) = c / H(z)$. The quantum phase circulation along the horizon boundary induces a fundamental acceleration threshold:
 $$a_0(z) = \frac{c H(z)}{2\pi}. \tag{2}$$
-In the present epoch ($z = 0$, $H_0 = 67.4\ \mathrm{km/s/Mpc}$), Eq. (2) gives $a_0(0) = 1.20 \times 10^{-10}\ \mathrm{m/s}^2$, exactly matching the empirical MOND acceleration scale validated across 178 galaxies of the SPARC sample [9].
+In the present epoch ($z = 0$, $H_0 = 67.4\ \mathrm{km/s/Mpc}$), Eq. (2) gives $a_0(0) = 1.20 \times 10^{-10}\ \mathrm{m/s}^2$, exactly matching the empirical MOND acceleration scale validated across 175 galaxies of the SPARC sample and 3 satellite dwarf systems (178 systems) [9].
 
 Crucially, in the early Universe at $z \gg 1$, the expansion rate is dominated by matter and radiation:
 $$H(z) = H_0 \sqrt{\Omega_r (1+z)^4 + \Omega_m^{\mathrm{eff}} (1+z)^3 + \Omega_\Lambda}. \tag{3}$$
@@ -172,7 +175,7 @@ In this work, we have established:
 3. **Canonical Astrophysics Preserved:** The cumulative stellar mass density measured by JWST across $z = 8\text{--}15$ is fully reproduced with standard star-formation efficiency ($\epsilon_* \approx 0.15$) and a standard IMF, without invoking unphysical fine-tuning.
 4. **Morphological Concordance:** Phase circulation conservation explains the rapid settling of cold, rotationally supported stellar disks at cosmic dawn.
 
-Together with the exact benchmark of 178 SPARC galaxy rotation curves (DOI: `10.5281/zenodo.24293024`), the resolution of cluster lensing and spatial decoupling in the Bullet Cluster (DOI: `10.5281/zenodo.24293794`), and the analytical derivation of the CMB acoustic peaks (DOI: `10.5281/zenodo.24301702`), this work completes the fourth empirical pillar of Unified Phase Dynamics, demonstrating that spacetime phase geometrodynamics provides a coherent, particle-free description of the Universe across all cosmic epochs.
+Together with the exact benchmark of 175 SPARC galaxies and satellite systems (178 systems) (DOI: `10.5281/zenodo.24293023`), the resolution of cluster lensing and spatial decoupling in the Bullet Cluster (DOI: `10.5281/zenodo.24293793`), and the analytical derivation of the CMB acoustic peaks (DOI: `10.5281/zenodo.24301701`), this work completes the fourth empirical pillar of Unified Phase Dynamics, demonstrating that spacetime phase geometrodynamics provides a coherent, particle-free description of the Universe across all cosmic epochs.
 
 ---
 
@@ -184,9 +187,9 @@ Together with the exact benchmark of 178 SPARC galaxy rotation curves (DOI: `10.
 5. Ferreira, L., et al., *Panic! at the Disks: First Rest-frame Optical Observations of Galaxy Structure at $z > 3$ with JWST*, Astrophys. J. **938**, 2 (2022).
 6. McGaugh, S. S., *A Prediction for the Cosmic Web and High-z Galaxies in MOND*, Astrophys. J. **966**, 210 (2024).
 7. Kroupa, P., et al., *Asymmetrical tidal tails of open star clusters: direct evidence for non-Newtonian gravity and rapid early galaxy collapse*, Mon. Not. R. Astron. Soc. **517**, 3613–3626 (2022).
-8. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, CERN / Zenodo Record 24226130, DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (2026).
-9. Pavliuk, H., *Exact Benchmark of 178 Galaxy Rotation Curves and Systematic Resolution of the Dark Matter Problem via Feynman Path Phase Dynamics*, CERN / Zenodo Record 24293024, DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024) (2026).
-10. Pavliuk, H., *Analytical Resolution of the Cosmic Microwave Background Acoustic Peaks, Damping Tail, and Cosmological Perturbations via Feynman Path Phase Dynamics Without Cold Dark Matter*, CERN / Zenodo Record 24301702, DOI: [10.5281/zenodo.24301702](https://doi.org/10.5281/zenodo.24301702) (2026).
+8. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, CERN / Zenodo Record 24226129, DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (2026).
+9. Pavliuk, H., *Exact Benchmark of 178 Galaxy Rotation Curves and Systematic Resolution of the Dark Matter Problem via Feynman Path Phase Dynamics*, CERN / Zenodo Record 24293023, DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023) (2026).
+10. Pavliuk, H., *Analytical Resolution of the Cosmic Microwave Background Acoustic Peaks, Damping Tail, and Cosmological Perturbations via Feynman Path Phase Dynamics Without Cold Dark Matter*, CERN / Zenodo Record 24301701, DOI: [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701) (2026).
 11. Planck Collaboration (Aghanim, N., et al.), *Planck 2018 results. VI. Cosmological parameters*, Astron. Astrophys. **641**, A6 (2020).
 12. Carroll, S. M., Press, W. H., & Turner, E. L., *The cosmological constant*, Annu. Rev. Astron. Astrophys. **30**, 499–542 (1992).
 13. Sheth, R. K., & Tormen, G., *Large-scale bias and the peak background split*, Mon. Not. R. Astron. Soc. **308**, 119–126 (1999).

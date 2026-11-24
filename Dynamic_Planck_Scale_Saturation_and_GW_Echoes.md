@@ -2,9 +2,9 @@
 
 **Author:** H. Pavliuk (Hryhorii Pavliuk), Independent Researcher  
 **Author ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
-**Permanent Article DOI:** [10.5281/zenodo.24463836](https://doi.org/10.5281/zenodo.24463836) (Concept DOI: [10.5281/zenodo.24463835](https://doi.org/10.5281/zenodo.24463835))  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Related Dedicated Articles:** [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842) (Regular Black Holes & Page Curve), [10.5281/zenodo.24335106](https://doi.org/10.5281/zenodo.24335106) (QNM & Echoes), [10.5281/zenodo.24446706](https://doi.org/10.5281/zenodo.24446706) (PBH v2.0), [10.5281/zenodo.24445778](https://doi.org/10.5281/zenodo.24445778) (Neutrino Mass Spectrum), [10.5281/zenodo.24449225](https://doi.org/10.5281/zenodo.24449225) (3D Voronoi-Delaunay Yang-Mills)  
+**Permanent Concept DOI:** [10.5281/zenodo.24463835](https://doi.org/10.5281/zenodo.24463835) (Concept DOI: [10.5281/zenodo.24463835](https://doi.org/10.5281/zenodo.24463835))  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Related Dedicated Articles:** [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841) (Regular Black Holes & Page Curve), [10.5281/zenodo.24335105](https://doi.org/10.5281/zenodo.24335105) (QNM & Echoes), [10.5281/zenodo.24429632](https://doi.org/10.5281/zenodo.24429632) (PBH v2.0), [10.5281/zenodo.24445777](https://doi.org/10.5281/zenodo.24445777) (Neutrino Mass Spectrum), [10.5281/zenodo.24449224](https://doi.org/10.5281/zenodo.24449224) (3D Voronoi-Delaunay Yang-Mills)  
 **Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
@@ -294,12 +294,12 @@ This formulation resolves the black hole singularity problem from first principl
 ---
 
 ## References
-1. Pavliuk, H. (2024). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph, CERN / Zenodo. DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-2. Pavliuk, H. (2026). *Regular Black Holes and Unitary Page Curve in Unified Phase Dynamics*. Zenodo Preprints. DOI: [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842).
-3. Pavliuk, H. (2026). *Quasinormal Modes and Gravitational Wave Echoes from Regular Non-Singular Black Holes in Unified Phase Dynamics*. Zenodo Preprints. DOI: [10.5281/zenodo.24335106](https://doi.org/10.5281/zenodo.24335106).
-4. Pavliuk, H. (2026). *Primordial Black Holes, Dynamic Horizons, and NANOGrav Stochastic Gravitational Wave Background in Unified Phase Dynamics* (v2.0.0). Zenodo Preprints. DOI: [10.5281/zenodo.24446706](https://doi.org/10.5281/zenodo.24446706).
-5. Pavliuk, H. (2026). *Absolute Dirac Neutrino Mass Spectrum and Lepton Holonomies from Master Path Dynamics*. Zenodo Preprints. DOI: [10.5281/zenodo.24445778](https://doi.org/10.5281/zenodo.24445778).
-6. Pavliuk, H. (2026). *On the Exact Non-Perturbative Spectral Mass Gap of Three-Dimensional SU(3) Gauge Theory on Voronoi-Delaunay Complexes*. Zenodo Preprints. DOI: [10.5281/zenodo.24449225](https://doi.org/10.5281/zenodo.24449225).
+1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph, CERN / Zenodo. DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+2. Pavliuk, H. (2026). *Regular Black Holes and Unitary Page Curve in Unified Phase Dynamics*. Zenodo Preprints. DOI: [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841).
+3. Pavliuk, H. (2026). *Quasinormal Modes and Gravitational Wave Echoes from Regular Non-Singular Black Holes in Unified Phase Dynamics*. Zenodo Preprints. DOI: [10.5281/zenodo.24335105](https://doi.org/10.5281/zenodo.24335105).
+4. Pavliuk, H. (2026). *Primordial Black Holes, Dynamic Horizons, and NANOGrav Stochastic Gravitational Wave Background in Unified Phase Dynamics* (v2.0.0). Zenodo Preprints. DOI: [10.5281/zenodo.24429632](https://doi.org/10.5281/zenodo.24429632).
+5. Pavliuk, H. (2026). *Absolute Dirac Neutrino Mass Spectrum and Lepton Holonomies from Master Path Dynamics*. Zenodo Preprints. DOI: [10.5281/zenodo.24445777](https://doi.org/10.5281/zenodo.24445777).
+6. Pavliuk, H. (2026). *On the Exact Non-Perturbative Spectral Mass Gap of Three-Dimensional SU(3) Gauge Theory on Voronoi-Delaunay Complexes*. Zenodo Preprints. DOI: [10.5281/zenodo.24449224](https://doi.org/10.5281/zenodo.24449224).
 7. Abbott, B. P. et al. (LIGO Scientific Collaboration and Virgo Collaboration) (2016). *Observation of Gravitational Waves from a Binary Black Hole Merger*. Phys. Rev. Lett. 116, 061102.
 8. Abbott, R. et al. (LIGO Scientific Collaboration and Virgo Collaboration) (2020). *GW190521: A Binary Black Hole Merger with a Total Mass of $150 M_\odot$*. Phys. Rev. Lett. 125, 101102.
 9. Cardoso, V., Hopper, S., Macedo, C. F., Palenzuela, C., & Pani, P. (2016). *Gravitational-wave signatures of exotic compact objects and black hole echoes*. Phys. Rev. D 94, 084031.

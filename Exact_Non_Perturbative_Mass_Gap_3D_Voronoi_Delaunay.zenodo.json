@@ -27,7 +27,7 @@
     ],
     "related_identifiers": [
       {
-        "identifier": "10.5281/zenodo.24226130",
+        "identifier": "10.5281/zenodo.24226129",
         "relation": "isSupplementTo",
         "scheme": "doi"
       },
@@ -45,7 +45,14 @@
         "identifier": "10.5281/zenodo.24247286",
         "relation": "isAlternativeForm",
         "scheme": "doi"
+      },
+      {
+        "identifier": "https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/",
+        "relation": "isDocumentedBy",
+        "scheme": "url"
       }
-    ]
+    ],
+    "publication_date": "2026-11-24",
+    "version": "1.1.0"
   }
 }

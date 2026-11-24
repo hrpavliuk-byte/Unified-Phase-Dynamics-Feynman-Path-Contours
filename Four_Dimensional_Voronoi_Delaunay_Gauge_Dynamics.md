@@ -3,8 +3,8 @@
 **Author:** Hryhorii Pavliuk (H. Pavliuk), Independent Researcher  
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Permanent Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Dedicated Article DOI:** [10.5281/zenodo.24500937](https://doi.org/10.5281/zenodo.24500937) (Concept DOI: [10.5281/zenodo.24500936](https://doi.org/10.5281/zenodo.24500936))  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Dedicated Article DOI:** [10.5281/zenodo.24500936](https://doi.org/10.5281/zenodo.24500936) (Concept DOI: [10.5281/zenodo.24500936](https://doi.org/10.5281/zenodo.24500936))  
 **Version:** 4.0.0 (Voronoi--Delaunay Discrete Exterior Calculus Edition)  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
@@ -529,31 +529,31 @@ Osterwalder, K., \& Schrader, R., ``Axioms for Euclidean Green's functions,'' *C
 Osterwalder, K., \& Seiler, E., ``Gauge field theories on a lattice,'' *Ann. Phys.*, 110, 440--471 (1978).
 
 - **[Pavliuk2026Monograph]** 
-Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
+Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
 
 - **[Pavliuk2026SPARC]** 
-Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024).
+Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023).
 
 - **[Pavliuk2026Lensing]** 
-Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293794](https://doi.org/10.5281/zenodo.24293794).
+Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793).
 
 - **[Pavliuk2026CMB]** 
-Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301702](https://doi.org/10.5281/zenodo.24301702).
+Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701).
 
 - **[Pavliuk2026JWST]** 
-Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311502](https://doi.org/10.5281/zenodo.24311502).
+Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311501](https://doi.org/10.5281/zenodo.24311501).
 
 - **[Pavliuk2026BH]** 
-Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842).
+Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841).
 
 - **[Pavliuk2026Hubble]** 
-Pavliuk, H., *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*, Zenodo (2026). DOI: [10.5281/zenodo.24314424](https://doi.org/10.5281/zenodo.24314424).
+Pavliuk, H., *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*, Zenodo (2026). DOI: [10.5281/zenodo.24314423](https://doi.org/10.5281/zenodo.24314423).
 
 - **[Pavliuk2026Grav]** 
-Pavliuk, H., *Universal Emergent Gravitation from Quantum Vacuum Phase Gradients: Analytical Proof of the Equivalence Principle and Decoupling from Macroscopic Mass*, Zenodo (2026). DOI: [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003).
+Pavliuk, H., *Universal Emergent Gravitation from Quantum Vacuum Phase Gradients: Analytical Proof of the Equivalence Principle and Decoupling from Macroscopic Mass*, Zenodo (2026). DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874).
 
 - **[Pavliuk2026YM_R4]** 
-Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D $SU(3)$ Yang--Mills Theory on $\mathbb{R*^{4}$: An Analytical Approach via Feynman Path Holonomies and Center Vortex Condensation}, Zenodo (2026). DOI: [10.5281/zenodo.24231513](https://doi.org/10.5281/zenodo.24231513) (Concept DOI: [10.5281/zenodo.24231512](https://doi.org/10.5281/zenodo.24231512)).
+Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D $SU(3)$ Yang--Mills Theory on $\mathbb{R*^{4}$: An Analytical Approach via Feynman Path Holonomies and Center Vortex Condensation}, Zenodo (2026). DOI: [10.5281/zenodo.24231512](https://doi.org/10.5281/zenodo.24231512) (Concept DOI: [10.5281/zenodo.24231512](https://doi.org/10.5281/zenodo.24231512)).
 
 - **[Pavliuk2026YM_Voronoi]** 
 Pavliuk, H., *On the Mass Spectrum of Four-Dimensional $SU(3)$ Gauge Theory on Voronoi--Delaunay Complexes*, Zenodo (2026). DOI: [10.5281/zenodo.24247286](https://doi.org/10.5281/zenodo.24247286).

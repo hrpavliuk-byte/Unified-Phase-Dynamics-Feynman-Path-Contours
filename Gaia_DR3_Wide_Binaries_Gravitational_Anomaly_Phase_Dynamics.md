@@ -2,8 +2,9 @@
 
 **Author:** H. Pavliuk (Hryhorii Pavliuk), Independent Researcher  
 **Author ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Related Articles:** [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024) (SPARC Benchmark), [10.5281/zenodo.24293794](https://doi.org/10.5281/zenodo.24293794) (Relativistic Lensing), [10.5281/zenodo.24463836](https://doi.org/10.5281/zenodo.24463836) (Dynamic Planck Scale & Echoes)  
+**Permanent Concept DOI:** [10.5281/zenodo.24496118](https://doi.org/10.5281/zenodo.24496118)  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Related Articles:** [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023) (SPARC Benchmark), [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793) (Relativistic Lensing), [10.5281/zenodo.24463835](https://doi.org/10.5281/zenodo.24463835) (Dynamic Planck Scale & Echoes)  
 **Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
@@ -234,7 +235,7 @@ Wide binaries in our solar neighborhood thus provide direct, local, solar-system
 ---
 
 ## References
-1. Pavliuk, H. (2024). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. CERN / Zenodo. DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
+1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. CERN / Zenodo. DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
 2. Chae, K.-H. (2023). *Breakdown of the Newton-Einstein Standard Gravity at Low Acceleration in Internal Dynamics of Wide Binary Stars from GAIA DR3*. Astrophys. J. 952, 128.
 3. Hernandez, X., Cookson, S., & Cortés, R. A. M. (2023). *Internal kinematics of GAIA DR3 wide binaries: anomalous behavior in the low acceleration regime*. Mon. Not. R. Astron. Soc. 525, 3768.
 4. Hernandez, X. (2024). *Testing modified gravity with wide binaries in Gaia DR3*. Mon. Not. R. Astron. Soc. 528, 4720.

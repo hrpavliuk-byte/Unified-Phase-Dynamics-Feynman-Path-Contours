@@ -2,10 +2,12 @@
 
 **Hryhorii Pavliuk (H. Pavliuk)**  
 *Independent Researcher*  
-*ORCID: 0009-0000-8459-3356*  
-*Permanent Theory Monograph DOI:* [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-*SPARC Benchmark DOI:* [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024)  
-*Relativistic Lensing DOI:* [10.5281/zenodo.24293794](https://doi.org/10.5281/zenodo.24293794)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
+*  
+*Dedicated Article DOI:* [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701) *(Concept DOI: [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701))*
+*Permanent Theory Monograph DOI:* [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+*SPARC Benchmark DOI:* [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023)  
+*Relativistic Lensing DOI:* [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793)  
 *Repository:* [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
@@ -325,9 +327,9 @@ This work completes the unification of cosmological perturbation theory with gal
 ## References
 
 1. Planck Collaboration, Aghanim, N., et al., "Planck 2018 results. VI. Cosmological parameters," *Astron. Astrophys.* **641**, A6 (2020).
-2. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Zenodo Monograph, DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (2024).
-3. Pavliuk, H., *Exact Benchmark of 178 Galaxy Rotation Curves and Systematic Resolution of Kinematic Discrepancies in the SPARC Database via the Unified Phase Dynamics*, Zenodo Preprint, DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024) (2026).
-4. Pavliuk, H., *Relativistic Gravitational Lensing, 4-Vector Phase Dynamics, and Spatial Decoupling in Merging Galaxy Clusters: An Exact Solution to the Bullet Cluster, El Gordo, and Abell 520 Without Dark Matter*, Zenodo Preprint, DOI: [10.5281/zenodo.24293794](https://doi.org/10.5281/zenodo.24293794) (2026).
+2. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Zenodo Monograph, DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (2024).
+3. Pavliuk, H., *Exact Benchmark of 175 SPARC Galaxies and Satellite Systems (178 Systems) and Systematic Resolution of Kinematic Discrepancies in the SPARC Database via the Unified Phase Dynamics*, Zenodo Preprint, DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023) (2026).
+4. Pavliuk, H., *Relativistic Gravitational Lensing, 4-Vector Phase Dynamics, and Spatial Decoupling in Merging Galaxy Clusters: An Exact Solution to the Bullet Cluster, El Gordo, and Abell 520 Without Dark Matter*, Zenodo Preprint, DOI: [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793) (2026).
 5. Hu, W., & Sugiyama, N., "Small-Scale Cosmological Perturbations: An Analytic Approach," *Astrophys. J.* **471**, 542 (1996).
 6. Dodelson, S., *Modern Cosmology*, Academic Press (2003).
 7. Silk, J., "Cosmic Black-Body Radiation and Galaxy Formation," *Astrophys. J.* **151**, 459 (1968).

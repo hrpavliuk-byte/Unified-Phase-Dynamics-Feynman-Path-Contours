@@ -1,8 +1,9 @@
 # Electroweak Symmetry Breaking, Higgs Boson Mass (125.1 GeV), and Hierarchy Problem Resolution via Master Path Holonomies in Unified Phase Dynamics
 
 **Author:** Hryhorii Pavliuk (Independent Researcher)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Framework:** *Unified Phase Dynamics of Feynman Path Contours*  
-**Permanent Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Permanent Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **License:** Open Access, Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
 ---
@@ -150,5 +151,5 @@ The companion simulation script `simulate_electroweak_higgs_condensate.py` verif
 3. S. Navas *et al.* (Particle Data Group), *Phys. Rev. D* **110**, 030001 (2024).
 4. R. Barbieri and G. F. Giudice, *Nucl. Phys. B* **306**, 63--76 (1988).
 5. M. E. Peskin and T. Takeuchi, *Phys. Rev. D* **46**, 381--409 (1992).
-6. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours*, Monograph, DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (2026).
-7. H. Pavliuk, *Exact Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills on $\mathbb{R}^4$*, DOI: [10.5281/zenodo.24315868](https://doi.org/10.5281/zenodo.24315868) (2026).
+6. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours*, Monograph, DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (2026).
+7. H. Pavliuk, *Exact Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills on $\mathbb{R}^4$*, DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867) (2026).

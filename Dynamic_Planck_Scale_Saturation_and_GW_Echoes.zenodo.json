@@ -12,7 +12,7 @@
       }
     ],
     "access_right": "open",
-    "license": "CC-BY-4.0",
+    "license": "cc-by-4.0",
     "keywords": [
       "Regular Black Holes",
       "Gravitational Wave Echoes",
@@ -28,40 +28,47 @@
     ],
     "related_identifiers": [
       {
-        "identifier": "10.5281/zenodo.24226130",
+        "identifier": "10.5281/zenodo.24226129",
         "relation": "isSupplementTo",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
       },
       {
         "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
         "relation": "isSupplementedBy",
-        "scheme": "url"
+        "resource_type": "software"
       },
       {
-        "identifier": "10.5281/zenodo.24312842",
+        "identifier": "10.5281/zenodo.24312841",
         "relation": "cites",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
       },
       {
-        "identifier": "10.5281/zenodo.24335106",
+        "identifier": "10.5281/zenodo.24335105",
         "relation": "cites",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
       },
       {
-        "identifier": "10.5281/zenodo.24446706",
+        "identifier": "10.5281/zenodo.24429632",
         "relation": "cites",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
       },
       {
-        "identifier": "10.5281/zenodo.24445778",
+        "identifier": "10.5281/zenodo.24445777",
         "relation": "cites",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
       },
       {
-        "identifier": "10.5281/zenodo.24449225",
+        "identifier": "10.5281/zenodo.24449224",
         "relation": "cites",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/",
+        "relation": "isDocumentedBy",
+        "resource_type": "software"
       }
-    ]
+    ],
+    "publication_date": "2026-11-24",
+    "version": "1.1.0"
   }
 }

@@ -6,10 +6,10 @@
 **Date:** November 2026  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Official Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Concept DOI:** [10.5281/zenodo.24373381](https://doi.org/10.5281/zenodo.24373381) (Published v1 Record: [10.5281/zenodo.24373382](https://doi.org/10.5281/zenodo.24373382))  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (CERN / Zenodo / OpenAIRE, CC-BY-4.0)  
-**Dedicated Yang-Mills DOI:** [10.5281/zenodo.24409149](https://doi.org/10.5281/zenodo.24409149) (Concept: [10.5281/zenodo.24315868](https://doi.org/10.5281/zenodo.24315868))  
-**Emergent Gravitation DOI:** [10.5281/zenodo.24410072](https://doi.org/10.5281/zenodo.24410072) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874))  
+**Concept DOI:** [10.5281/zenodo.24373381](https://doi.org/10.5281/zenodo.24373381) (Published v1 Record: [10.5281/zenodo.24373381](https://doi.org/10.5281/zenodo.24373381))  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (CERN / Zenodo / OpenAIRE, CC-BY-4.0)  
+**Dedicated Yang-Mills DOI:** [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867) (Concept: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867))  
+**Emergent Gravitation DOI:** [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874))  
 **Subject Classifications:** High Energy Physics - Theory (`hep-th`); Nuclear Theory (`nucl-th`); High Energy Physics - Phenomenology (`hep-ph`); Mathematical Physics (`math-ph`)  
 
 ---
@@ -182,9 +182,9 @@ According to the Margolus--Levitin theorem of quantum limits on transition rates
 
 ## References
 
-1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph, CERN / Zenodo / OpenAIRE, DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-2. Pavliuk, H. (2026). *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang--Mills Theory on $\mathbb{R}^4$*. Zenodo Record 24409149, DOI: [10.5281/zenodo.24409149](https://doi.org/10.5281/zenodo.24409149) (Concept: [10.5281/zenodo.24315868](https://doi.org/10.5281/zenodo.24315868)).
-3. Pavliuk, H. (2026). *Universal Emergent Gravitation from Quantum Phase Oscillations: From Non-Perturbative Yang-Mills Mass Gap to de Broglie Wave Refraction, Relational Time, and General Relativity Without Gravitons*. Zenodo Record 24410072, DOI: [10.5281/zenodo.24410072](https://doi.org/10.5281/zenodo.24410072) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874)).
+1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph, CERN / Zenodo / OpenAIRE, DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+2. Pavliuk, H. (2026). *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang--Mills Theory on $\mathbb{R}^4$*. Zenodo Record 24315867, DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867) (Concept: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867)).
+3. Pavliuk, H. (2026). *Universal Emergent Gravitation from Quantum Phase Oscillations: From Non-Perturbative Yang-Mills Mass Gap to de Broglie Wave Refraction, Relational Time, and General Relativity Without Gravitons*. Zenodo Record 24348874, DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874)).
 4. Margolus, N., & Levitin, L. B. (1998). *The maximum speed of dynamical evolution*. Physica D: Nonlinear Phenomena, 120(1-2), 188-195. DOI: [10.1016/S0167-2789(98)00054-2](https://doi.org/10.1016/S0167-2789(98)00054-2).
 5. Workman, R. L., et al. (Particle Data Group) (2022). *Review of Particle Physics*. Progress of Theoretical and Experimental Physics, 2022(8), 083C01. DOI: [10.1093/ptep/ptac097](https://doi.org/10.1093/ptep/ptac097).
 6. Morningstar, C. J., & Peardon, M. (1999). *The Glueball spectrum from an anisotropic lattice study*. Physical Review D, 60(3), 034509. DOI: [10.1103/PhysRevD.60.034509](https://doi.org/10.1103/PhysRevD.60.034509).

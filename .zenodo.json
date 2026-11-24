@@ -1,0 +1,132 @@
+{
+  "title": "Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap (Version 3.1 Extended & Harmonized Edition)",
+  "description": "Version 3.1 (Extended & Harmonized Edition) of the foundational research monograph on the Unified Phase Dynamics of Feynman Path Contours by Hryhorii Pavliuk. Establishes a complete, non-perturbative deductive derivation of fundamental physical laws across General Relativity, Yang-Mills gauge theory, precision cosmology, and quantum optomechanics from Richard Feynman universal path contour master-functional without dark matter particles, ad-hoc inflaton fields, or unobservable gravitons. Section 3.4 rigorously harmonizes primordial cosmic inflation via conformal phase holonomies without inflaton fields (n_s = 0.96491, r = 0.00369).",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "publication_date": "2026-11-20",
+  "creators": [
+    {
+      "name": "Pavliuk, Hryhorii",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0000-0899-3463"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Unified Phase Dynamics",
+    "Feynman Path Contours",
+    "Yang-Mills Mass Gap",
+    "Hadronic Mass Spectrum",
+    "Proton Mass",
+    "Neutron-Proton Mass Splitting",
+    "Emergent Gravity",
+    "Quantum MOND",
+    "Radial Acceleration Relation",
+    "SPARC Galaxies",
+    "Cosmic Microwave Background",
+    "Acoustic Peaks",
+    "Hubble Tension",
+    "Regular Black Holes",
+    "Experimentum Crucis 1"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24293023",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24293793",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24301701",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24311501",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24312841",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24314423",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24315867",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24247285",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24334556",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24335105",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24336679",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24337609",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24338193",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24338709",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24339307",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24339964",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24373381",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24348874",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.24446936",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Comprehensive foundational research monograph (Second Extended Edition) with complete mathematical proofs, synthesis master tables across all 18 works, and AI audit protocols.",
+  "version": "3.1.0"
+}

@@ -1,9 +1,11 @@
 # Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid
 
-**Author:** Hryhorii Pavliuk (Independent Researcher)  
-**ORCID:** [0009-0000-8800-4712](https://orcid.org/0009-0000-8800-4712)  
+**Author:** Hryhorii Pavliuk (H. Pavliuk)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
+*Independent Researcher*  
+**Dedicated Article DOI:** [10.5281/zenodo.24314423](https://doi.org/10.5281/zenodo.24314423) *(Concept DOI: [10.5281/zenodo.24314423](https://doi.org/10.5281/zenodo.24314423))*  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **Permanent Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
 **Primary Subject:** Cosmology and Nongalactic Astrophysics (astro-ph.CO); High Energy Physics - Theory (hep-th); General Relativity and Quantum Cosmology (gr-qc)
 
 ---
@@ -309,12 +311,12 @@ and harmonizing the local SH0ES rate ($73.04 \pm 1.04\ \mathrm{km/s/Mpc}$) with 
 4. DESI Collaboration, "DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations," *arXiv:2404.03002* (2024).
 5. Freedman, W. L., et al., "The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch," *Astrophys. J.*, 882, 34 (2019); *Astrophys. J.*, 891, 57 (2020).
 6. Keenan, R. C., Barger, A. J., & Cowie, L. L., "Evidence for a $\sim 300\ \mathrm{Mpc}$ Scale Under-density in the Local Universe," *Astrophys. J.*, 775, 62 (2013).
-7. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-8. Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024).
-9. Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293794](https://doi.org/10.5281/zenodo.24293794).
-10. Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301702](https://doi.org/10.5281/zenodo.24301702).
-11. Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311502](https://doi.org/10.5281/zenodo.24311502).
-12. Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842).
+7. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+8. Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023).
+9. Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793).
+10. Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701).
+11. Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311501](https://doi.org/10.5281/zenodo.24311501).
+12. Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841).
 13. Planck Collaboration (Aghanim, N., et al.), "Planck 2018 results. VI. Cosmological parameters," *Astron. Astrophys.*, 641, A6 (2020).
 14. Riess, A. G., et al., "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team," *Astrophys. J. Lett.*, 934, L7 (2022).
 15. Riess, A. G., et al., "JWST Observations Reject Unrecognized Crowding of Cepheid Photometry as Explanation for the Hubble Tension," *Astrophys. J. Lett.*, 977, L24 (2024).

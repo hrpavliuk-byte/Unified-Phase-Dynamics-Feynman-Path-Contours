@@ -1,8 +1,9 @@
 # The Cosmological Constant Problem and Dynamic Phase Relaxation of Vacuum Energy in Unified Phase Dynamics
 
 **Author:** Hryhorii Pavliuk (Independent Researcher)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Theoretical Framework:** *Unified Phase Dynamics of Feynman Path Contours*  
-**Permanent Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Permanent Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **License:** Open Access, Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
 ---
@@ -120,5 +121,5 @@ Dark energy is not a static constant stretching to $t=0$, but the macroscopic ho
 3. D. Brout *et al.* (Pantheon+ Analysis), *Astrophys. J.* **938**, 110 (2022).
 4. N. Aghanim *et al.* (Planck Collaboration), *Astron. Astrophys.* **641}, A6 (2020).
 5. A. G. Adame *et al.* (DESI Collaboration), *DESI 2024 VI*, arXiv:2404.03002 (2024).
-6. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours*, Monograph, DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (2026).
-7. H. Pavliuk, *Galaxy Rotation Curves and Radial Acceleration Relation across SPARC*, DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024) (2026).
+6. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours*, Monograph, DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (2026).
+7. H. Pavliuk, *Galaxy Rotation Curves and Radial Acceleration Relation across SPARC*, DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023) (2026).

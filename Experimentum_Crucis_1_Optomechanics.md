@@ -1,14 +1,14 @@
 # Experimentum Crucis 1: Decisive Laboratory Test of Gravitationally Induced Quantum Decoherence via Cryogenic Cavity Optomechanics
 
 **Author:** H. Pavliuk (Hryhorii Pavliuk), Independent Researcher  
-**ORCID:** [0009-0000-8800-4712](https://orcid.org/0009-0000-8800-4712)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Version:** 2.0.0 (Release Update: Exact Calibrated Radius $R_0 = 81.1\text{ nm}$ for Silicon-28 and Precision Mass Sweep)  
 **Date:** November 2026  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Primary Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Concept DOI:** [10.5281/zenodo.24339964](https://doi.org/10.5281/zenodo.24339964) (Version 2.0.0 Record: [10.5281/zenodo.24410149](https://doi.org/10.5281/zenodo.24410149); Published v1 Record: [10.5281/zenodo.24339965](https://doi.org/10.5281/zenodo.24339965))  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Emergent Gravitation DOI:** [10.5281/zenodo.24410072](https://doi.org/10.5281/zenodo.24410072) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874))  
+**Concept DOI:** [10.5281/zenodo.24339964](https://doi.org/10.5281/zenodo.24339964) (Published v1 Record: [10.5281/zenodo.24339964](https://doi.org/10.5281/zenodo.24339964))  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Emergent Gravitation DOI:** [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874))  
 **Primary Subject:** Quantum Physics (quant-ph); General Relativity and Quantum Cosmology (gr-qc); Optics (physics.optics)
 
 ---
@@ -194,9 +194,9 @@ The observation of spatial superposition collapse at $\tau_{\mathrm{crit}} \appr
 ---
 
 ### References
-1. Pavliuk, H. *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph, 2026. DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-2. Pavliuk, H. *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D $SU(3)$ Yang--Mills Theory on $\mathbb{R}^4$*. Zenodo Record 24409149, DOI: [10.5281/zenodo.24409149](https://doi.org/10.5281/zenodo.24409149) (Concept: [10.5281/zenodo.24315868](https://doi.org/10.5281/zenodo.24315868)).
-3. Pavliuk, H. *Universal Emergent Gravitation from Localized Quantum Phase Oscillations*. Zenodo Record 24354003, DOI: [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003) (Concept: [10.5281/zenodo.24348875](https://doi.org/10.5281/zenodo.24348875)).
+1. Pavliuk, H. *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph, 2026. DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+2. Pavliuk, H. *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D $SU(3)$ Yang--Mills Theory on $\mathbb{R}^4$*. Zenodo Record 24315867, DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867) (Concept: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867)).
+3. Pavliuk, H. *Universal Emergent Gravitation from Localized Quantum Phase Oscillations*. Zenodo Record 24348874, DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874)).
 4. Pikovski, I., Zych, M., Castro, M., Brukner, Č. Universal decoherence due to gravitational time dilation. *Nature Physics* **11**, 668–672 (2015).
 5. Diósi, L. Models for universal reduction of macroscopic quantum fluctuations. *Physical Review A* **40**, 1165 (1989).
 6. Penrose, R. On gravity's role in quantum state reduction. *General Relativity and Gravitation* **28**, 581–600 (1996).

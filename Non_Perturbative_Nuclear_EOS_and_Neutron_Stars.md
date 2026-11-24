@@ -2,7 +2,8 @@
 
 **Author:** Hryhorii Pavliuk (H. Pavliuk), Independent Researcher  
 **Official ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Permanent Concept DOI:** [10.5281/zenodo.24497202](https://doi.org/10.5281/zenodo.24497202)  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **Permanent Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
@@ -166,7 +167,7 @@ All simulation scripts, tabular equations of state, and plotting codes are avail
 
 ## References
 
-1. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap*, Version 3.1 Extended Edition, Zenodo (2026), DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
+1. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap*, Version 3.1 Extended Edition, Zenodo (2026), DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
 2. Riley, T. E., et al., "A NICER View of PSR J0030+0451: Millisecond Pulsar Parameter Estimation," *Astrophys. J. Lett.* **887**, L21 (2019).
 3. Miller, M. C., et al., "PSR J0030+0451 Mass and Radius from NICER Data and Implications for the Properties of Nearly Pure Neutron Matter," *Astrophys. J. Lett.* **887**, L24 (2019).
 4. Riley, T. E., et al., "A NICER View of the Massive Pulsar PSR J0740+6620 Informed by Radio Timing and Gaia Data," *Astrophys. J. Lett.* **918**, L27 (2021).

@@ -3,8 +3,9 @@
 **Author:** Hryhorii Pavliuk (H. Pavliuk), Independent Researcher  
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Permanent Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Version:** 1.0.0 (Strict 3D Voronoi--Delaunay Space Edition)  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Permanent Concept DOI:** [10.5281/zenodo.24449224](https://doi.org/10.5281/zenodo.24449224)  
+**Version:** 1.1.0 (3D Voronoi--Delaunay Space Edition)  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
 ---
@@ -13,32 +14,14 @@
 We construct a non-perturbative mathematical framework establishing the rigorous existence of quantum Yang--Mills theory with compact gauge group $G = SU(3)$ on strictly three-dimensional physical space $\mathbb{R}^{3}$ discretized by a Poisson--Delaunay triangulation $\mathcal{T}_{a}$ and its circumcentric Voronoi dual $\mathcal{V}_{a}^{(3)}$ ($\langle z_{3D} \rangle = \frac{48\pi^{2}}{35} + 2 \approx 15.5355$), where time emerges solely as the continuous parameter of unitary quantum phase evolution, and prove the existence of a strictly positive spectral mass gap $\Delta > 0$ within the Unified Phase Dynamics of Feynman Path Contours. In this paradigm, where spatial geometry and gauge interactions originate from the path-contour master-functional $\Psi[\Sigma]$, the strong interaction sector in the absence of gravitons ($G \to 0$, $R^{\mu}_{\nu\alpha\beta} \equiv 0$) projects onto the non-Abelian holonomy manifold of $SU(3)_{c}$ on $\mathcal{V}_{a}^{(3)}$.
 
 The construction is established via four formal theorems:
-\begin{itemize}
-  \item \textbf{Theorem 1 (Invariant 3D Loop Measure \& Multiscale UV Stability):} Existence of the $\sigma$-additive vacuum measure $d\mu_{\mathrm{YM}}$ on the projective loop space $\overline{\mathcal{A}/\mathcal{G}}$ of $\mathcal{V}_{a}^{(3)}$ weighted by the 3D discrete Hodge star operators $(\tilde{\star}_{1}, \tilde{\star}_{2})$, with Peierls suppression of large-field fluctuations as $a \to 0$.
-  \item \textbf{Theorem 2 (Reflection Positivity OS2 \& Ghost-Free Semigroup Reconstruction):} Proof of strict positivity on the physical gauge-invariant Wilson loop algebra $\mathcal{A}_{+}^{\mathrm{phys}}$ via the self-adjoint Kogut--Susskind Hamiltonian $\hat{H}_{\mathrm{YM}}^{(3D)} \ge 0$ and contraction semigroup $e^{-\tau\hat{H}_{\mathrm{YM}}^{(3D)}}$, eliminating Schoenberg--Bochner obstructions and Lee--Wick/Ostrogradsky ghosts, and reconstructing $\mathcal{H}_{\mathrm{phys}} = \overline{\mathcal{A}_{+}^{\mathrm{phys}}/\mathcal{N}_{0}}$.
-  \item \textbf{Theorem 3 (Gauss-Law Gauge Covariance \& BRST Invariance to All Orders):} Exact discrete Gauss-law commutativity $[\hat{H}_{\mathrm{YM}}^{(3D)}, \hat{G}_{v}^{a}] \equiv 0$, off-shell BRST nilpotency $s^{2} \equiv 0$, anomaly-free measure, and exact Zinn-Justin identity $\mathcal{S}(\Gamma) = 0$.
-  \item \textbf{Theorem 4 (Non-Perturbative Mass Gap Lower Bound \& Complete Glueball Spectrum):} Proof of $\mathrm{Spec}(\hat{H}|_{\mathcal{H}_{\mathrm{phys}}^{\perp}}) \subset [\Delta, +\infty)$ with explicit two-sided bounds $\sqrt{6/\pi}\sqrt{\sigma} \approx 608.1~\mathrm{MeV} \le \Delta_{0^{++}} \le 2\sqrt{7\pi/6}\sqrt{\sigma} \approx 1684.7~\mathrm{MeV}$ ($1.65\text{--}1.68~\mathrm{GeV}$), matching continuum lattice QCD ($1.65 \pm 0.10~\mathrm{GeV}$), alongside the complete glueball spectrum ($0^{++}, 2^{++}, 0^{-+}, 0^{++*}, 2^{-+}, 3^{++}$), Regge trajectories ($\alpha'_{\mathbb{P}} \approx 0.25~\mathrm{GeV}^{-2}$), and the topological glueball-to-proton mass hierarchy ($1.65~\mathrm{GeV}$ vs. $938.3~\mathrm{MeV}$).
-\end{itemize}
+- **Theorem 1 (Invariant 3D Loop Measure & Multiscale UV Stability):** Existence of the $\sigma$-additive vacuum measure $d\mu_{\mathrm{YM}}$ on the projective loop space $\overline{\mathcal{A}/\mathcal{G}}$ of $\mathcal{V}_{a}^{(3)}$ weighted by the 3D discrete Hodge star operators $(\tilde{\star}_{1}, \tilde{\star}_{2})$, with Peierls suppression of large-field fluctuations as $a \to 0$.
+- **Theorem 2 (Reflection Positivity OS2 & Ghost-Free Semigroup Reconstruction):** Proof of strict positivity on the physical gauge-invariant Wilson loop algebra $\mathcal{A}_{+}^{\mathrm{phys}}$ via the self-adjoint Kogut--Susskind Hamiltonian $\hat{H}_{\mathrm{YM}}^{(3D)} \ge 0$ and contraction semigroup $e^{-\tau\hat{H}_{\mathrm{YM}}^{(3D)}}$, eliminating Schoenberg--Bochner obstructions and Lee--Wick/Ostrogradsky ghosts, and reconstructing $\mathcal{H}_{\mathrm{phys}} = \overline{\mathcal{A}_{+}^{\mathrm{phys}}/\mathcal{N}_{0}}$.
+- **Theorem 3 (Gauss-Law Gauge Covariance & BRST Invariance to All Orders):** Exact discrete Gauss-law commutativity $[\hat{H}_{\mathrm{YM}}^{(3D)}, \hat{G}_{v}^{a}] \equiv 0$, off-shell BRST nilpotency $s^{2} \equiv 0$, anomaly-free measure, and exact Zinn-Justin identity $\mathcal{S}(\Gamma) = 0$.
+- **Theorem 4 (Non-Perturbative Mass Gap Lower Bound & Complete Glueball Spectrum):** Proof of $\mathrm{Spec}(\hat{H}|_{\mathcal{H}_{\mathrm{phys}}^{\perp}}) \subset [\Delta, +\infty)$ with explicit two-sided bounds $\sqrt{6/\pi}\sqrt{\sigma} \approx 608.1~\mathrm{MeV} \le \Delta_{0^{++}} \le 2\sqrt{7\pi/6}\sqrt{\sigma} \approx 1684.7~\mathrm{MeV}$ ($1.65\text{--}1.68~\mathrm{GeV}$), matching continuum lattice QCD ($1.65 \pm 0.10~\mathrm{GeV}$), alongside the complete glueball spectrum ($0^{++}, 2^{++}, 0^{-+}, 0^{++*}, 2^{-+}, 3^{++}$), Regge trajectories ($\alpha'_{\mathbb{P}} \approx 0.25~\mathrm{GeV}^{-2}$), and the topological glueball-to-proton mass hierarchy ($1.65~\mathrm{GeV}$ vs. $938.3~\mathrm{MeV}$).
 
 ---
 
-![Voronoi-Delaunay vs Hypercubic Simulation](voronoi_vs_hypercubic_4d_simulation.png)
-
----
-
-
-
-\begin{abstract}
-We construct a non-perturbative mathematical framework establishing the rigorous existence of quantum Yang--Mills theory with compact gauge group $G = SU(3)$ on strictly three-dimensional physical space $\mathbb{R}^{3}$ discretized by a Poisson--Delaunay triangulation $\mathcal{T}_{a}$ and its circumcentric Voronoi dual $\mathcal{V}_{a}^{(3)}$ ($\langle z_{3D} \rangle = \frac{48\pi^{2}}{35} + 2 \approx 15.5355$), where time emerges solely as the continuous parameter of unitary quantum phase evolution, and prove the existence of a strictly positive spectral mass gap $\Delta > 0$ within the Unified Phase Dynamics of Feynman Path Contours. In this paradigm, where spatial geometry and gauge interactions originate from the path-contour master-functional $\Psi[\Sigma]$, the strong interaction sector in the absence of gravitons ($G \to 0$, $R^{\mu}_{\nu\alpha\beta} \equiv 0$) projects onto the non-Abelian holonomy manifold of $SU(3)_{c}$ on $\mathcal{V}_{a}^{(3)}$.
-
-The construction is established via four formal theorems:
-\begin{itemize}
-  - **Theorem 1 (Invariant 3D Loop Measure \& Multiscale UV Stability):** Existence of the $\sigma$-additive vacuum measure $d\mu_{\mathrm{YM}}$ on the projective loop space $\overline{\mathcal{A}/\mathcal{G}}$ of $\mathcal{V}_{a}^{(3)}$ weighted by the 3D discrete Hodge star operators $(\tilde{\star}_{1}, \tilde{\star}_{2})$, with Peierls suppression of large-field fluctuations as $a \to 0$.
-  - **Theorem 2 (Reflection Positivity OS2 \& Ghost-Free Semigroup Reconstruction):** Proof of strict positivity on the physical gauge-invariant Wilson loop algebra $\mathcal{A}_{+}^{\mathrm{phys}}$ via the self-adjoint Kogut--Susskind Hamiltonian $\hat{H}_{\mathrm{YM}}^{(3D)} \ge 0$ and contraction semigroup $e^{-\tau\hat{H}_{\mathrm{YM}}^{(3D)}}$, eliminating Schoenberg--Bochner obstructions and Lee--Wick/Ostrogradsky ghosts, and reconstructing $\mathcal{H}_{\mathrm{phys}} = \overline{\mathcal{A}_{+}^{\mathrm{phys}}/\mathcal{N}_{0}}$.
-  - **Theorem 3 (Gauss-Law Gauge Covariance \& BRST Invariance to All Orders):** Exact discrete Gauss-law commutativity $[\hat{H}_{\mathrm{YM}}^{(3D)}, \hat{G}_{v}^{a}] \equiv 0$, off-shell BRST nilpotency $s^{2} \equiv 0$, anomaly-free measure, and exact Zinn-Justin identity $\mathcal{S}(\Gamma) = 0$.
-  - **Theorem 4 (Non-Perturbative Mass Gap Lower Bound \& Complete Glueball Spectrum):** Proof of $\mathrm{Spec}(\hat{H}|_{\mathcal{H}_{\mathrm{phys}}^{\perp}}) \subset [\Delta, +\infty)$ with explicit two-sided bounds $\sqrt{6/\pi}\sqrt{\sigma} \approx 608.1~\mathrm{MeV} \le \Delta_{0^{++}} \le 2\sqrt{7\pi/6}\sqrt{\sigma} \approx 1684.7~\mathrm{MeV}$ ($1.65\text{--}1.68~\mathrm{GeV}$), matching continuum lattice QCD ($1.65 \pm 0.10~\mathrm{GeV}$), alongside the complete glueball spectrum ($0^{++}, 2^{++}, 0^{-+}, 0^{++*}, 2^{-+}, 3^{++}$), Regge trajectories ($\alpha'_{\mathbb{P}} \approx 0.25~\mathrm{GeV}^{-2}$), and the topological glueball-to-proton mass hierarchy ($1.65~\mathrm{GeV}$ vs. $938.3~\mathrm{MeV}$).
-\end{itemize}
-\end{abstract}
+![3D Voronoi-Delaunay vs Hypercubic Simulation](voronoi_vs_hypercubic_simulation.png)
 
 ## Introduction and Non-Perturbative Problem Statement
 
@@ -374,28 +357,28 @@ Osterwalder, K., \& Schrader, R., ``Axioms for Euclidean Green's functions,'' *C
 Osterwalder, K., \& Seiler, E., ``Gauge field theories on a lattice,'' *Ann. Phys.*, 110, 440--471 (1978).
 
 - **[Pavliuk2026Monograph]** 
-Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
+Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
 
 - **[Pavliuk2026SPARC]** 
-Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024).
+Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023).
 
 - **[Pavliuk2026Lensing]** 
-Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293794](https://doi.org/10.5281/zenodo.24293794).
+Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793).
 
 - **[Pavliuk2026CMB]** 
-Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301702](https://doi.org/10.5281/zenodo.24301702).
+Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701).
 
 - **[Pavliuk2026JWST]** 
-Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311502](https://doi.org/10.5281/zenodo.24311502).
+Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311501](https://doi.org/10.5281/zenodo.24311501).
 
 - **[Pavliuk2026BH]** 
-Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842).
+Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841).
 
 - **[Pavliuk2026Hubble]** 
-Pavliuk, H., *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*, Zenodo (2026). DOI: [10.5281/zenodo.24314424](https://doi.org/10.5281/zenodo.24314424).
+Pavliuk, H., *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*, Zenodo (2026). DOI: [10.5281/zenodo.24314423](https://doi.org/10.5281/zenodo.24314423).
 
 - **[Pavliuk2026Grav]** 
-Pavliuk, H., *Universal Emergent Gravitation from Quantum Vacuum Phase Gradients: Analytical Proof of the Equivalence Principle and Decoupling from Macroscopic Mass*, Zenodo (2026). DOI: [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003).
+Pavliuk, H., *Universal Emergent Gravitation from Quantum Vacuum Phase Gradients: Analytical Proof of the Equivalence Principle and Decoupling from Macroscopic Mass*, Zenodo (2026). DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874).
 
 - **[Simon1974]** 
 Simon, B., *The $P(\phi)_{2*$ Euclidean (Quantum) Field Theory}, Princeton University Press, Princeton (1974).

@@ -26,25 +26,32 @@
     ],
     "related_identifiers": [
       {
-        "identifier": "10.5281/zenodo.24226130",
+        "identifier": "10.5281/zenodo.24226129",
         "relation": "isSupplementTo",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
       },
       {
         "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
         "relation": "isSupplementedBy",
-        "scheme": "url"
+        "resource_type": "software"
       },
       {
-        "identifier": "10.5281/zenodo.24293024",
+        "identifier": "10.5281/zenodo.24293023",
         "relation": "cites",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
       },
       {
-        "identifier": "10.5281/zenodo.24463836",
+        "identifier": "10.5281/zenodo.24463835",
         "relation": "cites",
-        "scheme": "doi"
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/",
+        "relation": "isDocumentedBy",
+        "resource_type": "software"
       }
-    ]
+    ],
+    "publication_date": "2026-11-24",
+    "version": "1.1.0"
   }
 }
