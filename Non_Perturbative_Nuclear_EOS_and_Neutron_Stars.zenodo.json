@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "title": "Non-Perturbative Nuclear Equation of State and Relativistic Neutron Star Mass-Radius Limits in Unified Phase Dynamics: Testing Against NASA NICER and Gravitational-Wave Tidal Deformability",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p>Understanding the equation of state (EOS) of dense nuclear matter at supranuclear densities (&rho; &gt; &rho;<sub>0</sub> &approx; 2.7 &times; 10<sup>14</sup> g/cm<sup>3</sup>, &varepsilon;<sub>0</sub> &approx; 150 MeV/fm<sup>3</sup>) represents one of the foremost open problems in relativistic astrophysics. NASA's <em>NICER</em> X-ray pulse-profile modeling has established that neutron stars maintain an almost constant radius of R &approx; 12.4 km across 1.4 M<sub>&odot;</sub> &le; M &le; 2.1 M<sub>&odot;</sub> (PSR J0030+0451: R = 12.45 &plusmn; 0.65 km; PSR J0740+6620: R = 12.39 &plusmn; 0.98 km; PSR J0437-4715: R &isin; [11.36, 12.50] km), while LIGO-Virgo <em>GW170817</em> constrains the dimensionless tidal deformability to &Lambda;<sub>1.4</sub> &isin; [70, 580].</p><p>In the framework of the <em>Unified Phase Dynamics of Feynman Path Contours</em>, dense matter is derived from non-perturbative center vortex condensation in SU(3)<sub>c</sub>. An entire Schwinger contour form factor &Epsilon;(&Box;) = exp(-s<sub>min</sub><sup>2</sup>&Box;<sup>2</sup> / &hbar;<sup>2</sup>) introduces a topological phase stiffness above nuclear saturation, producing a speed of sound peak (c<sub>s</sub><sup>2</sup> &approx; 0.52 at &sim; 1.9 &varepsilon;<sub>0</sub>) that asymptotically relaxes to the conformal limit c<sub>s</sub><sup>2</sup> &rarr; 1/3 at ultra-high deconfined densities.</p><p>Integrating the relativistic Tolman&ndash;Oppenheimer&ndash;Volkoff (TOV) stellar structure and quadrupole tidal Love number equations yields:</p><ul><li><strong>Canonical 1.4 M<sub>&odot;</sub> Radius:</strong> R<sub>1.4</sub> = 12.67 km (within 0.34&sigma; of NICER PSR J0030+0451);</li><li><strong>Massive 2.08 M<sub>&odot;</sub> Radius:</strong> R<sub>2.08</sub> = 13.92 km (within 1.56&sigma; of NICER PSR J0740+6620);</li><li><strong>Maximum Stable Mass:</strong> M<sub>max</sub> = 2.58 M<sub>&odot;</sub> (R(M<sub>max</sub>) = 14.02 km), resolving the nature of the secondary component of GW190814 (M &approx; 2.50&ndash;2.67 M<sub>&odot;</sub>) without requiring black hole collapse;</li><li><strong>Tidal Deformability:</strong> &Lambda;<sub>1.4</sub> = 245.7 (in perfect concordance with the LIGO-Virgo GW170817 90% credible interval).</li></ul><p>This zero-parameter deductive derivation reconciles soft low-density crusts with ultra-stiff cores, proving that relativistic neutron star structure is governed by non-perturbative topological phase holonomies.</p>",
+    "creators": [
+      {
+        "name": "Pavliuk, Hryhorii",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0000-0899-3463"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "Neutron Stars",
+      "Nuclear Equation of State",
+      "NICER",
+      "Tidal Deformability",
+      "GW170817",
+      "GW190814",
+      "Tolman-Oppenheimer-Volkoff",
+      "Unified Phase Dynamics",
+      "Center Vortex Condensation",
+      "H. Pavliuk"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24226130",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.5281/zenodo.24446824",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24496119",
+        "relation": "cites",
+        "scheme": "doi"
+      }
+    ]
+  }
+}

@@ -158,6 +158,11 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
    - *Title:* Testing Low-Acceleration Gravitational Dynamics and the Galactic External Field Effect in Gaia DR3 Wide Binaries via Unified Phase Dynamics.
    - *Author:* Hryhorii Pavliuk.
    - *Permanent DOI:* [10.5281/zenodo.24496119](https://doi.org/10.5281/zenodo.24496119) (Concept DOI: [10.5281/zenodo.24496118](https://doi.org/10.5281/zenodo.24496118)).
+26. **Nuclear Equation of State & Relativistic Neutron Stars:**
+   - *Title:* Non-Perturbative Nuclear Equation of State and Relativistic Neutron Star Mass-Radius Limits in Unified Phase Dynamics: Testing Against NASA NICER and Gravitational-Wave Tidal Deformability.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [10.5281/zenodo.24497203](https://doi.org/10.5281/zenodo.24497203) (Concept DOI: [10.5281/zenodo.24497202](https://doi.org/10.5281/zenodo.24497202)).
+   - *Summary:* Non-perturbative center vortex condensation in (3)_c$ induces a topological phase stiffness above nuclear saturation density $\varepsilon_0 \approx 150\text{ MeV/fm}^3$, generating a causal sound speed peak ^2 \approx 0.52\,c^2$ at .9\,\varepsilon_0$. Relativistic TOV and tidal perturbation integration yields {1.4} = 12.67\text{ km}$ (.34\sigma$ from NICER PSR J0030+0451), {2.08} = 13.92\text{ km}$ (.56\sigma$ from NICER PSR J0740+6620), maximum stable mass {\max} = 2.58 M_\odot$ (resolving the GW190814 secondary component without black hole collapse), and tidal deformability $\Lambda_{1.4} = 245.7$ (strictly inside the LIGO-Virgo GW170817 90% credible interval).
 
 ---
 

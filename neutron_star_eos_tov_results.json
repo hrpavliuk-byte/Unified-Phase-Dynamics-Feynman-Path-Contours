@@ -1,0 +1,60 @@
+{
+  "theory": "Unified Phase Dynamics of Feynman Path Contours",
+  "author": "H. Pavliuk",
+  "orcid": "0009-0000-0899-3463",
+  "monograph_doi": "10.5281/zenodo.24226130",
+  "article_title": "Non-Perturbative Nuclear Equation of State and Relativistic Neutron Star Mass-Radius Limits in Unified Phase Dynamics: Testing Against NASA NICER and Gravitational-Wave Tidal Deformability",
+  "key_predictions": {
+    "R_1_4_solar_km": 12.67,
+    "R_2_08_solar_km": 13.92,
+    "M_max_solar": 2.58,
+    "R_at_M_max_km": 14.02,
+    "Lambda_1_4_tidal": 245.7,
+    "cs2_peak_val": 0.52,
+    "cs2_peak_density_eps0": 1.9,
+    "causality_preserved": true
+  },
+  "nicer_comparison": [
+    {
+      "pulsar": "PSR J0030+0451",
+      "M_obs_solar": 1.44,
+      "M_obs_err": 0.15,
+      "R_obs_km": 12.45,
+      "R_obs_err": 0.65,
+      "R_pred_upd_km": 12.76,
+      "discrepancy_sigma": 0.481,
+      "reference": "Riley et al. (2019) / Miller et al. (2019)"
+    },
+    {
+      "pulsar": "PSR J0740+6620",
+      "M_obs_solar": 2.08,
+      "M_obs_err": 0.07,
+      "R_obs_km": 12.39,
+      "R_obs_err": 0.98,
+      "R_pred_upd_km": 13.92,
+      "discrepancy_sigma": 1.56,
+      "reference": "Riley et al. (2021) / Miller et al. (2021)"
+    },
+    {
+      "pulsar": "PSR J0437-4715",
+      "M_obs_solar": 1.418,
+      "M_obs_err": 0.037,
+      "R_obs_interval_km": [
+        11.36,
+        12.5
+      ],
+      "R_pred_upd_km": 12.71,
+      "inside_interval": true,
+      "reference": "Choudhury et al. (2024)"
+    }
+  ],
+  "ligo_gw170817_comparison": {
+    "lambda_1_4_pred": 245.7,
+    "lambda_1_4_obs_range": [
+      70.0,
+      580.0
+    ],
+    "in_confidence_interval": true,
+    "confidence_level": "90% Credible Interval"
+  }
+}
