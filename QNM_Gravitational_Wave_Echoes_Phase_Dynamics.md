@@ -1,9 +1,9 @@
 # Quasinormal Modes and Gravitational Wave Echoes from Regular Non-Singular Black Holes in Unified Phase Dynamics
 
 **Author:** Hryhorii Pavliuk (H. Pavliuk), Independent Researcher  
-**Email:** `hrpavliuk@gmail.com` | **ORCID:** `0009-0002-3904-4530`  
-**Core Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Dedicated Paper DOI:** [10.5281/zenodo.24335106](https://doi.org/10.5281/zenodo.24335106)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
+**Dedicated Article DOI:** [10.5281/zenodo.24335105](https://doi.org/10.5281/zenodo.24335105) *(Concept DOI: [10.5281/zenodo.24335105](https://doi.org/10.5281/zenodo.24335105))*  
+**Permanent Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **Official Code & Data Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
@@ -222,6 +222,6 @@ We have demonstrated that the non-singular regular black hole geometry derived f
 10. J. Abedi, H. Dykaar, and N. Afshordi, *Echoes from the Abyss: Tentative evidence for strange physics in the post-merger gravitational-wave data from Advanced LIGO*, Phys. Rev. D **96**, 082004 (2017).
 11. V. Cardoso, E. Franzin, and P. Pani, *Is the Gravitational-Wave Ringdown a Probe of the Event Horizon?*, Phys. Rev. Lett. **116**, 171101 (2016); Erratum Phys. Rev. Lett. **117**, 089902 (2016).
 12. V. Cardoso, S. Hopper, C. F. B. Macedo, C. Palenzuela, and P. Pani, *Gravitational-wave signatures of exotic compact objects and of quantum corrections at the horizon scale*, Phys. Rev. D **94**, 084031 (2016).
-13. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo DOI: 10.5281/zenodo.24226130 (2026).
-14. H. Pavliuk, *Non-Singular Interior Geometry and Deductive Derivation of the Unitary Page Curve for Regular Black Holes in Unified Phase Dynamics*, Zenodo DOI: 10.5281/zenodo.24312842 (2026).
+13. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo DOI: 10.5281/zenodo.24226129 (2026).
+14. H. Pavliuk, *Non-Singular Interior Geometry and Deductive Derivation of the Unitary Page Curve for Regular Black Holes in Unified Phase Dynamics*, Zenodo DOI: 10.5281/zenodo.24312841 (2026).
 15. E. Poisson and W. Israel, *Inner-horizon instability and mass inflation in black holes*, Phys. Rev. Lett. **63**, 1663 (1989).

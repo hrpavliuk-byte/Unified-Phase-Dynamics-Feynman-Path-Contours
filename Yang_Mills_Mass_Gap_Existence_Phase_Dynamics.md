@@ -1,12 +1,12 @@
 # Exact Non-Perturbative Spectral Mass Gap, Complete Glueball Spectrum, and Center Vortex Condensation for 4D $SU(3)$ Yang–Mills Theory on $\mathbb{R}^4$ in Unified Phase Dynamics
 
 **Author:** Hryhorii Pavliuk (Independent Researcher)  
-**ORCID:** [0009-0000-8800-4712](https://orcid.org/0009-0000-8800-4712)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Permanent Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **Version:** 3.0.0 (Extended Third Edition with Formal Theorems 1--4)  
 **Primary Subject:** High Energy Physics - Theory (hep-th); Mathematical Physics (math-ph); Nuclear Theory (nucl-th)  
-**Dedicated Article DOI:** [10.5281/zenodo.24355400](https://doi.org/10.5281/zenodo.24355400) (Concept DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867))
+**Dedicated Article DOI:** [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867))
 
 ---
 
@@ -375,12 +375,12 @@ We have established a rigorous, non-perturbative proof of the existence of four-
 8. Morningstar, C. J., & Peardon, M., "The Glueball spectrum from an anisotropic lattice study," *Phys. Rev. D*, 60, 034509 (1999).
 9. Osterwalder, K., & Schrader, R., "Axioms for Euclidean Green's functions," *Commun. Math. Phys.*, 31, 83–112 (1973); *Commun. Math. Phys.*, 42, 281–305 (1975).
 10. Osterwalder, K., & Seiler, E., "Gauge field theories on a lattice," *Ann. Phys.*, 110, 440–471 (1978).
-11. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-12. Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024).
-13. Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293794](https://doi.org/10.5281/zenodo.24293794).
-14. Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301702](https://doi.org/10.5281/zenodo.24301702).
-15. Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311502](https://doi.org/10.5281/zenodo.24311502).
-16. Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842).
-17. Pavliuk, H., *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*, Zenodo (2026). DOI: [10.5281/zenodo.24314424](https://doi.org/10.5281/zenodo.24314424).
+11. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+12. Pavliuk, H., *Non-Perturbative Kinematic Benchmark of the SPARC Galaxy Database and Exact RAR Derivation without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023).
+13. Pavliuk, H., *Relativistic Gravitational Lensing and Spatial Decoupling in Merging Galaxy Clusters without Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793).
+14. Pavliuk, H., *Relativistic Cosmological Perturbation Theory and CMB Acoustic Peaks without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701).
+15. Pavliuk, H., *Resolution of the JWST High-Redshift Massive Galaxy Problem and Cosmic Dawn LSS Growth without Cold Dark Matter*, Zenodo (2026). DOI: [10.5281/zenodo.24311501](https://doi.org/10.5281/zenodo.24311501).
+16. Pavliuk, H., *Regular Quantum Black Hole Interior with de Sitter Core, Absence of Singularities, and Unitary Page Curve*, Zenodo (2026). DOI: [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841).
+17. Pavliuk, H., *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*, Zenodo (2026). DOI: [10.5281/zenodo.24314423](https://doi.org/10.5281/zenodo.24314423).
 18. Simon, B., *The $P(\phi)_2$ Euclidean (Quantum) Field Theory*, Princeton University Press, Princeton (1974).
-19. Pavliuk, H., *Universal Emergent Gravitation from Quantum Vacuum Phase Gradients: Analytical Proof of the Equivalence Principle and Decoupling from Macroscopic Mass*, Zenodo (2026). DOI: [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003).
+19. Pavliuk, H., *Universal Emergent Gravitation from Quantum Vacuum Phase Gradients: Analytical Proof of the Equivalence Principle and Decoupling from Macroscopic Mass*, Zenodo (2026). DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874).

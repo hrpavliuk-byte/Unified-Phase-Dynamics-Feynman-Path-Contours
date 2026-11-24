@@ -1,9 +1,10 @@
 # Primordial Baryogenesis and Topological CP-Violation from Master Path Holonomies in Unified Phase Dynamics
 
 **Author:** Hryhorii Pavliuk (H. Pavliuk), Independent Researcher  
-**Email:** `hrpavliuk@gmail.com` | **ORCID:** `0009-0002-3904-4530`  
-**Core Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Dedicated Paper DOI:** [10.5281/zenodo.24336680](https://doi.org/10.5281/zenodo.24336680)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
+**Email:** `hrpavliuk@gmail.com` | **ORCID:** `0009-0000-0899-3463`  
+**Core Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Dedicated Paper DOI:** [10.5281/zenodo.24336000](https://doi.org/10.5281/zenodo.24336000) *(Zenodo Record in press)*  
 **Official Code & Data Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
@@ -193,8 +194,8 @@ We have demonstrated that the longstanding mystery of the Baryon Asymmetry of th
 12. M. Fukugita and T. Yanagida, *Baryogenesis without Grand Unification*, Phys. Lett. B **174}, 45 (1986).
 13. W. Buchm\"uller, R. D. Peccei, and T. Yanagida, *Leptogenesis as the origin of matter*, Ann. Rev. Nucl. Part. Sci. **55}, 311 (2005).
 14. M. Carena, M. Quiros, and C. E. M. Wagner, *Opening the Window for Electroweak Baryogenesis*, Phys. Lett. B **380}, 81 (1996).
-15. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo DOI: 10.5281/zenodo.24226130 (2026).
-16. H. Pavliuk, *Quasinormal Modes and Gravitational Wave Echoes from Regular Non-Singular Black Holes in Unified Phase Dynamics*, Zenodo DOI: 10.5281/zenodo.24335106 (2026).
+15. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo DOI: 10.5281/zenodo.24226129 (2026).
+16. H. Pavliuk, *Quasinormal Modes and Gravitational Wave Echoes from Regular Non-Singular Black Holes in Unified Phase Dynamics*, Zenodo DOI: 10.5281/zenodo.24335105 (2026).
 17. D. B\"odeker, G. D. Moore, and K. Rummukainen, *Chern-Simons number diffusion and electroweak axial charge damping in high-temperature plasma*, Phys. Rev. D **61}, 056003 (2000).
 18. M. D'Onofrio, K. Rummukainen, and A. Tranberg, *Sphaleron Rate in the Minimal Standard Model*, Phys. Rev. Lett. **113}, 141602 (2014).
 19. F. R. Klinkhamer and N. S. Manton, *A saddle-point solution in the Weinberg-Salam theory*, Phys. Rev. D **30}, 2212 (1984).

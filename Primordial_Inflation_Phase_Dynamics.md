@@ -1,8 +1,9 @@
 # Primordial Inflationary Perturbations Without Inflaton Scalar Fields: Conformal Phase Dynamics of the Feynman Path Functional
 
 **Author:** H. Pavliuk (Hryhorii Pavliuk)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 *Affiliation:* Independent Researcher  
-*Official Core Monograph DOI:* [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+*Official Core Monograph DOI:* [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 *Core GitHub Repository:* [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 *Date:* November 2026  
 
@@ -326,6 +327,6 @@ We have established that primordial cosmological perturbations do not require sp
 10. BICEP/Keck Collaboration (P. A. R. Ade et al.), *Improved Constraints on Primordial Gravitational Waves using Planck, WMAP, and BICEP/Keck Observations through the 2018 Observing Season*, Phys. Rev. Lett. **127**, 151301 (2021).
 11. LiteBIRD Collaboration (E. Allys et al.), *Probing Cosmic Dawn and Inflation with the LiteBIRD Cosmic Microwave Background Polarization Satellite*, PTEP **2023**, 042F01 (2023).
 12. CMB-S4 Collaboration (K. N. Abazajian et al.), *CMB-S4 Science Case, Reference Design, and Project Plan*, arXiv:1907.04473 [astro-ph.IM] (2019).
-13. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2024), DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-14. H. Pavliuk, *The Cosmological Constant Problem and Dynamic Phase Relaxation of Vacuum Energy in Unified Phase Dynamics*, Zenodo (2024), DOI: [10.5281/zenodo.24338194](https://doi.org/10.5281/zenodo.24338194).
-15. H. Pavliuk, *Electroweak Symmetry Breaking, Higgs Boson Mass (125.1 GeV), and Hierarchy Problem Resolution via Master Path Holonomies*, Zenodo (2024), DOI: [10.5281/zenodo.24337610](https://doi.org/10.5281/zenodo.24337610).
+13. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2024), DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+14. H. Pavliuk, *The Cosmological Constant Problem and Dynamic Phase Relaxation of Vacuum Energy in Unified Phase Dynamics*, Zenodo (2024), DOI: [10.5281/zenodo.24338193](https://doi.org/10.5281/zenodo.24338193).
+15. H. Pavliuk, *Electroweak Symmetry Breaking, Higgs Boson Mass (125.1 GeV), and Hierarchy Problem Resolution via Master Path Holonomies*, Zenodo (2024), DOI: [10.5281/zenodo.24337609](https://doi.org/10.5281/zenodo.24337609).

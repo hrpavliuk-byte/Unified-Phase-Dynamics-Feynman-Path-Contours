@@ -3,7 +3,7 @@
 **Author:** H. Pavliuk (Hryhorii Pavliuk), Independent Researcher  
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
-**Related Deposit DOIs:** [10.5281/zenodo.24338710](https://doi.org/10.5281/zenodo.24338710), [10.5281/zenodo.24410119](https://doi.org/10.5281/zenodo.24410119)  
+**Related Deposit DOIs:** [10.5281/zenodo.24338710](https://doi.org/10.5281/zenodo.24338710), [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841)  
 **Core Framework:** Unified Phase Dynamics of Feynman Path Contours  
 **Classification:** Primordial Cosmology, Gravitational Waves, Regular Black Holes, Pulsar Timing Arrays  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  

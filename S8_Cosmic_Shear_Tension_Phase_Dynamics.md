@@ -1,9 +1,11 @@
 # Analytical Resolution of the Cosmological $S_8$ Tension and Cosmic Shear Suppression via Phase-Current Screening in Unified Phase Dynamics
 
-**Author:** Hryhorii Pavliuk (Independent Researcher)  
-**Primary Framework:** *Unified Phase Dynamics of Feynman Path Contours*  
-**Official Dedicated DOI:** [10.5281/zenodo.24334557](https://doi.org/10.5281/zenodo.24334557) (Zenodo Record [24334557](https://zenodo.org/records/24334557), CC-BY-4.0)  
-**Permanent Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Author:** Hryhorii Pavliuk (H. Pavliuk)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
+*Independent Researcher*  
+**Dedicated Article DOI:** [10.5281/zenodo.24334556](https://doi.org/10.5281/zenodo.24334556) *(Concept DOI: [10.5281/zenodo.24334556](https://doi.org/10.5281/zenodo.24334556))*  
+**Permanent Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Permanent Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 **Date:** November 2026  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
@@ -62,7 +64,7 @@ $$c_T \equiv c$$
 ensuring exact compliance with gravitational wave observations (GW170817 / GRB 170817A, $|c_T/c - 1| \le 10^{-15}$).
 
 ### 2.2 Analytical Vacuum Susceptibility on Linear Cosmological Scales
-As rigorously proven in Work 4 (CMB Acoustic Peaks, Zenodo Record `24301702`), on homogeneous cosmological backgrounds, the vacuum phase current $\mathcal{U}_\mu = \frac{\hbar}{m_{\mathrm{eff}}} \partial_\mu \theta$ undergoes coherent relativistic acoustic polarization in response to primordial baryon perturbations. The resulting non-local polarization susceptibility is topologically quantized:
+As rigorously proven in Work 4 (CMB Acoustic Peaks, Zenodo Record `24301701`), on homogeneous cosmological backgrounds, the vacuum phase current $\mathcal{U}_\mu = \frac{\hbar}{m_{\mathrm{eff}}} \partial_\mu \theta$ undergoes coherent relativistic acoustic polarization in response to primordial baryon perturbations. The resulting non-local polarization susceptibility is topologically quantized:
 $$\chi_{\mathrm{vac}} = \pi \sqrt{3} \approx 5.441398$$
 where:
 * $\sqrt{3} = 1/c_s$ is the relativistic acoustic compression factor in the tightly coupled photon-baryon plasma prior to recombination.
@@ -156,7 +158,7 @@ In stark contrast to the $3.5\sigma$ tension in $\Lambda$CDM, Unified Phase Dyna
 
 The defining strength of Unified Phase Dynamics is the **simultaneous, orthogonal resolution** of both major cosmological tensions:
 
-1. **Resolution of the Hubble Tension ($H_0$, Work 7, Zenodo Record `24314424`):**
+1. **Resolution of the Hubble Tension ($H_0$, Work 7, Zenodo Record `24314423`):**
    * Early-universe global expansion: $H_0^{\mathrm{global}} = 67.44\ \mathrm{km/s/Mpc}$ (Planck 2018).
    * Local KBC supervoid ($R \approx 300\ \mathrm{Mpc}$, $\delta_0 \approx -0.20$): Outflow kinematics governed by the 4-vector phase current yield an exact peculiar velocity boost:
      $$\Delta H_0 = +5.60\ \mathrm{km/s/Mpc}$$
@@ -196,22 +198,22 @@ Unified Phase Dynamics makes definitive, falsifiable predictions for upcoming wi
 The analytical resolution of the $S_8$ tension demonstrates that the apparent deficits in cosmic shear and matter clustering are not evidence of new exotic dark matter decay or massive sterile neutrinos, but the direct macroscopic consequence of the quantum phase dispersion of the universal Feynman path contour master-functional $\mathbf{\Psi}[\Sigma]$. 
 
 Together with:
-* The 178 SPARC galaxy rotation curves (Work 2, `10.5281/zenodo.24293024`),
-* Relativistic cluster lensing in the Bullet Cluster (Work 3, `10.5281/zenodo.24293794`),
-* The CMB acoustic peaks $\ell_1\text{--}\ell_8$ (Work 4, `10.5281/zenodo.24301702`),
-* The JWST Cosmic Dawn galaxy crisis (Work 5, `10.5281/zenodo.24311502`),
-* Non-singular regular black holes and unitary Page curve (Work 6, `10.5281/zenodo.24312842`),
-* The analytical resolution of the Hubble tension in the KBC void (Work 7, `10.5281/zenodo.24314424`), and
-* The non-perturbative Yang–Mills spectral mass gap on $\mathbb{R}^4$ (Work 8, `10.5281/zenodo.24315868`),
+* The 175 SPARC galaxies and satellite systems (178 systems) (Work 2, `10.5281/zenodo.24293023`),
+* Relativistic cluster lensing in the Bullet Cluster (Work 3, `10.5281/zenodo.24293793`),
+* The CMB acoustic peaks $\ell_1\text{--}\ell_8$ (Work 4, `10.5281/zenodo.24301701`),
+* The JWST Cosmic Dawn galaxy crisis (Work 5, `10.5281/zenodo.24311501`),
+* Non-singular regular black holes and unitary Page curve (Work 6, `10.5281/zenodo.24312841`),
+* The analytical resolution of the Hubble tension in the KBC void (Work 7, `10.5281/zenodo.24314423`), and
+* The non-perturbative Yang–Mills spectral mass gap on $\mathbb{R}^4$ (Work 8, `10.5281/zenodo.24315867`),
 
 this ninth treatise solidifies the *Unified Phase Dynamics of Feynman Path Contours* as the comprehensive, self-consistent replacement for the Cold Dark Matter paradigm.
 
 ---
 
 ### References
-1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph. DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-2. Pavliuk, H. (2026). *Analytical Resolution of the Cosmic Microwave Background Acoustic Peaks, Damping Tail, and Cosmological Perturbations via Feynman Path Phase Dynamics Without Cold Dark Matter*. Zenodo Record 24301702. DOI: [10.5281/zenodo.24301702](https://doi.org/10.5281/zenodo.24301702).
-3. Pavliuk, H. (2026). *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*. Zenodo Record 24314424. DOI: [10.5281/zenodo.24314424](https://doi.org/10.5281/zenodo.24314424).
+1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Monograph. DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+2. Pavliuk, H. (2026). *Analytical Resolution of the Cosmic Microwave Background Acoustic Peaks, Damping Tail, and Cosmological Perturbations via Feynman Path Phase Dynamics Without Cold Dark Matter*. Zenodo Record 24301701. DOI: [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701).
+3. Pavliuk, H. (2026). *Analytical Resolution of the Hubble Tension via Phase-Current Dynamics and Outflows in the Local KBC Supervoid*. Zenodo Record 24314423. DOI: [10.5281/zenodo.24314423](https://doi.org/10.5281/zenodo.24314423).
 4. Aghanim, N., et al. (Planck Collaboration) (2020). *Planck 2018 results. VI. Cosmological parameters*. Astronomy & Astrophysics, 641, A6. DOI: 10.1051/0004-6361/201833910.
 5. Heymans, C., et al. (KiDS Collaboration) (2021). *KiDS-1000 Cosmology: Multi-probe weak gravitational lensing and spectroscopic galaxy clustering constraints*. Astronomy & Astrophysics, 646, A140. DOI: 10.1051/0004-6361/202039063.
 6. Amon, A., et al. (DES Collaboration) (2022). *Dark Energy Survey Year 3 results: Cosmology from cosmic shear and its self-consistency*. Physical Review D, 105(2), 023514. DOI: 10.1103/PhysRevD.105.023514.

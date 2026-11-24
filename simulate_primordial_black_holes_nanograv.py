@@ -10,8 +10,8 @@ Stage 5 Calculations:
 4. Singularity-free regular interior geometry with de Sitter core (r_0 = 2 ell_P) for all primordial remnants.
 
 Author: H. Pavliuk (Hryhorii Pavliuk), Independent Researcher
-Foundational Monograph DOI: 10.5281/zenodo.24226130
-Related DOIs: 10.5281/zenodo.24338710, 10.5281/zenodo.24410119
+Foundational Monograph DOI: 10.5281/zenodo.24226129
+Related DOIs: 10.5281/zenodo.24338710, 10.5281/zenodo.24312841
 """
 
 import os
@@ -238,8 +238,8 @@ def run_simulation():
     # Numerical verification data JSON
     results = {
         "theoretical_framework": "Unified Phase Dynamics of Feynman Path Contours (H. Pavliuk)",
-        "monograph_doi": "10.5281/zenodo.24226130",
-        "related_dois": ["10.5281/zenodo.24338710", "10.5281/zenodo.24410119"],
+        "monograph_doi": "10.5281/zenodo.24226129",
+        "related_dois": ["10.5281/zenodo.24338710", "10.5281/zenodo.24312841"],
         "scalar_perturbation_parameters": {
             "n_s_conformal": n_s,
             "r_tensor_to_scalar": 0.00369,

@@ -1,13 +1,13 @@
 # Elimination of Black Hole Singularities via Regular de Sitter Cores and Exact Unitary Page Curve in Unified Phase Dynamics
 
 **Author:** Hryhorii Pavliuk (Independent Researcher)  
-**ORCID:** [0009-0000-8800-4712](https://orcid.org/0009-0000-8800-4712)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Version:** 2.0.0 (Release Update: Theorem F on Suppression of Poisson–Israel Mass Inflation Instability)  
 **Date:** November 2026  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Permanent Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Concept DOI:** [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841) (Version 2.0.0 Record: [10.5281/zenodo.24410119](https://doi.org/10.5281/zenodo.24410119); Published v1 Record: [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842))  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**Concept DOI:** [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841) (Published v1 Record: [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841))  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **Primary Subject:** General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Theory (hep-th); Quantum Physics (quant-ph)
 
 ---
@@ -266,14 +266,14 @@ This resolves the three greatest theoretical paradoxes of classical and semiclas
 4. Susskind, L., Thorlacius, L., & Uglum, J., *The stretched horizon and black hole complementarity*, Phys. Rev. D **48**, 3743–3761 (1993).
 5. Almheiri, A., Marolf, D., Polchinski, J., & Sully, J., *Black holes: complementarity or firewalls?*, J. High Energy Phys. **2013**, 062 (2013).
 6. Penington, G., *Entanglement wedge reconstruction and the information paradox*, J. High Energy Phys. **2020**, 002 (2020).
-7. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, CERN / Zenodo Record 24226130, DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (2026).
+7. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, CERN / Zenodo Record 24226129, DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (2026).
 8. Hayward, S. A., *Formation and evaporation of regular black holes*, Phys. Rev. Lett. **96**, 031103 (2006).
 9. Page, D. N., *Information in black hole radiation*, Phys. Rev. Lett. **71**, 3743–3746 (1993).
 10. Bardeen, J. M., *Non-singular general-relativistic gravitational collapse*, in Proc. GR5, Tbilisi, p. 174 (1968).
 11. Dymnikova, I., *Vacuum nonsingular black hole*, Gen. Relativ. Gravit. **24**, 235–242 (1992).
 12. Bekenstein, J. D., *Black holes and entropy*, Phys. Rev. D **7**, 2333–2346 (1973).
 13. Frolov, V. P., & Markov, M. A., *Black holes as possible sources of closed and semiclosed worlds*, Phys. Rev. D **17**, 2465–2472 (1978).
-14. Pavliuk, H., *Universal Emergent Gravitation from Localized Quantum Phase Oscillations*, Zenodo Record 24354003, DOI: [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003) (Concept: [10.5281/zenodo.24348875](https://doi.org/10.5281/zenodo.24348875)) (2026).
-15. Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4*, Zenodo Record 24409149, DOI: [10.5281/zenodo.24409149](https://doi.org/10.5281/zenodo.24409149) (2026).
+14. Pavliuk, H., *Universal Emergent Gravitation from Localized Quantum Phase Oscillations*, Zenodo Record 24348874, DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874)) (2026).
+15. Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4*, Zenodo Record 24231512, DOI: [10.5281/zenodo.24231512](https://doi.org/10.5281/zenodo.24231512) (2026).
 16. Poisson, E., & Israel, W., *Internal structure of black holes*, Phys. Rev. D **41**, 1796–1810 (1990).
 17. Ori, A., *Inner structure of a charged black hole: An exact mass-inflation solution*, Phys. Rev. Lett. **67**, 789–792 (1991).

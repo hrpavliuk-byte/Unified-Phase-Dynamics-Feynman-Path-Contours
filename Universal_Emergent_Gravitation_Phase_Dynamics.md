@@ -1,14 +1,14 @@
 # Universal Emergent Gravitation from Quantum Phase Oscillations: From the Non-Perturbative Yang–Mills Mass Gap to de Broglie Wave Refraction, Relational Time, and General Relativity Without Gravitons
 
 **Author:** Hryhorii Pavliuk (Independent Researcher)  
-**ORCID:** [0009-0000-8800-4712](https://orcid.org/0009-0000-8800-4712)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Version:** 2.0.0 (Release Update: Anomaly-Free Dirac Algebra, Goroff–Sagnotti Finiteness, and Diffeomorphism Ward Identities)  
 **Date:** November 2026  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Permanent Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
-**Concept DOI:** [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Version 2.0.0 Record: [10.5281/zenodo.24410072](https://doi.org/10.5281/zenodo.24410072); Published v1 Records: [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003), [10.5281/zenodo.24348875](https://doi.org/10.5281/zenodo.24348875))  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
-**Dedicated Yang-Mills DOI:** [10.5281/zenodo.24409149](https://doi.org/10.5281/zenodo.24409149) (Concept: [10.5281/zenodo.24315868](https://doi.org/10.5281/zenodo.24315868))  
+**Concept DOI:** [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Published v1 Record: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874))  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Dedicated Yang-Mills DOI:** [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867) (Concept: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867))  
 **Primary Subject:** General Relativity and Quantum Cosmology (gr-qc); High Energy Physics - Theory (hep-th); Mathematical Physics (math-ph)
 
 ---
@@ -403,11 +403,11 @@ We have established a complete, mathematically rigorous derivation of universal 
 6. Jaffe, A., & Witten, E., "Quantum Yang–Mills Theory," *The Millennium Prize Problems*, Clay Mathematics Institute, pp. 129–152 (2000).
 7. Abbott, B. P., et al. (LIGO/Virgo Collaborations), "Gravitational waves and gamma-rays from a binary neutron star merger: GW170817 and GRB 170817A," *Astrophys. J. Lett.*, 848, L13 (2017).
 8. Touboul, P., et al. (MICROSCOPE Collaboration), "MICROSCOPE mission: First results of a modern Weak Equivalence Principle test," *Phys. Rev. Lett.*, 119, 231101 (2017).
-9. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-10. Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4: An Analytical Approach via Feynman Path Holonomies and Center Vortex Condensation*, Zenodo Record 24409149, DOI: [10.5281/zenodo.24409149](https://doi.org/10.5281/zenodo.24409149) (Concept: [10.5281/zenodo.24315868](https://doi.org/10.5281/zenodo.24315868)).
-11. Pavliuk, H., *Universal Emergent Gravitation from Quantum Phase Oscillations: From Non-Perturbative Yang-Mills Mass Gap to de Broglie Wave Refraction, Relational Time, and General Relativity Without Gravitons*, Zenodo Record 24354003, DOI: [10.5281/zenodo.24354003](https://doi.org/10.5281/zenodo.24354003) (Concept: [10.5281/zenodo.24348875](https://doi.org/10.5281/zenodo.24348875)).
-12. Pavliuk, H., *Elimination of Black Hole Singularities via Regular de Sitter Cores and Exact Unitary Page Curve in Unified Phase Dynamics*, Zenodo Record 24312842, DOI: [10.5281/zenodo.24312842](https://doi.org/10.5281/zenodo.24312842).
-13. Pavliuk, H., *Experimentum Crucis 1: Decisive Laboratory Test of Gravitationally Induced Quantum Decoherence via Cryogenic Cavity Optomechanics*, Zenodo Record 24339965, DOI: [10.5281/zenodo.24339965](https://doi.org/10.5281/zenodo.24339965).
+9. Pavliuk, H., *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2026). DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+10. Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4: An Analytical Approach via Feynman Path Holonomies and Center Vortex Condensation*, Zenodo Record 24315867, DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867) (Concept: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867)).
+11. Pavliuk, H., *Universal Emergent Gravitation from Quantum Phase Oscillations: From Non-Perturbative Yang-Mills Mass Gap to de Broglie Wave Refraction, Relational Time, and General Relativity Without Gravitons*, Zenodo Record 24348874, DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874)).
+12. Pavliuk, H., *Elimination of Black Hole Singularities via Regular de Sitter Cores and Exact Unitary Page Curve in Unified Phase Dynamics*, Zenodo Record 24312841, DOI: [10.5281/zenodo.24312841](https://doi.org/10.5281/zenodo.24312841).
+13. Pavliuk, H., *Experimentum Crucis 1: Decisive Laboratory Test of Gravitationally Induced Quantum Decoherence via Cryogenic Cavity Optomechanics*, Zenodo Record 24339964, DOI: [10.5281/zenodo.24339964](https://doi.org/10.5281/zenodo.24339964).
 
 ---
 

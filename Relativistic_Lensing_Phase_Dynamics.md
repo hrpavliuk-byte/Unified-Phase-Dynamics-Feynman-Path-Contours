@@ -1,11 +1,13 @@
 # Relativistic Gravitational Lensing, 4-Vector Phase Dynamics, and Spatial Decoupling in Merging Galaxy Clusters: An Exact Solution to the Bullet Cluster, El Gordo, and Abell 520 Without Dark Matter
 
 **Author:** Hryhorii Pavliuk (H. Pavliuk)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 *Independent Researcher*  
+**Official Permanent DOI:** [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793)  
 **Primary Theoretical Monograph Reference:**  
-*Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Permanent DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+*Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Permanent DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **Dedicated Benchmark Paper Reference:**  
-*Exact Benchmark of 178 Galaxy Rotation Curves and Systematic Resolution of Kinematic Discrepancies via Unified Phase Dynamics of Feynman Path Contours*, Permanent DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024)  
+*Exact Benchmark of 175 SPARC Galaxies and Satellite Systems (178 Systems): Systematic Resolution of Kinematic Discrepancies via Unified Phase Dynamics of Feynman Path Contours*, Permanent DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023)  
 **Permanent Dedicated Repository:** [GitHub / Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
@@ -286,8 +288,8 @@ To ensure that Direction 1 withstands the most rigorous peer-review scrutiny, th
 
 ## References
 
-1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Permanent DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
-2. Pavliuk, H. (2026). *Exact Benchmark of 178 Galaxy Rotation Curves and Systematic Resolution of Kinematic Discrepancies via Unified Phase Dynamics of Feynman Path Contours*. Permanent DOI: [10.5281/zenodo.24293024](https://doi.org/10.5281/zenodo.24293024).
+1. Pavliuk, H. (2026). *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*. Permanent DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
+2. Pavliuk, H. (2026). *Exact Benchmark of 175 SPARC Galaxies and Satellite Systems (178 Systems): Systematic Resolution of Kinematic Discrepancies via Unified Phase Dynamics of Feynman Path Contours*. Permanent DOI: [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023).
 3. Clowe, D., Bradač, M., Gonzalez, A. H., et al. (2006). *A direct empirical proof of the existence of dark matter*. The Astrophysical Journal Letters, 648(2), L109.
 4. Markevitch, M., Gonzalez, A. H., Clowe, D., et al. (2004). *Direct constraints on the dark matter self-interaction cross-section from the merging galaxy cluster 1E 0657-56*. The Astrophysical Journal, 606(2), 819.
 5. Bradač, M., Clowe, D., Gonzalez, A. H., et al. (2006). *Strong and weak lensing united. III. Measuring the mass distribution of the merging galaxy cluster 1E 0657-56*. The Astrophysical Journal, 652(2), 937.

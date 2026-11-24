@@ -5,8 +5,8 @@
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
 **Primary Foundational Monograph:** *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*  
-**Monograph Permanent Concept DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Latest Version 3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
-**Dedicated Article DOI:** [10.5281/zenodo.24504273](https://doi.org/10.5281/zenodo.24504273) (Concept DOI: [10.5281/zenodo.24504272](https://doi.org/10.5281/zenodo.24504272))  
+**Monograph Permanent Concept DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
+**Permanent Concept DOI:** [10.5281/zenodo.24504272](https://doi.org/10.5281/zenodo.24504272)  
 **Core Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
@@ -267,7 +267,7 @@ Within the **Unified Phase Dynamics of Feynman Path Contours**:
 
 ### References
 
-1. Pavliuk, H. *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap*. Zenodo Concept DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Latest Version 3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037)).
+1. Pavliuk, H. *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap*. Zenodo Concept DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
 2. Spite, F., & Spite, M. (1982). *Abundance of lithium in unevolved halo stars and old disk stars: Interpretation and consequences*. Astronomy and Astrophysics, 115, 357–366.
 3. Sbordone, L., et al. (2010). *The metal-poor end of the Spite plateau: I. Stellar parameters and lithium abundances*. Astronomy & Astrophysics, 522, A26.
 4. Planck Collaboration (Aghanim, N., et al.) (2020). *Planck 2018 results. VI. Cosmological parameters*. Astronomy & Astrophysics, 641, A6.

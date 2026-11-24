@@ -3,10 +3,11 @@
 **A Deductive Path-Contour Holonomy Formulation with Rigorous Resolution of Constructive and Spectral Objections**
 
 **Author:** H. Pavliuk (Hryhorii Pavliuk / Григорій Павлюк)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Affiliation:** Independent Researcher  
 **Framework:** Unified Phase Dynamics of Feynman Path Contours  
-**Primary Reference:** *Unified Phase Dynamics of Feynman Path Contours* (Zenodo DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130))  
-**Dedicated Article DOI:** [10.5281/zenodo.24355400](https://doi.org/10.5281/zenodo.24355400) (Concept DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867))  
+**Primary Reference:** *Unified Phase Dynamics of Feynman Path Contours* (Zenodo DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129))  
+**Dedicated Article DOI:** [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867))  
 **Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
