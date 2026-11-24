@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Exact Non-Perturbative Spectral Mass Gap, Complete Glueball Spectrum, and Center Vortex Condensation for 4D SU(3) Yang-Mills Theory on Foliated Voronoi-Delaunay Complexes in Unified Phase Dynamics",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p>We construct a non-perturbative mathematical framework establishing the rigorous existence of quantum Yang&ndash;Mills theory with compact gauge group <em>G = SU(3)</em> on flat spacetime &Ropf;<sup>4</sup> and derive a strictly positive spectral mass gap &Delta; &gt; 0 within the Unified Phase Dynamics of Feynman Path Contours.</p><p>Classical hypercubic lattices &Zopf;<sup>4</sup> break continuous SO(4) rotational invariance down to the discrete hypercubic subgroup H(4), producing O(a<sup>2</sup>) dimension-6 Symanzik artifacts, while higher-derivative continuum regulators encounter the Schoenberg&ndash;Bochner obstruction and Ostrogradsky ghost poles that violate reflection positivity. In this work, taking the flat-spacetime decoupling limit G &rarr; 0 (R<sup>&mu;</sup><sub>&nu;&alpha;&beta;</sub> &equiv; 0) of the universal path-contour master-functional &Psi;[&Sigma;], the gauge-invariant Wilson loop holonomies project onto a foliated four-dimensional cellular complex &Cscr;<sub>a</sub> = &Vscr;<sub>a</sub><sup>(3)</sup> &times; a<sub>&tau;</sub>&Zopf;<sub>1/2</sub>. Each spatial slice is a three-dimensional Poisson&ndash;Delaunay triangulation with exact analytical mean coordination number &lang;z<sub>3D</sub>&lang; = 48&pi;<sup>2</sup>/35 + 2 &approx; 15.5355, endowed with Discrete Exterior Calculus (DEC) Hodge star coupling weights.</p><p>Key mathematical and physical achievements:</p><ul><li><strong>Strict Reflection Positivity (OS2):</strong> Discrete time slicing with step a<sub>&tau;</sub>/2 and spatial reflection symmetry preserve strict Osterwalder&ndash;Seiler reflection positivity at every finite lattice spacing a &gt; 0, allowing GNS reconstruction of a positive-definite physical Hilbert space with self-adjoint Hamiltonian H &ge; 0 without ghosts.</li><li><strong>Restoration of Continuous SO(4) Invariance (OS1):</strong> Ensemble averaging over random Poisson Delaunay seeds restores exact statistical isotropy &lang;p<sub>&mu;</sub>p<sub>&nu;</sub>p<sub>&rho;</sub>p<sub>&sigma;</sub>&rang; &prop; &delta;<sub>(&mu;&nu;</sub>&delta;<sub>&rho;&sigma;)</sub>, eliminating cubic lattice artifacts in the continuum limit.</li><li><strong>Rigorous Two-Sided Bounds on the Mass Gap:</strong> Combining the Glimm&ndash;Jaffe&ndash;Simon chessboard estimate with the Borel&ndash;Chebyshev inequality and Rayleigh&ndash;Ritz variational flux-tube minimization proves the two-sided bounds c<sub>geom</sub>&radic;&sigma; &le; &Delta;<sub>0<sup>++</sup></sub> &le; 2&radic;&pi;&radic;&sigma; &approx; 1.56&ndash;1.62 GeV, and &Delta;<sub>0<sup>++</sup></sub> &approx; 1.65 GeV including the L&uuml;scher Casimir term, matching continuum Lattice QCD (1.65 &plusmn; 0.10 GeV).</li><li><strong>Steiner Tree Baryon Relaxation:</strong> 3-quark string Y-junctions relax to the Torricelli angle 119.98&deg; &plusmn; 1.81&deg; (exact 120&deg; continuum limit) and conserve &Zopf;<sub>3</sub> center triality (1 + 1 + 1 &equiv; 0 mod 3).</li></ul>",
+    "creators": [
+      {
+        "name": "Pavliuk, Hryhorii",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0000-0899-3463"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "Yang-Mills Mass Gap",
+      "Four-Dimensional Yang-Mills Theory",
+      "Voronoi-Delaunay Complex",
+      "Discrete Exterior Calculus",
+      "Reflection Positivity OS2",
+      "SO(4) Rotational Invariance",
+      "Center Vortex Condensation",
+      "Glueball Spectrum",
+      "Unified Phase Dynamics",
+      "H. Pavliuk"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24226130",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.5281/zenodo.24449225",
+        "relation": "isDerivedFrom",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24315868",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24497203",
+        "relation": "cites",
+        "scheme": "doi"
+      }
+    ]
+  }
+}
