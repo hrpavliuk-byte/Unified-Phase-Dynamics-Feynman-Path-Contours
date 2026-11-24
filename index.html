@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
-        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+        onload="renderMathInElement(document.body, {{delimiters: [{{left: '$$', right: '$$', display: true}}, {{left: '$', right: '$', display: false}}]}});"></script>
     
     <style>
-        :root {
+        :root {{
             --primary: #0b2545;
             --primary-light: #134074;
             --accent: #0284c7;
@@ -27,24 +27,24 @@
             --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
             --card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
             --radius: 12px;
-        }
+        }}
 
-        * {
+        * {{
             box-sizing: border-box;
             margin: 0;
             padding: 0;
-        }
+        }}
 
-        body {
+        body {{
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg);
             color: var(--text-main);
             line-height: 1.6;
             -webkit-font-smoothing: antialiased;
-        }
+        }}
 
         /* Top Navigation */
-        .navbar {
+        .navbar {{
             background-color: var(--surface);
             border-bottom: 1px solid var(--border);
             position: sticky;
@@ -54,9 +54,9 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-        }
+        }}
 
-        .navbar-brand {
+        .navbar-brand {{
             display: flex;
             align-items: center;
             gap: 12px;
@@ -64,73 +64,73 @@
             font-size: 1.15rem;
             color: var(--primary);
             text-decoration: none;
-        }
+        }}
 
-        .navbar-brand .logo-badge {
+        .navbar-brand .logo-badge {{
             background: linear-gradient(135deg, #0b2545, #0284c7);
             color: white;
             padding: 4px 10px;
             border-radius: 6px;
             font-size: 0.85rem;
             letter-spacing: 0.5px;
-        }
+        }}
 
-        .navbar-links {
+        .navbar-links {{
             display: flex;
             align-items: center;
             gap: 20px;
-        }
+        }}
 
-        .navbar-links a {
+        .navbar-links a {{
             color: var(--text-muted);
             text-decoration: none;
             font-size: 0.92rem;
             font-weight: 500;
             transition: color 0.15s ease;
-        }
+        }}
 
-        .navbar-links a:hover {
+        .navbar-links a:hover {{
             color: var(--accent);
-        }
+        }}
 
-        .nav-btn {
+        .nav-btn {{
             background-color: var(--primary);
             color: white !important;
             padding: 6px 14px;
             border-radius: 6px;
             font-size: 0.88rem !important;
             transition: background-color 0.15s ease;
-        }
+        }}
 
-        .nav-btn:hover {
+        .nav-btn:hover {{
             background-color: var(--primary-light) !important;
-        }
+        }}
 
         /* Container */
-        .container {
+        .container {{
             max-width: 1240px;
             margin: 0 auto;
             padding: 40px 24px 80px 24px;
-        }
+        }}
 
         /* Hero Section */
-        .hero {
+        .hero {{
             background: linear-gradient(135deg, #0b2545 0%, #134074 100%);
             color: white;
             padding: 48px 40px;
             border-radius: var(--radius);
             box-shadow: 0 10px 25px -5px rgba(11, 37, 69, 0.25);
             margin-bottom: 35px;
-        }
+        }}
 
-        .hero-badge-row {
+        .hero-badge-row {{
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
             margin-bottom: 18px;
-        }
+        }}
 
-        .hero-badge {
+        .hero-badge {{
             background: rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(4px);
             padding: 4px 12px;
@@ -138,31 +138,31 @@
             font-size: 0.82rem;
             font-weight: 600;
             letter-spacing: 0.3px;
-        }
+        }}
 
-        .hero-badge.highlight {
+        .hero-badge.highlight {{
             background: #38bdf8;
             color: #0b2545;
-        }
+        }}
 
-        .hero h1 {
+        .hero h1 {{
             font-size: 2.35rem;
             line-height: 1.25;
             font-weight: 800;
             margin-bottom: 14px;
             letter-spacing: -0.5px;
-        }
+        }}
 
-        .hero-subtitle {
+        .hero-subtitle {{
             font-size: 1.2rem;
             color: #cbd5e1;
             font-weight: 400;
             margin-bottom: 24px;
             max-width: 950px;
             line-height: 1.5;
-        }
+        }}
 
-        .hero-meta {
+        .hero-meta {{
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -170,74 +170,74 @@
             padding-top: 20px;
             border-top: 1px solid rgba(255, 255, 255, 0.15);
             font-size: 0.95rem;
-        }
+        }}
 
-        .hero-meta strong {
+        .hero-meta strong {{
             color: #f8fafc;
-        }
+        }}
 
-        .hero-meta a {
+        .hero-meta a {{
             color: #7dd3fc;
             text-decoration: none;
-        }
+        }}
 
-        .hero-meta a:hover {
+        .hero-meta a:hover {{
             text-decoration: underline;
-        }
+        }}
 
         /* Metric Counters Grid */
-        .metrics-grid {
+        .metrics-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 16px;
             margin-bottom: 40px;
-        }
+        }}
 
-        .metric-card {
+        .metric-card {{
             background-color: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--radius);
             padding: 20px 18px;
             text-align: center;
             box-shadow: var(--card-shadow);
-        }
+        }}
 
-        .metric-number {
+        .metric-number {{
             font-size: 1.85rem;
             font-weight: 800;
             color: var(--primary);
             line-height: 1.1;
             margin-bottom: 6px;
-        }
+        }}
 
-        .metric-label {
+        .metric-label {{
             font-size: 0.82rem;
             text-transform: uppercase;
             font-weight: 700;
             letter-spacing: 0.5px;
             color: var(--text-muted);
-        }
+        }}
 
         /* Master Monograph Showcase */
-        .master-card {
+        .master-card {{
             background: linear-gradient(to right, #ffffff, #f0fdf4);
             border: 2px solid #0284c7;
             border-radius: var(--radius);
             padding: 32px;
             margin-bottom: 40px;
             box-shadow: var(--card-shadow);
-        }
+        }}
 
-        .master-header {
+        .master-header {{
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             margin-bottom: 16px;
             flex-wrap: wrap;
             gap: 12px;
-        }
+        }}
 
-        .master-pill {
+        .master-pill {{
             background: #0284c7;
             color: white;
             padding: 4px 14px;
@@ -246,17 +246,17 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-        }
+        }}
 
-        .master-title {
+        .master-title {{
             font-size: 1.55rem;
             font-weight: 700;
             color: var(--primary);
             margin-bottom: 12px;
             line-height: 1.3;
-        }
+        }}
 
-        .master-formula-box {
+        .master-formula-box {{
             background: #ffffff;
             border: 1px solid #bae6fd;
             border-radius: 8px;
@@ -264,23 +264,23 @@
             margin: 16px 0;
             overflow-x: auto;
             text-align: center;
-        }
+        }}
 
-        .master-summary {
+        .master-summary {{
             font-size: 1.02rem;
             color: var(--text-muted);
             margin-bottom: 20px;
             line-height: 1.6;
-        }
+        }}
 
-        .master-actions {
+        .master-actions {{
             display: flex;
             flex-wrap: wrap;
             gap: 12px;
-        }
+        }}
 
         /* Filter & Search Bar */
-        .control-bar {
+        .control-bar {{
             background-color: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--radius);
@@ -290,15 +290,15 @@
             display: flex;
             flex-direction: column;
             gap: 18px;
-        }
+        }}
 
-        .search-row {
+        .search-row {{
             display: flex;
             gap: 16px;
             align-items: center;
-        }
+        }}
 
-        .search-input {
+        .search-input {{
             flex: 1;
             padding: 12px 18px;
             border: 1px solid var(--border);
@@ -306,20 +306,20 @@
             font-size: 0.98rem;
             outline: none;
             transition: border-color 0.15s ease, box-shadow 0.15s ease;
-        }
+        }}
 
-        .search-input:focus {
+        .search-input:focus {{
             border-color: var(--accent);
             box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
-        }
+        }}
 
-        .filter-tabs {
+        .filter-tabs {{
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
-        }
+        }}
 
-        .filter-btn {
+        .filter-btn {{
             background-color: var(--code-bg);
             border: 1px solid var(--border);
             color: var(--text-muted);
@@ -329,20 +329,20 @@
             font-weight: 600;
             cursor: pointer;
             transition: all 0.15s ease;
-        }
+        }}
 
-        .filter-btn:hover {
+        .filter-btn:hover {{
             background-color: #e2e8f0;
             color: var(--text-main);
-        }
+        }}
 
-        .filter-btn.active {
+        .filter-btn.active {{
             background-color: var(--primary);
             color: white;
             border-color: var(--primary);
-        }
+        }}
 
-        .results-meta {
+        .results-meta {{
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -350,17 +350,17 @@
             color: var(--text-muted);
             padding-top: 8px;
             border-top: 1px solid var(--border);
-        }
+        }}
 
         /* Works Grid */
-        .works-grid {
+        .works-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
             gap: 24px;
             margin-bottom: 50px;
-        }
+        }}
 
-        .work-card {
+        .work-card {{
             background-color: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--radius);
@@ -370,28 +370,28 @@
             box-shadow: var(--card-shadow);
             transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
             position: relative;
-        }
+        }}
 
-        .work-card:hover {
+        .work-card:hover {{
             transform: translateY(-4px);
             box-shadow: var(--card-hover);
             border-color: #cbd5e1;
-        }
+        }}
 
-        .card-top {
+        .card-top {{
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 14px;
-        }
+        }}
 
-        .badge-group {
+        .badge-group {{
             display: flex;
             gap: 8px;
             align-items: center;
-        }
+        }}
 
-        .num-badge {
+        .num-badge {{
             background-color: var(--primary);
             color: white;
             font-weight: 700;
@@ -399,49 +399,49 @@
             padding: 3px 8px;
             border-radius: 6px;
             letter-spacing: 0.5px;
-        }
+        }}
 
-        .cat-pill {
+        .cat-pill {{
             background-color: #e0f2fe;
             color: #0369a1;
             font-weight: 600;
             font-size: 0.74rem;
             padding: 3px 10px;
             border-radius: 20px;
-        }
+        }}
 
-        .doi-badge {
+        .doi-badge {{
             font-size: 0.75rem;
             color: #64748b;
             text-decoration: none;
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-        }
+        }}
 
-        .doi-badge:hover {
+        .doi-badge:hover {{
             color: var(--accent);
             text-decoration: underline;
-        }
+        }}
 
-        .card-title {
+        .card-title {{
             font-size: 1.15rem;
             font-weight: 700;
             color: var(--primary);
             line-height: 1.35;
             margin-bottom: 12px;
             flex-grow: 0;
-        }
+        }}
 
-        .card-title a {
+        .card-title a {{
             color: inherit;
             text-decoration: none;
             transition: color 0.15s ease;
-        }
+        }}
 
-        .card-title a:hover {
+        .card-title a:hover {{
             color: var(--accent);
-        }
+        }}
 
-        .formula-box {
+        .formula-box {{
             background-color: var(--code-bg);
             border-left: 3px solid var(--accent);
             border-radius: 0 6px 6px 0;
@@ -449,25 +449,25 @@
             margin: 10px 0 14px 0;
             overflow-x: auto;
             font-size: 0.88rem;
-        }
+        }}
 
-        .card-summary {
+        .card-summary {{
             font-size: 0.90rem;
             color: var(--text-muted);
             line-height: 1.55;
             margin-bottom: 18px;
             flex-grow: 1;
-        }
+        }}
 
-        .card-actions {
+        .card-actions {{
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
             padding-top: 14px;
             border-top: 1px solid var(--border);
-        }
+        }}
 
-        .btn {
+        .btn {{
             display: inline-flex;
             align-items: center;
             gap: 6px;
@@ -478,107 +478,107 @@
             text-decoration: none;
             transition: all 0.15s ease;
             cursor: pointer;
-        }
+        }}
 
-        .btn-primary {
+        .btn-primary {{
             background-color: var(--accent);
             color: white;
             border: 1px solid var(--accent);
-        }
+        }}
 
-        .btn-primary:hover {
+        .btn-primary:hover {{
             background-color: var(--accent-hover);
             border-color: var(--accent-hover);
-        }
+        }}
 
-        .btn-secondary {
+        .btn-secondary {{
             background-color: var(--code-bg);
             color: var(--text-main);
             border: 1px solid var(--border);
-        }
+        }}
 
-        .btn-secondary:hover {
+        .btn-secondary:hover {{
             background-color: #e2e8f0;
             color: var(--primary);
-        }
+        }}
 
         /* Foundational Equations Section */
-        .equations-section {
+        .equations-section {{
             background-color: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--radius);
             padding: 36px 32px;
             margin-bottom: 40px;
             box-shadow: var(--card-shadow);
-        }
+        }}
 
-        .section-header {
+        .section-header {{
             margin-bottom: 24px;
-        }
+        }}
 
-        .section-header h2 {
+        .section-header h2 {{
             font-size: 1.6rem;
             color: var(--primary);
             margin-bottom: 6px;
-        }
+        }}
 
-        .section-header p {
+        .section-header p {{
             color: var(--text-muted);
             font-size: 0.98rem;
-        }
+        }}
 
-        .eq-grid {
+        .eq-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 20px;
-        }
+        }}
 
-        .eq-item {
+        .eq-item {{
             background: var(--code-bg);
             border: 1px solid var(--border);
             border-radius: 8px;
             padding: 18px;
-        }
+        }}
 
-        .eq-item h3 {
+        .eq-item h3 {{
             font-size: 0.95rem;
             color: var(--primary-light);
             margin-bottom: 10px;
             display: flex;
             align-items: center;
             gap: 8px;
-        }
+        }}
 
-        .eq-formula {
+        .eq-formula {{
             padding: 10px 0;
             text-align: center;
             overflow-x: auto;
-        }
+        }}
 
-        .eq-desc {
+        .eq-desc {{
             font-size: 0.84rem;
             color: var(--text-muted);
             line-height: 1.45;
             margin-top: 8px;
-        }
+        }}
 
         /* Citation Block */
-        .citation-section {
+        .citation-section {{
             background-color: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--radius);
             padding: 32px;
             margin-bottom: 40px;
             box-shadow: var(--card-shadow);
-        }
+        }}
 
-        .citation-section h2 {
+        .citation-section h2 {{
             font-size: 1.4rem;
             color: var(--primary);
             margin-bottom: 12px;
-        }
+        }}
 
-        .bibtex-box {
+        .bibtex-box {{
             background-color: #0f172a;
             color: #f8fafc;
             padding: 18px;
@@ -588,9 +588,9 @@
             line-height: 1.5;
             position: relative;
             overflow-x: auto;
-        }
+        }}
 
-        .copy-btn {
+        .copy-btn {{
             position: absolute;
             top: 12px;
             right: 12px;
@@ -602,60 +602,60 @@
             font-size: 0.78rem;
             cursor: pointer;
             transition: background 0.15s ease;
-        }
+        }}
 
-        .copy-btn:hover {
+        .copy-btn:hover {{
             background: rgba(255, 255, 255, 0.25);
-        }
+        }}
 
         /* Footer */
-        footer {
+        footer {{
             background-color: var(--primary);
             color: #94a3b8;
             padding: 48px 24px;
             text-align: center;
             font-size: 0.92rem;
             border-top: 1px solid #1e293b;
-        }
+        }}
 
-        footer a {
+        footer a {{
             color: #38bdf8;
             text-decoration: none;
-        }
+        }}
 
-        footer a:hover {
+        footer a:hover {{
             text-decoration: underline;
-        }
+        }}
 
-        .footer-content {
+        .footer-content {{
             max-width: 900px;
             margin: 0 auto;
             line-height: 1.7;
-        }
+        }}
 
-        .footer-links {
+        .footer-links {{
             display: flex;
             justify-content: center;
             gap: 24px;
             margin: 20px 0;
             flex-wrap: wrap;
-        }
+        }}
 
-        @media (max-width: 768px) {
-            .hero {
+        @media (max-width: 768px) {{
+            .hero {{
                 padding: 32px 20px;
-            }
-            .hero h1 {
+            }}
+            .hero h1 {{
                 font-size: 1.85rem;
-            }
-            .works-grid {
+            }}
+            .works-grid {{
                 grid-template-columns: 1fr;
-            }
-            .navbar {
+            }}
+            .navbar {{
                 flex-direction: column;
                 gap: 12px;
-            }
-        }
+            }}
+        }}
     </style>
 </head>
 <body>
@@ -737,10 +737,10 @@
                 </a>
             </div>
             <div class="master-formula-box">
-                $$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{M}} \mathcal{D}[\gamma \in \Sigma] \exp\left( \frac{i}{\hbar} S_{\mathrm{unified}}[\gamma] \right), \quad [\hat{\mathcal{H}}(N_1), \hat{\mathcal{H}}(N_2)] \equiv 0, \quad \text{Res}_{\epsilon \to 0} \mathcal{A}_{\mathrm{GS}}^{(2)} \equiv 0$$
+                $$\\mathbf{{\\Psi}}[\\Sigma] = \\int_{{\\mathcal{{M}}}} \\mathcal{{D}}[\\gamma \\in \\Sigma] \\exp\\left( \\frac{{i}}{{\\hbar}} S_{{\\mathrm{{unified}}}}[\\gamma] \\right), \\quad [\\hat{{\\mathcal{{H}}}}(N_1), \\hat{{\\mathcal{{H}}}}(N_2)] \\equiv 0, \\quad \\text{{Res}}_{{\\epsilon \\to 0}} \\mathcal{{A}}_{{\\mathrm{{GS}}}}^{{(2)}} \\equiv 0$$
             </div>
             <p class="master-summary">
-                The comprehensive foundational monograph. Rigorously derives General Relativity via the Van Vleck–Morette determinant and Feynman–Deser spin-2 bootstrap without metric quantization; proves exact Wheeler–DeWitt Dirac constraint closure on diffeomorphism knot states; cancels the 2-loop Goroff–Sagnotti ultraviolet divergence via entire Schwinger contour form-factors; proves non-perturbative Yang–Mills existence and mass gap on $\mathbb{R}^4$; and deduces MOND galactic kinematics ($a_0 = c H_0 / 2\pi$) from quantum vacuum phase polarization with zero free parameters.
+                The comprehensive foundational monograph. Rigorously derives General Relativity via the Van Vleck–Morette determinant and Feynman–Deser spin-2 bootstrap without metric quantization; proves exact Wheeler–DeWitt Dirac constraint closure on diffeomorphism knot states; cancels the 2-loop Goroff–Sagnotti ultraviolet divergence via entire Schwinger contour form-factors; proves non-perturbative Yang–Mills existence and mass gap on $\\mathbb{{R}}^4$; and deduces MOND galactic kinematics ($a_0 = c H_0 / 2\\pi$) from quantum vacuum phase polarization with zero free parameters.
             </p>
             <div class="master-actions">
                 <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank" class="btn btn-primary">
@@ -800,7 +800,7 @@
                     <a href="Deductive_Derivation_of_Master_Functional_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24447037" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
                     
-                    
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/main.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
 
@@ -826,8 +826,8 @@
                 <div class="card-actions">
                     <a href="SPARC_Benchmark_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24293024" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/sparc_benchmark_simulation.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/SPARC_Benchmark_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -853,8 +853,8 @@
                 <div class="card-actions">
                     <a href="Relativistic_Lensing_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24293794" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_relativistic_lensing.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Relativistic_Lensing_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -880,8 +880,8 @@
                 <div class="card-actions">
                     <a href="Cosmological_Perturbations_CMB_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24301702" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_cmb_phase_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Cosmological_Perturbations_CMB_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -907,8 +907,8 @@
                 <div class="card-actions">
                     <a href="JWST_HighZ_Galaxies_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24311502" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_jwst_highz_galaxies.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/JWST_HighZ_Galaxies_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -934,8 +934,8 @@
                 <div class="card-actions">
                     <a href="Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24410119" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_regular_black_hole_page_curve.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -961,8 +961,8 @@
                 <div class="card-actions">
                     <a href="Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24314424" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_hubble_tension_kbc_void.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -988,7 +988,7 @@
                 <div class="card-actions">
                     <a href="Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24409149" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_yang_mills_mass_gap.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1015,8 +1015,8 @@
                 <div class="card-actions">
                     <a href="S8_Cosmic_Shear_Tension_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24334557" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_s8_cosmic_shear.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/S8_Cosmic_Shear_Tension_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1042,8 +1042,8 @@
                 <div class="card-actions">
                     <a href="QNM_Gravitational_Wave_Echoes_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24335106" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_qnm_gw_echoes.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/QNM_Gravitational_Wave_Echoes_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1069,8 +1069,8 @@
                 <div class="card-actions">
                     <a href="Primordial_Baryogenesis_Topological_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24336680" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_primordial_baryogenesis.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Primordial_Baryogenesis_Topological_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1096,8 +1096,8 @@
                 <div class="card-actions">
                     <a href="Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24337610" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_electroweak_higgs.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1123,8 +1123,8 @@
                 <div class="card-actions">
                     <a href="Cosmological_Constant_Phase_Relaxation.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24338194" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_cosmological_constant.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Cosmological_Constant_Phase_Relaxation.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1150,8 +1150,8 @@
                 <div class="card-actions">
                     <a href="Primordial_Inflation_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24338710" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_primordial_inflation.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Primordial_Inflation_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1177,8 +1177,8 @@
                 <div class="card-actions">
                     <a href="Strong_CP_Problem_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24339308" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_strong_cp_problem.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Strong_CP_Problem_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1204,8 +1204,8 @@
                 <div class="card-actions">
                     <a href="Experimentum_Crucis_1_Optomechanics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24410149" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_experimentum_crucis_optomechanics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Experimentum_Crucis_1_Optomechanics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/experimentum_crucis_1_simulation.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    
                 </div>
             </article>
 
@@ -1231,8 +1231,8 @@
                 <div class="card-actions">
                     <a href="Universal_Emergent_Gravitation_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24410072" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_universal_emergent_gravitation.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Universal_Emergent_Gravitation_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1258,8 +1258,8 @@
                 <div class="card-actions">
                     <a href="Nucleon_Mass_and_Yang_Mills_Gap_Phase_Dynamics_v2.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24446824" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_nucleon_mass_and_gap.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Nucleon_Mass_and_Yang_Mills_Gap_Phase_Dynamics_v2.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1285,8 +1285,8 @@
                 <div class="card-actions">
                     <a href="Deductive_Derivation_of_Master_Functional_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24409534" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_master_functional_phase_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Deductive_Derivation_of_Master_Functional_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1312,8 +1312,8 @@
                 <div class="card-actions">
                     <a href="Quantum_Galileo_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24446936" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_quantum_galileo.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Quantum_Galileo_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                    
+                    
                 </div>
             </article>
 
@@ -1339,7 +1339,7 @@
                 <div class="card-actions">
                     <a href="Primordial_Black_Holes_and_NANOGrav_Phase_Dynamics_v2.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24446706" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_pbh_nanograv_phase_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_primordial_black_holes_nanograv.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Primordial_Black_Holes_and_NANOGrav_Phase_Dynamics_v2.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1366,7 +1366,7 @@
                 <div class="card-actions">
                     <a href="Absolute_Dirac_Neutrino_Mass_Spectrum_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24445778" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_dirac_neutrino_mass_spectrum.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_neutrino_mass_spectrum.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Absolute_Dirac_Neutrino_Mass_Spectrum_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1393,7 +1393,7 @@
                 <div class="card-actions">
                     <a href="Exact_Non_Perturbative_Mass_Gap_3D_Voronoi_Delaunay.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24449225" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_3d_voronoi_delaunay_mass_gap.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Exact_Non_Perturbative_Mass_Gap_3D_Voronoi_Delaunay.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1420,7 +1420,7 @@
                 <div class="card-actions">
                     <a href="Dynamic_Planck_Scale_Saturation_and_GW_Echoes.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24463836" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_dynamic_planck_gw_echoes.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_dynamic_planck_scale_and_gw_echoes.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Dynamic_Planck_Scale_Saturation_and_GW_Echoes.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1447,7 +1447,7 @@
                 <div class="card-actions">
                     <a href="Gaia_DR3_Wide_Binaries_Gravitational_Anomaly_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24496119" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_gaia_wide_binaries.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_gaia_wide_binaries_efe.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Gaia_DR3_Wide_Binaries_Gravitational_Anomaly_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1474,7 +1474,7 @@
                 <div class="card-actions">
                     <a href="Non_Perturbative_Nuclear_EOS_and_Neutron_Stars.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24497203" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_nuclear_eos_neutron_stars.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_neutron_star_eos_tov.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Non_Perturbative_Nuclear_EOS_and_Neutron_Stars.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1501,7 +1501,7 @@
                 <div class="card-actions">
                     <a href="Four_Dimensional_Voronoi_Delaunay_Gauge_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
                     <a href="https://doi.org/10.5281/zenodo.24500937" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
-                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_4d_voronoi_gauge_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_voronoi_vs_hypercubic_4d_lattice.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
                     <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Four_Dimensional_Voronoi_Delaunay_Gauge_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
                 </div>
             </article>
@@ -1544,44 +1544,44 @@
                 <div class="eq-item">
                     <h3>1. Universal Path Contour Master-Functional</h3>
                     <div class="eq-formula">
-                        $$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{M}} \mathcal{D}[\gamma \in \Sigma] \exp\left( \frac{i}{\hbar} S_{\mathrm{unified}}[\gamma] \right)$$
+                        $$\\mathbf{{\\Psi}}[\\Sigma] = \\int_{{\\mathcal{{M}}}} \\mathcal{{D}}[\\gamma \\in \\Sigma] \\exp\\left( \\frac{{i}}{{\\hbar}} S_{{\\mathrm{{unified}}}}[\\gamma] \\right)$$
                     </div>
-                    <p class="eq-desc">Defined over boundary surface loops $\Sigma$ governed by $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$. Generates all physical fields via exact path holonomies.</p>
+                    <p class="eq-desc">Defined over boundary surface loops $\\Sigma$ governed by $\\mathcal{{G}} = U(1)_Y \\times SU(2)_L \\times SU(3)_c \\times \\mathrm{{Spin}}(3,1)$. Generates all physical fields via exact path holonomies.</p>
                 </div>
                 <div class="eq-item">
                     <h3>2. Non-Perturbative Yang-Mills Mass Gap</h3>
                     <div class="eq-formula">
-                        $$\Delta = \hbar c \, \Lambda_{\mathrm{YM}} \mathcal{C}(SU(3)) \approx 1.65 \pm 0.08\text{ GeV} > 0$$
+                        $$\\Delta = \\hbar c \\, \\Lambda_{{\\mathrm{{YM}}}} \\mathcal{{C}}(SU(3)) \\approx 1.65 \\pm 0.08\\text{{ GeV}} > 0$$
                     </div>
-                    <p class="eq-desc">Deduce directly from center vortex condensation on $\mathbb{R}^4$. Satisfies Osterwalder-Schrader axioms (OS0-OS4) and matches lattice QCD scalar glueball $0^{++}$.</p>
+                    <p class="eq-desc">Deduce directly from center vortex condensation on $\\mathbb{{R}}^4$. Satisfies Osterwalder-Schrader axioms (OS0-OS4) and matches lattice QCD scalar glueball $0^{{++}}$.</p>
                 </div>
                 <div class="eq-item">
                     <h3>3. Emergence of Galactic MOND Acceleration</h3>
                     <div class="eq-formula">
-                        $$a_0 = \frac{c H_0}{2\pi} \approx 1.20 \times 10^{-10}\text{ m/s}^2, \quad g_{\mathrm{obs}} = \frac{g_{\mathrm{bar}}}{1 - e^{-\sqrt{g_{\mathrm{bar}}/a_0}}}$$
+                        $$a_0 = \\frac{{c H_0}}{{2\\pi}} \\approx 1.20 \\times 10^{{-10}}\\text{{ m/s}}^2, \\quad g_{{\\mathrm{{obs}}}} = \\frac{{g_{{\\mathrm{{bar}}}}}}{{1 - e^{{-\\sqrt{{g_{{\\mathrm{{bar}}}}/a_0}}}}}}$$
                     </div>
-                    <p class="eq-desc">Vacuum phase polarization at cosmic horizon boundary replaces Cold Dark Matter. Solves the baryonic Tully-Fisher relation across 178 SPARC galaxies with $\chi^2_{\mathrm{red}} = 1.04$.</p>
+                    <p class="eq-desc">Vacuum phase polarization at cosmic horizon boundary replaces Cold Dark Matter. Solves the baryonic Tully-Fisher relation across 178 SPARC galaxies with $\\chi^2_{{\\mathrm{{red}}}} = 1.04$.</p>
                 </div>
                 <div class="eq-item">
                     <h3>4. Relativistic Lensing & Optical Metric</h3>
                     <div class="eq-formula">
-                        $$\tilde{g}_{\mu\nu} = g_{\mu\nu} + \frac{2\Phi_{\mathrm{phase}}}{c^2} \mathcal{U}_\mu \mathcal{U}_\nu, \quad c_T \equiv c$$
+                        $$\\tilde{{g}}_{{\\mu\\nu}} = g_{{\\mu\\nu}} + \\frac{{2\\Phi_{{\\mathrm{{phase}}}}}}{{c^2}} \\mathcal{{U}}_\\mu \\mathcal{{U}}_\\nu, \\quad c_T \\equiv c$$
                     </div>
-                    <p class="eq-desc">4-vector phase current $\mathcal{U}_\mu$ preserves luminal tensor wave speed (GW170817) while producing the observed spatial separation in colliding clusters (Bullet Cluster).</p>
+                    <p class="eq-desc">4-vector phase current $\\mathcal{{U}}_\\mu$ preserves luminal tensor wave speed (GW170817) while producing the observed spatial separation in colliding clusters (Bullet Cluster).</p>
                 </div>
                 <div class="eq-item">
                     <h3>5. Quantum Gravity Regular Cores & Echoes</h3>
                     <div class="eq-formula">
-                        $$r_0 = 2\ell_P, \quad R_{\mathrm{max}} \le \frac{1}{\ell_P^2}, \quad \Delta t_{\mathrm{echo}} \approx 2.45\text{ ms}$$
+                        $$r_0 = 2\\ell_P, \\quad R_{{\\mathrm{{max}}}} \\le \\frac{{1}}{{\\ell_P^2}}, \\quad \\Delta t_{{\\mathrm{{echo}}}} \\approx 2.45\\text{{ ms}}$$
                     </div>
                     <p class="eq-desc">Horizon phase saturation caps curvature at the Planck scale, completely eliminating singularities and generating post-merger gravitational wave echoes in black hole cavities.</p>
                 </div>
                 <div class="eq-item">
                     <h3>6. Decisive Optomechanical Metrology</h3>
                     <div class="eq-formula">
-                        $$\tau_{\mathrm{crit}} = \frac{\hbar}{\Delta E_{\mathrm{phase}}} \approx 10\text{ ms} \ll \tau_{\mathrm{env}} > 800\text{ s}$$
+                        $$\\tau_{{\\mathrm{{crit}}}} = \\frac{{\\hbar}}{{\\Delta E_{{\\mathrm{{phase}}}}}} \\approx 10\\text{{ ms}} \\ll \\tau_{{\\mathrm{{env}}}} > 800\\text{{ s}}$$
                     </div>
-                    <p class="eq-desc">Experimentum Crucis 1: Levitated $^{28}\mathrm{Si}$ nanosphere ($R = 81.1\text{ nm}$, $M = 3.9 \times 10^{12}\text{ amu}$) in cryogenic cavity provides a falsifiable experimental boundary.</p>
+                    <p class="eq-desc">Experimentum Crucis 1: Levitated $^{{28}}\\mathrm{{Si}}$ nanosphere ($R = 81.1\\text{{ nm}}$, $M = 3.9 \\times 10^{{12}}\\text{{ amu}}$) in cryogenic cavity provides a falsifiable experimental boundary.</p>
                 </div>
             </div>
         </section>
@@ -1594,19 +1594,19 @@
             </p>
             <div class="bibtex-box">
                 <button class="copy-btn" onclick="copyBibtex()">Copy BibTeX</button>
-<pre id="bibtexText">@book{Pavliuk_2026_UPD,
-  author       = {Pavliuk, Hryhorii},
-  title        = {{Unified Phase Dynamics of Feynman Path Contours: 
+<pre id="bibtexText">@book{{Pavliuk_2026_UPD,
+  author       = {{Pavliuk, Hryhorii}},
+  title        = {{{{Unified Phase Dynamics of Feynman Path Contours: 
                    Deductive Derivation of Fundamental Physical Laws, 
                    Cosmological Precision Benchmarks, and Non-Perturbative 
-                   Yang-Mills Mass Gap}},
-  edition      = {Version 3.1.1 Extended},
-  year         = {2026},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.24226129},
-  url          = {https://doi.org/10.5281/zenodo.24226129},
-  note         = {Concept DOI: 10.5281/zenodo.24226129; Latest: 10.5281/zenodo.24447037}
-}</pre>
+                   Yang-Mills Mass Gap}}}},
+  edition      = {{Version 3.1.1 Extended}},
+  year         = {{2026}},
+  publisher    = {{Zenodo}},
+  doi          = {{10.5281/zenodo.24226129}},
+  url          = {{https://doi.org/10.5281/zenodo.24226129}},
+  note         = {{Concept DOI: 10.5281/zenodo.24226129; Latest: 10.5281/zenodo.24447037}}
+}}</pre>
             </div>
         </section>
 
@@ -1638,50 +1638,50 @@
         let currentFilter = 'all';
         let searchQuery = '';
 
-        function updateFilter() {
+        function updateFilter() {{
             let visibleCount = 0;
             const query = searchQuery.trim().toLowerCase();
 
-            workCards.forEach(card => {
+            workCards.forEach(card => {{
                 const category = card.getAttribute('data-category');
                 const searchCorpus = card.getAttribute('data-search') || '';
 
                 const matchesFilter = (currentFilter === 'all') || (category === currentFilter);
                 const matchesSearch = !query || searchCorpus.includes(query);
 
-                if (matchesFilter && matchesSearch) {
+                if (matchesFilter && matchesSearch) {{
                     card.style.display = 'flex';
                     visibleCount++;
-                } else {
+                }} else {{
                     card.style.display = 'none';
-                }
-            });
+                }}
+            }});
 
-            resultsCount.textContent = `Showing ${visibleCount} of ${workCards.length} works`;
-        }
+            resultsCount.textContent = `Showing ${{visibleCount}} of ${{workCards.length}} works`;
+        }}
 
-        searchInput.addEventListener('input', (e) => {
+        searchInput.addEventListener('input', (e) => {{
             searchQuery = e.target.value;
             updateFilter();
-        });
+        }});
 
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
+        filterBtns.forEach(btn => {{
+            btn.addEventListener('click', () => {{
                 filterBtns.forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 currentFilter = btn.getAttribute('data-filter');
                 updateFilter();
-            });
-        });
+            }});
+        }});
 
-        function copyBibtex() {
+        function copyBibtex() {{
             const bibtex = document.getElementById('bibtexText').innerText;
-            navigator.clipboard.writeText(bibtex).then(() => {
+            navigator.clipboard.writeText(bibtex).then(() => {{
                 const btn = document.querySelector('.copy-btn');
                 btn.textContent = 'Copied!';
-                setTimeout(() => { btn.textContent = 'Copy BibTeX'; }, 2000);
-            });
-        }
+                setTimeout(() => {{ btn.textContent = 'Copy BibTeX'; }}, 2000);
+            }});
+        }}
     </script>
 </body>
 </html>
