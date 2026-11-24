@@ -3,7 +3,8 @@
 
 **Theoretical Foundations:** *Unified Phase Dynamics of Feynman Path Contours*  
 **Author:** H. Pavliuk (Hryhorii Pavliuk), Independent Researcher  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 **Dedicated Benchmark Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
@@ -59,7 +60,7 @@ preventing unphysical force divergence and naturally explaining why wide binarie
 
 ## 4. Multi-Panel Diagnostic Dashboard
 
-![Gaia Wide Binaries EFE Simulation](file:///C:/Users/я/.gemini/antigravity/brain/398e8846-a2b9-434c-add3-adb9566988da/gaia_wide_binaries_efe_simulation.png)
+![Gaia Wide Binaries EFE Simulation](gaia_wide_binaries_efe_simulation.png)
 
 1. **Panel (a) - Force Multiplier $\alpha(s)$:** Compares the Newtonian flatline ($\alpha \equiv 1$), the isolated MOND runaway divergence, and the Unified Phase Dynamics EFE plateau against Gaia DR3 binned data.
 2. **Panel (b) - Velocity Boost $\gamma_v(g_N/a_0)$:** Shows the transition from the high-acceleration Newtonian regime ($g_N \gg a_0$) to the low-acceleration EFE plateau ($g_N \le a_0$).

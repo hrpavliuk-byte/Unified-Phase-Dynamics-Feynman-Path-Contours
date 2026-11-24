@@ -3,6 +3,7 @@
 
 **Theoretical Foundations:** *Unified Phase Dynamics of Feynman Path Contours*  
 **Author:** H. Pavliuk (Hryhorii Pavliuk), Independent Researcher  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Concept DOI; Latest v3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
 **Dedicated Article DOI:** [10.5281/zenodo.24504273](https://doi.org/10.5281/zenodo.24504273) (Concept DOI: [10.5281/zenodo.24504272](https://doi.org/10.5281/zenodo.24504272))  
 **Dedicated Benchmark Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
@@ -65,7 +66,7 @@ This selectively burns $^7\mathrm{Be}$ into Helium-4 and protons before $^7\math
 
 ## 4. Multi-Panel Diagnostic Dashboard
 
-![BBN Lithium Problem Simulation](file:///C:/Users/я/.gemini/antigravity/brain/398e8846-a2b9-434c-add3-adb9566988da/bbn_lithium_problem_simulation.png)
+![BBN Lithium Problem Simulation](bbn_lithium_problem_simulation.png)
 
 1. **Panel (a) - Temporal Yield Evolution:** Displays isotopic mass/number fractions from $t = 0.1\text{ s}$ to $3000\text{ s}$, highlighting weak freeze-out and deuterium breakthrough.
 2. **Panel (b) - Schramm Concordance Plot:** Demonstrates simultaneous overlap across $Y_p$, $D/H$, $^3\mathrm{He}/H$, and $^7\mathrm{Li}/H$ at $\eta_{10} = 6.12 \pm 0.04$.

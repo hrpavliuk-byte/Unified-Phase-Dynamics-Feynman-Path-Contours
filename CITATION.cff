@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this monograph, analytical derivations, or simulation code, please cite it using the metadata below."
+title: "Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap"
+authors:
+  - family-names: "Pavliuk"
+    given-names: "Hryhorii"
+    orcid: "https://orcid.org/0009-0000-0899-3463"
+    affiliation: "Independent Researcher"
+type: software
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24226129"
+    description: "Concept DOI for all versions of the foundational monograph"
+  - type: doi
+    value: "10.5281/zenodo.24447037"
+    description: "Version 3.1.1 Extended & Harmonized Edition"
+repository-code: "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours"
+url: "https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/"
+license: "CC-BY-4.0"
+version: "3.1.1"
+date-released: "2026-11-22"
+keywords:
+  - "unified phase dynamics"
+  - "feynman path contours"
+  - "quantum gravity"
+  - "yang-mills mass gap"
+  - "voronoi-delaunay complex"
+  - "mond"
+  - "cosmology"
+  - "optomechanics"

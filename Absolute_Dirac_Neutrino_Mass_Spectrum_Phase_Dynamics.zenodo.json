@@ -31,12 +31,12 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "10.5281/zenodo.24226130",
+      "identifier": "10.5281/zenodo.24226129",
       "relation": "isPartOf",
       "resource_type": "publication-book"
     },
     {
-      "identifier": "10.5281/zenodo.24409618",
+      "identifier": "10.5281/zenodo.24226129",
       "relation": "isSupplementTo",
       "resource_type": "publication-book"
     },
@@ -46,12 +46,12 @@
       "resource_type": "software"
     },
     {
-      "identifier": "https://github.com/hrpavliuk-byte/Yang-Mills-Existence-and-Mass-Gap-Clay-Proof",
+      "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
       "relation": "references",
       "resource_type": "software"
     },
     {
-      "identifier": "10.5281/zenodo.24429633",
+      "identifier": "10.5281/zenodo.24446706",
       "relation": "references",
       "resource_type": "publication-preprint"
     },
@@ -86,7 +86,7 @@
       "resource_type": "publication-article"
     },
     {
-      "identifier": "10.5281/zenodo.24373382",
+      "identifier": "10.5281/zenodo.24446824",
       "relation": "references",
       "resource_type": "publication-preprint"
     },
@@ -156,6 +156,6 @@
       "resource_type": "publication-preprint"
     }
   ],
-  "notes": "Standalone research article derived from the Unified Phase Dynamics of Feynman Path Contours (Monograph DOI: 10.5281/zenodo.24226130). Rigorous non-perturbative proof of strictly Dirac neutrino nature and exact derivation of the absolute mass spectrum concordant with DESI 2024 and NuFIT 5.2.",
+  "notes": "Standalone research article derived from the Unified Phase Dynamics of Feynman Path Contours (Monograph DOI: 10.5281/zenodo.24226129). Rigorous non-perturbative proof of strictly Dirac neutrino nature and exact derivation of the absolute mass spectrum concordant with DESI 2024 and NuFIT 5.2.",
   "version": "1.0.0"
 }

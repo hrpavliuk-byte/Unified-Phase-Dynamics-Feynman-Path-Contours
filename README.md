@@ -2,6 +2,11 @@
 
 ## Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem
 
+[![Interactive Research Portal](https://img.shields.io/badge/Interactive_Portal-GitHub_Pages-0284c7?style=flat-square)](https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/)
+[![Zenodo Concept DOI](https://img.shields.io/badge/Zenodo_DOI-10.5281%2Fzenodo.24226129-0b2545?style=flat-square)](https://doi.org/10.5281/zenodo.24226129)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0000--0899--3463-a6ce39?style=flat-square)](https://orcid.org/0009-0000-0899-3463)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+
 **Author:** Hryhorii Pavliuk  
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Affiliation:** Independent Researcher  
@@ -9,6 +14,24 @@
 **Primary Repository:** Zenodo (CERN / OpenAIRE) — Concept DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Version 3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
 **GitHub Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 **Interactive Web Portal (GitHub Pages):** [https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/](https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/)  
+
+---
+
+### Flagship Entry Points & Quick Verification
+
+For researchers evaluating this program for the first time, these three self-contained entry points provide immediate analytical formulas, empirical benchmarks, and executable Python code:
+
+| Entry Point | Target Phenomenon | Core Executable & Specification | Zenodo Reference |
+| :--- | :--- | :--- | :--- |
+| **1. Laboratory Optomechanics** (*Experimentum Crucis 1*) | Gravitationally induced decoherence of a levitated $^{28}\mathrm{Si}$ nanosphere ($R = 81.1\text{ nm}$, $\tau_{\text{crit}} \approx 10\text{ ms}$) against a 21-channel noise budget ($\tau_{\text{env}} > 800\text{ s}$) | [EXPERIMENTUM_CRUCIS_1_SPECIFICATION.md](EXPERIMENTUM_CRUCIS_1_SPECIFICATION.md) · [experimentum_crucis_1_simulation.py](experimentum_crucis_1_simulation.py) | [`10.5281/zenodo.24410149`](https://doi.org/10.5281/zenodo.24410149) |
+| **2. Astrophysics & Galactic Dynamics** | Zero-parameter rotation curves (175 SPARC galaxies, BTFR) & Gaia DR3 wide binaries External Field Effect plateau ($\chi^2/\mathrm{dof} = 3.05$) | [SPARC_Benchmark_Phase_Dynamics.md](SPARC_Benchmark_Phase_Dynamics.md) · [simulate_gaia_wide_binaries_efe.py](simulate_gaia_wide_binaries_efe.py) | [`10.5281/zenodo.24293024`](https://doi.org/10.5281/zenodo.24293024) · [`10.5281/zenodo.24496119`](https://doi.org/10.5281/zenodo.24496119) |
+| **3. Constructive 4D $SU(3)$ Gauge Dynamics** | Foliated Voronoi–Delaunay complexes, strict Reflection Positivity (OS2), continuous $SO(4)$ restoration, and scalar glueball gap $\Delta \approx 1.56\text{--}1.65\text{ GeV}$ | [Four_Dimensional_Voronoi_Delaunay_Gauge_Dynamics.md](Four_Dimensional_Voronoi_Delaunay_Gauge_Dynamics.md) · [simulate_voronoi_vs_hypercubic_4d_lattice.py](simulate_voronoi_vs_hypercubic_4d_lattice.py) | [`10.5281/zenodo.24500937`](https://doi.org/10.5281/zenodo.24500937) |
+
+#### Repository Navigation Guide
+* **Interactive Web Portal:** [`index.html`](https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/) — searchable catalog of all 28 works with web-native KaTeX rendering and standalone HTML papers (`*.html`).
+* **Foundational Monograph Sources:** [`main.tex`](main.tex), [`intro_en.tex`](intro_en.tex), [`ch1_partA_en.tex`](ch1_partA_en.tex)–[`concl_app_bib_en.tex`](concl_app_bib_en.tex).
+* **Thematic Papers & Metadata:** `*.md`, `*.tex`, `*.html`, and Zenodo archival metadata (`*.zenodo.json`, [`CITATION.cff`](CITATION.cff)).
+* **Reproducible Simulations:** `experimentum_crucis_1_*.py`, `simulate_*.py`, numerical outputs (`*_results.json`), and diagnostic plots (`*.png`).
 
 ---
 
@@ -51,7 +74,7 @@ All standalone peer-reviewed publications, analytical calculation engines, and m
 
 | # | Work / Article Title | Markdown Source Document | Version DOI | Concept DOI |
 |---|---|---|---|---|
-| **0** | **Foundational Monograph:** *Unified Phase Dynamics of Feynman Path Contours* | [Unified_Phase_Dynamics_Monograph_v3_1.pdf](Unified_Phase_Dynamics_Monograph_v3_1.pdf) | [`10.5281/zenodo.24447037`](https://doi.org/10.5281/zenodo.24447037) (v3.1.1) | [`10.5281/zenodo.24226129`](https://doi.org/10.5281/zenodo.24226129) |
+| **0** | **Foundational Monograph:** *Unified Phase Dynamics of Feynman Path Contours* | [`main.tex`](main.tex) ([Zenodo PDF](https://doi.org/10.5281/zenodo.24447037)) | [`10.5281/zenodo.24447037`](https://doi.org/10.5281/zenodo.24447037) (v3.1.1) | [`10.5281/zenodo.24226129`](https://doi.org/10.5281/zenodo.24226129) |
 | **1** | **Universal Emergent Gravitation:** *From Non-Perturbative YM Mass Gap to de Broglie Wave Refraction* | [Universal_Emergent_Gravitation_Phase_Dynamics.md](Universal_Emergent_Gravitation_Phase_Dynamics.md) | [`10.5281/zenodo.24410072`](https://doi.org/10.5281/zenodo.24410072) (v2.0) | [`10.5281/zenodo.24348874`](https://doi.org/10.5281/zenodo.24348874) |
 | **2** | **Regular Black Holes & Unitary Page Curve:** *Elimination of Singularities and Cauchy Horizon Stability* | [Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.md](Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.md) | [`10.5281/zenodo.24410119`](https://doi.org/10.5281/zenodo.24410119) (v2.0) | [`10.5281/zenodo.24312841`](https://doi.org/10.5281/zenodo.24312841) |
 | **3** | **Experimentum Crucis 1:** *Decisive Laboratory Optomechanics Benchmark ($R = 81.1\text{ nm}$ $^{28}\mathrm{Si}$)* | [Experimentum_Crucis_1_Optomechanics.md](Experimentum_Crucis_1_Optomechanics.md) | [`10.5281/zenodo.24410149`](https://doi.org/10.5281/zenodo.24410149) (v2.0) | [`10.5281/zenodo.24339964`](https://doi.org/10.5281/zenodo.24339964) |

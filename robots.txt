@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/sitemap.xml
