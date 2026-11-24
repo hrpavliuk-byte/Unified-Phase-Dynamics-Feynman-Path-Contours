@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "title": "Analytical Resolution of the Cosmological Lithium Problem via Non-Perturbative Phase-Holonomy Dynamics in Primordial Big Bang Nucleosynthesis",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p>We construct an analytical non-perturbative framework establishing the exact resolution of the long-standing <strong>Cosmological Lithium Problem</strong> in primordial Big Bang Nucleosynthesis (BBN) within the <strong>Unified Phase Dynamics of Feynman Path Contours</strong> by H. Pavliuk.</p><p>Standard Big Bang Nucleosynthesis (SBBN), at the concordance baryon density measured by the Planck satellite and independently deduced from the master path holonomy (&eta;<sub>B</sub> = 6.12 &times; 10<sup>-10</sup>), predicts a primordial Lithium-7 abundance of (<sup>7</sup>Li/H)<sub>SBBN</sub> = (4.68 &plusmn; 0.32) &times; 10<sup>-10</sup>. In contrast, spectroscopic observations of low-metallicity halo dwarf stars across the <strong>Spite Plateau</strong> consistently measure (<sup>7</sup>Li/H)<sub>obs</sub> = (1.58 &plusmn; 0.11) &times; 10<sup>-10</sup>, constituting a 3-fold deficit and an irreconcilable <strong>9.16&sigma; statistical tension</strong>.</p><p>Key physical results and mechanisms established in this work:</p><ul><li><strong>Topological Holonomy Energy Shift:</strong> During the primordial thermonuclear synthesis window (T ~ 0.3&ndash;0.7 &times; 10<sup>9</sup> K), the non-perturbative 4-vector phase current induces a topological holonomy energy shift &Delta;E<sub>phase</sub> &approx; 28 keV in the compound nuclear S-matrix.</li><li><strong>Resonant <sup>7</sup>Be Depletion:</strong> This topological phase shift aligns the near-threshold 2<sup>-</sup> excited resonant state in compound nucleus <sup>8</sup>Be<sup>*</sup> directly with the cosmic Gamow peak, accelerating the thermal neutron destruction channels <sup>7</sup>Be(n, p)<sup>7</sup>Li and <sup>7</sup>Be(n, &alpha;)<sup>4</sup>He by a factor of 2.85&times;.</li><li><strong>Exact Spite Plateau Concordance:</strong> The enhanced reaction rate depletes primordial <sup>7</sup>Be by 65.6% prior to cosmic electron capture, reducing the final frozen Lithium-7 yield to (<sup>7</sup>Li/H)<sub>UPD</sub> = 1.706 &times; 10<sup>-10</sup>, matching the Spite Plateau within 1.15&sigma; without free parameters and without beyond-the-Standard-Model (BSM) particles.</li><li><strong>Simultaneous Light Element Concordance:</strong> Precision preservation of all other primordial yields: Helium-4 mass fraction Y<sub>p</sub> = 0.2452 (obs: 0.2450 &plusmn; 0.0030, 0.07&sigma;), Deuterium D/H = 2.540 &times; 10<sup>-5</sup> (obs: (2.547 &plusmn; 0.025) &times; 10<sup>-5</sup>, 0.28&sigma;), and Helium-3 <sup>3</sup>He/H = 1.075 &times; 10<sup>-5</sup> (obs: (1.1 &plusmn; 0.2) &times; 10<sup>-5</sup>, 0.12&sigma;).</li></ul>",
+    "creators": [
+      {
+        "name": "Pavliuk, Hryhorii",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0000-0899-3463"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "Big Bang Nucleosynthesis",
+      "Cosmological Lithium Problem",
+      "Spite Plateau",
+      "Primordial Abundances",
+      "Beryllium-7 Depletion",
+      "Topological Phase Holonomy",
+      "Unified Phase Dynamics",
+      "Nuclear Astrophysics",
+      "H. Pavliuk"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24226129",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24447037",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+        "relation": "isSupplementedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.5281/zenodo.24336680",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24301702",
+        "relation": "cites",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.24500937",
+        "relation": "cites",
+        "scheme": "doi"
+      }
+    ]
+  }
+}

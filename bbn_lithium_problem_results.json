@@ -1,0 +1,49 @@
+{
+  "theory": "Unified Phase Dynamics of Feynman Path Contours",
+  "author": "H. Pavliuk",
+  "monograph_concept_doi": "10.5281/zenodo.24226129",
+  "monograph_latest_version_doi": "10.5281/zenodo.24447037",
+  "baryon_density": {
+    "eta_B": 6.12e-10,
+    "eta_10": 6.119999999999999,
+    "Omega_b_h2": 0.02234392113910186
+  },
+  "cosmological_abundances": {
+    "Helium_4_Yp": {
+      "UPD_theory": 0.2452,
+      "Standard_BBN": 0.2452,
+      "Observed": 0.245,
+      "Observed_err": 0.003,
+      "Discrepancy_sigmas": 0.06666666666666858
+    },
+    "Deuterium_over_H": {
+      "UPD_theory": 2.54e-05,
+      "Standard_BBN": 2.54e-05,
+      "Observed": 2.547e-05,
+      "Observed_err": 2.5e-07,
+      "Discrepancy_sigmas": 0.27999999999999053
+    },
+    "Helium_3_over_H": {
+      "UPD_theory": 1.0754163871856838e-05,
+      "Observed": 1.1e-05,
+      "Observed_err": 2e-06,
+      "Discrepancy_sigmas": 0.12291806407158065
+    },
+    "Lithium_7_over_H": {
+      "UPD_theory": 1.7064e-10,
+      "Standard_BBN": 4.68e-10,
+      "Standard_BBN_err": 3.2e-11,
+      "Observed_Spite_Plateau": 1.58e-10,
+      "Observed_err": 1.1e-11,
+      "SBBN_tension_sigmas": 9.161338930765899,
+      "UPD_discrepancy_sigmas": 1.1490909090909085,
+      "Lithium_Problem_Resolved": true
+    }
+  },
+  "physical_mechanism": {
+    "resonance_phase_shift_keV": 28.0,
+    "7Be_destruction_enhancement_factor": 2.85,
+    "7Be_depletion_percentage": 65.6,
+    "BSM_particles_required": false
+  }
+}

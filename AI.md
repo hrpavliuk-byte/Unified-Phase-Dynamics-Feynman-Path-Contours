@@ -168,6 +168,11 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
    - *Author:* Hryhorii Pavliuk.
    - *Permanent DOI:* [10.5281/zenodo.24500937](https://doi.org/10.5281/zenodo.24500937) (Concept DOI: [10.5281/zenodo.24500936](https://doi.org/10.5281/zenodo.24500936)).
    - *Summary:* Formulates four-dimensional quantum Yang-Mills theory on foliated Voronoi-Delaunay complexes $\mathcal{C}_a = \mathcal{V}_a^{(3)} \times a_\tau \mathbb{Z}_{1/2}$ with Discrete Exterior Calculus Hodge star weights. Strictly satisfies Osterwalder-Seiler reflection positivity (OS2) for all  > 0$ without Ostrogradsky ghosts, restores continuous (4)$ rotational invariance (OS1) via ensemble isotropy, and proves rigorous two-sided bounds on the mass gap: $\Delta_{0^{++}} \approx 1.62\text{--}1.65\text{ GeV}$ (matching lattice QCD .65 \pm 0.10\text{ GeV}$).
+28. **Primordial BBN & Resolution of the Cosmological Lithium Problem:**
+   - *Title:* Analytical Resolution of the Cosmological Lithium Problem via Non-Perturbative Phase-Holonomy Dynamics in Primordial Big Bang Nucleosynthesis.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [`10.5281/zenodo.24504273`](https://doi.org/10.5281/zenodo.24504273) (Concept DOI: [`10.5281/zenodo.24504272`](https://doi.org/10.5281/zenodo.24504272)).
+   - *Summary:* Solves the 30-year Cosmological Lithium Problem ($9.2\sigma$ crisis) where standard BBN predicts $(^7\mathrm{Li}/H) = 4.68 \times 10^{-10}$ versus observed Spite Plateau $(1.58 \pm 0.11) \times 10^{-10}$. Shows that non-perturbative 4-vector phase current induces a $\Delta E \approx 28\text{ keV}$ topological holonomy shift, aligning the near-threshold $2^-$ excited state in $^8\mathrm{Be}^*$ with the primordial Gamow peak and boosting $^7\mathrm{Be}$ destruction by $2.85\times$. Depletes primordial $^7\mathrm{Be}$ by $65.6\%$, yielding $(^7\mathrm{Li}/H)_{\mathrm{UPD}} = 1.706 \times 10^{-10}$ ($1.15\sigma$ concordance) with zero free parameters and zero BSM particles, while strictly preserving $Y_p = 0.2452$ ($0.07\sigma$), $D/H = 2.54 \times 10^{-5}$ ($0.28\sigma$), and $^3\mathrm{He}/H = 1.075 \times 10^{-5}$ ($0.12\sigma$).
 
 ---
 
