@@ -22,7 +22,7 @@ The construction is established via four formal theorems:
 
 ---
 
-![Voronoi-Delaunay vs Hypercubic Simulation](voronoi_vs_hypercubic_simulation.png)
+![Voronoi-Delaunay vs Hypercubic Simulation](voronoi_vs_hypercubic_4d_simulation.png)
 
 ---
 
