@@ -6,7 +6,7 @@
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Affiliation:** Independent Researcher  
 **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
-**Primary Repository:** Zenodo (CERN / OpenAIRE) — Concept DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (Version 3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
+**Primary Repository:** Zenodo (CERN / OpenAIRE) — Concept DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Version 3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
 **GitHub Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
@@ -50,7 +50,7 @@ All standalone peer-reviewed publications, analytical calculation engines, and m
 
 | # | Work / Article Title | Markdown Source Document | Version DOI | Concept DOI |
 |---|---|---|---|---|
-| **0** | **Foundational Monograph:** *Unified Phase Dynamics of Feynman Path Contours* | [Unified_Phase_Dynamics_Monograph_v3_1.pdf](Unified_Phase_Dynamics_Monograph_v3_1.pdf) | [`10.5281/zenodo.24409618`](https://doi.org/10.5281/zenodo.24409618) (v3.1) | [`10.5281/zenodo.24226130`](https://doi.org/10.5281/zenodo.24226130) |
+| **0** | **Foundational Monograph:** *Unified Phase Dynamics of Feynman Path Contours* | [Unified_Phase_Dynamics_Monograph_v3_1.pdf](Unified_Phase_Dynamics_Monograph_v3_1.pdf) | [`10.5281/zenodo.24447037`](https://doi.org/10.5281/zenodo.24447037) (v3.1.1) | [`10.5281/zenodo.24226129`](https://doi.org/10.5281/zenodo.24226129) |
 | **1** | **Universal Emergent Gravitation:** *From Non-Perturbative YM Mass Gap to de Broglie Wave Refraction* | [Universal_Emergent_Gravitation_Phase_Dynamics.md](Universal_Emergent_Gravitation_Phase_Dynamics.md) | [`10.5281/zenodo.24410072`](https://doi.org/10.5281/zenodo.24410072) (v2.0) | [`10.5281/zenodo.24348874`](https://doi.org/10.5281/zenodo.24348874) |
 | **2** | **Regular Black Holes & Unitary Page Curve:** *Elimination of Singularities and Cauchy Horizon Stability* | [Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.md](Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.md) | [`10.5281/zenodo.24410119`](https://doi.org/10.5281/zenodo.24410119) (v2.0) | [`10.5281/zenodo.24312841`](https://doi.org/10.5281/zenodo.24312841) |
 | **3** | **Experimentum Crucis 1:** *Decisive Laboratory Optomechanics Benchmark ($R = 81.1\text{ nm}$ $^{28}\mathrm{Si}$)* | [Experimentum_Crucis_1_Optomechanics.md](Experimentum_Crucis_1_Optomechanics.md) | [`10.5281/zenodo.24410149`](https://doi.org/10.5281/zenodo.24410149) (v2.0) | [`10.5281/zenodo.24339964`](https://doi.org/10.5281/zenodo.24339964) |
@@ -167,6 +167,6 @@ pdflatex main.tex
   author={Pavliuk, Hryhorii},
   year={2026},
   publisher={Zenodo},
-  doi={10.5281/zenodo.24226130}
+  doi={10.5281/zenodo.24226129}
 }
 ```

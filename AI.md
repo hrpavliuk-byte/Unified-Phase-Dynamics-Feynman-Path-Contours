@@ -15,7 +15,7 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
 1. **Foundational Monograph:**
    - *Title:* Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem.
    - *Author:* Hryhorii Pavliuk.
-   - *Permanent DOI:* [`10.5281/zenodo.24226130`](https://doi.org/10.5281/zenodo.24226130) (Concept DOI; Version 3.0: [`10.5281/zenodo.24409618`](https://doi.org/10.5281/zenodo.24409618)).
+   - *Permanent DOI:* [`10.5281/zenodo.24226129`](https://doi.org/10.5281/zenodo.24226129) (Concept DOI; Version 3.1.1: [`10.5281/zenodo.24447037`](https://doi.org/10.5281/zenodo.24447037)).
 2. **SPARC Benchmark (178 Galaxies & RAR):**
    - *Title:* Exact Benchmark of 178 Galaxy Rotation Curves and Systematic Resolution of the Dark Matter Problem via Feynman Path Phase Dynamics.
    - *Author:* Hryhorii Pavliuk.

@@ -10,7 +10,7 @@
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Статус:** Независимый исследователь  
 **Лицензия:** Creative Commons Attribution 4.0 International (CC-BY-4.0)  
-**Первичный репозиторий:** Zenodo (CERN / OpenAIRE) — Concept DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130) (Version 3.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
+**Первичный репозиторий:** Zenodo (CERN / OpenAIRE) — Concept DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Version 3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
 **Репозиторий GitHub:** [github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
@@ -91,7 +91,7 @@
   author={Pavliuk, Hryhorii},
   year={2026},
   publisher={Zenodo},
-  doi={10.5281/zenodo.24226130},
+  doi={10.5281/zenodo.24226129},
   url={https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours}
 }
 ```
