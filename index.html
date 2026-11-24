@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Phase Dynamics of Feynman Path Contours — Official Research Portal</title>
+    <meta name="description" content="Official scientific portal and open interactive library for the Unified Phase Dynamics of Feynman Path Contours by H. Pavliuk. 28 peer-archived scientific works, exact cosmological benchmarks, and non-perturbative Yang-Mills mass gap.">
+    
+    <!-- KaTeX CSS & JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+    
+    <style>
+        :root {
+            --primary: #0b2545;
+            --primary-light: #134074;
+            --accent: #0284c7;
+            --accent-hover: #0369a1;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --border: #e2e8f0;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --code-bg: #f1f5f9;
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            --card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+            --radius: 12px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Top Navigation */
+        .navbar {
+            background-color: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 14px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .navbar-brand .logo-badge {
+            background: linear-gradient(135deg, #0b2545, #0284c7);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        .navbar-links {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .navbar-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.92rem;
+            font-weight: 500;
+            transition: color 0.15s ease;
+        }
+
+        .navbar-links a:hover {
+            color: var(--accent);
+        }
+
+        .nav-btn {
+            background-color: var(--primary);
+            color: white !important;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.88rem !important;
+            transition: background-color 0.15s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: var(--primary-light) !important;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 40px 24px 80px 24px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #0b2545 0%, #134074 100%);
+            color: white;
+            padding: 48px 40px;
+            border-radius: var(--radius);
+            box-shadow: 0 10px 25px -5px rgba(11, 37, 69, 0.25);
+            margin-bottom: 35px;
+        }
+
+        .hero-badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+
+        .hero-badge {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(4px);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+        }
+
+        .hero-badge.highlight {
+            background: #38bdf8;
+            color: #0b2545;
+        }
+
+        .hero h1 {
+            font-size: 2.35rem;
+            line-height: 1.25;
+            font-weight: 800;
+            margin-bottom: 14px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            font-weight: 400;
+            margin-bottom: 24px;
+            max-width: 950px;
+            line-height: 1.5;
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 24px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            font-size: 0.95rem;
+        }
+
+        .hero-meta strong {
+            color: #f8fafc;
+        }
+
+        .hero-meta a {
+            color: #7dd3fc;
+            text-decoration: none;
+        }
+
+        .hero-meta a:hover {
+            text-decoration: underline;
+        }
+
+        /* Metric Counters Grid */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .metric-card {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px 18px;
+            text-align: center;
+            box-shadow: var(--card-shadow);
+        }
+
+        .metric-number {
+            font-size: 1.85rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1.1;
+            margin-bottom: 6px;
+        }
+
+        .metric-label {
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+
+        /* Master Monograph Showcase */
+        .master-card {
+            background: linear-gradient(to right, #ffffff, #f0fdf4);
+            border: 2px solid #0284c7;
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 40px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .master-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .master-pill {
+            background: #0284c7;
+            color: white;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .master-title {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+
+        .master-formula-box {
+            background: #ffffff;
+            border: 1px solid #bae6fd;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 16px 0;
+            overflow-x: auto;
+            text-align: center;
+        }
+
+        .master-summary {
+            font-size: 1.02rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .master-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        /* Filter & Search Bar */
+        .control-bar {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px 24px;
+            margin-bottom: 30px;
+            box-shadow: var(--card-shadow);
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .search-row {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 12px 18px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 0.98rem;
+            outline: none;
+            transition: border-color 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+        }
+
+        .filter-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .filter-btn {
+            background-color: var(--code-bg);
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            padding: 7px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .filter-btn:hover {
+            background-color: #e2e8f0;
+            color: var(--text-main);
+        }
+
+        .filter-btn.active {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .results-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            padding-top: 8px;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Works Grid */
+        .works-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+            gap: 24px;
+            margin-bottom: 50px;
+        }
+
+        .work-card {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+            position: relative;
+        }
+
+        .work-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--card-hover);
+            border-color: #cbd5e1;
+        }
+
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+
+        .badge-group {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .num-badge {
+            background-color: var(--primary);
+            color: white;
+            font-weight: 700;
+            font-size: 0.76rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+            letter-spacing: 0.5px;
+        }
+
+        .cat-pill {
+            background-color: #e0f2fe;
+            color: #0369a1;
+            font-weight: 600;
+            font-size: 0.74rem;
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+
+        .doi-badge {
+            font-size: 0.75rem;
+            color: #64748b;
+            text-decoration: none;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        }
+
+        .doi-badge:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary);
+            line-height: 1.35;
+            margin-bottom: 12px;
+            flex-grow: 0;
+        }
+
+        .card-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+
+        .card-title a:hover {
+            color: var(--accent);
+        }
+
+        .formula-box {
+            background-color: var(--code-bg);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 6px 6px 0;
+            padding: 10px 14px;
+            margin: 10px 0 14px 0;
+            overflow-x: auto;
+            font-size: 0.88rem;
+        }
+
+        .card-summary {
+            font-size: 0.90rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+            margin-bottom: 18px;
+            flex-grow: 1;
+        }
+
+        .card-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding-top: 14px;
+            border-top: 1px solid var(--border);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.15s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: var(--accent);
+            color: white;
+            border: 1px solid var(--accent);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-hover);
+            border-color: var(--accent-hover);
+        }
+
+        .btn-secondary {
+            background-color: var(--code-bg);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background-color: #e2e8f0;
+            color: var(--primary);
+        }
+
+        /* Foundational Equations Section */
+        .equations-section {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 36px 32px;
+            margin-bottom: 40px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .section-header {
+            margin-bottom: 24px;
+        }
+
+        .section-header h2 {
+            font-size: 1.6rem;
+            color: var(--primary);
+            margin-bottom: 6px;
+        }
+
+        .section-header p {
+            color: var(--text-muted);
+            font-size: 0.98rem;
+        }
+
+        .eq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        .eq-item {
+            background: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+        }
+
+        .eq-item h3 {
+            font-size: 0.95rem;
+            color: var(--primary-light);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .eq-formula {
+            padding: 10px 0;
+            text-align: center;
+            overflow-x: auto;
+        }
+
+        .eq-desc {
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            line-height: 1.45;
+            margin-top: 8px;
+        }
+
+        /* Citation Block */
+        .citation-section {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 40px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .citation-section h2 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .bibtex-box {
+            background-color: #0f172a;
+            color: #f8fafc;
+            padding: 18px;
+            border-radius: 8px;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            position: relative;
+            overflow-x: auto;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+
+        .copy-btn:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: #94a3b8;
+            padding: 48px 24px;
+            text-align: center;
+            font-size: 0.92rem;
+            border-top: 1px solid #1e293b;
+        }
+
+        footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-content {
+            max-width: 900px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                padding: 32px 20px;
+            }
+            .hero h1 {
+                font-size: 1.85rem;
+            }
+            .works-grid {
+                grid-template-columns: 1fr;
+            }
+            .navbar {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="navbar-brand">
+            <span class="logo-badge">UPD</span>
+            <span>Unified Phase Dynamics</span>
+        </a>
+        <div class="navbar-links">
+            <a href="#catalog">Scientific Works (28)</a>
+            <a href="#foundations">Master Formulas</a>
+            <a href="#citation">Citation / BibTeX</a>
+            <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours" target="_blank">GitHub</a>
+            <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank" class="nav-btn">Zenodo Monograph</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-badge-row">
+                <span class="hero-badge highlight">Open Science Monograph & Research Archive</span>
+                <span class="hero-badge">CC-BY-4.0 International</span>
+                <span class="hero-badge">CERN / Zenodo Deposited</span>
+                <span class="hero-badge">Web-Native KaTeX</span>
+            </div>
+            <h1>Unified Phase Dynamics of Feynman Path Contours</h1>
+            <p class="hero-subtitle">
+                Deductive Derivation of Fundamental Physical Laws, Exact Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap
+            </p>
+            <div class="hero-meta">
+                <div>Author: <strong>Hryhorii Pavliuk</strong> (Independent Researcher)</div>
+                <div>ORCID: <a href="https://orcid.org/0009-0000-0899-3463" target="_blank">0009-0000-0899-3463</a></div>
+                <div>Monograph Concept DOI: <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank">10.5281/zenodo.24226129</a></div>
+                <div>Latest Extended Version: <a href="https://doi.org/10.5281/zenodo.24447037" target="_blank">v3.1.1 (Record 24447037)</a></div>
+            </div>
+        </header>
+
+        <!-- Metrics Grid -->
+        <section class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-number">28</div>
+                <div class="metric-label">Peer-Archived Works</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">0</div>
+                <div class="metric-label">Free Parameters / BSM</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">178</div>
+                <div class="metric-label">SPARC Galaxies (χ²=1.04)</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">1.65 GeV</div>
+                <div class="metric-label">Exact Yang-Mills Gap</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">10 ms</div>
+                <div class="metric-label">Decoherence Threshold</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">100%</div>
+                <div class="metric-label">Open Reproducible Code</div>
+            </div>
+        </section>
+
+        <!-- Master Monograph Featured Showcase -->
+        <section class="master-card">
+            <div class="master-header">
+                <div>
+                    <span class="master-pill">Master Volume (v3.1.1 Extended)</span>
+                    <h2 class="master-title" style="margin-top: 10px;">Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap</h2>
+                </div>
+                <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank" class="doi-badge" style="font-size: 0.9rem; font-weight: 600;">
+                    DOI: 10.5281/zenodo.24226129
+                </a>
+            </div>
+            <div class="master-formula-box">
+                $$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{M}} \mathcal{D}[\gamma \in \Sigma] \exp\left( \frac{i}{\hbar} S_{\mathrm{unified}}[\gamma] \right), \quad [\hat{\mathcal{H}}(N_1), \hat{\mathcal{H}}(N_2)] \equiv 0, \quad \text{Res}_{\epsilon \to 0} \mathcal{A}_{\mathrm{GS}}^{(2)} \equiv 0$$
+            </div>
+            <p class="master-summary">
+                The comprehensive foundational monograph. Rigorously derives General Relativity via the Van Vleck–Morette determinant and Feynman–Deser spin-2 bootstrap without metric quantization; proves exact Wheeler–DeWitt Dirac constraint closure on diffeomorphism knot states; cancels the 2-loop Goroff–Sagnotti ultraviolet divergence via entire Schwinger contour form-factors; proves non-perturbative Yang–Mills existence and mass gap on $\mathbb{R}^4$; and deduces MOND galactic kinematics ($a_0 = c H_0 / 2\pi$) from quantum vacuum phase polarization with zero free parameters.
+            </p>
+            <div class="master-actions">
+                <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank" class="btn btn-primary">
+                    ⚡ Read on Zenodo (Concept DOI 10.5281/zenodo.24226129)
+                </a>
+                <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/README.md" target="_blank" class="btn btn-secondary">
+                    📘 Read Monograph Synopsis on GitHub
+                </a>
+                <a href="Deductive_Derivation_of_Master_Functional_Phase_Dynamics.html" class="btn btn-secondary">
+                    📜 Interactive Master Functional Proof
+                </a>
+            </div>
+        </section>
+
+        <!-- Search & Filter Controls -->
+        <section class="control-bar" id="catalog">
+            <div class="search-row">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search across all 28 works by title, keyword, formula, observable, or DOI...">
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Works (28)</button>
+                <button class="filter-btn" data-filter="astrophysics">Astrophysics & Galactic Dynamics (5)</button>
+                <button class="filter-btn" data-filter="cosmology">Cosmology & Early Universe (8)</button>
+                <button class="filter-btn" data-filter="quantum_gravity">Quantum Gravity & Foundations (7)</button>
+                <button class="filter-btn" data-filter="particle_physics">Particle Physics & Fields (4)</button>
+                <button class="filter-btn" data-filter="laboratory">Laboratory Metrology (2)</button>
+            </div>
+            <div class="results-meta">
+                <span id="resultsCount">Showing 28 of 28 works</span>
+                <span>Sorted by Canonical Program Sequence</span>
+            </div>
+        </section>
+
+        <!-- Works Cards Grid -->
+        <section class="works-grid" id="worksGrid">
+
+            <article class="work-card" data-category="quantum_gravity" data-search="unified phase dynamics of feynman path contours: deductive derivation of fundamental physical laws, cosmological precision benchmarks, and non-perturbative yang-mills mass gap master foundational monograph. deductive derivation of general relativity without metric quantization, exact wheeler-dewitt dirac closure on knot states, cancellation of 2-loop goroff-sagnotti divergence, and mond emergence from vacuum phase polarization. 10.5281/zenodo.24447037 10.5281/zenodo.24226129 quantum gravity foundations gravity cosmology quantum">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Master Volume</span>
+                        <span class="cat-pill">Quantum Gravity</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24447037" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24447037
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Deductive_Derivation_of_Master_Functional_Phase_Dynamics.html" target="_blank">Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap</a>
+                </h3>
+                <div class="formula-box">
+                    $$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{M}} \mathcal{D}[\gamma \in \Sigma] \exp\left( \frac{i}{\hbar} S_{\mathrm{unified}}[\gamma] \right), \quad [\hat{\mathcal{H}}(N_1), \hat{\mathcal{H}}(N_2)] \equiv 0$$
+                </div>
+                <p class="card-summary">
+                    Master foundational monograph. Deductive derivation of General Relativity without metric quantization, exact Wheeler-DeWitt Dirac closure on knot states, cancellation of 2-loop Goroff-Sagnotti divergence, and MOND emergence from vacuum phase polarization.
+                </p>
+                <div class="card-actions">
+                    <a href="Deductive_Derivation_of_Master_Functional_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24447037" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    
+                    
+                </div>
+            </article>
+
+            <article class="work-card" data-category="astrophysics" data-search="exact benchmark of 178 galaxy rotation curves & systematic resolution of the dark matter problem full empirical benchmark across all 178 sparc galaxies spanning 5 dex in stellar mass. demonstrates systematic superior fit over nfw cold dark matter profiles without dark matter halos or free tuning parameters. 10.5281/zenodo.24293024 10.5281/zenodo.24293023 astrophysics astrophysics galaxies dark_matter mond sparc">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 01</span>
+                        <span class="cat-pill">Astrophysics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24293024" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24293024
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="SPARC_Benchmark_Phase_Dynamics.html" target="_blank">Exact Benchmark of 178 Galaxy Rotation Curves & Systematic Resolution of the Dark Matter Problem</a>
+                </h3>
+                <div class="formula-box">
+                    $$g_{\mathrm{obs}} = \frac{g_{\mathrm{bar}}}{1 - \exp(-\sqrt{g_{\mathrm{bar}}/a_0})}, \quad \chi^2_{\mathrm{red}} = 1.04 \text{ across 178 galaxies}$$
+                </div>
+                <p class="card-summary">
+                    Full empirical benchmark across all 178 SPARC galaxies spanning 5 dex in stellar mass. Demonstrates systematic superior fit over NFW Cold Dark Matter profiles without dark matter halos or free tuning parameters.
+                </p>
+                <div class="card-actions">
+                    <a href="SPARC_Benchmark_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24293024" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/sparc_benchmark_simulation.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/SPARC_Benchmark_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="astrophysics" data-search="relativistic gravitational lensing, 4-vector phase dynamics, and spatial decoupling in merging galaxy clusters deduces relativistic lensing and collisionless spatial decoupling in the bullet cluster (1e 0657-56), el gordo, and abell 520 via the non-local 4-vector phase current, preserving gw170817 luminal tensor speed (c_t = c). 10.5281/zenodo.24293794 10.5281/zenodo.24293793 astrophysics astrophysics lensing clusters bullet_cluster">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 02</span>
+                        <span class="cat-pill">Astrophysics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24293794" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24293794
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Relativistic_Lensing_Phase_Dynamics.html" target="_blank">Relativistic Gravitational Lensing, 4-Vector Phase Dynamics, and Spatial Decoupling in Merging Galaxy Clusters</a>
+                </h3>
+                <div class="formula-box">
+                    $$\tilde{g}_{\mu\nu} = g_{\mu\nu} + \frac{2\Phi_{\mathrm{phase}}}{c^2} \mathcal{U}_\mu \mathcal{U}_\nu, \quad \Delta \theta = 4.15'' \text{ (Bullet Cluster 1E 0657-56)}$$
+                </div>
+                <p class="card-summary">
+                    Deduces relativistic lensing and collisionless spatial decoupling in the Bullet Cluster (1E 0657-56), El Gordo, and Abell 520 via the non-local 4-vector phase current, preserving GW170817 luminal tensor speed (c_T = c).
+                </p>
+                <div class="card-actions">
+                    <a href="Relativistic_Lensing_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24293794" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_relativistic_lensing.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Relativistic_Lensing_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="analytical resolution of the cosmic microwave background acoustic peaks via 4-vector phase currents exact analytical solution of cosmological perturbations without cold dark matter. reproduces acoustic peaks ell_1 through ell_8, polarization ee spectrum, and third peak height ratio matching planck 2018 data. 10.5281/zenodo.24301702 10.5281/zenodo.24301701 cosmology cosmology cmb planck">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 03</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24301702" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24301702
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Cosmological_Perturbations_CMB_Phase_Dynamics.html" target="_blank">Analytical Resolution of the Cosmic Microwave Background Acoustic Peaks via 4-Vector Phase Currents</a>
+                </h3>
+                <div class="formula-box">
+                    $$\ell_1 = 220.6, \quad \ell_2 = 537.5, \quad \ell_3 = 811.2, \quad A_3/A_2 = 0.435 \text{ (Planck 2018 concordance)}$$
+                </div>
+                <p class="card-summary">
+                    Exact analytical solution of cosmological perturbations without Cold Dark Matter. Reproduces acoustic peaks ell_1 through ell_8, polarization EE spectrum, and third peak height ratio matching Planck 2018 data.
+                </p>
+                <div class="card-actions">
+                    <a href="Cosmological_Perturbations_CMB_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24301702" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_cmb_phase_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Cosmological_Perturbations_CMB_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="resolution of the jwst high-redshift galaxy crisis (z >= 10) via dynamic phase-acceleration thresholds resolves the jwst cosmic dawn anomaly (jades-gs-z14-0, gn-z11) where massive galaxies formed orders of magnitude faster than lambda-cdm predictions, driven by the low-acceleration phase-boost at high redshift. 10.5281/zenodo.24311502 10.5281/zenodo.24311501 cosmology cosmology jwst early_universe">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 04</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24311502" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24311502
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="JWST_HighZ_Galaxies_Phase_Dynamics.html" target="_blank">Resolution of the JWST High-Redshift Galaxy Crisis (z >= 10) via Dynamic Phase-Acceleration Thresholds</a>
+                </h3>
+                <div class="formula-box">
+                    $$M_*(z \ge 10) \sim 10^{10.5} M_\odot, \quad \Phi(M_*)_{\mathrm{UPD}} / \Phi(M_*)_{\Lambda\mathrm{CDM}} \sim 10^2\text{--}10^3$$
+                </div>
+                <p class="card-summary">
+                    Resolves the JWST cosmic dawn anomaly (JADES-GS-z14-0, GN-z11) where massive galaxies formed orders of magnitude faster than Lambda-CDM predictions, driven by the low-acceleration phase-boost at high redshift.
+                </p>
+                <div class="card-actions">
+                    <a href="JWST_HighZ_Galaxies_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24311502" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_jwst_highz_galaxies.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/JWST_HighZ_Galaxies_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="quantum_gravity" data-search="elimination of black hole singularities via regular de sitter cores and exact unitary page curve (v2.0) proves complete singularity avoidance in collapsing gravitational configurations. horizon phase saturation forms a regular de sitter core of radius 2 l_p and restores quantum unitarity via an exact page curve. 10.5281/zenodo.24410119 10.5281/zenodo.24312841 quantum gravity gravity black_holes quantum_gravity">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 05</span>
+                        <span class="cat-pill">Quantum Gravity</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24410119" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24410119
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.html" target="_blank">Elimination of Black Hole Singularities via Regular de Sitter Cores and Exact Unitary Page Curve (v2.0)</a>
+                </h3>
+                <div class="formula-box">
+                    $$r_0 = 2\ell_P, \quad R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}(0) = \frac{24}{\ell_P^4} < \infty, \quad S_{\mathrm{ent}}(t_{\mathrm{evap}}) = 0$$
+                </div>
+                <p class="card-summary">
+                    Proves complete singularity avoidance in collapsing gravitational configurations. Horizon phase saturation forms a regular de Sitter core of radius 2 l_P and restores quantum unitarity via an exact Page curve.
+                </p>
+                <div class="card-actions">
+                    <a href="Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24410119" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_regular_black_hole_page_curve.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Regular_Black_Hole_Interior_Page_Curve_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="analytical resolution of the hubble tension via phase-current dynamics in the local kbc supervoid resolves the 5-sigma hubble tension between local cepheid/snia measurements (sh0es) and global cmb (planck) through non-linear phase-driven outflow inside the 300 mpc keenan-barger-cowie supervoid. 10.5281/zenodo.24314424 10.5281/zenodo.24314423 cosmology cosmology hubble kbc_void">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 06</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24314424" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24314424
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.html" target="_blank">Analytical Resolution of the Hubble Tension via Phase-Current Dynamics in the Local KBC Supervoid</a>
+                </h3>
+                <div class="formula-box">
+                    $$H_0^{\mathrm{local}} = 73.04 \pm 1.04 \text{ km/s/Mpc}, \quad H_0^{\mathrm{global}} = 67.4 \pm 0.5 \text{ km/s/Mpc} \implies 0.0\sigma \text{ tension}$$
+                </div>
+                <p class="card-summary">
+                    Resolves the 5-sigma Hubble tension between local Cepheid/SNIa measurements (SH0ES) and global CMB (Planck) through non-linear phase-driven outflow inside the 300 Mpc Keenan-Barger-Cowie supervoid.
+                </p>
+                <div class="card-actions">
+                    <a href="Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24314424" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_hubble_tension_kbc_void.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Hubble_Tension_Resolution_KBC_Void_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="quantum_gravity" data-search="exact non-perturbative spectral mass gap for 4d su(3) yang-mills theory on r^4 constructive proof of osterwalder-schrader axioms (os0-os4) on continuous r^4. deduces exact two-sided spectral gap bounds from center vortex condensation, matching the lightest scalar glueball 0++ in lattice qcd. 10.5281/zenodo.24409149 10.5281/zenodo.24231512 quantum gravity quantum yang_mills mass_gap">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 07</span>
+                        <span class="cat-pill">Quantum Gravity</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24409149" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24409149
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.html" target="_blank">Exact Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4</a>
+                </h3>
+                <div class="formula-box">
+                    $$\Delta = \hbar c \, \Lambda_{\mathrm{YM}} \mathcal{C}(SU(3)) = 1.65 \pm 0.08 \text{ GeV} > 0, \quad m(0^{++}) = 1.66 \text{ GeV}$$
+                </div>
+                <p class="card-summary">
+                    Constructive proof of Osterwalder-Schrader axioms (OS0-OS4) on continuous R^4. Deduces exact two-sided spectral gap bounds from center vortex condensation, matching the lightest scalar glueball 0++ in lattice QCD.
+                </p>
+                <div class="card-actions">
+                    <a href="Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24409149" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_yang_mills_mass_gap.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Yang_Mills_Mass_Gap_Existence_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="analytical resolution of the cosmological s_8 tension & cosmic shear suppression without cold dark matter resolves the 3-sigma s_8 tension between weak lensing surveys (kids-1000, des-y3) and planck 2018. phase-current screening suppresses power on non-linear scales k > 0.1 h/mpc without exotic dark energy. 10.5281/zenodo.24334557 10.5281/zenodo.24334556 cosmology cosmology s8 cosmic_shear">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 08</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24334557" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24334557
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="S8_Cosmic_Shear_Tension_Phase_Dynamics.html" target="_blank">Analytical Resolution of the Cosmological S_8 Tension & Cosmic Shear Suppression Without Cold Dark Matter</a>
+                </h3>
+                <div class="formula-box">
+                    $$S_8 = \sigma_8 \sqrt{\Omega_m/0.3} = 0.766 \pm 0.014 \text{ (KiDS/DES/HSC concordance)}$$
+                </div>
+                <p class="card-summary">
+                    Resolves the 3-sigma S_8 tension between weak lensing surveys (KiDS-1000, DES-Y3) and Planck 2018. Phase-current screening suppresses power on non-linear scales k > 0.1 h/Mpc without exotic dark energy.
+                </p>
+                <div class="card-actions">
+                    <a href="S8_Cosmic_Shear_Tension_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24334557" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_s8_cosmic_shear.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/S8_Cosmic_Shear_Tension_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="astrophysics" data-search="quasinormal modes & gravitational wave echoes from regular black hole cavities calculates perturbation spectrum for non-singular quantum black holes. predicts characteristic post-merger echo signals resulting from wave reflections between the angular momentum barrier and the de sitter core. 10.5281/zenodo.24335106 10.5281/zenodo.24335105 astrophysics gravity black_holes gravitational_waves">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 09</span>
+                        <span class="cat-pill">Astrophysics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24335106" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24335106
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="QNM_Gravitational_Wave_Echoes_Phase_Dynamics.html" target="_blank">Quasinormal Modes & Gravitational Wave Echoes from Regular Black Hole Cavities</a>
+                </h3>
+                <div class="formula-box">
+                    $$\Delta t_{\mathrm{echo}} = 2 \int_{r_{\mathrm{core}}}^{r_{\mathrm{ph}}} \frac{dr}{f(r)} \approx 2.45 \text{ ms (for } 30 M_\odot \text{ BH)}$$
+                </div>
+                <p class="card-summary">
+                    Calculates perturbation spectrum for non-singular quantum black holes. Predicts characteristic post-merger echo signals resulting from wave reflections between the angular momentum barrier and the de Sitter core.
+                </p>
+                <div class="card-actions">
+                    <a href="QNM_Gravitational_Wave_Echoes_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24335106" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_qnm_gw_echoes.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/QNM_Gravitational_Wave_Echoes_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="primordial baryogenesis & topological cp-violation from master path holonomies explains the observed matter-antimatter asymmetry of the universe strictly within standard model particle content through topological phase holonomies during the electroweak sphaleron epoch. 10.5281/zenodo.24336680 10.5281/zenodo.24336679 cosmology cosmology particle_physics baryogenesis">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 10</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24336680" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24336680
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Primordial_Baryogenesis_Topological_Phase_Dynamics.html" target="_blank">Primordial Baryogenesis & Topological CP-Violation from Master Path Holonomies</a>
+                </h3>
+                <div class="formula-box">
+                    $$\eta_B = \frac{n_B - n_{\bar{B}}}{s} = (6.12 \pm 0.08) \times 10^{-10} \text{ (matches Planck 2018 exactly)}$$
+                </div>
+                <p class="card-summary">
+                    Explains the observed matter-antimatter asymmetry of the universe strictly within Standard Model particle content through topological phase holonomies during the electroweak sphaleron epoch.
+                </p>
+                <div class="card-actions">
+                    <a href="Primordial_Baryogenesis_Topological_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24336680" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_primordial_baryogenesis.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Primordial_Baryogenesis_Topological_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="particle_physics" data-search="electroweak symmetry breaking, higgs boson mass (125.1 gev), and hierarchy problem resolution resolves the gauge hierarchy problem without supersymmetry. the non-local schwinger contour regulator cuts off quadratic loop divergences, stabilizing the higgs vacuum expectation value at 246.2 gev. 10.5281/zenodo.24337610 10.5281/zenodo.24337609 particle physics particle_physics higgs electroweak">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 11</span>
+                        <span class="cat-pill">Particle Physics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24337610" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24337610
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.html" target="_blank">Electroweak Symmetry Breaking, Higgs Boson Mass (125.1 GeV), and Hierarchy Problem Resolution</a>
+                </h3>
+                <div class="formula-box">
+                    $$m_H = \sqrt{2 \lambda} v = 125.10 \pm 0.14 \text{ GeV}, \quad v = 246.22 \text{ GeV}, \quad \delta m_H^2 \sim \Lambda_{\mathrm{phase}}^2$$
+                </div>
+                <p class="card-summary">
+                    Resolves the gauge hierarchy problem without supersymmetry. The non-local Schwinger contour regulator cuts off quadratic loop divergences, stabilizing the Higgs vacuum expectation value at 246.2 GeV.
+                </p>
+                <div class="card-actions">
+                    <a href="Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24337610" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_electroweak_higgs.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Electroweak_Higgs_Mass_Hierarchy_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="the cosmological constant problem and dynamic phase relaxation of vacuum energy resolves the 120-orders-of-magnitude vacuum catastrophe. boundary phase dynamics dynamically relaxes bare zero-point quantum fluctuations down to the cosmic horizon scale, matching dark energy density. 10.5281/zenodo.24338194 10.5281/zenodo.24338193 cosmology cosmology dark_energy cosmological_constant">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 12</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24338194" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24338194
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Cosmological_Constant_Phase_Relaxation.html" target="_blank">The Cosmological Constant Problem and Dynamic Phase Relaxation of Vacuum Energy</a>
+                </h3>
+                <div class="formula-box">
+                    $$\rho_\Lambda^{\mathrm{obs}} = \frac{3 H_0^2 c^2}{8\pi G} \approx (2.3 \times 10^{-3} \text{ eV})^4 \sim 10^{-122} \rho_{\mathrm{Planck}}$$
+                </div>
+                <p class="card-summary">
+                    Resolves the 120-orders-of-magnitude vacuum catastrophe. Boundary phase dynamics dynamically relaxes bare zero-point quantum fluctuations down to the cosmic horizon scale, matching dark energy density.
+                </p>
+                <div class="card-actions">
+                    <a href="Cosmological_Constant_Phase_Relaxation.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24338194" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_cosmological_constant.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Cosmological_Constant_Phase_Relaxation.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="primordial inflationary perturbations without inflaton scalar fields: conformal phase dynamics deduces quasi-de sitter primordial expansion and perturbation spectra directly from path-contour conformal dynamics, yielding scalar tilt n_s = 0.9649 and tensor-to-scalar ratio r = 0.0037 without ad-hoc inflaton fields. 10.5281/zenodo.24338710 10.5281/zenodo.24338709 cosmology cosmology inflation cosmic_dawn">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 13</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24338710" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24338710
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Primordial_Inflation_Phase_Dynamics.html" target="_blank">Primordial Inflationary Perturbations Without Inflaton Scalar Fields: Conformal Phase Dynamics</a>
+                </h3>
+                <div class="formula-box">
+                    $$n_s = 0.9649 \pm 0.0042, \quad r = 0.00369, \quad N_e = 58.5 \text{ e-folds}$$
+                </div>
+                <p class="card-summary">
+                    Deduces quasi-de Sitter primordial expansion and perturbation spectra directly from path-contour conformal dynamics, yielding scalar tilt n_s = 0.9649 and tensor-to-scalar ratio r = 0.0037 without ad-hoc inflaton fields.
+                </p>
+                <div class="card-actions">
+                    <a href="Primordial_Inflation_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24338710" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_primordial_inflation.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Primordial_Inflation_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="particle_physics" data-search="resolution of the strong cp problem without axions: center vortex topology shows that center vortex topological condensation projects the gauge orbit space onto a single topological vacuum sector, enforcing theta_bar = 0 and vanishing neutron edm without axion fields. 10.5281/zenodo.24339308 10.5281/zenodo.24339307 particle physics particle_physics strong_cp qcd">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 14</span>
+                        <span class="cat-pill">Particle Physics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24339308" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24339308
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Strong_CP_Problem_Phase_Dynamics.html" target="_blank">Resolution of the Strong CP Problem Without Axions: Center Vortex Topology</a>
+                </h3>
+                <div class="formula-box">
+                    $$\bar{\theta} \equiv 0, \quad d_n = 0 < 1.8 \times 10^{-26} \, e\cdot\mathrm{cm} \text{ (exact topological cancellation)}$$
+                </div>
+                <p class="card-summary">
+                    Shows that center vortex topological condensation projects the gauge orbit space onto a single topological vacuum sector, enforcing theta_bar = 0 and vanishing neutron EDM without axion fields.
+                </p>
+                <div class="card-actions">
+                    <a href="Strong_CP_Problem_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24339308" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_strong_cp_problem.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Strong_CP_Problem_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="laboratory" data-search="experimentum crucis 1: decisive laboratory test of gravitationally induced quantum decoherence (v2.0) rigorous experimental protocol and 21-channel noise suppression budget for a levitated silicon-28 nanosphere in a 10 mk cryogenic cavity. predicts an unmistakable 10 ms decoherence transition. 10.5281/zenodo.24410149 10.5281/zenodo.24339964 laboratory metrology laboratory optomechanics decoherence">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 15</span>
+                        <span class="cat-pill">Laboratory Metrology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24410149" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24410149
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Experimentum_Crucis_1_Optomechanics.html" target="_blank">Experimentum Crucis 1: Decisive Laboratory Test of Gravitationally Induced Quantum Decoherence (v2.0)</a>
+                </h3>
+                <div class="formula-box">
+                    $$R_{\mathrm{crit}} = 81.1 \text{ nm}, \quad M_{\mathrm{crit}} = 3.92 \times 10^{12} \text{ amu}, \quad \tau_{\mathrm{crit}} = 10 \text{ ms} \ll \tau_{\mathrm{env}} > 800\text{ s}$$
+                </div>
+                <p class="card-summary">
+                    Rigorous experimental protocol and 21-channel noise suppression budget for a levitated silicon-28 nanosphere in a 10 mK cryogenic cavity. Predicts an unmistakable 10 ms decoherence transition.
+                </p>
+                <div class="card-actions">
+                    <a href="Experimentum_Crucis_1_Optomechanics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24410149" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_experimentum_crucis_optomechanics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Experimentum_Crucis_1_Optomechanics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="quantum_gravity" data-search="universal emergent gravitation from localized quantum phase oscillations (v2.0) derives einstein field equations via feynman-deser spin-2 bootstrap from quantum phase interference. proves exact cancellation of the 2-loop goroff-sagnotti divergence without ghost degrees of freedom. 10.5281/zenodo.24410072 10.5281/zenodo.24348874 quantum gravity foundations gravity general_relativity">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 16</span>
+                        <span class="cat-pill">Quantum Gravity</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24410072" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24410072
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Universal_Emergent_Gravitation_Phase_Dynamics.html" target="_blank">Universal Emergent Gravitation from Localized Quantum Phase Oscillations (v2.0)</a>
+                </h3>
+                <div class="formula-box">
+                    $$G = \frac{\hbar c}{M_{\mathrm{Planck}}^2}, \quad \text{Res}_{\epsilon \to 0} \mathcal{A}_{\mathrm{GS}}^{(2)} \equiv 0, \quad c_T \equiv c$$
+                </div>
+                <p class="card-summary">
+                    Derives Einstein field equations via Feynman-Deser spin-2 bootstrap from quantum phase interference. Proves exact cancellation of the 2-loop Goroff-Sagnotti divergence without ghost degrees of freedom.
+                </p>
+                <div class="card-actions">
+                    <a href="Universal_Emergent_Gravitation_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24410072" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_universal_emergent_gravitation.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Universal_Emergent_Gravitation_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="particle_physics" data-search="on the non-perturbative origin of nucleon mass and yang-mills mass gap (v1.1) derives proton and neutron masses, y-string junction holonomies, and the neutron-proton mass splitting from non-perturbative gauge field condensates with sub-percent accuracy. 10.5281/zenodo.24446824 10.5281/zenodo.24373381 particle physics particle_physics nuclear_physics qcd">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 17</span>
+                        <span class="cat-pill">Particle Physics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24446824" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24446824
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Nucleon_Mass_and_Yang_Mills_Gap_Phase_Dynamics_v2.html" target="_blank">On the Non-Perturbative Origin of Nucleon Mass and Yang-Mills Mass Gap (v1.1)</a>
+                </h3>
+                <div class="formula-box">
+                    $$m_p = 938.27 \text{ MeV}, \quad m_n = 939.57 \text{ MeV}, \quad \Delta m_{n-p} = 1.29 \text{ MeV} \text{ (0.4% error)}$$
+                </div>
+                <p class="card-summary">
+                    Derives proton and neutron masses, Y-string junction holonomies, and the neutron-proton mass splitting from non-perturbative gauge field condensates with sub-percent accuracy.
+                </p>
+                <div class="card-actions">
+                    <a href="Nucleon_Mass_and_Yang_Mills_Gap_Phase_Dynamics_v2.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24446824" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_nucleon_mass_and_gap.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Nucleon_Mass_and_Yang_Mills_Gap_Phase_Dynamics_v2.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="quantum_gravity" data-search="deductive derivation of the universal feynman path-contour master-functional (v2.0) step-by-step constructive proof showing that freeman dyson's physical detection threshold for single gravitons inevitably requires the path-contour master functional and exact dirac constraint algebra. 10.5281/zenodo.24409534 10.5281/zenodo.24406587 quantum gravity foundations quantum gravity">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 18</span>
+                        <span class="cat-pill">Quantum Gravity</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24409534" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24409534
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Deductive_Derivation_of_Master_Functional_Phase_Dynamics.html" target="_blank">Deductive Derivation of the Universal Feynman Path-Contour Master-Functional (v2.0)</a>
+                </h3>
+                <div class="formula-box">
+                    $$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{M}} \mathcal{D}\mathcal{A} \, \exp\left( \frac{i}{\hbar} S_{\mathrm{Schwinger}}[\mathcal{A}] \right), \quad [\hat{\mathcal{H}}(N_1), \hat{\mathcal{H}}(N_2)] \equiv 0$$
+                </div>
+                <p class="card-summary">
+                    Step-by-step constructive proof showing that Freeman Dyson's physical detection threshold for single gravitons inevitably requires the path-contour master functional and exact Dirac constraint algebra.
+                </p>
+                <div class="card-actions">
+                    <a href="Deductive_Derivation_of_Master_Functional_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24409534" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_master_functional_phase_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Deductive_Derivation_of_Master_Functional_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="laboratory" data-search="gravitational phase evolution and mesoscopic decoherence: quantum galileo (v1.1) validates phase dynamics against cold-atom interferometry (kasevich-chu), atom-chip gravimetry, and orbital eotvos tests, proving exact agreement with general relativity in the quantum test-particle limit. 10.5281/zenodo.24446936 10.5281/zenodo.24408031 laboratory metrology laboratory metrology equivalence_principle">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 19</span>
+                        <span class="cat-pill">Laboratory Metrology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24446936" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24446936
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Quantum_Galileo_Phase_Dynamics.html" target="_blank">Gravitational Phase Evolution and Mesoscopic Decoherence: Quantum Galileo (v1.1)</a>
+                </h3>
+                <div class="formula-box">
+                    $$\Delta \phi_{\mathrm{atom}} = k_{\mathrm{eff}} g T^2, \quad \eta_{\mathrm{EP}} < 10^{-15} \text{ (atom chip / MICROSCOPE agreement)}$$
+                </div>
+                <p class="card-summary">
+                    Validates phase dynamics against cold-atom interferometry (Kasevich-Chu), atom-chip gravimetry, and orbital Eotvos tests, proving exact agreement with General Relativity in the quantum test-particle limit.
+                </p>
+                <div class="card-actions">
+                    <a href="Quantum_Galileo_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24446936" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_quantum_galileo.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Quantum_Galileo_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="primordial black holes and the nanohertz stochastic gravitational wave background (v2.0.0) analytically derives scalar-induced gravitational waves from early conformal phase transitions, matching the nanograv 15-year and ipta stochastic background without overproducing primordial black holes. 10.5281/zenodo.24446706 10.5281/zenodo.24429632 cosmology cosmology black_holes gravitational_waves">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 20</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24446706" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24446706
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Primordial_Black_Holes_and_NANOGrav_Phase_Dynamics_v2.html" target="_blank">Primordial Black Holes and the Nanohertz Stochastic Gravitational Wave Background (v2.0.0)</a>
+                </h3>
+                <div class="formula-box">
+                    $$\Omega_{\mathrm{GW}}(f) h^2 \sim 10^{-9} \text{ at } f \sim 10^{-8} \text{ Hz (NANOGrav 15-year concordance)}$$
+                </div>
+                <p class="card-summary">
+                    Analytically derives scalar-induced gravitational waves from early conformal phase transitions, matching the NANOGrav 15-year and IPTA stochastic background without overproducing primordial black holes.
+                </p>
+                <div class="card-actions">
+                    <a href="Primordial_Black_Holes_and_NANOGrav_Phase_Dynamics_v2.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24446706" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_pbh_nanograv_phase_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Primordial_Black_Holes_and_NANOGrav_Phase_Dynamics_v2.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="particle_physics" data-search="absolute dirac neutrino mass spectrum from gauge-holonomy condensation (v1.0) derives normal neutrino mass ordering and absolute sum sigma m_nu = 0.0592 ev, satisfying the stringent desi 2024 cosmological upper bound (< 0.072 ev) while demonstrating exact dirac nature (null 0vbb). 10.5281/zenodo.24445778 10.5281/zenodo.24445777 particle physics particle_physics neutrinos">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 21</span>
+                        <span class="cat-pill">Particle Physics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24445778" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24445778
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Absolute_Dirac_Neutrino_Mass_Spectrum_Phase_Dynamics.html" target="_blank">Absolute Dirac Neutrino Mass Spectrum from Gauge-Holonomy Condensation (v1.0)</a>
+                </h3>
+                <div class="formula-box">
+                    $$\sum m_\nu = 0.0592 \text{ eV} < 0.072 \text{ eV (DESI 2024)}, \quad m_1 \approx 1.2 \text{ meV}, \quad 0\nu\beta\beta \equiv 0$$
+                </div>
+                <p class="card-summary">
+                    Derives normal neutrino mass ordering and absolute sum Sigma m_nu = 0.0592 eV, satisfying the stringent DESI 2024 cosmological upper bound (< 0.072 eV) while demonstrating exact Dirac nature (null 0vbb).
+                </p>
+                <div class="card-actions">
+                    <a href="Absolute_Dirac_Neutrino_Mass_Spectrum_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24445778" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_dirac_neutrino_mass_spectrum.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Absolute_Dirac_Neutrino_Mass_Spectrum_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="quantum_gravity" data-search="exact non-perturbative spectral mass gap for su(3) yang-mills on 3d voronoi-delaunay complexes establishes existence and mass gap on coordinate-free random voronoi-delaunay cellular complexes in 3d, demonstrating exact rotation and translation invariance in the thermodynamic continuum limit. 10.5281/zenodo.24449225 10.5281/zenodo.24449224 quantum gravity quantum yang_mills voronoi">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 22</span>
+                        <span class="cat-pill">Quantum Gravity</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24449225" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24449225
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Exact_Non_Perturbative_Mass_Gap_3D_Voronoi_Delaunay.html" target="_blank">Exact Non-Perturbative Spectral Mass Gap for SU(3) Yang-Mills on 3D Voronoi-Delaunay Complexes</a>
+                </h3>
+                <div class="formula-box">
+                    $$\Delta_{\mathrm{3D}} = 0.709 \pm 0.015 \text{ GeV} > 0, \quad m(0^{++}) = 0.71 \text{ GeV}, \quad \text{OS0--OS4 proven}$$
+                </div>
+                <p class="card-summary">
+                    Establishes existence and mass gap on coordinate-free random Voronoi-Delaunay cellular complexes in 3D, demonstrating exact rotation and translation invariance in the thermodynamic continuum limit.
+                </p>
+                <div class="card-actions">
+                    <a href="Exact_Non_Perturbative_Mass_Gap_3D_Voronoi_Delaunay.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24449225" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_3d_voronoi_delaunay_mass_gap.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Exact_Non_Perturbative_Mass_Gap_3D_Voronoi_Delaunay.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="astrophysics" data-search="dynamic planck scale saturation and non-singular gravitational wave echoes proves that planck-scale curvature saturation completely eliminates singularities during binary black hole mergers. predicts 2.45 ms echo trains verified against open ligo gw150914 strain data. 10.5281/zenodo.24463836 10.5281/zenodo.24463835 astrophysics gravity black_holes gravitational_waves ligo">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 23</span>
+                        <span class="cat-pill">Astrophysics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24463836" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24463836
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Dynamic_Planck_Scale_Saturation_and_GW_Echoes.html" target="_blank">Dynamic Planck Scale Saturation and Non-Singular Gravitational Wave Echoes</a>
+                </h3>
+                <div class="formula-box">
+                    $$R_{\mathrm{max}} \le \frac{1}{\ell_P^2}, \quad \Delta t_{\mathrm{echo}} \approx 2.45 \text{ ms (GW150914 cavity echo matches LIGO/Virgo baseline)}$$
+                </div>
+                <p class="card-summary">
+                    Proves that Planck-scale curvature saturation completely eliminates singularities during binary black hole mergers. Predicts 2.45 ms echo trains verified against open LIGO GW150914 strain data.
+                </p>
+                <div class="card-actions">
+                    <a href="Dynamic_Planck_Scale_Saturation_and_GW_Echoes.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24463836" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_dynamic_planck_gw_echoes.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Dynamic_Planck_Scale_Saturation_and_GW_Echoes.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="astrophysics" data-search="testing low-acceleration gravitational dynamics and galactic efe in gaia dr3 wide binaries resolves the controversial velocity boost in wide binary star pairs observed in gaia dr3. deduces the exact kinematic ratio gamma_kin = 1.30 under the milky way's galactic external field. 10.5281/zenodo.24496119 10.5281/zenodo.24496118 astrophysics astrophysics galaxies gaia">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 24</span>
+                        <span class="cat-pill">Astrophysics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24496119" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24496119
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Gaia_DR3_Wide_Binaries_Gravitational_Anomaly_Phase_Dynamics.html" target="_blank">Testing Low-Acceleration Gravitational Dynamics and Galactic EFE in Gaia DR3 Wide Binaries</a>
+                </h3>
+                <div class="formula-box">
+                    $$\gamma_{\mathrm{kin}} \approx 1.25\text{--}1.35 \text{ at } r > 2000 \text{ AU, matching Chae (2023) and Hernandez (2024)}$$
+                </div>
+                <p class="card-summary">
+                    Resolves the controversial velocity boost in wide binary star pairs observed in Gaia DR3. Deduces the exact kinematic ratio gamma_kin = 1.30 under the Milky Way's galactic external field.
+                </p>
+                <div class="card-actions">
+                    <a href="Gaia_DR3_Wide_Binaries_Gravitational_Anomaly_Phase_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24496119" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_gaia_wide_binaries.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Gaia_DR3_Wide_Binaries_Gravitational_Anomaly_Phase_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="particle_physics" data-search="non-perturbative nuclear equation of state and relativistic neutron star mass-radius limits calculates relativistic tolman-oppenheimer-volkoff equilibria from first-principles qcd phase holonomies. matches nasa nicer x-ray radii and ligo/virgo tidal deformability lambda_1.4 bounds. 10.5281/zenodo.24497203 10.5281/zenodo.24497202 particle physics nuclear_physics neutron_stars nicer">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 25</span>
+                        <span class="cat-pill">Particle Physics</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24497203" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24497203
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Non_Perturbative_Nuclear_EOS_and_Neutron_Stars.html" target="_blank">Non-Perturbative Nuclear Equation of State and Relativistic Neutron Star Mass-Radius Limits</a>
+                </h3>
+                <div class="formula-box">
+                    $$M_{\mathrm{max}} = 2.28 M_\odot, \quad R_{1.4} = 12.42 \text{ km}, \quad \Lambda_{1.4} = 415 \text{ (concordance with NICER PSR J0740+6620 & GW170817)}$$
+                </div>
+                <p class="card-summary">
+                    Calculates relativistic Tolman-Oppenheimer-Volkoff equilibria from first-principles QCD phase holonomies. Matches NASA NICER X-ray radii and LIGO/Virgo tidal deformability Lambda_1.4 bounds.
+                </p>
+                <div class="card-actions">
+                    <a href="Non_Perturbative_Nuclear_EOS_and_Neutron_Stars.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24497203" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_nuclear_eos_neutron_stars.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Non_Perturbative_Nuclear_EOS_and_Neutron_Stars.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="quantum_gravity" data-search="exact non-perturbative spectral mass gap for 4d su(3) yang-mills on foliated voronoi-delaunay complexes proves the existence and spectral mass gap on 4d foliated voronoi-delaunay cellular complexes. rigorously verifies osterwalder-schrader reflection positivity (os2) and geometric discretization invariance. 10.5281/zenodo.24500937 10.5281/zenodo.24500936 quantum gravity quantum yang_mills voronoi">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 26</span>
+                        <span class="cat-pill">Quantum Gravity</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24500937" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24500937
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Four_Dimensional_Voronoi_Delaunay_Gauge_Dynamics.html" target="_blank">Exact Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills on Foliated Voronoi-Delaunay Complexes</a>
+                </h3>
+                <div class="formula-box">
+                    $$\Delta = 1.648 \pm 0.022 \text{ GeV} > 0, \quad \text{OS0--OS4 proven on continuous } \mathbb{R}^4 \text{ limit}$$
+                </div>
+                <p class="card-summary">
+                    Proves the existence and spectral mass gap on 4D foliated Voronoi-Delaunay cellular complexes. Rigorously verifies Osterwalder-Schrader reflection positivity (OS2) and geometric discretization invariance.
+                </p>
+                <div class="card-actions">
+                    <a href="Four_Dimensional_Voronoi_Delaunay_Gauge_Dynamics.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24500937" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_4d_voronoi_gauge_dynamics.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Four_Dimensional_Voronoi_Delaunay_Gauge_Dynamics.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+
+            <article class="work-card" data-category="cosmology" data-search="analytical resolution of the cosmological lithium problem via non-perturbative phase-holonomy dynamics resolves the 9-sigma cosmological lithium problem in big bang nucleosynthesis. resonant phase holonomies enhance beryllium-7 destruction rates by 2.85x, depleting 65.6% of excess 7be into complete harmony with stellar observations. 10.5281/zenodo.24504273 10.5281/zenodo.24504272 cosmology cosmology nuclear_physics bbn">
+                <div class="card-top">
+                    <div class="badge-group">
+                        <span class="num-badge">Work 27</span>
+                        <span class="cat-pill">Cosmology</span>
+                    </div>
+                    <a href="https://doi.org/10.5281/zenodo.24504273" target="_blank" class="doi-badge" title="Permanent Zenodo DOI">
+                        zenodo.24504273
+                    </a>
+                </div>
+                <h3 class="card-title">
+                    <a href="Primordial_BBN_and_Cosmological_Lithium_Problem.html" target="_blank">Analytical Resolution of the Cosmological Lithium Problem via Non-Perturbative Phase-Holonomy Dynamics</a>
+                </h3>
+                <div class="formula-box">
+                    $$(^7\mathrm{Li}/H)_{\mathrm{UPD}} = 1.706 \times 10^{-10} \text{ (1.15}\sigma\text{ from Spite Plateau, down from 9.16}\sigma\text{ SBBN crisis)}$$
+                </div>
+                <p class="card-summary">
+                    Resolves the 9-sigma Cosmological Lithium Problem in Big Bang Nucleosynthesis. Resonant phase holonomies enhance beryllium-7 destruction rates by 2.85x, depleting 65.6% of excess 7Be into complete harmony with stellar observations.
+                </p>
+                <div class="card-actions">
+                    <a href="Primordial_BBN_and_Cosmological_Lithium_Problem.html" class="btn btn-primary" target="_blank">📖 Read Interactive Paper</a>
+                    <a href="https://doi.org/10.5281/zenodo.24504273" class="btn btn-secondary" target="_blank">⚡ Zenodo DOI</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_bbn_lithium_problem.py" class="btn btn-secondary" target="_blank">💻 Python Simulation</a>
+                    <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Primordial_BBN_and_Cosmological_Lithium_Problem.tex" class="btn btn-secondary" target="_blank">📄 TeX Source</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Foundational Master Equations Section -->
+        <section class="equations-section" id="foundations">
+            <div class="section-header">
+                <h2>Foundational Master Principles of Unified Phase Dynamics</h2>
+                <p>The core mathematical framework connecting quantum gauge holonomies, emergent general relativity, and non-perturbative galactic/cosmic phenomena with zero free parameters.</p>
+            </div>
+            <div class="eq-grid">
+                <div class="eq-item">
+                    <h3>1. Universal Path Contour Master-Functional</h3>
+                    <div class="eq-formula">
+                        $$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{M}} \mathcal{D}[\gamma \in \Sigma] \exp\left( \frac{i}{\hbar} S_{\mathrm{unified}}[\gamma] \right)$$
+                    </div>
+                    <p class="eq-desc">Defined over boundary surface loops $\Sigma$ governed by $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$. Generates all physical fields via exact path holonomies.</p>
+                </div>
+                <div class="eq-item">
+                    <h3>2. Non-Perturbative Yang-Mills Mass Gap</h3>
+                    <div class="eq-formula">
+                        $$\Delta = \hbar c \, \Lambda_{\mathrm{YM}} \mathcal{C}(SU(3)) \approx 1.65 \pm 0.08\text{ GeV} > 0$$
+                    </div>
+                    <p class="eq-desc">Deduce directly from center vortex condensation on $\mathbb{R}^4$. Satisfies Osterwalder-Schrader axioms (OS0-OS4) and matches lattice QCD scalar glueball $0^{++}$.</p>
+                </div>
+                <div class="eq-item">
+                    <h3>3. Emergence of Galactic MOND Acceleration</h3>
+                    <div class="eq-formula">
+                        $$a_0 = \frac{c H_0}{2\pi} \approx 1.20 \times 10^{-10}\text{ m/s}^2, \quad g_{\mathrm{obs}} = \frac{g_{\mathrm{bar}}}{1 - e^{-\sqrt{g_{\mathrm{bar}}/a_0}}}$$
+                    </div>
+                    <p class="eq-desc">Vacuum phase polarization at cosmic horizon boundary replaces Cold Dark Matter. Solves the baryonic Tully-Fisher relation across 178 SPARC galaxies with $\chi^2_{\mathrm{red}} = 1.04$.</p>
+                </div>
+                <div class="eq-item">
+                    <h3>4. Relativistic Lensing & Optical Metric</h3>
+                    <div class="eq-formula">
+                        $$\tilde{g}_{\mu\nu} = g_{\mu\nu} + \frac{2\Phi_{\mathrm{phase}}}{c^2} \mathcal{U}_\mu \mathcal{U}_\nu, \quad c_T \equiv c$$
+                    </div>
+                    <p class="eq-desc">4-vector phase current $\mathcal{U}_\mu$ preserves luminal tensor wave speed (GW170817) while producing the observed spatial separation in colliding clusters (Bullet Cluster).</p>
+                </div>
+                <div class="eq-item">
+                    <h3>5. Quantum Gravity Regular Cores & Echoes</h3>
+                    <div class="eq-formula">
+                        $$r_0 = 2\ell_P, \quad R_{\mathrm{max}} \le \frac{1}{\ell_P^2}, \quad \Delta t_{\mathrm{echo}} \approx 2.45\text{ ms}$$
+                    </div>
+                    <p class="eq-desc">Horizon phase saturation caps curvature at the Planck scale, completely eliminating singularities and generating post-merger gravitational wave echoes in black hole cavities.</p>
+                </div>
+                <div class="eq-item">
+                    <h3>6. Decisive Optomechanical Metrology</h3>
+                    <div class="eq-formula">
+                        $$\tau_{\mathrm{crit}} = \frac{\hbar}{\Delta E_{\mathrm{phase}}} \approx 10\text{ ms} \ll \tau_{\mathrm{env}} > 800\text{ s}$$
+                    </div>
+                    <p class="eq-desc">Experimentum Crucis 1: Levitated $^{28}\mathrm{Si}$ nanosphere ($R = 81.1\text{ nm}$, $M = 3.9 \times 10^{12}\text{ amu}$) in cryogenic cavity provides a falsifiable experimental boundary.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Citation / BibTeX Section -->
+        <section class="citation-section" id="citation">
+            <h2>Academic Citation & Persistent DOIs</h2>
+            <p style="color: var(--text-muted); margin-bottom: 16px;">
+                All works are published Open Access under Creative Commons Attribution 4.0 International (CC-BY-4.0). When referencing this research program, please cite the foundational Monograph Concept DOI and the specific thematic works:
+            </p>
+            <div class="bibtex-box">
+                <button class="copy-btn" onclick="copyBibtex()">Copy BibTeX</button>
+<pre id="bibtexText">@book{Pavliuk_2026_UPD,
+  author       = {Pavliuk, Hryhorii},
+  title        = {{Unified Phase Dynamics of Feynman Path Contours: 
+                   Deductive Derivation of Fundamental Physical Laws, 
+                   Cosmological Precision Benchmarks, and Non-Perturbative 
+                   Yang-Mills Mass Gap}},
+  edition      = {Version 3.1.1 Extended},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24226129},
+  url          = {https://doi.org/10.5281/zenodo.24226129},
+  note         = {Concept DOI: 10.5281/zenodo.24226129; Latest: 10.5281/zenodo.24447037}
+}</pre>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p><strong>Unified Phase Dynamics of Feynman Path Contours</strong></p>
+            <p>Authored by <strong>Hryhorii Pavliuk</strong> · Independent Researcher · ORCID: <a href="https://orcid.org/0009-0000-0899-3463" target="_blank">0009-0000-0899-3463</a></p>
+            <div class="footer-links">
+                <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours" target="_blank">GitHub Repository</a>
+                <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank">Zenodo Archive</a>
+                <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0 License</a>
+            </div>
+            <p style="font-size: 0.82rem; color: #64748b;">
+                Permanent Archival Records maintained at CERN / Zenodo. Open Source code, simulations, and LaTeX sources licensed under Creative Commons Attribution 4.0.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Interactive Filtering Script -->
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const workCards = document.querySelectorAll('.work-card');
+        const resultsCount = document.getElementById('resultsCount');
+
+        let currentFilter = 'all';
+        let searchQuery = '';
+
+        function updateFilter() {
+            let visibleCount = 0;
+            const query = searchQuery.trim().toLowerCase();
+
+            workCards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                const searchCorpus = card.getAttribute('data-search') || '';
+
+                const matchesFilter = (currentFilter === 'all') || (category === currentFilter);
+                const matchesSearch = !query || searchCorpus.includes(query);
+
+                if (matchesFilter && matchesSearch) {
+                    card.style.display = 'flex';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            resultsCount.textContent = `Showing ${visibleCount} of ${workCards.length} works`;
+        }
+
+        searchInput.addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            updateFilter();
+        });
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.getAttribute('data-filter');
+                updateFilter();
+            });
+        });
+
+        function copyBibtex() {
+            const bibtex = document.getElementById('bibtexText').innerText;
+            navigator.clipboard.writeText(bibtex).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => { btn.textContent = 'Copy BibTeX'; }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
