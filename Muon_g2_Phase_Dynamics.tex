@@ -1,0 +1,67 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage[margin=2.5cm]{geometry}
+
+\title{\textbf{Anomalous Magnetic Moment of the Muon ($g-2$) in Unified Phase Dynamics:}\\
+\large Non-Local Schwinger Holonomy Suppression, Non-Perturbative Hadronic Vacuum Polarization, and Consistency with the Final Fermilab 2025 Measurement}
+\author{H. Pavliuk\\
+\small Independent Researcher \quad ORCID: \href{https://orcid.org/0009-0000-0899-3463}{0009-0000-0899-3463}}
+\date{November 25, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We evaluate the anomalous magnetic moment of the positive muon, $a_\mu = (g-2)/2$, within the deductive framework of Unified Phase Dynamics (UPD) of Feynman path contours. Starting from the universal master-functional $\mathbf{\Psi}[\Sigma]$ over the gauge group $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$ and the entire non-local Schwinger contour form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2 / \hbar^2)$, we compute the leading non-local ultraviolet correction to the muon magnetic moment at the electroweak-Higgs UPD scale $\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$. We obtain $|\delta a_\mu^{\mathcal{E}}| \approx 6.98 \times 10^{-20}$, which is suppressed by nearly ten orders of magnitude below the final Fermilab 2025 experimental uncertainty ($\pm 1.45 \times 10^{-10}$, $124\ \mathrm{ppb}$). Furthermore, we show that UPD's non-perturbative $SU(3)_c$ center-vortex confinement scale ($\Delta_{\mathrm{YM}} \approx 1.55\text{--}1.65\ \mathrm{GeV}$) naturally aligns with first-principles Lattice QCD evaluations of Hadronic Vacuum Polarization (HVP) rather than ad-hoc beyond-Standard-Model (BSM) particle extensions, providing a ghost-free, parameter-free consistency with $a_\mu^{\mathrm{Exp}} = 116,592,0715(145) \times 10^{-12}$.
+\end{abstract}
+
+\section{Introduction and Experimental Benchmark}
+The muon anomalous magnetic moment $a_\mu = (g-2)/2$ is one of the most stringent precision tests of quantum field theory. On June 3, 2025, the Fermilab Muon $g-2$ Collaboration released its final combined result from Runs 1--6, yielding $a_\mu^{\mathrm{FNAL}} = 116,592,0710(162) \times 10^{-12}$ ($139\ \mathrm{ppb}$), and a combined world average with Brookhaven data of:
+\begin{equation}
+a_\mu^{\mathrm{Exp}} = 116,592,0715(145) \times 10^{-12} \quad (124\ \mathrm{ppb}).
+\end{equation}
+Simultaneously, first-principles Lattice QCD calculations (initiated by the BMW collaboration and corroborated by independent lattice groups) shifted the Standard Model Hadronic Vacuum Polarization (HVP) prediction upward toward $a_\mu^{\mathrm{Exp}}$, substantially reducing the earlier $\sim 4\text{--}5\sigma$ tension seen in dispersive $e^+e^-$ fits.
+
+In Unified Phase Dynamics (UPD)~\cite{monograph}, all fundamental interactions are derived deductively from the path-contour master-functional:
+\begin{equation}
+\mathbf{\Psi}[\Sigma] = \int_{\mathcal{F}_\Sigma} \mathcal{D}[\gamma] \, \Delta_{\mathrm{FP}}[\gamma] \, \frac{1}{10}\mathrm{Tr}\left[\mathcal{P}\exp\left(\frac{i}{\hbar}\oint_\gamma \mathbf{\Pi}_\mu dx^\mu\right)\right],
+\end{equation}
+with $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$. A central question is whether the non-local Schwinger contour form-factor $\mathcal{E}(\Box)$ introduces observable deviations in $a_\mu$ at the $124\ \mathrm{ppb}$ level, or whether it remains consistent with the final Fermilab measurement.
+
+\section{Non-Local Schwinger Form-Factor Correction to $a_\mu$}
+In UPD, ultraviolet loop integrals are regularized by the entire operator $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$, where $s_{\min} = \Lambda_{\mathrm{UPD}}^{-2}$ in the electroweak-Higgs sector ($\Lambda_{\mathrm{UPD}} \approx 1.2\ \mathrm{TeV}$). Because $\mathcal{E}(\Box)$ is an entire function of $\Box^2$ with no poles on the finite complex plane, it introduces no Ostrogradsky ghosts and preserves unitarity.
+
+At one loop, the leading QED Schwinger term is $a_\mu^{(1)} = \alpha/(2\pi) \approx 1.16141 \times 10^{-3}$. Expanding $\mathcal{E}(\Box)$ for virtual momentum $k^2 \sim m_\mu^2 \ll \Lambda_{\mathrm{UPD}}^2$ yields a quartically suppressed non-local correction:
+\begin{equation}
+\left|\delta a_\mu^{\mathcal{E}}\right| \sim \frac{\alpha}{2\pi} \left(\frac{m_\mu}{\Lambda_{\mathrm{UPD}}}\right)^4.
+\end{equation}
+For $m_\mu = 0.105658\ \mathrm{GeV}$ and $\Lambda_{\mathrm{UPD}} = 1200\ \mathrm{GeV}$, direct evaluation gives:
+\begin{equation}
+\left|\delta a_\mu^{\mathcal{E}}\right| \approx 6.98 \times 10^{-20},
+\end{equation}
+which is a factor of $4.81 \times 10^{-10}$ below the Fermilab 2025 experimental uncertainty ($1.45 \times 10^{-10}$). Thus, UPD predicts zero observable BSM deviation in $a_\mu$ at current experimental sensitivity.
+
+\section{Non-Perturbative HVP and Lattice QCD Alignment}
+The dominant theoretical uncertainty in $a_\mu^{\mathrm{SM}}$ resides in the infrared Hadronic Vacuum Polarization (HVP). In UPD, non-perturbative $SU(3)_c$ confinement on $\mathbb{R}^4$ is governed by center $\mathbb{Z}_3$ vortex condensation and a spectral mass gap $\Delta = \hbar c \Lambda_{\mathrm{YM}} \mathcal{C}(SU(3)) \approx 1.55\text{--}1.65\ \mathrm{GeV} > 0$~\cite{ym_r4,ym_voronoi}, matching the lightest $0^{++}$ scalar glueball from Lattice QCD. Because the infrared HVP kernel is controlled by this non-perturbative confinement scale rather than perturbative quark-gluon loops, UPD naturally aligns with first-principles Lattice QCD HVP determinations rather than requiring new BSM particles to explain $a_\mu^{\mathrm{Exp}}$.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.85\textwidth]{muon_g2_simulation.png}
+\caption{Suppression of the non-local Schwinger form-factor correction $|\delta a_\mu^{\mathcal{E}}|$ as a function of the UV regulator scale $\Lambda_{\mathrm{UPD}}$, compared against the final Fermilab 2025 experimental uncertainty ($1.45 \times 10^{-10}$).}
+\end{figure}
+
+\section{Conclusion}
+Unified Phase Dynamics is fully consistent with the final Fermilab 2025 measurement of the muon anomalous magnetic moment ($a_\mu^{\mathrm{Exp}} = 116,592,0715(145) \times 10^{-12}$). The entire Schwinger contour regulator $\mathcal{E}(\Box)$ suppresses non-local UV corrections to $\sim 6.98 \times 10^{-20}$, while non-perturbative $SU(3)_c$ loop-space confinement aligns with Lattice QCD HVP evaluations without invoking speculative BSM particles.
+
+\begin{thebibliography}{9}
+\bibitem{monograph} H. Pavliuk, \textit{Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem}, Zenodo, DOI: \href{https://doi.org/10.5281/zenodo.24226129}{10.5281/zenodo.24226129}.
+\bibitem{ym_r4} H. Pavliuk, \textit{Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D $SU(3)$ Yang--Mills Theory on $\mathbb{R}^4$}, Zenodo, DOI: \href{https://doi.org/10.5281/zenodo.24315867}{10.5281/zenodo.24315867}.
+\bibitem{ym_voronoi} H. Pavliuk, \textit{On the Mass Spectrum of Four-Dimensional SU(3) Gauge Theory on Voronoi--Delaunay Complexes}, Zenodo, DOI: \href{https://doi.org/10.5281/zenodo.24500936}{10.5281/zenodo.24500936}.
+\end{thebibliography}
+
+\end{document}
