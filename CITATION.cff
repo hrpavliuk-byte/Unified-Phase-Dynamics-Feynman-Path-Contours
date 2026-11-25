@@ -10,15 +10,12 @@ type: software
 identifiers:
   - type: doi
     value: "10.5281/zenodo.24226129"
-    description: "Concept DOI for all versions of the foundational monograph"
-  - type: doi
-    value: "10.5281/zenodo.24447037"
-    description: "Version 3.1.1 Extended & Harmonized Edition"
+    description: "Permanent Concept DOI for all versions of the foundational monograph"
 repository-code: "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours"
 url: "https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/"
 license: "CC-BY-4.0"
-version: "3.1.1"
-date-released: "2026-11-22"
+version: "3.1.4"
+date-released: "2026-11-25"
 keywords:
   - "unified phase dynamics"
   - "feynman path contours"

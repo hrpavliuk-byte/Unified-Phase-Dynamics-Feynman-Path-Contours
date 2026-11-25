@@ -12,10 +12,10 @@
 
 The Cosmological Constant Problem---the **122-order-of-magnitude discrepancy** between the bare quantum zero-point energy density of quantum field theory ($\rho_{\mathrm{bare}} \sim M_{\mathrm{Pl}}^4 \sim 10^{114}\text{ J/m}^3$) and the observed cosmic dark energy density ($\rho_\Lambda \approx (2.26\text{ meV})^4 \approx 5.25 \times 10^{-10}\text{ J/m}^3$)---represents the most catastrophic fine-tuning crisis in theoretical physics. Conventional attempts relying on anthropic selection, fine-tuned counter-terms, or dynamical quintessence scalars violate naturalness, introduce unexplained fifth forces, or produce time-varying equations of state inconsistent with observations.
 
-Here, we present an analytical, non-perturbative resolution of the Cosmological Constant Problem and the cosmic coincidence puzzle (``Why Now?'') derived deductively from first principles within the framework of **Unified Phase Dynamics of Feynman Path Contours**. In this formulation, spacetime and gravitation are relational manifestations of the universal path contour functional $\mathbf{\Psi}[\Sigma]$ governed by the exact Wheeler--DeWitt constraint $\hat{\mathcal{H}}\mathbf{\Psi} \equiv 0$ with total Hamiltonian energy $E_{\mathrm{total}} \equiv 0$. In flat Minkowski spacetime, contractible vacuum zero-point loops possess no external boundary or phase gradient and cannot perform macroscopic work on the metric, identically enforcing:
+Here, we present an analytical, non-perturbative resolution of the Cosmological Constant Problem and the cosmic coincidence puzzle (``Why Now?”) derived deductively from first principles within the framework of **Unified Phase Dynamics of Feynman Path Contours**. In this formulation, spacetime and gravitation are relational manifestations of the universal path contour functional $\mathbf{\Psi}[\Sigma]$ governed by the exact Wheeler--DeWitt constraint $\hat{\mathcal{H}}\mathbf{\Psi} \equiv 0$ with total Hamiltonian energy $E_{\mathrm{total}} \equiv 0$. In flat Minkowski spacetime, contractible vacuum zero-point loops possess no external boundary or phase gradient and cannot perform macroscopic work on the metric, identically enforcing:
 $$\langle \mathbf{\Psi} | \hat{T}_{\mu\nu}^{\mathrm{vac}} | \mathbf{\Psi} \rangle_{\mathrm{ren}}^{\mathrm{Minkowski}} \equiv 0.$$
 
-In an expanding Friedmann--Lema\^{i}tre--Robertson--Walker (FLRW) spacetime, the causal cosmological horizon imposes a non-trivial boundary phase gradient. The non-local 4-vector phase current $\mathcal{U}_\mu = \frac{\hbar}{m_{\mathrm{eff}}}\partial_\mu \theta$ acts as a dynamic self-tuning counter-term, relaxing the enormous Planckian bare energy to a residual geometric horizon attractor:
+In an expanding Friedmann--Lemaître--Robertson--Walker (FLRW) spacetime, the causal cosmological horizon imposes a non-trivial boundary phase gradient. The non-local 4-vector phase current $\mathcal{U}_\mu = \frac{\hbar}{m_{\mathrm{eff}}}\partial_\mu \theta$ acts as a dynamic self-tuning counter-term, relaxing the enormous Planckian bare energy to a residual geometric horizon attractor:
 $$\rho_\Lambda(t) = \frac{3 c^2}{8\pi G} H^2(t) \Omega_\Lambda(t) \approx \mathbf{5.25 \times 10^{-10}\text{ J/m}^3 \approx (2.26\text{ meV})^4}.$$
 
 We prove that this dynamic relaxation enforces a strictly constant equation of state:
@@ -37,7 +37,7 @@ $$\rho_\Lambda^{\mathrm{obs}} = \frac{3 c^2 H_0^2}{8\pi G} \Omega_\Lambda \appro
 The ratio is:
 $$\frac{\rho_{\mathrm{bare}}}{\rho_\Lambda^{\mathrm{obs}}} \sim 10^{122.9}.$$
 
-Reconciling this requires tuning bare parameters to 122 decimal places. Additionally, early-universe phase transitions (electroweak at $100\text{ GeV}$, QCD confinement at $200\text{ MeV}$) contribute massive shifts $\Delta \rho \gg \rho_\Lambda^{\mathrm{obs}}$, demanding independent re-tuning at every cosmic epoch. Finally, the **Coincidence Problem** (``Why Now?'') asks why $\Omega_\Lambda \approx 0.685$ and $\Omega_m \approx 0.315$ are comparable specifically in the current epoch.
+Reconciling this requires tuning bare parameters to 122 decimal places. Additionally, early-universe phase transitions (electroweak at $100\text{ GeV}$, QCD confinement at $200\text{ MeV}$) contribute massive shifts $\Delta \rho \gg \rho_\Lambda^{\mathrm{obs}}$, demanding independent re-tuning at every cosmic epoch. Finally, the **Coincidence Problem** (``Why Now?”) asks why $\Omega_\Lambda \approx 0.685$ and $\Omega_m \approx 0.315$ are comparable specifically in the current epoch.
 
 ---
 
@@ -89,7 +89,7 @@ This prediction is fully corroborated by modern cosmological surveys:
 
 ---
 
-## 5. Resolution of the Coincidence Problem (``Why Now?'')
+## 5. Resolution of the Coincidence Problem (``Why Now?”)
 
 In Unified Phase Dynamics, the vacuum phase susceptibility $\chi_{\mathrm{vac}} = \pi \sqrt{3}$ determines the universal quantum MOND critical acceleration threshold:
 $$a_0 = \frac{c H_0}{2\pi} \approx 1.04\text{--}1.20 \times 10^{-10}\text{ m/s}^2.$$

@@ -375,4 +375,4 @@ This work completes the unification of cosmological perturbation theory with gal
 47. Peebles, P. J. E., & Yu, J. T., "Primeval Adiabatic Perturbation in an Expanding Universe," *Astrophys. J.* **162**, 815 (1970).
 48. Bond, J. R., & Efstathiou, G., "Cosmic background radiation anisotropies in universes marked by cold dark matter," *Astrophys. J. Lett.* **285**, L45 (1984).
 49. Chae, K.-H., "Breakdown of the Newton-Einstein Standard Gravity at Low Acceleration in Internal Dynamics of Wide Binary Stars from Gaia DR3," *Astrophys. J.* **952**, 128 (2023).
-50. Pavliuk, H., *On the Mass Spectrum of Four-Dimensional SU(3) Gauge Theory on Voronoi-Delaunay Complexes*, Zenodo, DOI: [10.5281/zenodo.24247286](https://doi.org/10.5281/zenodo.24247286) (2024).
+50. Pavliuk, H., *On the Mass Spectrum of Four-Dimensional SU(3) Gauge Theory on Voronoi-Delaunay Complexes*, Zenodo, DOI: [10.5281/zenodo.24500936](https://doi.org/10.5281/zenodo.24500936) (2024).

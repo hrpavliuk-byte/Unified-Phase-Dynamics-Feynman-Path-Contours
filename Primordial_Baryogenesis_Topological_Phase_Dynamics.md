@@ -4,7 +4,7 @@
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 **Email:** `hrpavliuk@gmail.com` | **ORCID:** `0009-0000-0899-3463`  
 **Core Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
-**Dedicated Paper DOI:** [10.5281/zenodo.24336000](https://doi.org/10.5281/zenodo.24336000) *(Zenodo Record in press)*  
+**Dedicated Paper DOI:** [10.5281/zenodo.24336679](https://doi.org/10.5281/zenodo.24336679) *(Zenodo Record in press)*  
 **Official Code & Data Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---
@@ -60,7 +60,7 @@ Evaluating the trace over the electroweak sector in an expanding spacetime induc
 $$\mathcal{S}_{\mathrm{int}} = - \int d^4x \, \mathcal{U}_\mu j_B^\mu = - \int d^4x \left( \frac{\hbar}{m_{\mathrm{eff}}} \partial_\mu \theta \right) j_B^\mu.$$
 Integrating by parts and applying the anomaly relation:
 $$\mathcal{S}_{\mathrm{int}} = \int d^4x \, \theta(x) \left[ \frac{N_f g^2}{32\pi^2} W_{\mu\nu}^a \tilde{W}^{a\mu\nu} - \frac{N_f g'^2}{32\pi^2} B_{\mu\nu} \tilde{B}^{\mu\nu} \right].$$
-In a spatially homogeneous and isotropic Friedmann-Lema\^itre-Robertson-Walker (FLRW) universe, spatial gradients vanish ($\partial_i \theta = 0$), leaving purely a time-dependent cosmological phase:
+In a spatially homogeneous and isotropic Friedmann-Lemaître-Robertson-Walker (FLRW) universe, spatial gradients vanish ($\partial_i \theta = 0$), leaving purely a time-dependent cosmological phase:
 $$\mathcal{U}_\mu = (\mathcal{U}_0(t), \, \mathbf{0}), \quad \mathcal{U}_0(t) = \frac{\hbar}{m_{\mathrm{eff}}} \dot{\theta}(t).$$
 The interaction Lagrangian density reduces to:
 $$\Delta \mathcal{L} = - \mathcal{U}_0(t) j_B^0 = - \mu_B^{\mathrm{eff}}(t) (n_B - n_{\bar{B}}),$$
@@ -187,16 +187,16 @@ We have demonstrated that the longstanding mystery of the Baryon Asymmetry of th
 5. A. D. Sakharov, *Violation of CP Invariance, C Asymmetry, and Baryon Asymmetry of the Universe*, JETP Lett. **5}, 24 (1967).
 6. V. A. Kuzmin, V. A. Rubakov, and M. E. Shaposhnikov, *On the anomalous electroweak baryon number non-conservation in the early universe*, Phys. Lett. B **155}, 36 (1985).
 7. C. Jarlskog, *Commutator of the Quark Mass Matrices in the Standard Electroweak Model and a Measure of Maximal CP Nonconservation*, Phys. Rev. Lett. **55}, 1039 (1985).
-8. M. B. Gavela, P. Hern\'andez, J. Orloff, and O. P\`ene, *Standard Model CP-violation and Baryon asymmetry*, Mod. Phys. Lett. A **9}, 795 (1994).
+8. M. B. Gavela, P. Hernández, J. Orloff, and O. Pène, *Standard Model CP-violation and Baryon asymmetry*, Mod. Phys. Lett. A **9}, 795 (1994).
 9. G. Aad *et al.* (ATLAS Collaboration), *Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC*, Phys. Lett. B **716}, 1 (2012).
 10. K. Kajantie, M. Laine, K. Rummukainen, and M. Shaposhnikov, *Is there a hot electroweak phase transition at $m_H \ge m_W$?*, Phys. Rev. Lett. **77}, 2887 (1996).
 11. K. Rummukainen, M. Tsypin, K. Kajantie, M. Laine, and M. Shaposhnikov, *The universality class of the electroweak phase transition*, Nucl. Phys. B **532}, 283 (1998).
 12. M. Fukugita and T. Yanagida, *Baryogenesis without Grand Unification*, Phys. Lett. B **174}, 45 (1986).
-13. W. Buchm\"uller, R. D. Peccei, and T. Yanagida, *Leptogenesis as the origin of matter*, Ann. Rev. Nucl. Part. Sci. **55}, 311 (2005).
+13. W. Buchmüller, R. D. Peccei, and T. Yanagida, *Leptogenesis as the origin of matter*, Ann. Rev. Nucl. Part. Sci. **55}, 311 (2005).
 14. M. Carena, M. Quiros, and C. E. M. Wagner, *Opening the Window for Electroweak Baryogenesis*, Phys. Lett. B **380}, 81 (1996).
 15. H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo DOI: 10.5281/zenodo.24226129 (2026).
 16. H. Pavliuk, *Quasinormal Modes and Gravitational Wave Echoes from Regular Non-Singular Black Holes in Unified Phase Dynamics*, Zenodo DOI: 10.5281/zenodo.24335105 (2026).
-17. D. B\"odeker, G. D. Moore, and K. Rummukainen, *Chern-Simons number diffusion and electroweak axial charge damping in high-temperature plasma*, Phys. Rev. D **61}, 056003 (2000).
+17. D. Bödeker, G. D. Moore, and K. Rummukainen, *Chern-Simons number diffusion and electroweak axial charge damping in high-temperature plasma*, Phys. Rev. D **61}, 056003 (2000).
 18. M. D'Onofrio, K. Rummukainen, and A. Tranberg, *Sphaleron Rate in the Minimal Standard Model*, Phys. Rev. Lett. **113}, 141602 (2014).
 19. F. R. Klinkhamer and N. S. Manton, *A saddle-point solution in the Weinberg-Salam theory*, Phys. Rev. D **30}, 2212 (1984).
 20. G. D. Moore, *Measuring the broken phase sphaleron rate nonperturbatively*, Phys. Rev. D **62}, 085011 (2000).

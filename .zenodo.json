@@ -67,7 +67,7 @@
       "resource_type": "publication-preprint"
     },
     {
-      "identifier": "10.5281/zenodo.24247285",
+      "identifier": "10.5281/zenodo.24500936",
       "relation": "hasPart",
       "resource_type": "publication-preprint"
     },
@@ -122,11 +122,11 @@
       "resource_type": "publication-preprint"
     },
     {
-      "identifier": "10.5281/zenodo.24446936",
+      "identifier": "10.5281/zenodo.24408030",
       "relation": "hasPart",
       "resource_type": "publication-preprint"
     }
   ],
   "notes": "Comprehensive foundational research monograph (Second Extended Edition) with complete mathematical proofs, synthesis master tables across all 18 works, and AI audit protocols.",
-  "version": "3.1.0"
+  "version": "3.1.4"
 }
