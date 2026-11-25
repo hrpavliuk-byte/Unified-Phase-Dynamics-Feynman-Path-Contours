@@ -63,7 +63,7 @@ The classical curvature singularity ($K \propto r_g^2 / r^6 \to \infty$) is rigo
 
 Linear metric perturbations $h_{\mu\nu} = g_{\mu\nu} - g_{\mu\nu}^{(0)}$ decompose into odd (axial) and even (polar) spherical harmonics $Y_{\ell m}(\theta, \phi)$. Introducing the tortoise coordinate $r_*$:
 $$dr_* = \frac{dr}{f(r)} \implies r_*(r) = \int \frac{dr}{f(r)},$$
-the perturbation equations reduce to a master Schr\"odinger-type wave equation in Fourier space:
+the perturbation equations reduce to a master Schrödinger-type wave equation in Fourier space:
 $$\left[ \frac{d^2}{dr_*^2} + \omega^2 - V_{\ell}^{(\pm)}(r) \right] \Psi_{\ell\omega}^{(\pm)}(r_*) = 0,$$
 where $(-)$ denotes axial (Regge-Wheeler) and $(+)$ denotes polar (Zerilli) perturbations.
 

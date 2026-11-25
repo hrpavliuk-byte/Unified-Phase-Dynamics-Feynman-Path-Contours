@@ -11,8 +11,8 @@ Stage 2 Calculations:
 
 Author: H. Pavliuk (Hryhorii Pavliuk), Independent Researcher
 ORCID: 0009-0000-0899-3463
-Monograph DOI: 10.5281/zenodo.24226130
-Related DOIs: 10.5281/zenodo.24410119, 10.5281/zenodo.24335106
+Monograph DOI: 10.5281/zenodo.24226129
+Related DOIs: 10.5281/zenodo.24312841, 10.5281/zenodo.24335105
 """
 
 import os
@@ -273,8 +273,8 @@ def run_simulation():
         "author": "H. Pavliuk (Hryhorii Pavliuk)",
         "orcid": "0009-0000-0899-3463",
         "theoretical_framework": "Unified Phase Dynamics of Feynman Path Contours (H. Pavliuk)",
-        "monograph_doi": "10.5281/zenodo.24226130",
-        "related_dois": ["10.5281/zenodo.24410119", "10.5281/zenodo.24335106"],
+        "monograph_doi": "10.5281/zenodo.24226129",
+        "related_dois": ["10.5281/zenodo.24312841", "10.5281/zenodo.24335105"],
         "core_parameters": {
             "ell_P0_m": ell_P0,
             "r_0_m": r_0,

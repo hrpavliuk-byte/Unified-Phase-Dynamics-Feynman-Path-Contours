@@ -10,8 +10,8 @@ Calculates:
 4. Confinement string potential V_3Q(R) / sigma.
 
 Author: H. Pavliuk (Hryhorii Pavliuk)
-Foundational Monograph DOI: 10.5281/zenodo.24226130
-Dedicated Article DOI: 10.5281/zenodo.24247286
+Foundational Monograph DOI: 10.5281/zenodo.24226129
+Dedicated Article DOI: 10.5281/zenodo.24500936
 """
 
 import os
@@ -230,8 +230,8 @@ def run_lattice_comparison():
     # Save numerical data to JSON
     results = {
         "theoretical_framework": "Unified Phase Dynamics of Feynman Path Contours (H. Pavliuk)",
-        "monograph_doi": "10.5281/zenodo.24226130",
-        "voronoi_article_doi": "10.5281/zenodo.24247286",
+        "monograph_doi": "10.5281/zenodo.24226129",
+        "voronoi_article_doi": "10.5281/zenodo.24500936",
         "parameters": {
             "r_probe_fm": r_probe,
             "sigma_string_gev_fm": sigma_string,

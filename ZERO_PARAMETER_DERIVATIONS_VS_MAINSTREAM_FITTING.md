@@ -5,7 +5,7 @@
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 > **Framework:** *Unified Phase Dynamics of Feynman Path Contours*  
 > **Permanent Monograph Concept DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
-> **Dedicated Monograph Version 2.0 DOI:** [10.5281/zenodo.24386437](https://doi.org/10.5281/zenodo.24386437)  
+> **Dedicated Monograph Version 2.0 DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 > **Official Repository:** [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 > **License:** Creative Commons Attribution 4.0 International (CC-BY-4.0)
 
@@ -70,7 +70,7 @@ In Unified Phase Dynamics by Hryhorii Pavliuk:
 
 1. **Foundational Monograph (Second Extended Edition):**  
    *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws, Cosmological Precision Benchmarks, and Non-Perturbative Yang-Mills Mass Gap*  
-   DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) | Dedicated v2.0: [10.5281/zenodo.24386437](https://doi.org/10.5281/zenodo.24386437)
+   DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) | Dedicated v2.0: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)
 2. **SPARC 178 Galaxy Rotation Curves & BTFR:** [10.5281/zenodo.24293023](https://doi.org/10.5281/zenodo.24293023)
 3. **Relativistic Cluster Lensing & Bullet Cluster:** [10.5281/zenodo.24293793](https://doi.org/10.5281/zenodo.24293793)
 4. **CMB Acoustic Peaks & Cosmological Perturbations:** [10.5281/zenodo.24301701](https://doi.org/10.5281/zenodo.24301701)

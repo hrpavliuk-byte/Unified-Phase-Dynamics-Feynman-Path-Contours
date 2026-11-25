@@ -1,10 +1,11 @@
 # Gravitational Phase Evolution and Mesoscopic Decoherence Thresholds: Testing Unified Phase Dynamics against Atom Interferometry and Quantum Equivalence Principle Experiments
 
 **Author:** H. Pavliuk  
+**ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
 *Independent Researcher*  
 *Correspondence:* hrpavliuk@gmail.com  
-*Dedicated Article DOI:* [10.5281/zenodo.24408031](https://doi.org/10.5281/zenodo.24408031)  
-*Permanent Monograph Reference:* [DOI: 10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130)  
+*Dedicated Article DOI:* [10.5281/zenodo.24408030](https://doi.org/10.5281/zenodo.24408030)  
+*Permanent Monograph Reference:* [DOI: 10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129)  
 *Primary Archive Repository:* [https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)  
 
 ---
@@ -34,7 +35,7 @@ $$\Delta\Phi(T) \approx 80.0\ \mathrm{rad}$$
 
 The experimental observation confirms that a single atom simultaneously falls and remains stationary, preserving quantum superposition while accumulating a large dynamical and gravitational phase difference.
 
-In this work, we analyze this landmark result within the framework of the **Unified Phase Dynamics of Feynman Path Contours (UPD)** [DOI: 10.5281/zenodo.24226130]. We demonstrate:
+In this work, we analyze this landmark result within the framework of the **Unified Phase Dynamics of Feynman Path Contours (UPD)** [DOI: 10.5281/zenodo.24226129]. We demonstrate:
 1. The exact deductive derivation of the cubic phase shift $\Delta\Phi_{\mathrm{UPD}} = \frac{m g^2 T^3}{3\hbar}$ from the non-local master-functional action differential.
 2. The quantitative explanation of why atomic wave packets experience zero gravitationally induced spontaneous collapse ($\tau_{\mathrm{UPD}} > 4 \times 10^5\ \mathrm{years}$).
 3. The exact mathematical mapping connecting the atomic scale ($10^{-25}\ \mathrm{kg}$) to the mesoscopic threshold of gravitationally induced decoherence ($5 \times 10^{-18}\ \mathrm{kg}$) targeted by *Experimentum Crucis 1*.
@@ -232,7 +233,7 @@ The landmark *Science Advances* "Quantum Galileo" experiment provides an exquisi
 ## References
 
 1. Y. Margalit, O. Dobkowski, Z. Zhou, O. Amit, C. Henkel, D. Home, R. Folman, W. P. Schleich, S. Bose, C. Marletto, V. Vedral, and R. Penrose, *"Quantum Galileo: Testing the equivalence principle with a single atom on an atom chip"*, *Science Advances*, **10**, eadp7726 (2024).
-2. H. Pavliuk, *"Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem"*, Monograph, Zenodo (2024), DOI: [10.5281/zenodo.24226130](https://doi.org/10.5281/zenodo.24226130).
+2. H. Pavliuk, *"Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem"*, Monograph, Zenodo (2024), DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).
 3. R. Colella, A. W. Overhauser, and S. A. Werner, *"Observation of gravitationally induced quantum interference"*, *Phys. Rev. Lett.*, **34**, 1472 (1975).
 4. M. Kasevich and S. Chu, *"Atomic interferometry using stimulated Raman transitions"*, *Phys. Rev. Lett.*, **67**, 181 (1991).
 5. S. Bose et al., *"Spin Entanglement Witness for Quantum Gravity"*, *Phys. Rev. Lett.*, **119**, 240401 (2017).

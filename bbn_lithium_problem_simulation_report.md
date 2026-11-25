@@ -4,8 +4,8 @@
 **Theoretical Foundations:** *Unified Phase Dynamics of Feynman Path Contours*  
 **Author:** H. Pavliuk (Hryhorii Pavliuk), Independent Researcher  
 **ORCID:** [0009-0000-0899-3463](https://orcid.org/0009-0000-0899-3463)  
-**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Concept DOI; Latest v3.1.1: [10.5281/zenodo.24447037](https://doi.org/10.5281/zenodo.24447037))  
-**Dedicated Article DOI:** [10.5281/zenodo.24504273](https://doi.org/10.5281/zenodo.24504273) (Concept DOI: [10.5281/zenodo.24504272](https://doi.org/10.5281/zenodo.24504272))  
+**Foundational Monograph DOI:** [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129) (Concept DOI; Latest v3.1.4: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129))  
+**Dedicated Article DOI:** [10.5281/zenodo.24504272](https://doi.org/10.5281/zenodo.24504272) (Concept DOI: [10.5281/zenodo.24504272](https://doi.org/10.5281/zenodo.24504272))  
 **Dedicated Benchmark Repository:** [Unified-Phase-Dynamics-Feynman-Path-Contours](https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours)
 
 ---

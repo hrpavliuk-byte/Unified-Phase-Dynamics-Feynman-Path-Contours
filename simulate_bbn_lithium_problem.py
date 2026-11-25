@@ -3,7 +3,7 @@
 Simulate Big Bang Nucleosynthesis (BBN) & Analytical Resolution of the Cosmological Lithium Problem
 Unified Phase Dynamics of Feynman Path Contours
 Author: H. Pavliuk (Hryhorii Pavliuk), Independent Researcher
-Core Monograph Concept DOI: 10.5281/zenodo.24226129 (v3.1.1: 10.5281/zenodo.24447037)
+Core Monograph Concept DOI: 10.5281/zenodo.24226129 (Concept DOI: 10.5281/zenodo.24226129)
 
 This script:
 1. Integrates the 12-channel primordial thermonuclear reaction network from T = 10 MeV to 0.01 MeV (t = 0.01 s to 3000 s).
@@ -251,7 +251,7 @@ Li7_upd_curve = 1.61e-10 * ((eta_range / 6.12)**1.9)   # UPD phase-depleted plat
 # ==============================================================================
 fig, axs = plt.subplots(2, 2, figsize=(15, 12))
 fig.suptitle('Unified Phase Dynamics Benchmark: Primordial BBN & Resolution of the Lithium Problem\n' +
-             'Author: H. Pavliuk | Monograph Concept DOI: 10.5281/zenodo.24226129 (v3.1.1: 10.5281/zenodo.24447037)',
+             'Author: H. Pavliuk | Monograph Concept DOI: 10.5281/zenodo.24226129 (Concept DOI: 10.5281/zenodo.24226129)',
              fontsize=13, fontweight='bold', y=0.98)
 
 # Panel 1: Time Evolution of Primordial Abundances
@@ -402,7 +402,7 @@ results = {
     "theory": "Unified Phase Dynamics of Feynman Path Contours",
     "author": "H. Pavliuk",
     "monograph_concept_doi": "10.5281/zenodo.24226129",
-    "monograph_latest_version_doi": "10.5281/zenodo.24447037",
+    "monograph_concept_doi": "10.5281/zenodo.24226129",
     "baryon_density": {
         "eta_B": eta_B,
         "eta_10": eta_10,

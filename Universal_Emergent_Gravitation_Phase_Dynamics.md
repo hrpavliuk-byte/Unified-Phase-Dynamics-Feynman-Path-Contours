@@ -79,7 +79,7 @@ A crucial insight of Unified Phase Dynamics is that **the generation of gravity 
             UNIVERSAL ENERGY-PHASE EQUIVALENCE IN UNIFIED PHASE DYNAMICS
 ========================================================================================
 
- [ SECTOR 1: STRONG (QCD) ]  -->  Center \mathbb{Z}_3 Vortex Tube  -->  \Delta pprox 1.56-1.65 GeV (99% Mass)
+ [ SECTOR 1: STRONG (QCD) ]  -->  Center \mathbb{Z}_3 Vortex Tube  -->  \Delta \approx 1.56-1.65 GeV (99% Mass)
  [ SECTOR 2: ELECTROMAGNETIC ] -->  Confined Photons (m_0 = 0)     -->  E = \hbar\omega
  [ SECTOR 3: ELECTROWEAK ]   -->  Higgs VEV & Fermion Yukawa       -->  m_e, m_W, m_Z, m_q
  [ SECTOR 4: THERMAL/KINETIC]-->  Molecular Vibrations & Heat      -->  \Delta E = (3/2) k_B T

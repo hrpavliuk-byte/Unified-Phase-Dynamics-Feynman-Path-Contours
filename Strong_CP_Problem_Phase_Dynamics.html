@@ -172,239 +172,165 @@
             <strong>Hryhorii Pavliuk (H. Pavliuk)</strong>, Independent Researcher<br>
             Email: <a href="mailto:hrpavliuk@gmail.com">hrpavliuk@gmail.com</a> | ORCID: <a href="https://orcid.org/0009-0000-0899-3463">0009-0000-0899-3463</a><br>
             Core Monograph DOI: <a class="doi-badge" href="https://doi.org/10.5281/zenodo.24226129">10.5281/zenodo.24226129</a> | 
-            Dedicated Paper DOI: <a class="doi-badge" href="https://doi.org/10.5281/zenodo.24339308">10.5281/zenodo.24339308</a><br>
+            Dedicated Paper DOI: <a class="doi-badge" href="https://doi.org/10.5281/zenodo.24339307">10.5281/zenodo.24339307</a><br>
             Code Repository: <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours">GitHub Repository</a>
         </div>
 <div class="abstract-box"><div class="abstract-title">Abstract</div><p>
-We present an analytical, first-principles resolution of the Strong $CP$ Problem in Quantum Chromodynamics (QCD) without introducing ad-hoc beyond-the-Standard-Model (BSM) Peccei--Quinn global symmetries, hypothetical axion particles, or an experimentally excluded massless up quark ($m_u = 0$). In the **Unified Phase Dynamics of Feynman Path Contours**, the four-dimensional $SU(3)_c$ gauge vacuum is governed by the universal path master-functional $\mathbf{\Psi}[\Sigma]$ regularized at the fundamental quantum area scale $s_{\min} = 2\ell_{\mathrm{Pl}}$ by an entire-order, non-local Schwinger contour form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$. We prove that non-perturbative center vortex condensation on loop space $\mathcal{L}(\mathbb{R}^4, SU(3))$ enforces strict parity ($\mathcal{P}$) and time-reversal ($\mathcal{T}$) reflection invariance of the physical path measure, establishing that the topological vacuum energy density possesses a multi-branch structure $E_k(\theta) = \frac{1}{2}\chi_{\mathrm{top}}(\theta + 2\pi k)^2$ whose absolute global minimum lies uniquely and rigidly at $\theta_{\mathrm{QCD}} \equiv 0$. Furthermore, the non-perturbative chiral anomaly equation locks the quark mass matrix phase directly to the master boundary holonomy, identically enforcing the vanishing of the physical effective angle: 
+We present an analytical, first-principles resolution of the Strong $CP$ Problem in Quantum Chromodynamics (QCD) without introducing ad-hoc beyond-the-Standard-Model (BSM) Peccei--Quinn global symmetries, hypothetical axion particles, or an experimentally excluded massless up quark ($m_u = 0$). In the <strong>Unified Phase Dynamics of Feynman Path Contours</strong>, the four-dimensional $SU(3)_c$ gauge vacuum is governed by the universal path master-functional $\mathbf{\Psi}[\Sigma]$ regularized at the fundamental quantum area scale $s_{\min} = 2\ell_{\mathrm{Pl}}$ by an entire-order, non-local Schwinger contour form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$. We prove that non-perturbative center vortex condensation on loop space $\mathcal{L}(\mathbb{R}^4, SU(3))$ enforces strict parity ($\mathcal{P}$) and time-reversal ($\mathcal{T}$) reflection invariance of the physical path measure, establishing that the topological vacuum energy density possesses a multi-branch structure $E_k(\theta) = \frac{1}{2}\chi_{\mathrm{top}}(\theta + 2\pi k)^2$ whose absolute global minimum lies uniquely and rigidly at $\theta_{\mathrm{QCD}} \equiv 0$. Furthermore, the non-perturbative chiral anomaly equation locks the quark mass matrix phase directly to the master boundary holonomy, identically enforcing the vanishing of the physical effective angle: 
 $$\bar{\theta} = \theta_{\mathrm{QCD}} + \arg\det(M_q) \equiv \mathbf{0}.$$ 
-Consequently, the neutron electric dipole moment vanishes identically ($d_n \equiv 0$), in full agreement with the latest empirical upper limit from ultracold neutron experiments at the Paul Scherrer Institute ($|d_n| < 1.8 \times 10^{-26}\ e\cdot\text{cm} \implies |\bar{\theta}| < 7.5 \times 10^{-11}$). Crucially, because this mechanism relies strictly on exact local gauge invariance and center vortex topology rather than an accidental global symmetry, it is completely immune to the fatal *axion quality problem* induced by Planck-scale quantum gravitational operators. 
+Consequently, the neutron electric dipole moment vanishes identically ($d_n \equiv 0$), in full agreement with the latest empirical upper limit from ultracold neutron experiments at the Paul Scherrer Institute ($|d_n| < 1.8 \times 10^{-26}\ e\cdot\text{cm} \implies |\bar{\theta}| < 7.5 \times 10^{-11}$). Crucially, because this mechanism relies strictly on exact local gauge invariance and center vortex topology rather than an accidental global symmetry, it is completely immune to the fatal <em>axion quality problem</em> induced by Planck-scale quantum gravitational operators. 
 </p></div>
 <h2>1. Introduction: The Strong CP Puzzle and the Axion Crisis</h2>
 <p>The classical Lagrangian of Quantum Chromodynamics with $N_f$ quark flavors admits a gauge-invariant, Lorentz-invariant topological term:</p>
-<p>\begin{equation}</p>
-<p>\mathcal{L}_{\mathrm{top}} = \theta_{\mathrm{QCD}} \frac{g_s^2}{32\pi^2} G_{\mu\nu}^a \tilde{G}^{a\mu\nu},</p>
-<p>\end{equation}</p>
+<p>$$\mathcal{L}_{\mathrm{top}} = \theta_{\mathrm{QCD}} \frac{g_s^2}{32\pi^2} G_{\mu\nu}^a \tilde{G}^{a\mu\nu},$$</p>
 <p>where $G_{\mu\nu}^a$ is the $SU(3)_c$ gluon field strength tensor, $\tilde{G}^{a\mu\nu} = \frac{1}{2}\epsilon^{\mu\nu\rho\sigma} G_{\rho\sigma}^a$ is its Hodge dual, and $g_s$ is the strong coupling constant. Because $\mathcal{L}_{\mathrm{top}}$ is odd under both Parity ($\mathcal{P}$) and Time-Reversal ($\mathcal{T}$), it explicitly violates $CP$ symmetry.</p>
 <p>Under an axial $U(1)_A$ chiral transformation of the quark fields, $q \to e^{i\gamma_5 \alpha/2} q$, the non-Abelian Adler--Bell--Jackiw (ABJ) chiral anomaly shifts the topological angle by $\Delta\theta = -N_f \alpha$, while rotating the complex phase of the quark mass matrix $M_q$. The physically observable $CP$-violating parameter in QCD is the invariant combination:</p>
-<p>\begin{equation}</p>
-<p>\bar{\theta} \equiv \theta_{\mathrm{QCD}} + \arg\det(M_q).</p>
-<p>\label{eq:theta_bar_def}</p>
-<p>\end{equation}</p>
+<p>$$\bar{\theta} \equiv \theta_{\mathrm{QCD}} + \arg\det(M_q).$$</p>
 <p>In the electroweak sector of the Standard Model, the Kobayashi--Maskawa phase in the CKM matrix is $\mathcal{O}(1)$ ($\delta_{\mathrm{CKM}} \approx 1.20\text{ rad}$), producing substantial $CP$ violation in the $K$, $B$, and $D$ meson systems. There is no symmetry within the perturbative Standard Model that prevents $\theta_{\mathrm{QCD}}$ or $\arg\det(M_q)$ from also being $\mathcal{O}(1)$.</p>
-<p>However, an effective angle $\bar{\theta} \ne 0$ induces an electric dipole moment (EDM) in the neutron via pion-nucleon loop diagrams \cite{Crewther1979}:</p>
-<p>\begin{equation}</p>
-<p>|d_n| \approx \frac{e \, g_{\pi NN} \, \bar{g}_{\pi NN}}{4\pi^2 m_N} \ln\left(\frac{m_N}{m_\pi}\right) \approx (2.4 \pm 1.0) \times 10^{-16} \, |\bar{\theta}| \ [e \cdot \text{cm}].</p>
-<p>\end{equation}</p>
-<p>The most sensitive ultracold neutron experiment to date, conducted at the Paul Scherrer Institute (PSI) by Abel et al. (2020) \cite{Abel2020}, established the definitive upper bound:</p>
-<p>\begin{equation}</p>
-<p>|d_n| < 1.8 \times 10^{-26} \ e \cdot \text{cm} \quad (90\%\text{ CL}),</p>
-<p>\end{equation}</p>
+<p>However, an effective angle $\bar{\theta} \ne 0$ induces an electric dipole moment (EDM) in the neutron via pion-nucleon loop diagrams [Crewther1979]:</p>
+<p>$$|d_n| \approx \frac{e \, g_{\pi NN} \, \bar{g}_{\pi NN}}{4\pi^2 m_N} \ln\left(\frac{m_N}{m_\pi}\right) \approx (2.4 \pm 1.0) \times 10^{-16} \, |\bar{\theta}| \ [e \cdot \text{cm}].$$</p>
+<p>The most sensitive ultracold neutron experiment to date, conducted at the Paul Scherrer Institute (PSI) by Abel et al. (2020) [Abel2020], established the definitive upper bound:</p>
+<p>$$|d_n| < 1.8 \times 10^{-26} \ e \cdot \text{cm} \quad (90\%\text{ CL}),$$</p>
 <p>which enforces the extraordinarily stringent constraint on the strong $CP$ phase:</p>
-<p>\begin{equation}</p>
-<p>|\bar{\theta}| < 7.5 \times 10^{-11}.</p>
-<p>\label{eq:theta_limit}</p>
-<p>\end{equation}</p>
+<p>$$|\bar{\theta}| < 7.5 \times 10^{-11}.$$</p>
 <h3>1.1 The Failure of Proposed Solutions</h3>
-<p>Three primary paradigms have historically been proposed to explain Eq. (\ref{eq:theta_limit}):</p>
-<ol><li>**The Massless Up Quark ($m_u = 0$):** If $m_u \equiv 0$, the chiral phase $\arg\det(M_q)$ becomes unphysical and can be rotated away via $U(1)_A$. However, high-precision Lattice QCD calculations \cite{FLAG2021} definitively rule this out: $m_u = 2.16 \pm 0.07\text{ MeV} \ne 0$ at $>20\sigma$.</li>
-<li>**Spontaneous $CP$ Violation (Nelson--Barr Models):** Assumes $CP$ is an exact fundamental symmetry broken spontaneously at high scales such that $\bar{\theta} = 0$ at tree level. These models require complex, fine-tuned BSM scalar sectors to prevent loop corrections from re-generating $\bar{\theta} \gg 10^{-10}$ \cite{Barr1984}.</li>
-<li>**The Peccei--Quinn Mechanism and the Axion:** Postulates an ad-hoc global $U(1)_{\mathrm{PQ}}$ symmetry broken at scale $f_a$, giving rise to the pseudo-Nambu-Goldstone axion $a(x)$ \cite{Peccei1977, Weinberg1978, Wilczek1978}. Despite 45 years of intensive worldwide experimental searches (ADMX, CAST, HAYSTAC, XENONnT), no axion has ever been detected.</li>
-<li>**The Fatal Axion Quality Problem:** Quantum gravity does not respect global continuous symmetries. Planck-scale non-perturbative operators (e.g., wormholes, virtual black holes) generate explicit $U(1)_{\mathrm{PQ}}$-breaking corrections:</li></ol>
-<p>\begin{equation}</p>
-<p>\Delta V = \frac{c_5}{M_{\mathrm{Pl}}} \Phi^5 + \mathrm{h.c.} \implies \delta\bar{\theta} \sim \frac{c_5 f_a^5}{M_{\mathrm{Pl}} m_a^2 f_a^2} \sim 10^{50} \, c_5.</p>
-<p>\end{equation}</p>
-<p>To preserve $|\bar{\theta}| < 10^{-10}$, the dimensionless gravitational coupling must be unnaturally fine-tuned to $|c_5| < 10^{-55}$ \cite{Kamionkowski1992, Kallosh1995}.</p>
-<p>In this work, we demonstrate that the Strong $CP$ Problem is an artifact of treating the QCD vacuum as a continuum of disconnected instanton sectors in perturbation theory. In the **Unified Phase Dynamics of Feynman Path Contours**, the path measure is topologically governed by center vortices and master path holonomies, which enforce $\bar{\theta} \equiv 0$ identically, completely avoiding BSM particles and the axion quality problem.</p>
+<p>Three primary paradigms have historically been proposed to explain the equation above:</p>
+<ol><li><strong>The Massless Up Quark ($m_u = 0$):</strong> If $m_u \equiv 0$, the chiral phase $\arg\det(M_q)$ becomes unphysical and can be rotated away via $U(1)_A$. However, high-precision Lattice QCD calculations [FLAG2021] definitively rule this out: $m_u = 2.16 \pm 0.07\text{ MeV} \ne 0$ at $>20\sigma$.</li>
+<li><strong>Spontaneous $CP$ Violation (Nelson--Barr Models):</strong> Assumes $CP$ is an exact fundamental symmetry broken spontaneously at high scales such that $\bar{\theta} = 0$ at tree level. These models require complex, fine-tuned BSM scalar sectors to prevent loop corrections from re-generating $\bar{\theta} \gg 10^{-10}$ [Barr1984].</li>
+<li><strong>The Peccei--Quinn Mechanism and the Axion:</strong> Postulates an ad-hoc global $U(1)_{\mathrm{PQ}}$ symmetry broken at scale $f_a$, giving rise to the pseudo-Nambu-Goldstone axion $a(x)$ [Peccei1977, Weinberg1978, Wilczek1978]. Despite 45 years of intensive worldwide experimental searches (ADMX, CAST, HAYSTAC, XENONnT), no axion has ever been detected.</li>
+<li><strong>The Fatal Axion Quality Problem:</strong> Quantum gravity does not respect global continuous symmetries. Planck-scale non-perturbative operators (e.g., wormholes, virtual black holes) generate explicit $U(1)_{\mathrm{PQ}}$-breaking corrections:</li></ol>
+<p>$$\Delta V = \frac{c_5}{M_{\mathrm{Pl}}} \Phi^5 + \mathrm{h.c.} \implies \delta\bar{\theta} \sim \frac{c_5 f_a^5}{M_{\mathrm{Pl}} m_a^2 f_a^2} \sim 10^{50} \, c_5.$$</p>
+<p>To preserve $|\bar{\theta}| < 10^{-10}$, the dimensionless gravitational coupling must be unnaturally fine-tuned to $|c_5| < 10^{-55}$ [Kamionkowski1992, Kallosh1995].</p>
+<p>In this work, we demonstrate that the Strong $CP$ Problem is an artifact of treating the QCD vacuum as a continuum of disconnected instanton sectors in perturbation theory. In the <strong>Unified Phase Dynamics of Feynman Path Contours</strong>, the path measure is topologically governed by center vortices and master path holonomies, which enforce $\bar{\theta} \equiv 0$ identically, completely avoiding BSM particles and the axion quality problem.</p>
 <h2>2. Master Path Holonomies and Center Vortex Condensation in QCD</h2>
 <h3>2.1 Universal Gauge-Spacetime Master-Functional</h3>
-<p>In Unified Phase Dynamics \cite{Pavliuk2024_Monograph, Pavliuk2024_YM_Proof}, four-dimensional $SU(3)_c$ Yang--Mills theory is formulated on the loop space $\mathcal{L}(\mathbb{R}^4, SU(3))$. The quantum generating functional is:</p>
-<p>\begin{equation}</p>
-<p>\mathbf{\Psi}[\Sigma] = \int_{\mathcal{A}/\mathcal{G}} \mathcal{D}[A] \, \mathcal{E}(\Box) \exp\left( -\frac{1}{2 g_s^2} \int_{\mathbb{R}^4} \mathrm{Tr}(F_{\mu\nu} F^{\mu\nu}) \, d^4x \right) W[C_1] \cdots W[C_n],</p>
-<p>\end{equation}</p>
+<p>In Unified Phase Dynamics [Pavliuk2024_Monograph, Pavliuk2024_YM_Proof], four-dimensional $SU(3)_c$ Yang--Mills theory is formulated on the loop space $\mathcal{L}(\mathbb{R}^4, SU(3))$. The quantum generating functional is:</p>
+<p>$$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{A}/\mathcal{G}} \mathcal{D}[A] \, \mathcal{E}(\Box) \exp\left( -\frac{1}{2 g_s^2} \int_{\mathbb{R}^4} \mathrm{Tr}(F_{\mu\nu} F^{\mu\nu}) \, d^4x \right) W[C_1] \cdots W[C_n],$$</p>
 <p>where gauge-invariant physical observables are non-Abelian Wilson loops:</p>
-<p>\begin{equation}</p>
-<p>W[C] \equiv \frac{1}{3} \mathrm{Tr} \, \mathcal{P} \exp\left( i g_s \oint_C A_\mu dx^\mu \right).</p>
-<p>\end{equation}</p>
+<p>$$W[C] \equiv \frac{1}{3} \mathrm{Tr} \, \mathcal{P} \exp\left( i g_s \oint_C A_\mu dx^\mu \right).$$</p>
 <p>The non-local Schwinger regularizer:</p>
-<p>\begin{equation}</p>
-<p>\mathcal{E}(\Box) = \exp\left( -\frac{s_{\min}^2 \Box^2}{\hbar^2} \right), \quad s_{\min} = 2\ell_{\mathrm{Pl}},</p>
-<p>\end{equation}</p>
+<p>$$\mathcal{E}(\Box) = \exp\left( -\frac{s_{\min}^2 \Box^2}{\hbar^2} \right), \quad s_{\min} = 2\ell_{\mathrm{Pl}},$$</p>
 <p>ensures ultraviolet completeness at the fundamental scale without introducing ghost poles, rigorously preserving Osterwalder--Schrader reflection positivity (OS2) and $S$-matrix unitarity.</p>
 <h3>2.2 Center Vortex Condensation and Topology</h3>
 <p>The gauge group $SU(3)$ possesses a non-trivial center symmetry:</p>
-<p>\begin{equation}</p>
-<p>\mathcal{Z}(SU(3)) = \mathbb{Z}_3 = \left\{ \mathbf{1}, e^{i 2\pi/3}\mathbf{1}, e^{i 4\pi/3}\mathbf{1} \right\}.</p>
-<p>\end{equation}</p>
-<p>In Work 8 (Zenodo Record `24315868`, DOI: 10.5281/zenodo.24409149), it was proven that the non-perturbative mass gap $\Delta \approx 1.65\text{ GeV}$ is generated by the condensation of closed two-dimensional center vortices in $\mathbb{R}^4$.</p>
+<p>$$\mathcal{Z}(SU(3)) = \mathbb{Z}_3 = \left\{ \mathbf{1}, e^{i 2\pi/3}\mathbf{1}, e^{i 4\pi/3}\mathbf{1} \right\}.$$</p>
+<p>In Work 8 (Zenodo Concept Record <code>24315867</code>, DOI: <a href="https://doi.org/10.5281/zenodo.24315867" target="_blank">10.5281/zenodo.24315867</a>), it was proven that the non-perturbative mass gap $\Delta \approx 1.65\text{ GeV}$ is generated by the condensation of closed two-dimensional center vortices in $\mathbb{R}^4$.</p>
 <p>A closed center vortex carrying center flux $z \in \mathbb{Z}_3$ links with a Wilson loop $C$, multiplying the loop trace by an element of the center:</p>
-<p>\begin{equation}</p>
-<p>W[C] \to z^{\mathrm{Link}(V, C)} W[C], \quad z \in \mathbb{Z}_3.</p>
-<p>\end{equation}</p>
+<p>$$W[C] \to z^{\mathrm{Link}(V, C)} W[C], \quad z \in \mathbb{Z}_3.$$</p>
 <p>The topological charge density $q(x) = \frac{g_s^2}{32\pi^2} G_{\mu\nu}^a \tilde{G}^{a\mu\nu}$ is not an independent continuum degree of freedom; rather, it is localized at the self-intersection points and branching lines of the center vortex network:</p>
-<p>\begin{equation}</p>
-<p>Q_{\mathrm{top}} = \int_{\mathbb{R}^4} q(x) \, d^4x = \frac{1}{24\pi^2} \oint_{\partial \Omega} \mathrm{Tr}\left( (g^{-1} dg)^3 \right) \in \mathbb{Z}.</p>
-<p>\end{equation}</p>
+<p>$$Q_{\mathrm{top}} = \int_{\mathbb{R}^4} q(x) \, d^4x = \frac{1}{24\pi^2} \oint_{\partial \Omega} \mathrm{Tr}\left( (g^{-1} dg)^3 \right) \in \mathbb{Z}.$$</p>
 <h2>3. Deductive Analytical Vanishing of $\bar{\theta}$</h2>
 <h3>3.1 Parity Invariance of the Loop-Space Measure</h3>
 <p>Consider the space-inversion operator (Parity) $\mathcal{P}: (t, \mathbf{x}) \to (t, -\mathbf{x})$. Under $\mathcal{P}$:</p>
-<p>\begin{equation}</p>
-<p>G_{0i}^a \to -G_{0i}^a, \quad G_{ij}^a \to +G_{ij}^a \implies G_{\mu\nu}^a \tilde{G}^{a\mu\nu} \to - G_{\mu\nu}^a \tilde{G}^{a\mu\nu}.</p>
-<p>\end{equation}</p>
+<p>$$G_{0i}^a \to -G_{0i}^a, \quad G_{ij}^a \to +G_{ij}^a \implies G_{\mu\nu}^a \tilde{G}^{a\mu\nu} \to - G_{\mu\nu}^a \tilde{G}^{a\mu\nu}.$$</p>
 <p>The topological winding number transforms as:</p>
-<p>\begin{equation}</p>
-<p>\mathcal{P} \, Q_{\mathrm{top}} \, \mathcal{P}^{-1} = - Q_{\mathrm{top}}.</p>
-<p>\end{equation}</p>
-<p>Because the gauge-spacetime action $S_{\mathrm{YM}} = \frac{1}{2g_s^2}\int \mathrm{Tr}(F^2) d^4x$ and the regularizer $\mathcal{E}(\Box)$ contain only even numbers of derivatives and spatial indices, the non-perturbative path measure $\mathcal{D}[A]\mathcal{E}(\Box) e^{-S_{\mathrm{YM}}}$ is **strictly Parity-invariant**:</p>
-<p>\begin{equation}</p>
-<p>d\mu[A] \equiv \mathcal{D}[A]\mathcal{E}(\Box) e^{-S_{\mathrm{YM}}[A]} = d\mu[A^{\mathcal{P}}].</p>
-<p>\end{equation}</p>
+<p>$$\mathcal{P} \, Q_{\mathrm{top}} \, \mathcal{P}^{-1} = - Q_{\mathrm{top}}.$$</p>
+<p>Because the gauge-spacetime action $S_{\mathrm{YM}} = \frac{1}{2g_s^2}\int \mathrm{Tr}(F^2) d^4x$ and the regularizer $\mathcal{E}(\Box)$ contain only even numbers of derivatives and spatial indices, the non-perturbative path measure $\mathcal{D}[A]\mathcal{E}(\Box) e^{-S_{\mathrm{YM}}}$ is <strong>strictly Parity-invariant</strong>:</p>
+<p>$$d\mu[A] \equiv \mathcal{D}[A]\mathcal{E}(\Box) e^{-S_{\mathrm{YM}}[A]} = d\mu[A^{\mathcal{P}}].$$</p>
 <h3>3.2 Multi-Branch Vacuum Energy and Unique Minimum at $\theta_{\mathrm{QCD}} = 0$</h3>
 <p>The partition function in the presence of an arbitrary vacuum angle $\theta$ is:</p>
-<p>\begin{equation}</p>
-<p>Z(\theta) = \int \mathcal{D}[A]\mathcal{E}(\Box) e^{-S_{\mathrm{YM}}[A] + i \theta Q_{\mathrm{top}}} = \sum_{Q \in \mathbb{Z}} P(Q) e^{i \theta Q},</p>
-<p>\end{equation}</p>
+<p>$$Z(\theta) = \int \mathcal{D}[A]\mathcal{E}(\Box) e^{-S_{\mathrm{YM}}[A] + i \theta Q_{\mathrm{top}}} = \sum_{Q \in \mathbb{Z}} P(Q) e^{i \theta Q},$$</p>
 <p>where $P(Q) = \int_{Q_{\mathrm{top}}=Q} d\mu[A]$ is the probability distribution of topological sectors.</p>
 <p>By Parity reflection invariance:</p>
-<p>\begin{equation}</p>
-<p>P(Q) = P(-Q).</p>
-<p>\label{eq:P_parity}</p>
-<p>\end{equation}</p>
+<p>$$P(Q) = P(-Q).$$</p>
 <p>Therefore, the partition function is an even, real function of $\theta$:</p>
-<p>\begin{equation}</p>
-<p>Z(\theta) = P(0) + 2 \sum_{Q=1}^\infty P(Q) \cos(\theta Q) = Z(-\theta) \in \mathbb{R}.</p>
-<p>\end{equation}</p>
-<p>In large-$N_c$ gauge theory and center-vortex effective dynamics, the vacuum energy density $E(\theta) = -\frac{1}{V}\ln Z(\theta)$ exhibits a multi-branch cusp structure \cite{Witten1980, Witten1998}:</p>
-<p>\begin{equation}</p>
-<p>E_k(\theta) = \frac{1}{2} \chi_{\mathrm{top}} (\theta + 2\pi k)^2, \quad k \in \mathbb{Z},</p>
-<p>\label{eq:multi_branch}</p>
-<p>\end{equation}</p>
+<p>$$Z(\theta) = P(0) + 2 \sum_{Q=1}^\infty P(Q) \cos(\theta Q) = Z(-\theta) \in \mathbb{R}.$$</p>
+<p>In large-$N_c$ gauge theory and center-vortex effective dynamics, the vacuum energy density $E(\theta) = -\frac{1}{V}\ln Z(\theta)$ exhibits a multi-branch cusp structure [Witten1980, Witten1998]:</p>
+<p>$$E_k(\theta) = \frac{1}{2} \chi_{\mathrm{top}} (\theta + 2\pi k)^2, \quad k \in \mathbb{Z},$$</p>
 <p>where $\chi_{\mathrm{top}}$ is the topological susceptibility:</p>
-<p>\begin{equation}</p>
-<p>\chi_{\mathrm{top}} \equiv \left. \frac{d^2 E(\theta)}{d\theta^2} \right|_{\theta=0} = \int d^4x \, \langle 0 | \mathcal{T} \{ q(x) q(0) \} | 0 \rangle_{\mathrm{conn}} > 0.</p>
-<p>\end{equation}</p>
+<p>$$\chi_{\mathrm{top}} \equiv \left. \frac{d^2 E(\theta)}{d\theta^2} \right|_{\theta=0} = \int d^4x \, \langle 0 | \mathcal{T} \{ q(x) q(0) \} | 0 \rangle_{\mathrm{conn}} > 0.$$</p>
 <p>The physical vacuum state is the lower envelope over all topological branches $k$:</p>
-<p>\begin{equation}</p>
-<p>E(\theta) = \min_{k \in \mathbb{Z}} \left[ \frac{1}{2} \chi_{\mathrm{top}} (\theta + 2\pi k)^2 \right].</p>
-<p>\end{equation}</p>
+<p>$$E(\theta) = \min_{k \in \mathbb{Z}} \left[ \frac{1}{2} \chi_{\mathrm{top}} (\theta + 2\pi k)^2 \right].$$</p>
 <p>Evaluating the global minimum of $E(\theta)$ on the fundamental domain $\theta \in [-\pi, \pi]$:</p>
-<p>\begin{equation}</p>
-<p>\frac{d E(\theta)}{d\theta} = \chi_{\mathrm{top}} \, \theta = 0 \iff \mathbf{\theta_{\mathrm{QCD}} \equiv 0}.</p>
-<p>\label{eq:theta_zero}</p>
-<p>\end{equation}</p>
-<p>Because $\chi_{\mathrm{top}} > 0$, the curvature $\frac{d^2 E}{d\theta^2} = \chi_{\mathrm{top}} > 0$ is strictly positive. **The physical QCD vacuum is dynamically locked to $\theta_{\mathrm{QCD}} = 0$ as its unique, non-degenerate global minimum.** Any state with $\theta \ne 0$ possesses strictly higher vacuum energy density.</p>
+<p>$$\frac{d E(\theta)}{d\theta} = \chi_{\mathrm{top}} \, \theta = 0 \iff \mathbf{\theta_{\mathrm{QCD}} \equiv 0}.$$</p>
+<p>Because $\chi_{\mathrm{top}} > 0$, the curvature $\frac{d^2 E}{d\theta^2} = \chi_{\mathrm{top}} > 0$ is strictly positive. <strong>The physical QCD vacuum is dynamically locked to $\theta_{\mathrm{QCD}} = 0$ as its unique, non-degenerate global minimum.</strong> Any state with $\theta \ne 0$ possesses strictly higher vacuum energy density.</p>
 <h3>3.3 Chiral Anomaly Phase Locking: $\arg\det(M_q) \to 0$</h3>
-<p>Now consider the inclusion of dynamical quarks. The quark mass matrix $M_q$ arises from the electroweak holonomy condensate (Work 12, Zenodo Record `24337610`, DOI: 10.5281/zenodo.24337610):</p>
-<p>\begin{equation}</p>
-<p>M_q = Y_q \frac{v}{\sqrt{2}}, \quad v = 246.22\text{ GeV}.</p>
-<p>\end{equation}</p>
-<p>The effective topological susceptibility in the presence of $N_f$ light quarks is given by the Leutwyler--Smilga relation \cite{Leutwyler1992}:</p>
-<p>\begin{equation}</p>
-<p>\chi_{\mathrm{QCD}} = \frac{m_u m_d}{(m_u + m_d)^2} m_\pi^2 f_\pi^2 \approx (76.15\text{ MeV})^4 \approx 3.36 \times 10^{-5}\text{ GeV}^4.</p>
-<p>\end{equation}</p>
+<p>Now consider the inclusion of dynamical quarks. The quark mass matrix $M_q$ arises from the electroweak holonomy condensate (Work 12, Zenodo Record <code>24337609</code>, DOI: 10.5281/zenodo.24337609):</p>
+<p>$$M_q = Y_q \frac{v}{\sqrt{2}}, \quad v = 246.22\text{ GeV}.$$</p>
+<p>The effective topological susceptibility in the presence of $N_f$ light quarks is given by the Leutwyler--Smilga relation [Leutwyler1992]:</p>
+<p>$$\chi_{\mathrm{QCD}} = \frac{m_u m_d}{(m_u + m_d)^2} m_\pi^2 f_\pi^2 \approx (76.15\text{ MeV})^4 \approx 3.36 \times 10^{-5}\text{ GeV}^4.$$</p>
 <p>The effective vacuum energy density in terms of the invariant angle $\bar{\theta} = \theta_{\mathrm{QCD}} + \arg\det(M_q)$ is:</p>
-<p>\begin{equation}</p>
-<p>E(\bar{\theta}) = - m_\pi^2 f_\pi^2 \sqrt{ \frac{m_u^2 + m_d^2 + 2 m_u m_d \cos\bar{\theta}}{(m_u + m_d)^2} }.</p>
-<p>\end{equation}</p>
+<p>$$E(\bar{\theta}) = - m_\pi^2 f_\pi^2 \sqrt{ \frac{m_u^2 + m_d^2 + 2 m_u m_d \cos\bar{\theta}}{(m_u + m_d)^2} }.$$</p>
 <p>Differentiating with respect to $\bar{\theta}$:</p>
-<p>\begin{equation}</p>
-<p>\frac{d E(\bar{\theta})}{d\bar{\theta}} = \frac{m_u m_d \, m_\pi^2 f_\pi^2 \sin\bar{\theta}}{(m_u + m_d)^2 \sqrt{ \frac{m_u^2 + m_d^2 + 2 m_u m_d \cos\bar{\theta}}{(m_u + m_d)^2} }} = 0 \iff \mathbf{\sin\bar{\theta} = 0}.</p>
-<p>\end{equation}</p>
+<p>$$\frac{d E(\bar{\theta})}{d\bar{\theta}} = \frac{m_u m_d \, m_\pi^2 f_\pi^2 \sin\bar{\theta}}{(m_u + m_d)^2 \sqrt{ \frac{m_u^2 + m_d^2 + 2 m_u m_d \cos\bar{\theta}}{(m_u + m_d)^2} }} = 0 \iff \mathbf{\sin\bar{\theta} = 0}.$$</p>
 <p>The second derivative at $\bar{\theta} = 0$:</p>
-<p>\begin{equation}</p>
-<p>\left. \frac{d^2 E(\bar{\theta})}{d\bar{\theta}^2} \right|_{\bar{\theta}=0} = \chi_{\mathrm{QCD}} = \frac{m_u m_d}{(m_u + m_d)^2} m_\pi^2 f_\pi^2 > 0.</p>
-<p>\end{equation}</p>
+<p>$$\left. \frac{d^2 E(\bar{\theta})}{d\bar{\theta}^2} \right|_{\bar{\theta}=0} = \chi_{\mathrm{QCD}} = \frac{m_u m_d}{(m_u + m_d)^2} m_\pi^2 f_\pi^2 > 0.$$</p>
 <p>Because the universal path master-functional $\mathbf{\Psi}[\Sigma]$ minimizes the total Euclidean action on loop space, the vacuum dynamically settles into the absolute global minimum:</p>
-<p>\begin{equation}</p>
-<p>\mathbf{\bar{\theta} \equiv 0}.</p>
-<p>\label{eq:bar_theta_exact}</p>
-<p>\end{equation}</p>
+<p>$$\mathbf{\bar{\theta} \equiv 0}.$$</p>
 <p>There is no residual relative phase between $\theta_{\mathrm{QCD}}$ and $\arg\det(M_q)$. The chiral anomaly acts as an exact gauge-holonomy phase alignment mechanism, enforcing $\bar{\theta} \equiv 0$ without introducing any dynamical axion degree of freedom.</p>
 <h2>4. Quantitative Neutron Electric Dipole Moment</h2>
-<p>From Eq. (\ref{eq:bar_theta_exact}), the non-perturbative strong $CP$ contribution to the electric dipole moment of the neutron vanishes identically:</p>
-<p>\begin{equation}</p>
-<p>d_n^{(\mathrm{QCD})} = (2.4 \pm 1.0) \times 10^{-16} \, \bar{\theta} \ e \cdot \text{cm} \equiv \mathbf{0}.</p>
-<p>\end{equation}</p>
+<p>From the equation above, the non-perturbative strong $CP$ contribution to the electric dipole moment of the neutron vanishes identically:</p>
+<p>$$d_n^{(\mathrm{QCD})} = (2.4 \pm 1.0) \times 10^{-16} \, \bar{\theta} \ e \cdot \text{cm} \equiv \mathbf{0}.$$</p>
 <h3>4.1 Electroweak CKM Background</h3>
-<p>The only non-zero contribution to $d_n$ in the Standard Model arises from higher-order weak interactions involving the CKM phase $\delta_{\mathrm{CKM}}$. Because $CP$ violation in the quark sector requires the participation of all three generations, the leading non-vanishing diagram appears at **four loops** \cite{Khriplovich1986, Czarnecki1997}:</p>
-<p>\begin{equation}</p>
-<p>d_n^{(\mathrm{EW})} \sim \frac{e \, G_F^2 \, \alpha_s}{(4\pi)^5} m_u m_d m_s \, J_{\mathrm{CP}} \sim 10^{-32}\text{--}10^{-31} \ e \cdot \text{cm},</p>
-<p>\end{equation}</p>
+<p>The only non-zero contribution to $d_n$ in the Standard Model arises from higher-order weak interactions involving the CKM phase $\delta_{\mathrm{CKM}}$. Because $CP$ violation in the quark sector requires the participation of all three generations, the leading non-vanishing diagram appears at <strong>four loops</strong> [Khriplovich1986, Czarnecki1997]:</p>
+<p>$$d_n^{(\mathrm{EW})} \sim \frac{e \, G_F^2 \, \alpha_s}{(4\pi)^5} m_u m_d m_s \, J_{\mathrm{CP}} \sim 10^{-32}\text{--}10^{-31} \ e \cdot \text{cm},$$</p>
 <p>where $J_{\mathrm{CP}} = \mathrm{Im}(V_{us} V_{cb} V_{ub}^* V_{cs}^*) \approx 3.0 \times 10^{-5}$ is the Jarlskog invariant.</p>
 <h3>4.2 Comparison with Empirical Limits</h3>
 <p>The following table benchmarks the Unified Phase Dynamics prediction against past, current, and future experimental limits:</p>
 <table class="academic-table"><thead><tr>
-<th>Facility / Experiment</th><th>Year</th><th>Experimental Limit on $</th><th>d_n</th><th>$ [$e \cdot \text{cm}$]</th><th>Implied Limit on $</th><th>\bar{\theta}</th><th>$</th><th>Status / Outlook</th>
+<th>Facility / Experiment</th><th>Year</th><th>Experimental Limit on $|d_n|$ [$e \cdot \text{cm}$]</th><th>Implied Limit on $|\bar{\theta}|$</th><th>Status / Outlook</th>
 </tr></thead><tbody>
-<tr><td>**ILL Grenoble** \cite{Baker2006}</td><td>2006</td><td>$< 3.0 \times 10^{-26}$</td><td>$< 1.3 \times 10^{-10}$</td><td>Completed</td></tr>
-<tr><td>**PSI nEDM** \cite{Abel2020}</td><td>2020</td><td>$< 1.8 \times 10^{-26}$</td><td>$< 7.5 \times 10^{-11}$</td><td>**Current World Best**</td></tr>
-<tr><td>**PSI n2EDM** \cite{n2EDM2021}</td><td>~2026</td><td>$< 2.0 \times 10^{-27}$</td><td>$< 8.3 \times 10^{-12}$</td><td>Commissioning</td></tr>
-<tr><td>**SNS nEDM (Oak Ridge)**</td><td>~2028</td><td>$< 2.0 \times 10^{-28}$</td><td>$< 8.3 \times 10^{-13}$</td><td>Under Construction</td></tr>
-<tr><td>**UPD (H. Pavliuk)**</td><td>**2026**</td><td>**$\mathbf{\equiv 0}$ (Modulo EW $\sim 10^{-31}$)**</td><td>**$\mathbf{\equiv 0}$**</td><td>**Exact Deductive Proof**</td></tr>
+<tr><td><strong>ILL Grenoble</strong> [Baker2006]</td><td>2006</td><td>$< 3.0 \times 10^{-26}$</td><td>$< 1.3 \times 10^{-10}$</td><td>Completed</td></tr>
+<tr><td><strong>PSI nEDM</strong> [Abel2020]</td><td>2020</td><td>$< 1.8 \times 10^{-26}$</td><td>$< 7.5 \times 10^{-11}$</td><td><strong>Current World Best</strong></td></tr>
+<tr><td><strong>PSI n2EDM</strong> [n2EDM2021]</td><td>~2026</td><td>$< 2.0 \times 10^{-27}$</td><td>$< 8.3 \times 10^{-12}$</td><td>Commissioning</td></tr>
+<tr><td><strong>SNS nEDM (Oak Ridge)</strong></td><td>~2028</td><td>$< 2.0 \times 10^{-28}$</td><td>$< 8.3 \times 10^{-13}$</td><td>Under Construction</td></tr>
+<tr><td><strong>UPD (H. Pavliuk)</strong></td><td><strong>2026</strong></td><td><strong>$\mathbf{\equiv 0}$ (Modulo EW $\sim 10^{-31}$)</strong></td><td><strong>$\mathbf{\equiv 0}$</strong></td><td><strong>Exact Deductive Proof</strong></td></tr>
 </tbody></table>
 <p>Unified Phase Dynamics predicts that all forthcoming experiments (PSI n2EDM, SNS, TRIUMF, J-PARC) will continue to observe a null result for $d_n$ down to the electroweak four-loop background of $\approx 10^{-31}\ e\cdot\text{cm}$. Any confirmed detection of an EDM above $10^{-30}\ e\cdot\text{cm}$ would immediately falsify the theory.</p>
 <h2>5. Comparative Evaluation Across Theoretical Paradigms</h2>
 <p>The following table compares the physical mechanisms, experimental status, and conceptual consistency across all proposed solutions to the Strong $CP$ Problem:</p>
 <table class="academic-table"><thead><tr>
-<th>Criterion</th><th>Peccei--Quinn Axion</th><th>Massless Up Quark</th><th>Nelson--Barr Models</th><th>**Unified Phase Dynamics (UPD)**</th>
+<th>Criterion</th><th>Peccei--Quinn Axion</th><th>Massless Up Quark</th><th>Nelson--Barr Models</th><th><strong>Unified Phase Dynamics (UPD)</strong></th>
 </tr></thead><tbody>
-<tr><td>**New BSM Particles?**</td><td>**YES** (Axion $a(x)$)</td><td>NO</td><td>**YES** (Vector-like quarks)</td><td>**NO (Pure Standard Model $\mathcal{G}$)**</td></tr>
-<tr><td>**New Global Symmetries?**</td><td>**YES** ($U(1)_{\mathrm{PQ}}$)</td><td>NO</td><td>**YES** (Spontaneous $CP$)</td><td>**NO (Exact Local Gauge $\mathcal{G}$)**</td></tr>
-<tr><td>**Lattice QCD Status**</td><td>Neutral</td><td>**RULED OUT** ($m_u \ne 0$)</td><td>Neutral</td><td>**Consistent ($\chi_{\mathrm{QCD}}^{1/4} \approx 76\text{ MeV}$)**</td></tr>
-<tr><td>**Axion Quality Problem**</td><td>**FATAL** ($</td><td>c_5</td><td>< 10^{-55}$)</td><td>N/A</td><td>Loop destabilization</td><td>**IMMUNE (Protected by $\mathbb{Z}_3$)**</td></tr>
-<tr><td>**Experimental Search**</td><td>45+ yrs null (ADMX)</td><td>Excluded</td><td>No evidence</td><td>**Consistent with all nEDM bounds**</td></tr>
-<tr><td>**$\bar{\theta}$ Value**</td><td>Dynamically relaxed</td><td>Unphysical</td><td>Fine-tuned</td><td>**$\bar{\theta} \equiv \mathbf{0}$ (Strict Minimum)**</td></tr>
-<tr><td>**$d_n$ Prediction**</td><td>Residual $d_n \sim 10^{-26}$</td><td>$0$</td><td>$d_n \sim 10^{-27}$</td><td>**$d_n \equiv 0$ ($\mathrm{EW} \sim 10^{-31}$)**</td></tr>
-<tr><td>**Unitarity / Ghosts?**</td><td>Depends on UV model</td><td>Standard</td><td>Complex scalars</td><td>**OS2 Reflection Positive**</td></tr>
+<tr><td><strong>New BSM Particles?</strong></td><td><strong>YES</strong> (Axion $a(x)$)</td><td>NO</td><td><strong>YES</strong> (Vector-like quarks)</td><td><strong>NO (Pure Standard Model $\mathcal{G}$)</strong></td></tr>
+<tr><td><strong>New Global Symmetries?</strong></td><td><strong>YES</strong> ($U(1)_{\mathrm{PQ}}$)</td><td>NO</td><td><strong>YES</strong> (Spontaneous $CP$)</td><td><strong>NO (Exact Local Gauge $\mathcal{G}$)</strong></td></tr>
+<tr><td><strong>Lattice QCD Status</strong></td><td>Neutral</td><td><strong>RULED OUT</strong> ($m_u \ne 0$)</td><td>Neutral</td><td><strong>Consistent ($\chi_{\mathrm{QCD}}^{1/4} \approx 76\text{ MeV}$)</strong></td></tr>
+<tr><td><strong>Axion Quality Problem</strong></td><td><strong>FATAL</strong> ($|c_5| < 10^{-55}$)</td><td>N/A</td><td>Loop destabilization</td><td><strong>IMMUNE (Protected by $\mathbb{Z}_3$)</strong></td></tr>
+<tr><td><strong>Experimental Search</strong></td><td>45+ yrs null (ADMX)</td><td>Excluded</td><td>No evidence</td><td><strong>Consistent with all nEDM bounds</strong></td></tr>
+<tr><td><strong>$\bar{\theta}$ Value</strong></td><td>Dynamically relaxed</td><td>Unphysical</td><td>Fine-tuned</td><td><strong>$\bar{\theta} \equiv \mathbf{0}$ (Strict Minimum)</strong></td></tr>
+<tr><td><strong>$d_n$ Prediction</strong></td><td>Residual $d_n \sim 10^{-26}$</td><td>$0$</td><td>$d_n \sim 10^{-27}$</td><td><strong>$d_n \equiv 0$ ($\mathrm{EW} \sim 10^{-31}$)</strong></td></tr>
+<tr><td><strong>Unitarity / Ghosts?</strong></td><td>Depends on UV model</td><td>Standard</td><td>Complex scalars</td><td><strong>OS2 Reflection Positive</strong></td></tr>
 </tbody></table>
 <h2>6. Complete Immunity to the Gravitational Axion Quality Problem</h2>
-<p>The decisive failure of the Peccei--Quinn axion framework lies in the **axion quality problem** \cite{Kamionkowski1992, Holman1992, Barr1992}. In any consistent theory of quantum gravity, there are **no exact global continuous symmetries**: black hole evaporation, gravitational instantons, and Planck-scale wormholes explicitly violate all global charges.</p>
+<p>The decisive failure of the Peccei--Quinn axion framework lies in the <strong>axion quality problem</strong> [Kamionkowski1992, Holman1992, Barr1992]. In any consistent theory of quantum gravity, there are <strong>no exact global continuous symmetries</strong>: black hole evaporation, gravitational instantons, and Planck-scale wormholes explicitly violate all global charges.</p>
 <p>In the standard axion model with complex scalar field $\Phi = \frac{1}{\sqrt{2}}(f_a + \sigma) e^{i a/f_a}$, gravitational corrections induce non-gauge-invariant operators suppressed by the Planck mass $M_{\mathrm{Pl}}$:</p>
-<p>\begin{equation}</p>
-<p>\Delta \mathcal{L}_{\mathrm{grav}} = \sum_{n=5}^\infty \frac{c_n}{M_{\mathrm{Pl}}^{n-4}} \Phi^n + \mathrm{h.c.} = c_5 \frac{f_a^5}{4\sqrt{2} M_{\mathrm{Pl}}} \cos\left( \frac{5a}{f_a} + \delta \right) + \mathcal{O}(M_{\mathrm{Pl}}^{-2}).</p>
-<p>\end{equation}</p>
+<p>$$\Delta \mathcal{L}_{\mathrm{grav}} = \sum_{n=5}^\infty \frac{c_n}{M_{\mathrm{Pl}}^{n-4}} \Phi^n + \mathrm{h.c.} = c_5 \frac{f_a^5}{4\sqrt{2} M_{\mathrm{Pl}}} \cos\left( \frac{5a}{f_a} + \delta \right) + \mathcal{O}(M_{\mathrm{Pl}}^{-2}).$$</p>
 <p>This gravitational perturbation shifts the minimum of the axion potential by:</p>
-<p>\begin{equation}</p>
-<p>\delta\bar{\theta} \approx \frac{5 |c_5| f_a^5}{4\sqrt{2} M_{\mathrm{Pl}} m_a^2 f_a^2} \approx 10^{50} \, |c_5| \left(\frac{f_a}{10^{12}\text{ GeV}}\right)^3.</p>
-<p>\end{equation}</p>
+<p>$$\delta\bar{\theta} \approx \frac{5 |c_5| f_a^5}{4\sqrt{2} M_{\mathrm{Pl}} m_a^2 f_a^2} \approx 10^{50} \, |c_5| \left(\frac{f_a}{10^{12}\text{ GeV}}\right)^3.$$</p>
 <p>To satisfy the experimental bound $|\bar{\theta}| < 10^{-10}$, one must demand:</p>
-<p>\begin{equation}</p>
-<p>|c_5| \le 10^{-60}.</p>
-<p>\end{equation}</p>
+<p>$$|c_5| \le 10^{-60}.$$</p>
 <p>This represents a fine-tuning worse than the original Strong $CP$ Problem by fifty orders of magnitude!</p>
 <h3>6.1 Why Unified Phase Dynamics is Rigorously Immune</h3>
-<p>In Unified Phase Dynamics, the vanishing of $\bar{\theta}$ does **not** rely on a global symmetry. It relies strictly on:</p>
-<ol><li>**Local Gauge Invariance:** The gauge group $SU(3)_c$ is local and exact. Quantum gravity does not break local gauge symmetries; rather, the relational Wheeler--DeWitt constraint $\hat{\mathcal{H}}_i \mathbf{\Psi} \equiv 0$ enforces local gauge invariance at all scales.</li>
-<li>**Discrete Center Symmetry $\mathbb{Z}_3$:** The center symmetry $\mathbb{Z}_3 = \mathcal{Z}(SU(3))$ is a subgroup of the local gauge group. It cannot be broken by Planck-scale operators without destroying the fundamental gauge definition of the master functional.</li>
-<li>**Parity of the Non-Local Path Measure:** The Schwinger regularizer $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$ is an even function of derivatives and spacetime coordinates. Parity invariance $P(Q) = P(-Q)$ holds identically in the presence of quantum gravitational contours.</li></ol>
-<p>Because there is no pseudo-Goldstone field rolling in an accidental global potential, no gravitational operator can shift $\bar{\theta}$ away from zero. The value $\bar{\theta} \equiv 0$ is an **unconditional, protected topological invariant** of the theory.</p>
+<p>In Unified Phase Dynamics, the vanishing of $\bar{\theta}$ does <strong>not</strong> rely on a global symmetry. It relies strictly on:</p>
+<ol><li><strong>Local Gauge Invariance:</strong> The gauge group $SU(3)_c$ is local and exact. Quantum gravity does not break local gauge symmetries; rather, the relational Wheeler--DeWitt constraint $\hat{\mathcal{H}}_i \mathbf{\Psi} \equiv 0$ enforces local gauge invariance at all scales.</li>
+<li><strong>Discrete Center Symmetry $\mathbb{Z}_3$:</strong> The center symmetry $\mathbb{Z}_3 = \mathcal{Z}(SU(3))$ is a subgroup of the local gauge group. It cannot be broken by Planck-scale operators without destroying the fundamental gauge definition of the master functional.</li>
+<li><strong>Parity of the Non-Local Path Measure:</strong> The Schwinger regularizer $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$ is an even function of derivatives and spacetime coordinates. Parity invariance $P(Q) = P(-Q)$ holds identically in the presence of quantum gravitational contours.</li></ol>
+<p>Because there is no pseudo-Goldstone field rolling in an accidental global potential, no gravitational operator can shift $\bar{\theta}$ away from zero. The value $\bar{\theta} \equiv 0$ is an <strong>unconditional, protected topological invariant</strong> of the theory.</p>
 <h2>7. Conclusion and Falsifiability</h2>
-<p>We have demonstrated that the Strong $CP$ Problem in QCD is resolved from first principles within the **Unified Phase Dynamics of Feynman Path Contours** without hypothesizing unobserved axion particles, ad-hoc global symmetries, or a massless up quark. The exact Parity symmetry of the non-local loop-space measure and center vortex condensation uniquely position the global minimum of the multi-branch vacuum energy at $\theta_{\mathrm{QCD}} \equiv 0$. The non-perturbative chiral anomaly simultaneously aligns the quark mass matrix phase, establishing the exact vanishing of the physical parameter:</p>
-<p>\begin{equation}</p>
-<p>\bar{\theta} \equiv \mathbf{0} \implies d_n \equiv \mathbf{0}.</p>
-<p>\end{equation}</p>
+<p>We have demonstrated that the Strong $CP$ Problem in QCD is resolved from first principles within the <strong>Unified Phase Dynamics of Feynman Path Contours</strong> without hypothesizing unobserved axion particles, ad-hoc global symmetries, or a massless up quark. The exact Parity symmetry of the non-local loop-space measure and center vortex condensation uniquely position the global minimum of the multi-branch vacuum energy at $\theta_{\mathrm{QCD}} \equiv 0$. The non-perturbative chiral anomaly simultaneously aligns the quark mass matrix phase, establishing the exact vanishing of the physical parameter:</p>
+<p>$$\bar{\theta} \equiv \mathbf{0} \implies d_n \equiv \mathbf{0}.$$</p>
 <h3>Falsification Criteria:</h3>
-<ol><li>**Direct Axion Discovery:** A confirmed laboratory detection of a fundamental axion particle (via ADMX, CAST, MADMAX, or resonant cavities) with coupling to gluons would falsify this mechanism.</li>
-<li>**Neutron Electric Dipole Moment Detection:** Any confirmed detection of a neutron EDM $|d_n| > 10^{-30}\ e\cdot\text{cm}$ by upcoming experiments (n2EDM, SNS nEDM) would indicate $\bar{\theta} \ne 0$ and conclusively rule out Unified Phase Dynamics.</li></ol>
+<ol><li><strong>Direct Axion Discovery:</strong> A confirmed laboratory detection of a fundamental axion particle (via ADMX, CAST, MADMAX, or resonant cavities) with coupling to gluons would falsify this mechanism.</li>
+<li><strong>Neutron Electric Dipole Moment Detection:</strong> Any confirmed detection of a neutron EDM $|d_n| > 10^{-30}\ e\cdot\text{cm}$ by upcoming experiments (n2EDM, SNS nEDM) would indicate $\bar{\theta} \ne 0$ and conclusively rule out Unified Phase Dynamics.</li></ol>
 <h2>References</h2>
-<ol><li>R. J. Crewther, P. Di Vecchia, G. Veneziano, and E. Witten, *Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics*, Phys. Lett. B **88**, 123 (1979); Erratum: Phys. Lett. B **91**, 487 (1980).</li>
-<li>C. Abel et al. (nEDM Collaboration), *Measurement of the Permanent Electric Dipole Moment of the Neutron*, Phys. Rev. Lett. **124**, 081803 (2020).</li>
-<li>R. D. Peccei and H. R. Quinn, *CP Conservation in the Presence of Pseudoparticles*, Phys. Rev. Lett. **38**, 1440 (1977).</li>
-<li>S. Weinberg, *A New Light Boson?*, Phys. Rev. Lett. **40**, 223 (1978).</li>
-<li>F. Wilczek, *Problem of Strong P and T Invariance in the Presence of Instantons*, Phys. Rev. Lett. **40**, 279 (1978).</li>
-<li>M. Kamionkowski and J. March-Russell, *Planck-scale physics and the Peccei-Quinn mechanism*, Phys. Lett. B **282**, 137 (1992).</li>
-<li>R. Holman, S. D. H. Hsu, T. W. Kephart, E. W. Kolb, R. Watkins, and L. M. Widrow, *Solutions to the strong CP problem in a world with gravity*, Phys. Lett. B **282**, 132 (1992).</li>
-<li>S. M. Barr and D. Seckel, *Planck-scale corrections to axion models*, Phys. Rev. D **46**, 539 (1992).</li>
-<li>R. Kallosh, A. D. Linde, D. A. Linde, and L. Susskind, *Gravity and global symmetries*, Phys. Rev. D **52**, 912 (1995).</li>
-<li>E. Witten, *Large N chiral dynamics*, Ann. Phys. **128**, 363 (1980).</li>
-<li>E. Witten, *$\theta$ dependence in the large N limit of four-dimensional gauge theories*, Phys. Rev. Lett. **81**, 2862 (1998).</li>
-<li>H. Leutwyler and A. V. Smilga, *Spectrum of Dirac operator and role of winding number in QCD*, Phys. Rev. D **46**, 5607 (1992).</li>
-<li>I. B. Khriplovich, *Quark electric dipole moment and induced $\theta$-term in the Kobayashi-Maskawa model*, Phys. Lett. B **173**, 341 (1986).</li>
-<li>A. Czarnecki and B. Krause, *Neutron electric dipole moment in the Standard Model: Valence quarks*, Phys. Rev. Lett. **78**, 4339 (1997).</li>
-<li>Y. Aoki et al. (FLAG Collaboration), *FLAG Review 2021*, Eur. Phys. J. C **82**, 869 (2022).</li>
-<li>H. Pavliuk, *Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem*, Monograph, Zenodo (2024), DOI: [10.5281/zenodo.24226129](https://doi.org/10.5281/zenodo.24226129).</li>
-<li>H. Pavliuk, *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4*, Zenodo (2024), DOI: [10.5281/zenodo.24409149](https://doi.org/10.5281/zenodo.24409149).</li>
-<li>H. Pavliuk, *Electroweak Symmetry Breaking, Higgs Boson Mass (125.1 GeV), and Hierarchy Problem Resolution via Master Path Holonomies*, Zenodo (2024), DOI: [10.5281/zenodo.24337610](https://doi.org/10.5281/zenodo.24337610).</li>
-<li>H. Pavliuk, *Primordial Inflationary Perturbations Without Inflaton Scalar Fields: Conformal Phase Dynamics of the Feynman Path Functional*, Zenodo (2024), DOI: [10.5281/zenodo.24338710](https://doi.org/10.5281/zenodo.24338710).</li></ol>
+<ol><li>R. J. Crewther, P. Di Vecchia, G. Veneziano, and E. Witten, <em>Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics</em>, Phys. Lett. B <strong>88</strong>, 123 (1979); Erratum: Phys. Lett. B <strong>91</strong>, 487 (1980).</li>
+<li>C. Abel et al. (nEDM Collaboration), <em>Measurement of the Permanent Electric Dipole Moment of the Neutron</em>, Phys. Rev. Lett. <strong>124</strong>, 081803 (2020).</li>
+<li>R. D. Peccei and H. R. Quinn, <em>CP Conservation in the Presence of Pseudoparticles</em>, Phys. Rev. Lett. <strong>38</strong>, 1440 (1977).</li>
+<li>S. Weinberg, <em>A New Light Boson?</em>, Phys. Rev. Lett. <strong>40</strong>, 223 (1978).</li>
+<li>F. Wilczek, <em>Problem of Strong P and T Invariance in the Presence of Instantons</em>, Phys. Rev. Lett. <strong>40</strong>, 279 (1978).</li>
+<li>M. Kamionkowski and J. March-Russell, <em>Planck-scale physics and the Peccei-Quinn mechanism</em>, Phys. Lett. B <strong>282</strong>, 137 (1992).</li>
+<li>R. Holman, S. D. H. Hsu, T. W. Kephart, E. W. Kolb, R. Watkins, and L. M. Widrow, <em>Solutions to the strong CP problem in a world with gravity</em>, Phys. Lett. B <strong>282</strong>, 132 (1992).</li>
+<li>S. M. Barr and D. Seckel, <em>Planck-scale corrections to axion models</em>, Phys. Rev. D <strong>46</strong>, 539 (1992).</li>
+<li>R. Kallosh, A. D. Linde, D. A. Linde, and L. Susskind, <em>Gravity and global symmetries</em>, Phys. Rev. D <strong>52</strong>, 912 (1995).</li>
+<li>E. Witten, <em>Large N chiral dynamics</em>, Ann. Phys. <strong>128</strong>, 363 (1980).</li>
+<li>E. Witten, <em>$\theta$ dependence in the large N limit of four-dimensional gauge theories</em>, Phys. Rev. Lett. <strong>81</strong>, 2862 (1998).</li>
+<li>H. Leutwyler and A. V. Smilga, <em>Spectrum of Dirac operator and role of winding number in QCD</em>, Phys. Rev. D <strong>46</strong>, 5607 (1992).</li>
+<li>I. B. Khriplovich, <em>Quark electric dipole moment and induced $\theta$-term in the Kobayashi-Maskawa model</em>, Phys. Lett. B <strong>173</strong>, 341 (1986).</li>
+<li>A. Czarnecki and B. Krause, <em>Neutron electric dipole moment in the Standard Model: Valence quarks</em>, Phys. Rev. Lett. <strong>78</strong>, 4339 (1997).</li>
+<li>Y. Aoki et al. (FLAG Collaboration), <em>FLAG Review 2021</em>, Eur. Phys. J. C <strong>82</strong>, 869 (2022).</li>
+<li>H. Pavliuk, <em>Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem</em>, Monograph, Zenodo (2024), DOI: <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank">10.5281/zenodo.24226129</a>.</li>
+<li>H. Pavliuk, <em>Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4</em>, Zenodo (2024), DOI: <a href="https://doi.org/10.5281/zenodo.24315867" target="_blank">10.5281/zenodo.24315867</a>.</li>
+<li>H. Pavliuk, <em>Electroweak Symmetry Breaking, Higgs Boson Mass (125.1 GeV), and Hierarchy Problem Resolution via Master Path Holonomies</em>, Zenodo (2024), DOI: <a href="https://doi.org/10.5281/zenodo.24337609" target="_blank">10.5281/zenodo.24337609</a>.</li>
+<li>H. Pavliuk, <em>Primordial Inflationary Perturbations Without Inflaton Scalar Fields: Conformal Phase Dynamics of the Feynman Path Functional</em>, Zenodo (2024), DOI: <a href="https://doi.org/10.5281/zenodo.24338709" target="_blank">10.5281/zenodo.24338709</a>.</li></ol>
 </body>
 </html>

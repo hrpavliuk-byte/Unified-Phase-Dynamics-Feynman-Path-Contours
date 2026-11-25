@@ -2,8 +2,8 @@
 ====================================================================================================
 EXPERIMENTUM CRUCIS 1: 1000-SHOT MONTE CARLO STOCHASTIC QUANTUM ENSEMBLE SIMULATION
 Theoretical Framework: Unified Phase Dynamics of Feynman Path Contours (H. Pavliuk)
-Permanent Monograph DOI: 10.5281/zenodo.24226130
-Yang-Mills Proof DOI: 10.5281/zenodo.24247286
+Permanent Monograph DOI: 10.5281/zenodo.24226129
+Yang-Mills Proof DOI: 10.5281/zenodo.24500936
 ====================================================================================================
 
 PHYSICAL DESIGN OF 1000-SHOT EXPERIMENTAL ENSEMBLE:
@@ -57,7 +57,7 @@ def run_monte_carlo(n_shots=1000, output_dir=".", seed=42):
     print("=" * 80)
     print(f"EXPERIMENTUM CRUCIS 1: {n_shots}-SHOT MONTE CARLO QUANTUM SIMULATION")
     print("Unified Phase Dynamics of Feynman Path Contours (H. Pavliuk)")
-    print("DOI: 10.5281/zenodo.24226130 | Repository: Unified-Phase-Dynamics-Feynman-Path-Contours")
+    print("DOI: 10.5281/zenodo.24226129 | Repository: Unified-Phase-Dynamics-Feynman-Path-Contours")
     print("=" * 80)
 
     # 1. Generate Ensemble Parameters

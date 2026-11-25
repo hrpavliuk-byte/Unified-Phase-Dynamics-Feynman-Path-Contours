@@ -274,6 +274,6 @@ This resolves the three greatest theoretical paradoxes of classical and semiclas
 12. Bekenstein, J. D., *Black holes and entropy*, Phys. Rev. D **7**, 2333–2346 (1973).
 13. Frolov, V. P., & Markov, M. A., *Black holes as possible sources of closed and semiclosed worlds*, Phys. Rev. D **17**, 2465–2472 (1978).
 14. Pavliuk, H., *Universal Emergent Gravitation from Localized Quantum Phase Oscillations*, Zenodo Record 24348874, DOI: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874) (Concept: [10.5281/zenodo.24348874](https://doi.org/10.5281/zenodo.24348874)) (2026).
-15. Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4*, Zenodo Record 24231512, DOI: [10.5281/zenodo.24231512](https://doi.org/10.5281/zenodo.24231512) (2026).
+15. Pavliuk, H., *Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang-Mills Theory on R^4*, Zenodo Record 24315867, DOI: [10.5281/zenodo.24315867](https://doi.org/10.5281/zenodo.24315867) (2026).
 16. Poisson, E., & Israel, W., *Internal structure of black holes*, Phys. Rev. D **41**, 1796–1810 (1990).
 17. Ori, A., *Inner structure of a charged black hole: An exact mass-inflation solution*, Phys. Rev. Lett. **67**, 789–792 (1991).
