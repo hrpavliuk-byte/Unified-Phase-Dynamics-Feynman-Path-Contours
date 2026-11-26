@@ -1,13 +1,32 @@
 {
   "alpha_em": 0.0072973525692838015,
-  "m_mu_GeV": 0.1056583755,
   "Lambda_UPD_GeV": 1200.0,
   "Delta_YM_GeV": 1.6,
-  "a_mu_QED_1loop": 0.0011614097328858596,
-  "delta_a_mu_nonlocal_Schwinger": 6.980333837934896e-20,
+  "a_1loop_Schwinger": 0.0011614097328858596,
   "a_mu_Exp_World_Avg_2025": 0.001165920715,
   "a_mu_Exp_World_Avg_err": 1.45e-10,
   "a_mu_FNAL_2025": 0.00116592071,
   "a_mu_FNAL_err": 1.62e-10,
-  "nonlocal_to_exp_err_ratio": 4.814023336506826e-10
+  "leptons": {
+    "electron": {
+      "mass_GeV": 0.00051099895,
+      "a_ref": 0.00115965218,
+      "delta_a_nonlocal_Schwinger": 3.8189195364043236e-29,
+      "suppression_factor_m_over_Lambda_4": 3.288175936768766e-26
+    },
+    "muon": {
+      "mass_GeV": 0.1056583755,
+      "a_ref": 0.001165920715,
+      "delta_a_nonlocal_Schwinger": 6.980333837934896e-20,
+      "suppression_factor_m_over_Lambda_4": 6.010225022473534e-17
+    },
+    "tau": {
+      "mass_GeV": 1.77686,
+      "a_ref": 0.00117721,
+      "delta_a_nonlocal_Schwinger": 5.5830731775525334e-15,
+      "suppression_factor_m_over_Lambda_4": 4.807152049328679e-12
+    }
+  },
+  "tau_to_muon_enhancement": 79982.89633672111,
+  "muon_nonlocal_to_exp_err_ratio": 4.814023336506826e-10
 }
