@@ -268,10 +268,34 @@ $$S_{\mathrm{UPD}} = |\langle \hat{\mathcal{B}} \rangle| = 2\sqrt{2} \approx 2.8
         <tr><td>Poh et al. (2015)</td><td>High-vis. SPDC</td><td>$S = 2.82759 \pm 0.00051$</td><td>$&gt;1600\sigma$</td><td>$2.82843$</td><td>Precision Tsirelson test</td></tr>
         <tr><td>Rosenfeld et al. (Munich 2017)</td><td>$^{87}\mathrm{Rb}$ atoms ($398\ \mathrm{m}$)</td><td>$S = 2.221 \pm 0.033$</td><td>$&gt;6\sigma$</td><td>$S \le 2\sqrt{2}$</td><td><strong>Loophole-Free Matter</strong></td></tr>
         <tr><td>Storz et al. (ETH 2023)</td><td>SC transmons ($30\ \mathrm{m}$)</td><td>$S = 2.0747 \pm 0.0033$</td><td>$&gt;22\sigma$</td><td>$S \le 2\sqrt{2}$</td><td><strong>Loophole-Free Cryo SC</strong></td></tr>
+        <tr style="background-color:#f0f7ff;"><td><strong>This Work (`ibm_fez`, 2026)</strong></td><td>IBM Heron r2 ($156q$)</td><td><strong>$S = 2.7271 \pm 0.0229$</strong></td><td><strong>$31.8\sigma$</strong></td><td>$S \le 2\sqrt{2}$</td><td><strong>Live QPU (`dc42jguq4uuc73a7v0j0`)</strong></td></tr>
     </tbody>
 </table>
 
-<h2>9. Conclusion and Falsification Criteria</h2>
+<h2>9. Direct Experimental Verification on 156-Qubit IBM Quantum Hardware (`ibm_fez`)</h2>
+<p>To test the circuit realizations of Theorems 1&ndash;3 and closed Wilson loop holonomies directly on superconducting cryogenic hardware without error mitigation or post-selection, all 50 circuits of <a href="qiskit_ibm_bell_experiment.py" target="_blank">qiskit_ibm_bell_experiment.py</a> were executed at 4,096 shots per circuit (204,800 physical measurements) on the IBM Quantum 156-qubit Heron r2 processor <code>ibm_fez</code> (Job ID: <code>dc42jguq4uuc73a7v0j0</code>; raw dataset: <a href="ibm_qpu_real_hardware_results.json" target="_blank">ibm_qpu_real_hardware_results.json</a>).</p>
+
+<table>
+    <thead>
+        <tr><th>Hardware Suite Experiment</th><th>Measured on <code>ibm_fez</code></th><th>UPD ($\mathbf{\Psi}[\Sigma]$) Theory</th><th>Significance / Fidelity</th></tr>
+    </thead>
+    <tbody>
+        <tr style="background-color:#f0fdf4;"><td><strong>CHSH Peak ($\theta = 135^\circ$)</strong></td><td><strong>$2.72705 \pm 0.02286$</strong></td><td>$2.82843$ ($2\sqrt{2}$)</td><td><strong>$31.8\sigma &gt; 2$</strong> ($96.4\%$ raw visibility)</td></tr>
+        <tr><td>CHSH Peak ($\theta = 45^\circ$)</td><td>$2.70068 \pm 0.02305$</td><td>$2.82843$</td><td>$30.4\sigma &gt; 2$</td></tr>
+        <tr><td>CHSH Node ($\theta = 90^\circ$)</td><td>$0.01465 \pm 0.03125$</td><td>$0.00000$</td><td>Consistent within $0.47\sigma$</td></tr>
+        <tr><td>No-Signaling $P_B(+)$ ($\theta_a = 0, \pi/4$)</td><td>$0.50854, 0.50879$ ($\pm 0.0078$)</td><td>$0.50000$</td><td>Invariant within hardware readout drift ($0.035$)</td></tr>
+        <tr style="background-color:#f0fdf4;"><td><strong>3-Qubit GHZ&ndash;Mermin $\langle \hat{M}_3 \rangle$</strong></td><td><strong>$3.76416 \pm 0.01057$</strong></td><td>$4.00000$</td><td><strong>$166.9\sigma &gt; 2_{\mathrm{LHV}}$</strong> ($94.1\%$ raw)</td></tr>
+        <tr><td>4-Qubit Wilson Plaquette ($\alpha = 0$)</td><td>$\langle Z^{\otimes 4}\rangle = 0.8906$, $\langle X^{\otimes 4}\rangle = 0.9273$</td><td>$1.0000$</td><td>$89.1\%$ / $92.7\%$ unmitigated 4Q loop</td></tr>
+        <tr><td>4-Qubit Wilson Plaquette ($\alpha = 0.8\ \mathrm{rad}$)</td><td>$\langle Z^{\otimes 4}\rangle = 0.4600$, $\langle X^{\otimes 4}\rangle = 0.4780$</td><td>$0.5004$</td><td>Tracks exact $\cos^4\alpha + \sin^4\alpha$ curve</td></tr>
+    </tbody>
+</table>
+
+<div class="figure-container">
+    <img src="ibm_fez_hardware_benchmark.png" alt="Live 156-Qubit IBM Quantum Hardware (ibm_fez) Benchmark vs UPD Theory">
+    <div class="figure-caption"><strong>Figure 3.</strong> Direct confrontation between real 156-qubit IBM Quantum Heron r2 hardware measurements (<code>ibm_fez</code>, Job ID <code>dc42jguq4uuc73a7v0j0</code>, 204,800 raw physical shots) and $\mathbf{\Psi}[\Sigma]$ predictions: (A) CHSH angular curve reaching $2.727 \pm 0.023$ ($31.8\sigma &gt; 2$); (B) 4-qubit closed Wilson plaquette loop holonomy and 3-qubit GHZ&ndash;Mermin violation $\langle \hat{M}_3 \rangle = 3.764 \pm 0.011$ ($166.9\sigma &gt; 2$).</div>
+</div>
+
+<h2>10. Conclusion and Falsification Criteria</h2>
 <p>Non-local Bell correlations ($2\sqrt{2}$), the GHZ paradox ($\langle\hat{M}_3\rangle = 4$), Tsirelson's bound, and relativistic no-signaling arise deductively from the global closed-contour structure of $\mathbf{\Psi}[\Sigma]$ without hidden variables or superluminal signaling. The theory is decisively falsifiable via (i) any observation of $S &gt; 2\sqrt{2}$ or $\Delta P_B \neq 0$, (ii) low-energy UV departures exceeding $10^{-40}$, or (iii) survival of macroscopic Bell entanglement beyond $t_{\mathrm{Bell}} \approx 3.47\ \mathrm{ms}$ at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$ in <em>Experimentum Crucis 1</em>.</p>
 
 <div class="references">

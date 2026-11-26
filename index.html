@@ -1912,7 +1912,7 @@
                         </div>
                         <button class="sim-run-btn" onclick="copyIbmCmd()">Copy IBM Quantum Run Command</button>
                         <div class="sim-note" id="ibmCopyNote">
-                            Run all 50 circuits on a real IBM Quantum cryostat via <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/qiskit_ibm_bell_experiment.py" target="_blank">qiskit_ibm_bell_experiment.py</a> (Open Plan compatible).
+                            <strong>Live IBM QPU Verified (`ibm_fez`, Job <code>dc42jguq4uuc73a7v0j0</code>, 204,800 shots):</strong> CHSH Peak = <strong>2.7271 &plusmn; 0.0229</strong> (31.8&sigma; &gt; 2), GHZ &lt;M<sub>3</sub>&gt; = <strong>3.7642 &plusmn; 0.0106</strong> (166.9&sigma; &gt; 2), 4Q Wilson (&alpha;=0) = <strong>0.8906</strong>. Open dataset: <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/ibm_qpu_real_hardware_results.json" target="_blank">ibm_qpu_real_hardware_results.json</a> &middot; Runner: <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/qiskit_ibm_bell_experiment.py" target="_blank">qiskit_ibm_bell_experiment.py</a>.
                         </div>
                     </div>
                     <div>
@@ -2136,12 +2136,17 @@
             ctx.stroke();
 
             // Active point markers
+            const ibmBell = [[0,1.89355],[15,2.08447],[30,2.48193],[45,2.70068],[60,2.3833],[75,1.42383],[90,0.01465],[135,2.72705]];
+            ctx.fillStyle = '#991b1b';
+            ibmBell.forEach(([d, sv]) => {
+                ctx.beginPath(); ctx.rect(toX(d) - 3.5, toY(sv) - 3.5, 7, 7); ctx.fill();
+            });
             ctx.fillStyle = '#1d4ed8'; ctx.beginPath(); ctx.arc(toX(deg), toY(sBase), 5, 0, Math.PI * 2); ctx.fill();
             const pxT = pad.l + (w - pad.l - pad.r) * (tMs / 20.0);
             ctx.fillStyle = '#ea580c'; ctx.beginPath(); ctx.arc(pxT, toY(sEff), 5, 0, Math.PI * 2); ctx.fill();
 
             ctx.fillStyle = '#1e293b'; ctx.font = '11px sans-serif'; ctx.textAlign = 'right';
-            ctx.fillText('Blue: S_UPD(theta)   |   Orange: S_eff(t)   |   Red dashed: Bell Bound (2.0)', w - pad.r - 4, pad.t + 12);
+            ctx.fillText('Blue: Theory | Orange: S_eff(t) | Squares: Live IBM QPU (ibm_fez)', w - pad.r - 4, pad.t + 12);
         }
 
         function sampleBinomialCorrelator(E, shots) {
@@ -2245,7 +2250,14 @@
                 if (i === 0) ctx.moveTo(toX(a), toY(y)); else ctx.lineTo(toX(a), toY(y));
             }
             ctx.stroke();
+            const ibmWil = [[0,0.89062],[0.4,0.66943],[0.8,0.45996],[1.2,0.68848],[1.5708,0.9209]];
+            ctx.fillStyle = '#7c3aed';
+            ibmWil.forEach(([a, zv]) => {
+                ctx.beginPath(); ctx.rect(toX(a) - 3.5, toY(zv) - 3.5, 7, 7); ctx.fill();
+            });
             ctx.fillStyle = '#dc2626'; ctx.beginPath(); ctx.arc(toX(alpha), toY(measZ), 5.5, 0, Math.PI * 2); ctx.fill();
+            ctx.fillStyle = '#1e293b'; ctx.font = '11px sans-serif'; ctx.textAlign = 'right';
+            ctx.fillText('Blue: Exact Curve  |  Squares: Live IBM QPU (ibm_fez)', w - pad.r - 4, pad.t + 12);
         }
 
         function copyIbmCmd() {

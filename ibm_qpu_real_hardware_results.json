@@ -1,0 +1,149 @@
+{
+  "backend": "ibm_fez",
+  "mode": "ibm",
+  "shots_per_circuit": 4096,
+  "total_circuits": 50,
+  "exp1_chsh_angular_sweep": [
+    {
+      "theta_deg": 0.0,
+      "S_measured": 1.89355,
+      "S_stderr": 0.00938,
+      "S_UPD_theory": 2.0,
+      "violates_Bell_2": false,
+      "within_Tsirelson": true
+    },
+    {
+      "theta_deg": 15.0,
+      "S_measured": 2.08447,
+      "S_stderr": 0.01541,
+      "S_UPD_theory": 2.19067,
+      "violates_Bell_2": true,
+      "within_Tsirelson": true
+    },
+    {
+      "theta_deg": 30.0,
+      "S_measured": 2.48193,
+      "S_stderr": 0.02184,
+      "S_UPD_theory": 2.59808,
+      "violates_Bell_2": true,
+      "within_Tsirelson": true
+    },
+    {
+      "theta_deg": 45.0,
+      "S_measured": 2.70068,
+      "S_stderr": 0.02305,
+      "S_UPD_theory": 2.82843,
+      "violates_Bell_2": true,
+      "within_Tsirelson": true
+    },
+    {
+      "theta_deg": 60.0,
+      "S_measured": 2.3833,
+      "S_stderr": 0.02424,
+      "S_UPD_theory": 2.5,
+      "violates_Bell_2": true,
+      "within_Tsirelson": true
+    },
+    {
+      "theta_deg": 75.0,
+      "S_measured": 1.42383,
+      "S_stderr": 0.02855,
+      "S_UPD_theory": 1.48356,
+      "violates_Bell_2": false,
+      "within_Tsirelson": true
+    },
+    {
+      "theta_deg": 90.0,
+      "S_measured": 0.01465,
+      "S_stderr": 0.03125,
+      "S_UPD_theory": 0.0,
+      "violates_Bell_2": false,
+      "within_Tsirelson": true
+    },
+    {
+      "theta_deg": 135.0,
+      "S_measured": 2.72705,
+      "S_stderr": 0.02286,
+      "S_UPD_theory": 2.82843,
+      "violates_Bell_2": true,
+      "within_Tsirelson": true
+    }
+  ],
+  "exp2_no_signaling_check": {
+    "rows": [
+      {
+        "theta_alice_rad": 0.0,
+        "E_ab": -0.66943,
+        "P_Bob_plus": 0.50854,
+        "stderr_P_Bob": 0.00781
+      },
+      {
+        "theta_alice_rad": 0.7854,
+        "E_ab": -0.94482,
+        "P_Bob_plus": 0.50879,
+        "stderr_P_Bob": 0.00781
+      },
+      {
+        "theta_alice_rad": 1.5708,
+        "E_ab": -0.66406,
+        "P_Bob_plus": 0.49365,
+        "stderr_P_Bob": 0.00781
+      },
+      {
+        "theta_alice_rad": 1.23,
+        "E_ab": -0.86035,
+        "P_Bob_plus": 0.47412,
+        "stderr_P_Bob": 0.0078
+      }
+    ],
+    "max_P_Bob_drift": 0.03467,
+    "theory_expected_drift": 0.0
+  },
+  "exp3_ghz_mermin_paradox": {
+    "XXX": 0.94775,
+    "XYY": -0.93457,
+    "YXY": -0.94434,
+    "YYX": -0.9375,
+    "M3_measured": 3.76416,
+    "M3_stderr": 0.01057,
+    "M3_UPD_theory": 4.0,
+    "LHV_classical_bound": 2.0
+  },
+  "exp4_wilson_plaquette_holonomy": [
+    {
+      "coupling_angle_rad": 0.0,
+      "Wilson_loop_Z0Z1Z2Z3_meas": 0.89062,
+      "Wilson_loop_Z_theory": 1.0,
+      "dual_X0X1X2X3_meas": 0.92725,
+      "dual_X_theory": 1.0
+    },
+    {
+      "coupling_angle_rad": 0.4,
+      "Wilson_loop_Z0Z1Z2Z3_meas": 0.66943,
+      "Wilson_loop_Z_theory": 0.7427,
+      "dual_X0X1X2X3_meas": 0.65771,
+      "dual_X_theory": 0.7427
+    },
+    {
+      "coupling_angle_rad": 0.8,
+      "Wilson_loop_Z0Z1Z2Z3_meas": 0.45996,
+      "Wilson_loop_Z_theory": 0.50043,
+      "dual_X0X1X2X3_meas": 0.47803,
+      "dual_X_theory": 0.50043
+    },
+    {
+      "coupling_angle_rad": 1.2,
+      "Wilson_loop_Z0Z1Z2Z3_meas": 0.68848,
+      "Wilson_loop_Z_theory": 0.77187,
+      "dual_X0X1X2X3_meas": 0.70801,
+      "dual_X_theory": 0.77187
+    },
+    {
+      "coupling_angle_rad": 1.5708,
+      "Wilson_loop_Z0Z1Z2Z3_meas": 0.9209,
+      "Wilson_loop_Z_theory": 1.0,
+      "dual_X0X1X2X3_meas": 0.9043,
+      "dual_X_theory": 1.0
+    }
+  ]
+}

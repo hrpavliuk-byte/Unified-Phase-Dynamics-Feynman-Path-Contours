@@ -16,8 +16,14 @@ This work presents a first-principles deductive derivation of quantum entangleme
 - **GHZ–Mermin Contradiction:** 3-prong closed Wilson junctions give $\langle \hat{M}_3 \rangle_{\mathrm{UPD}} = 4 > 2_{\mathrm{LHV}}$.
 - **Falsifiable Macroscopic Bell Crossover:** The Schwinger regulator $\mathcal{E}(\Box)$ ($\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$) keeps optical shifts at $2.18 \times 10^{-47}$, while gravitational phase dephasing induces $S_{\mathrm{eff}}(t) = 2\sqrt{2}\exp(-t/\tau_G)$ crossing $S=2$ at $t_{\mathrm{Bell}} = \tau_{\mathrm{crit}}\ln\sqrt{2} \approx 3.47\ \mathrm{ms}$ for $^{28}\mathrm{Si}$ nanospheres at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$.
 
+- **Live 156-Qubit IBM Quantum Verification (`ibm_fez`, Job `dc42jguq4uuc73a7v0j0`, 204,800 raw physical shots):**
+  - CHSH peak: $S = 2.72705 \pm 0.02286$ ($31.8\sigma > 2$, strictly $\le 2\sqrt{2}$)
+  - 3-Qubit GHZ–Mermin: $\langle \hat{M}_3 \rangle = 3.76416 \pm 0.01057$ ($166.9\sigma > 2$)
+  - 4-Qubit Wilson Plaquette at $\alpha=0$: $\langle Z^{\otimes 4}\rangle = 0.8906$, $\langle X^{\otimes 4}\rangle = 0.9273$
+
 ## Files
 - `Quantum_Entanglement_Bell_Inequalities_Phase_Dynamics.pdf` / `.tex` — Full manuscript
 - `Quantum_Entanglement_Bell_Inequalities_Phase_Dynamics.html` — Web-native interactive edition
-- `simulate_bell_entanglement.py` / `bell_entanglement_results.json` — Exact numerical verification
-- `bell_chsh_correlation_curve.png`, `bell_decoherence_vis_cutoff.png` — Diagnostic figures
+- `simulate_bell_entanglement.py` / `bell_entanglement_results.json` — Exact analytical & numerical verification
+- `qiskit_ibm_bell_experiment.py` / `ibm_qpu_real_hardware_results.json` — Live IBM Quantum QPU execution (`ibm_fez`, Job `dc42jguq4uuc73a7v0j0`)
+- `bell_chsh_correlation_curve.png`, `bell_decoherence_vis_cutoff.png`, `ibm_fez_hardware_benchmark.png` — Diagnostic figures
