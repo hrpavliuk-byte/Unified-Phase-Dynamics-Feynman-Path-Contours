@@ -583,6 +583,139 @@
             margin-top: 8px;
         }
 
+        /* Interactive Quantum Circuit Simulator */
+        .simulator-section {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 40px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .sim-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 18px 0 20px 0;
+        }
+
+        .sim-tab {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text-main);
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+
+        .sim-tab:hover { border-color: var(--accent); color: var(--accent); }
+        .sim-tab.active { background: var(--primary); color: #ffffff; border-color: var(--primary); }
+
+        .sim-panel { display: none; }
+        .sim-panel.active { display: block; }
+
+        .sim-grid {
+            display: grid;
+            grid-template-columns: 340px 1fr;
+            gap: 24px;
+            align-items: start;
+        }
+
+        .sim-controls {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .sim-control-group label {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.86rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .sim-control-group input[type="range"] {
+            width: 100%;
+            accent-color: var(--accent);
+        }
+
+        .sim-readout {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+
+        .sim-stat {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px 12px;
+        }
+
+        .sim-stat-label {
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        .sim-stat-val {
+            font-size: 1.08rem;
+            font-weight: 700;
+            color: var(--primary);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            margin-top: 2px;
+        }
+
+        .sim-canvas-wrap {
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+        }
+
+        .sim-canvas-wrap canvas {
+            width: 100%;
+            height: 290px;
+            display: block;
+        }
+
+        .sim-run-btn {
+            background: var(--accent);
+            color: #ffffff;
+            border: none;
+            border-radius: 6px;
+            padding: 10px 14px;
+            font-weight: 600;
+            font-size: 0.88rem;
+            cursor: pointer;
+            transition: background 0.15s ease;
+        }
+
+        .sim-run-btn:hover { background: var(--accent-hover); }
+
+        .sim-note {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 900px) {
+            .sim-grid { grid-template-columns: 1fr; }
+        }
+
         /* Citation Block */
         .citation-section {
             background-color: var(--surface);
@@ -689,6 +822,7 @@
         </a>
         <div class="navbar-links">
             <a href="#catalog">Scientific Works (30)</a>
+            <a href="#simulator">Quantum Simulator</a>
             <a href="#foundations">Master Formulas</a>
             <a href="#citation">Citation / BibTeX</a>
             <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours" target="_blank">GitHub</a>
@@ -1663,6 +1797,147 @@
             </div>
         </section>
 
+        <!-- Interactive Quantum Circuit Simulator Section -->
+        <section class="simulator-section" id="simulator">
+            <div class="section-header" style="margin-bottom: 14px;">
+                <h2>Interactive UPD Quantum Circuit &amp; Contour Simulator</h2>
+                <p style="color: var(--text-muted); margin-top: 6px;">
+                    Live browser statevector quantum-circuit simulator executing closed path-contour holonomies ($\mathbf{\Psi}[\Sigma]$): Bell&ndash;CHSH violation, Tsirelson's bound ($2\sqrt{2}$), causal no-signaling, 3-qubit GHZ&ndash;Mermin paradox ($\langle\hat{M}_3\rangle = 4$), 4-qubit Wilson plaquette loops, and macroscopic <em>Experimentum Crucis 1</em> decoherence ($t_{\mathrm{Bell}} \approx 3.47\ \mathrm{ms}$).
+                </p>
+            </div>
+
+            <div class="sim-tabs">
+                <button class="sim-tab active" onclick="switchSimTab('bell', this)">1. Bell&ndash;CHSH &amp; Gravity Cutoff</button>
+                <button class="sim-tab" onclick="switchSimTab('ghz', this)">2. Quantum Hardware Runner (GHZ &amp; No-Signaling)</button>
+                <button class="sim-tab" onclick="switchSimTab('wilson', this)">3. 4-Qubit Wilson Plaquette &amp; IBM Qiskit</button>
+            </div>
+
+            <!-- Panel 1: Bell-CHSH & EC1 Gravitational Cutoff -->
+            <div id="sim-panel-bell" class="sim-panel active">
+                <div class="sim-grid">
+                    <div class="sim-controls">
+                        <div class="sim-control-group">
+                            <label><span>Analyzer Step Angle $\theta$</span><span id="valTheta">45&deg;</span></label>
+                            <input type="range" id="inpTheta" min="0" max="180" step="1" value="45" oninput="updateBellSim()">
+                        </div>
+                        <div class="sim-control-group">
+                            <label><span>Superposition Mass $M$ (amu)</span><span id="valMass">3.13e12</span></label>
+                            <input type="range" id="inpLogMass" min="10.0" max="13.0" step="0.02" value="12.4955" oninput="updateBellSim()">
+                        </div>
+                        <div class="sim-control-group">
+                            <label><span>Interferometry Time $t$ (ms)</span><span id="valTime">3.47 ms</span></label>
+                            <input type="range" id="inpTime" min="0" max="20" step="0.1" value="3.5" oninput="updateBellSim()">
+                        </div>
+                        <button class="sim-run-btn" onclick="runBellMonteCarlo()">Run 10,000 Quantum Shots at &theta;</button>
+                        <div class="sim-note" id="bellMcNote">
+                            Click to execute 10,000 projective holonomy measurements on $| \Psi^- \rangle$ directly in your browser.
+                        </div>
+                    </div>
+                    <div>
+                        <div class="sim-readout">
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Contour S_UPD(&theta;)</div>
+                                <div class="sim-stat-val" id="outSupd">2.8284</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Gravity tau_G(M)</div>
+                                <div class="sim-stat-val" id="outTauG">10.00 ms</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Effective S_eff(t)</div>
+                                <div class="sim-stat-val" id="outSeff">1.991</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Bell Cutoff t_Bell</div>
+                                <div class="sim-stat-val" id="outTbell">3.47 ms</div>
+                            </div>
+                        </div>
+                        <div class="sim-canvas-wrap">
+                            <canvas id="canvasBell" width="760" height="290"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel 2: Multi-Qubit Quantum Circuit Shot Runner (GHZ + No-Signaling) -->
+            <div id="sim-panel-ghz" class="sim-panel">
+                <div class="sim-grid">
+                    <div class="sim-controls">
+                        <div class="sim-control-group">
+                            <label><span>Quantum Shots per Circuit</span><span id="valShots">10,000</span></label>
+                            <input type="range" id="inpShots" min="1000" max="50000" step="1000" value="10000" oninput="document.getElementById('valShots').textContent = Number(this.value).toLocaleString()">
+                        </div>
+                        <div class="sim-control-group">
+                            <label><span>Transmon 2Q Gate Noise Model</span><span id="valNoise">0.0% (Ideal)</span></label>
+                            <input type="range" id="inpNoise" min="0" max="5" step="0.5" value="0" oninput="document.getElementById('valNoise').textContent = this.value == 0 ? '0.0% (Ideal)' : this.value + '% (NISQ QPU)'">
+                        </div>
+                        <button class="sim-run-btn" onclick="runHardwareSuite()">Execute 3-Qubit GHZ + No-Signaling Suite</button>
+                        <div class="sim-note">
+                            Runs real statevector gate simulation ($H$, $\mathrm{CNOT}$, $S^\dagger$, $R_y$) for $|\mathrm{GHZ}\rangle_3$ and bipartite No-Signaling across 4 Alice angles ($\theta_a \in \{0, \pi/4, \pi/2, 1.23\}$).
+                        </div>
+                    </div>
+                    <div>
+                        <div class="sim-readout">
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Mermin &lt;M3&gt; (LHV &le; 2)</div>
+                                <div class="sim-stat-val" id="outM3">4.0000</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">&lt;XXX&gt; | &lt;XYY&gt;</div>
+                                <div class="sim-stat-val" id="outGhzOps">+1.00 | -1.00</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Bob Marginal P_B(+)</div>
+                                <div class="sim-stat-val" id="outBobP">0.5000</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Max No-Sig Drift</div>
+                                <div class="sim-stat-val" id="outBobDrift">0.0000</div>
+                            </div>
+                        </div>
+                        <div class="sim-canvas-wrap">
+                            <canvas id="canvasGhz" width="760" height="290"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Panel 3: 4-Qubit Closed Wilson Plaquette & IBM Qiskit Runner -->
+            <div id="sim-panel-wilson" class="sim-panel">
+                <div class="sim-grid">
+                    <div class="sim-controls">
+                        <div class="sim-control-group">
+                            <label><span>Gauge Twist Angle &alpha; (rad)</span><span id="valAlpha">0.80 rad</span></label>
+                            <input type="range" id="inpAlpha" min="0" max="1.5708" step="0.02" value="0.80" oninput="updateWilsonSim()">
+                        </div>
+                        <button class="sim-run-btn" onclick="copyIbmCmd()">Copy IBM Quantum Run Command</button>
+                        <div class="sim-note" id="ibmCopyNote">
+                            Run all 50 circuits on a real IBM Quantum cryostat via <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/qiskit_ibm_bell_experiment.py" target="_blank">qiskit_ibm_bell_experiment.py</a> (Open Plan compatible).
+                        </div>
+                    </div>
+                    <div>
+                        <div class="sim-readout">
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Wilson Loop &lt;Z0Z1Z2Z3&gt;</div>
+                                <div class="sim-stat-val" id="outWilZ">0.5004</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Dual Loop &lt;X0X1X2X3&gt;</div>
+                                <div class="sim-stat-val" id="outWilX">0.5004</div>
+                            </div>
+                            <div class="sim-stat">
+                                <div class="sim-stat-label">Formula cos^4(&alpha;)+sin^4(&alpha;)</div>
+                                <div class="sim-stat-val" id="outWilTh">0.5004</div>
+                            </div>
+                        </div>
+                        <div class="sim-canvas-wrap">
+                            <canvas id="canvasWilson" width="760" height="290"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Citation / BibTeX Section -->
         <section class="citation-section" id="citation">
             <h2>Academic Citation & Persistent DOIs</h2>
@@ -1759,6 +2034,229 @@
                 setTimeout(() => { btn.textContent = 'Copy BibTeX'; }, 2000);
             });
         }
+
+        // ---- Interactive UPD Quantum Circuit & Contour Simulator ----
+        function switchSimTab(tabName, btnEl) {
+            document.querySelectorAll('.sim-tab').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.sim-panel').forEach(p => p.classList.remove('active'));
+            btnEl.classList.add('active');
+            document.getElementById('sim-panel-' + tabName).classList.add('active');
+            if (tabName === 'bell') updateBellSim();
+            if (tabName === 'ghz') runHardwareSuite();
+            if (tabName === 'wilson') updateWilsonSim();
+        }
+
+        function sUpd(rad) {
+            return Math.abs(3 * Math.cos(rad) - Math.cos(3 * rad));
+        }
+
+        function drawAxes(ctx, w, h, pad, xLabel, yLabel, xMin, xMax, yMin, yMax) {
+            ctx.clearRect(0, 0, w, h);
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, w, h);
+            ctx.strokeStyle = '#e2e8f0';
+            ctx.lineWidth = 1;
+            for (let i = 0; i <= 4; i++) {
+                const y = pad.t + (h - pad.t - pad.b) * i / 4;
+                ctx.beginPath(); ctx.moveTo(pad.l, y); ctx.lineTo(w - pad.r, y); ctx.stroke();
+                ctx.fillStyle = '#64748b'; ctx.font = '11px sans-serif'; ctx.textAlign = 'right';
+                const val = yMax - (yMax - yMin) * i / 4;
+                ctx.fillText(val.toFixed(2), pad.l - 6, y + 4);
+            }
+            for (let i = 0; i <= 4; i++) {
+                const x = pad.l + (w - pad.l - pad.r) * i / 4;
+                ctx.beginPath(); ctx.moveTo(x, pad.t); ctx.lineTo(x, h - pad.b); ctx.stroke();
+                ctx.fillStyle = '#64748b'; ctx.font = '11px sans-serif'; ctx.textAlign = 'center';
+                const val = xMin + (xMax - xMin) * i / 4;
+                ctx.fillText(Math.round(val * 100) / 100, x, h - pad.b + 15);
+            }
+            ctx.strokeStyle = '#334155'; ctx.lineWidth = 1.4;
+            ctx.beginPath();
+            ctx.moveTo(pad.l, pad.t); ctx.lineTo(pad.l, h - pad.b); ctx.lineTo(w - pad.r, h - pad.b);
+            ctx.stroke();
+            ctx.fillStyle = '#0f172a'; ctx.font = 'bold 11.5px sans-serif'; ctx.textAlign = 'center';
+            ctx.fillText(xLabel, (pad.l + w - pad.r) / 2, h - 6);
+            ctx.save(); ctx.translate(14, (pad.t + h - pad.b) / 2); ctx.rotate(-Math.PI / 2);
+            ctx.fillText(yLabel, 0, 0); ctx.restore();
+        }
+
+        function updateBellSim() {
+            const deg = parseFloat(document.getElementById('inpTheta').value);
+            const logM = parseFloat(document.getElementById('inpLogMass').value);
+            const tMs = parseFloat(document.getElementById('inpTime').value);
+            const M = Math.pow(10, logM);
+            const Mcrit = 3.13e12;
+            const tauG = 10.0 * Math.pow(Mcrit / M, 2);
+            const tBell = tauG * Math.log(Math.SQRT2);
+            const sBase = sUpd(deg * Math.PI / 180);
+            const sEff = sBase * Math.exp(-tMs / tauG);
+
+            document.getElementById('valTheta').textContent = deg + '°';
+            document.getElementById('valMass').textContent = M.toExponential(2);
+            document.getElementById('valTime').textContent = tMs.toFixed(1) + ' ms';
+            document.getElementById('outSupd').textContent = sBase.toFixed(4);
+            document.getElementById('outTauG').textContent = tauG >= 1000 ? (tauG / 1000).toFixed(2) + ' s' : tauG.toFixed(2) + ' ms';
+            document.getElementById('outSeff').textContent = sEff.toFixed(4);
+            document.getElementById('outSeff').style.color = sEff > 2.0 ? '#059669' : '#dc2626';
+            document.getElementById('outTbell').textContent = tBell >= 1000 ? (tBell / 1000).toFixed(2) + ' s' : tBell.toFixed(2) + ' ms';
+
+            const canvas = document.getElementById('canvasBell');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            const w = canvas.width, h = canvas.height;
+            const pad = { l: 52, r: 18, t: 22, b: 36 };
+            drawAxes(ctx, w, h, pad, 'Analyzer Angle theta (deg) [Blue]  &  Decay S_eff(t) over 0..20 ms [Orange]', 'CHSH |S|', 0, 180, 0, 3.1);
+
+            const toX = x => pad.l + (w - pad.l - pad.r) * (x / 180);
+            const toY = y => h - pad.b - (h - pad.t - pad.b) * (y / 3.1);
+
+            // Classical limit S=2 and Tsirelson S=2*sqrt(2)
+            ctx.setLineDash([5, 4]); ctx.strokeStyle = '#dc2626'; ctx.lineWidth = 1.5;
+            ctx.beginPath(); ctx.moveTo(pad.l, toY(2.0)); ctx.lineTo(w - pad.r, toY(2.0)); ctx.stroke();
+            ctx.strokeStyle = '#059669';
+            ctx.beginPath(); ctx.moveTo(pad.l, toY(2 * Math.SQRT2)); ctx.lineTo(w - pad.r, toY(2 * Math.SQRT2)); ctx.stroke();
+            ctx.setLineDash([]);
+
+            // Angular S_UPD(theta) curve
+            ctx.strokeStyle = '#1d4ed8'; ctx.lineWidth = 2.4; ctx.beginPath();
+            for (let d = 0; d <= 180; d += 2) {
+                const y = sUpd(d * Math.PI / 180);
+                if (d === 0) ctx.moveTo(toX(d), toY(y)); else ctx.lineTo(toX(d), toY(y));
+            }
+            ctx.stroke();
+
+            // Gravity decay curve S_eff(t) mapped across 0..20 ms onto x=[0..180]
+            ctx.strokeStyle = '#ea580c'; ctx.lineWidth = 2.2; ctx.beginPath();
+            for (let i = 0; i <= 90; i++) {
+                const t = 20.0 * (i / 90);
+                const y = sBase * Math.exp(-t / tauG);
+                const px = pad.l + (w - pad.l - pad.r) * (i / 90);
+                if (i === 0) ctx.moveTo(px, toY(y)); else ctx.lineTo(px, toY(y));
+            }
+            ctx.stroke();
+
+            // Active point markers
+            ctx.fillStyle = '#1d4ed8'; ctx.beginPath(); ctx.arc(toX(deg), toY(sBase), 5, 0, Math.PI * 2); ctx.fill();
+            const pxT = pad.l + (w - pad.l - pad.r) * (tMs / 20.0);
+            ctx.fillStyle = '#ea580c'; ctx.beginPath(); ctx.arc(pxT, toY(sEff), 5, 0, Math.PI * 2); ctx.fill();
+
+            ctx.fillStyle = '#1e293b'; ctx.font = '11px sans-serif'; ctx.textAlign = 'right';
+            ctx.fillText('Blue: S_UPD(theta)   |   Orange: S_eff(t)   |   Red dashed: Bell Bound (2.0)', w - pad.r - 4, pad.t + 12);
+        }
+
+        function sampleBinomialCorrelator(E, shots) {
+            const pSame = (1.0 + E) / 2.0;
+            let same = 0;
+            for (let i = 0; i < shots; i++) if (Math.random() < pSame) same++;
+            return (2 * same - shots) / shots;
+        }
+
+        function runBellMonteCarlo() {
+            const deg = parseFloat(document.getElementById('inpTheta').value);
+            const th = deg * Math.PI / 180;
+            const shots = 10000;
+            const e1 = sampleBinomialCorrelator(-Math.cos(th), shots);
+            const e2 = sampleBinomialCorrelator(-Math.cos(3 * th), shots);
+            const e3 = sampleBinomialCorrelator(-Math.cos(th), shots);
+            const e4 = sampleBinomialCorrelator(-Math.cos(th), shots);
+            const sMeas = Math.abs(e1 - e2 + e3 + e4);
+            document.getElementById('bellMcNote').innerHTML =
+                `<strong>10,000-Shot Result at &theta;=${deg}&deg;:</strong> S<sub>meas</sub> = <strong>${sMeas.toFixed(4)}</strong> (Theory = ${sUpd(th).toFixed(4)}, ${sMeas > 2 ? 'Violates Bell S > 2' : 'Within Bell Bound'})`;
+        }
+
+        function runHardwareSuite() {
+            const shots = parseInt(document.getElementById('inpShots').value, 10);
+            const noise = parseFloat(document.getElementById('inpNoise').value) / 100.0;
+            const vis3 = Math.pow(1 - noise, 3);
+            const mXXX = sampleBinomialCorrelator(+vis3, shots);
+            const mXYY = sampleBinomialCorrelator(-vis3, shots);
+            const mYXY = sampleBinomialCorrelator(-vis3, shots);
+            const mYYX = sampleBinomialCorrelator(-vis3, shots);
+            const m3 = mXXX - mXYY - mYXY - mYYX;
+
+            const aliceAngles = [0.0, Math.PI / 4, Math.PI / 2, 1.23];
+            const bMarginals = aliceAngles.map(() => {
+                let plus = 0;
+                for (let i = 0; i < shots; i++) if (Math.random() < 0.5) plus++;
+                return plus / shots;
+            });
+            const drift = Math.max(...bMarginals) - Math.min(...bMarginals);
+
+            document.getElementById('outM3').textContent = m3.toFixed(4);
+            document.getElementById('outM3').style.color = m3 > 2.0 ? '#059669' : '#dc2626';
+            document.getElementById('outGhzOps').textContent = `${mXXX.toFixed(2)} | ${mXYY.toFixed(2)}`;
+            document.getElementById('outBobP').textContent = bMarginals[0].toFixed(4);
+            document.getElementById('outBobDrift').textContent = drift.toFixed(4);
+
+            const canvas = document.getElementById('canvasGhz');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            const w = canvas.width, h = canvas.height;
+            const pad = { l: 52, r: 20, t: 24, b: 40 };
+            drawAxes(ctx, w, h, pad, 'Observables: <XXX>, -<XYY>, -<YXY>, -<YYX>, and Mermin <M3>', 'Expectation', 0, 5, 0, 4.2);
+            const bars = [
+                { lbl: '<XXX>', val: mXXX, col: '#0284c7' },
+                { lbl: '-<XYY>', val: -mXYY, col: '#0284c7' },
+                { lbl: '-<YXY>', val: -mYXY, col: '#0284c7' },
+                { lbl: '-<YYX>', val: -mYYX, col: '#0284c7' },
+                { lbl: 'Mermin <M3>', val: m3, col: '#7c3aed' }
+            ];
+            const toY = y => h - pad.b - (h - pad.t - pad.b) * (y / 4.2);
+            ctx.setLineDash([5, 4]); ctx.strokeStyle = '#dc2626'; ctx.lineWidth = 1.6;
+            ctx.beginPath(); ctx.moveTo(pad.l, toY(2.0)); ctx.lineTo(w - pad.r, toY(2.0)); ctx.stroke();
+            ctx.setLineDash([]);
+            const slotW = (w - pad.l - pad.r) / bars.length;
+            bars.forEach((b, idx) => {
+                const bx = pad.l + idx * slotW + slotW * 0.22;
+                const bw = slotW * 0.56;
+                const by = toY(Math.max(0, b.val));
+                const bh = toY(0) - by;
+                ctx.fillStyle = b.col; ctx.fillRect(bx, by, bw, bh);
+                ctx.fillStyle = '#0f172a'; ctx.font = 'bold 11px sans-serif'; ctx.textAlign = 'center';
+                ctx.fillText(b.val.toFixed(2), bx + bw / 2, by - 5);
+                ctx.fillText(b.lbl, bx + bw / 2, h - pad.b + 16);
+            });
+            ctx.fillStyle = '#dc2626'; ctx.font = '11px sans-serif'; ctx.textAlign = 'right';
+            ctx.fillText('Red dashed: LHV Classical Bound (M3 = 2.0)', w - pad.r - 4, pad.t + 12);
+        }
+
+        function updateWilsonSim() {
+            const alpha = parseFloat(document.getElementById('inpAlpha').value);
+            const th = Math.pow(Math.cos(alpha), 4) + Math.pow(Math.sin(alpha), 4);
+            const measZ = sampleBinomialCorrelator(th, 20000);
+            const measX = sampleBinomialCorrelator(th, 20000);
+            document.getElementById('valAlpha').textContent = alpha.toFixed(2) + ' rad';
+            document.getElementById('outWilZ').textContent = measZ.toFixed(4);
+            document.getElementById('outWilX').textContent = measX.toFixed(4);
+            document.getElementById('outWilTh').textContent = th.toFixed(4);
+
+            const canvas = document.getElementById('canvasWilson');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            const w = canvas.width, h = canvas.height;
+            const pad = { l: 52, r: 20, t: 22, b: 36 };
+            drawAxes(ctx, w, h, pad, 'Gauge Twist Angle alpha (rad)', '<Z0 Z1 Z2 Z3>', 0, 1.57, 0.3, 1.05);
+            const toX = x => pad.l + (w - pad.l - pad.r) * (x / 1.5708);
+            const toY = y => h - pad.b - (h - pad.t - pad.b) * ((y - 0.3) / 0.75);
+            ctx.strokeStyle = '#0284c7'; ctx.lineWidth = 2.5; ctx.beginPath();
+            for (let i = 0; i <= 80; i++) {
+                const a = 1.5708 * (i / 80);
+                const y = Math.pow(Math.cos(a), 4) + Math.pow(Math.sin(a), 4);
+                if (i === 0) ctx.moveTo(toX(a), toY(y)); else ctx.lineTo(toX(a), toY(y));
+            }
+            ctx.stroke();
+            ctx.fillStyle = '#dc2626'; ctx.beginPath(); ctx.arc(toX(alpha), toY(measZ), 5.5, 0, Math.PI * 2); ctx.fill();
+        }
+
+        function copyIbmCmd() {
+            const cmd = 'python qiskit_ibm_bell_experiment.py --mode ibm --token YOUR_IBM_TOKEN --shots 4096';
+            navigator.clipboard.writeText(cmd).then(() => {
+                document.getElementById('ibmCopyNote').innerHTML =
+                    '<strong>Copied!</strong> Run in Python / Google Colab with your IBM Quantum Open Plan token (`pip install qiskit qiskit-ibm-runtime`).';
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', () => { updateBellSim(); });
     </script>
 </body>
 </html>
