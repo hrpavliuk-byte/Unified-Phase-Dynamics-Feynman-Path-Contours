@@ -173,6 +173,11 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
    - *Author:* Hryhorii Pavliuk.
    - *Permanent DOI:* [`10.5281/zenodo.24504272`](https://doi.org/10.5281/zenodo.24504272) (Concept DOI: [`10.5281/zenodo.24504272`](https://doi.org/10.5281/zenodo.24504272)).
    - *Summary:* Solves the 30-year Cosmological Lithium Problem ($9.2\sigma$ crisis) where standard BBN predicts $(^7\mathrm{Li}/H) = 4.68 \times 10^{-10}$ versus observed Spite Plateau $(1.58 \pm 0.11) \times 10^{-10}$. Shows that non-perturbative 4-vector phase current induces a $\Delta E \approx 28\text{ keV}$ topological holonomy shift, aligning the near-threshold $2^-$ excited state in $^8\mathrm{Be}^*$ with the primordial Gamow peak and boosting $^7\mathrm{Be}$ destruction by $2.85\times$. Depletes primordial $^7\mathrm{Be}$ by $65.6\%$, yielding $(^7\mathrm{Li}/H)_{\mathrm{UPD}} = 1.706 \times 10^{-10}$ ($1.15\sigma$ concordance) with zero free parameters and zero BSM particles, while strictly preserving $Y_p = 0.2452$ ($0.07\sigma$), $D/H = 2.54 \times 10^{-5}$ ($0.28\sigma$), and $^3\mathrm{He}/H = 1.075 \times 10^{-5}$ ($0.12\sigma$).
+29. **Anomalous Magnetic Moment of the Muon ($g-2$) & Lepton Series ($e, \mu, \tau$):**
+   - *Title:* Anomalous Magnetic Moment of the Muon ($g-2$) and Lepton Series ($e, \mu, \tau$) in Unified Phase Dynamics.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [`10.5281/zenodo.24542226`](https://doi.org/10.5281/zenodo.24542226) (Concept DOI: [`10.5281/zenodo.24542226`](https://doi.org/10.5281/zenodo.24542226)).
+   - *Summary:* Evaluates the entire non-local Schwinger contour form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$ ($\Lambda_{\mathrm{UPD}} = 1.2\text{ TeV}$) across the charged lepton series $(e, \mu, \tau)$. Enforces ghost-free quartic suppression $|\delta a_e^{\mathcal{E}}| \approx 3.82 \times 10^{-29}$, $|\delta a_\mu^{\mathcal{E}}| \approx 6.98 \times 10^{-20}$ ($4.81 \times 10^{-10}$ of the final Fermilab 2025 world-average uncertainty $\pm 1.45 \times 10^{-10}$ at $124\text{ ppb}$), and $|\delta a_\tau^{\mathcal{E}}| \approx 5.58 \times 10^{-15}$, while non-perturbative $SU(3)_c$ center-vortex confinement ($\Delta_{\mathrm{YM}} \approx 1.55\text{--}1.65\text{ GeV}$) aligns with first-principles Lattice QCD HVP determinations without BSM particles.
 
 ---
 
