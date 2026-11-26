@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Entanglement, Non-Local Bell Correlations, and No-Signaling in Unified Phase Dynamics</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.65;
+            color: #1a1a1a;
+            background-color: #fcfcfc;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 30px 20px 80px 20px;
+        }
+        .portal-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            justify-content: space-between;
+            align-items: center;
+            background: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 0.55rem 0.9rem;
+            margin-bottom: 1.4rem;
+            font-size: 0.88rem;
+        }
+        .portal-bar a { color: #1d4ed8; text-decoration: none; }
+        .portal-bar a:hover { text-decoration: underline; }
+        .portal-links { display: flex; flex-wrap: wrap; gap: 0.85rem; }
+        header {
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 22px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 1.95rem;
+            color: #0b2545;
+            line-height: 1.25;
+            margin-bottom: 12px;
+        }
+        .meta {
+            font-size: 0.95rem;
+            color: #4a5568;
+            margin-bottom: 6px;
+        }
+        .meta a { color: #1d4ed8; text-decoration: none; }
+        .meta a:hover { text-decoration: underline; }
+        .abstract {
+            background-color: #f0f7ff;
+            border-left: 4px solid #0284c7;
+            padding: 18px 22px;
+            margin: 22px 0 32px 0;
+            border-radius: 0 8px 8px 0;
+            font-size: 1.0rem;
+        }
+        .abstract h3 {
+            margin-top: 0;
+            color: #0369a1;
+            font-size: 1.12rem;
+            margin-bottom: 8px;
+        }
+        h2 {
+            font-size: 1.45rem;
+            color: #134074;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 7px;
+            margin-top: 34px;
+            margin-bottom: 14px;
+            break-after: avoid;
+        }
+        h3 {
+            font-size: 1.18rem;
+            color: #1e3a8a;
+            margin-top: 22px;
+            margin-bottom: 10px;
+            break-after: avoid;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .theorem-box {
+            background-color: #faf5ff;
+            border-left: 4px solid #7c3aed;
+            padding: 15px 20px;
+            margin: 18px 0;
+            border-radius: 0 8px 8px 0;
+            break-inside: avoid;
+        }
+        .concordance-box {
+            background-color: #f0fdf4;
+            border-left: 4px solid #22c55e;
+            padding: 15px 20px;
+            margin: 18px 0;
+            border-radius: 0 8px 8px 0;
+            break-inside: avoid;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.87rem;
+            break-inside: avoid;
+        }
+        th, td {
+            padding: 7px 8px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            background-color: #f8fafc;
+            color: #334155;
+            font-weight: 600;
+            border-top: 2px solid #cbd5e1;
+            border-bottom: 2px solid #cbd5e1;
+        }
+        .figure-container {
+            margin: 26px 0;
+            text-align: center;
+            break-inside: avoid;
+        }
+        .figure-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+        .figure-caption {
+            font-size: 0.89rem;
+            color: #475569;
+            margin-top: 9px;
+            text-align: left;
+        }
+        ol, ul { margin-bottom: 16px; padding-left: 26px; }
+        li { margin-bottom: 7px; }
+        .references {
+            font-size: 0.89rem;
+            border-top: 2px solid #e2e8f0;
+            padding-top: 18px;
+            margin-top: 40px;
+        }
+        @media print {
+            @page { size: A4; margin: 15mm 15mm 16mm 15mm; }
+            .portal-bar { display: none !important; }
+            body { background-color: #ffffff; padding: 0; max-width: none; font-size: 10.2pt; }
+        }
+    </style>
+    <link rel="canonical" href="https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/Quantum_Entanglement_Bell_Inequalities_Phase_Dynamics.html">
+    <meta name="citation_title" content="Quantum Entanglement, Non-Local Bell Correlations, and No-Signaling from the Universal Path-Contour Master-Functional in Unified Phase Dynamics">
+    <meta name="citation_author" content="Pavliuk, Hryhorii">
+    <meta name="citation_publication_date" content="2026/11/26">
+    <meta name="citation_doi" content="10.5281/zenodo.24553270">
+    <meta name="citation_pdf_url" content="https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/Quantum_Entanglement_Bell_Inequalities_Phase_Dynamics.pdf">
+    <meta name="citation_abstract_html_url" content="https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/Quantum_Entanglement_Bell_Inequalities_Phase_Dynamics.html">
+    <meta name="citation_language" content="en">
+    <meta name="DC.identifier" content="10.5281/zenodo.24553270">
+</head>
+<body>
+
+<nav class="portal-bar" aria-label="Portal Navigation">
+    <a href="index.html"><strong>&larr; Back to Research Portal</strong></a>
+    <div class="portal-links">
+        <a href="Quantum_Entanglement_Bell_Inequalities_Phase_Dynamics.pdf" target="_blank">Download PDF</a>
+        <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/simulate_bell_entanglement.py" target="_blank">Python Simulation</a>
+        <a href="https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours/blob/main/Quantum_Entanglement_Bell_Inequalities_Phase_Dynamics.tex" target="_blank">TeX Source</a>
+        <a href="https://doi.org/10.5281/zenodo.24553270" target="_blank">Paper Concept DOI</a>
+        <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank">Monograph DOI</a>
+    </div>
+</nav>
+
+<header>
+    <h1>Quantum Entanglement, Non-Local Bell Correlations, and No-Signaling from the Universal Path-Contour Master-Functional $\mathbf{\Psi}[\Sigma]$ in Unified Phase Dynamics</h1>
+    <div class="meta"><strong>Author:</strong> Hryhorii Pavliuk (H. Pavliuk), Independent Researcher</div>
+    <div class="meta"><strong>ORCID:</strong> <a href="https://orcid.org/0009-0000-0899-3463" target="_blank">0009-0000-0899-3463</a></div>
+    <div class="meta"><strong>Permanent Concept DOI:</strong> <a href="https://doi.org/10.5281/zenodo.24553270" target="_blank">10.5281/zenodo.24553270</a></div>
+    <div class="meta"><strong>Foundational Monograph Concept DOI:</strong> <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank">10.5281/zenodo.24226129</a></div>
+    <div class="meta"><strong>Version:</strong> 1.0.0 &mdash; November 26, 2026 &middot; <strong>License:</strong> Creative Commons Attribution 4.0 International (CC-BY-4.0)</div>
+</header>
+
+<div class="abstract">
+    <h3>Abstract</h3>
+    <p>We derive bipartite and multipartite quantum entanglement, non-local Bell&ndash;CHSH correlations, Tsirelson's bound, causal no-signaling, and macroscopic gravitational Bell decay deductively from the universal Feynman path-contour master-functional $\mathbf{\Psi}[\Sigma]$ in <em>Unified Phase Dynamics</em> (UPD). Because $\mathbf{\Psi}[\Sigma]$ evaluates gauge-invariant closed-loop holonomies on the bundle $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$, an entangled pair emitted from a common vertex $x_0$ forms a single non-separable closed contour $\gamma_{AB} = \gamma_A \cup \gamma_B$ whose trace cannot factorize into local hidden variables $\lambda \in \Lambda$. Projecting onto the $\mathrm{Spin}(3,1) \supset SU(2)$ spinor holonomy via $\varepsilon_{\alpha\beta}$ reproduces $E_{\mathrm{UPD}}(\mathbf{a},\mathbf{b}) = -\mathbf{a}\cdot\mathbf{b}$, the photon Malus law $\cos 2(\alpha-\beta)$, maximal CHSH violation $S_{\mathrm{UPD}} = 2\sqrt{2} \approx 2.828427 &gt; 2$, and the 3-qubit GHZ&ndash;Mermin paradox $\langle \hat{M}_3 \rangle = 4 &gt; 2$. From the contour commutator identity $\hat{\mathcal{B}}^2 = 4\mathbf{I} - [\hat{A},\hat{A}']\otimes[\hat{B},\hat{B}']$ and Osterwalder&ndash;Schrader reflection positivity (OS2), we prove Tsirelson's bound $\|\hat{\mathcal{B}}\| \le 2\sqrt{2}$ (forbidding super-quantum Popescu&ndash;Rohrlich boxes) together with exact trace-marginalized no-signaling ($|\Delta P_B| \equiv 0$, verified numerically to $5.55 \times 10^{-17}$) compatible with luminal propagation $c_T \equiv c$. Finally, the entire Schwinger regulator $\mathcal{E}(\Box)$ ($\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$) suppresses low-energy UV shifts to $2.18 \times 10^{-47}$ for $2\ \mathrm{eV}$ photons, while gravitational phase dephasing induces a falsifiable macroscopic cutoff $S_{\mathrm{eff}}(t) = 2\sqrt{2}e^{-t/\tau_G}$ crossing $S=2$ at $t_{\mathrm{Bell}} = \tau_{\mathrm{crit}}\ln\sqrt{2} \approx 3.47\ \mathrm{ms}$ for $^{28}\mathrm{Si}$ nanospheres at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$.</p>
+</div>
+
+<h2>1. Introduction: Bell Non-Locality Without Ontological Paradox</h2>
+<p>Since Einstein, Podolsky, and Rosen (1935) formulated the EPR argument and John Bell (1964) established quantitative bounds distinguishing local hidden-variable (LHV) theories from quantum mechanics, loophole-free experiments have confirmed Bell violation across photonic, atomic, nitrogen-vacancy, and superconducting platforms. In local point-field formulations, projective outcomes at spacelike-separated stations $x_A$ and $x_B$ create an apparent tension with separability. In <strong>Unified Phase Dynamics (UPD)</strong>, reality is governed by the gauge-invariant master-functional on closed loop space $\mathcal{F}_\Sigma$:</p>
+$$\mathbf{\Psi}[\Sigma] = \int_{\mathcal{F}_\Sigma} \mathcal{D}[\gamma]\,\Delta_{\mathrm{FP}}[\gamma]\,\frac{1}{\mathcal{N}}\mathrm{Tr}_{\mathcal{G}}\!\left[\mathcal{P}\exp\!\left(\frac{i}{\hbar}\oint_\gamma \mathbf{\Pi}_\mu dx^\mu\right)\right]\mathcal{E}[\gamma], \qquad \hat{\mathcal{H}}\,\mathbf{\Psi}[\Sigma] \equiv 0,$$
+<p>over the principal bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$ with structure group $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$ in the $\mathcal{N}=10$ fundamental representation $\mathbb{C} \oplus \mathbb{C}^2 \oplus \mathbb{C}^3 \oplus \mathbb{C}^4$, canonical 1-form $\mathbf{\Pi}_\mu = p_\mu \mathbf{I}_{10} - \mathbf{\mathcal{A}}_\mu$, and block-diagonal connection $\mathbf{\mathcal{A}}_\mu = \mathrm{diag}(q A_\mu, g_w T^I W_\mu^I, g_s \lambda^a G_\mu^a, \frac{1}{2}\omega_\mu^{ab}\Sigma_{ab})$. Because phases depend on topological windings around closed contours $\gamma$, two branches originating at a shared vertex $x_0$ constitute one indivisible holonomy loop $\gamma_{AB}$ even across spacelike separations $(x_A - x_B)^2 &lt; 0$.</p>
+
+<h2>2. Topological Non-Separability of Bipartite Holonomies</h2>
+<div class="theorem-box">
+    <strong>Theorem 1 (Structural Violation of Bell Factorizability):</strong> Let $\hat{W}_A[\gamma_A]$ and $\hat{W}_B[\gamma_B]$ be path-ordered transport operators coupled at a conserved spin-singlet vertex $x_0$. Because the normalized matrix trace over a shared gauge-spinor block obeys
+    $$\mathbf{\Psi}[\gamma_{AB}] \propto \mathrm{Tr}_{\mathcal{G}}\!\left[\hat{V}_0\big(\hat{W}_A[\gamma_A] \otimes \hat{W}_B[\gamma_B]\big)\right] \neq \left(\mathrm{Tr}\,\hat{W}_A[\gamma_A]\right)\left(\mathrm{Tr}\,\hat{W}_B[\gamma_B]\right),$$
+    the joint detection probability $P(r_a, r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}})$ cannot be decomposed into a classical integral $\int_\Lambda d\mu(\lambda)\,P(r_a|\hat{\mathbf{a}},\lambda)P(r_b|\hat{\mathbf{b}},\lambda)$ over local hidden variables $\lambda \in \Lambda$.
+</div>
+<p>In Bell's LHV framework, conditioning on past common causes $\lambda$ at $x_0$ enforces Kolmogorov factorization. In $\mathbf{\Psi}[\Sigma]$, however, an $SU(2) \subset \mathrm{Spin}(3,1)$ singlet vertex contracts spinor indices across both branches via the invariant antisymmetric tensor $\varepsilon^{\alpha\beta}$ ($U \varepsilon U^T = \varepsilon$) prior to modulus squaring, generating coherent cross-branch phase interference across spacelike intervals.</p>
+
+<h2>3. Step-by-Step Derivation of the Singlet Correlator &amp; Malus Law</h2>
+<p>Projecting onto the spatial cover $SU(2) \subset \mathrm{Spin}(3,1)$ with $\varepsilon = i\sigma_y = \begin{pmatrix}0 &amp; 1 \\ -1 &amp; 0\end{pmatrix}$ yields the singlet contour state $|\Psi^-\rangle_{\mathrm{contour}} = \frac{1}{\sqrt{2}}\varepsilon_{\alpha\beta}|\alpha\rangle_A\otimes|\beta\rangle_B = \frac{1}{\sqrt{2}}(|\uparrow\downarrow\rangle - |\downarrow\uparrow\rangle)$. Analyzers along unit vectors $\hat{\mathbf{a}}, \hat{\mathbf{b}} \in S^2$ act via dichotomic holonomy projectors $\hat{\Pi}_{r_a}(\hat{\mathbf{a}}) = \frac{1}{2}(\mathbf{I}_2 + r_a \hat{\mathbf{a}}\cdot\boldsymbol{\sigma})$ ($r_a, r_b = \pm 1$). Using the exact identity $\varepsilon(\hat{\mathbf{b}}\cdot\boldsymbol{\sigma})^T \varepsilon^\dagger = -(\hat{\mathbf{b}}\cdot\boldsymbol{\sigma})$, the joint correlator evaluates step-by-step:</p>
+$$E_{\mathrm{UPD}}(\hat{\mathbf{a}}, \hat{\mathbf{b}}) = \frac{1}{2}\mathrm{Tr}\!\left[\varepsilon^\dagger (\hat{\mathbf{a}}\cdot\boldsymbol{\sigma})\,\varepsilon\,(\hat{\mathbf{b}}\cdot\boldsymbol{\sigma})^T\right] = -\frac{1}{2}\mathrm{Tr}\!\left[(\hat{\mathbf{a}}\cdot\boldsymbol{\sigma})(\hat{\mathbf{b}}\cdot\boldsymbol{\sigma})\right] = -\hat{\mathbf{a}}\cdot\hat{\mathbf{b}} = -\cos\theta_{ab}.$$
+<p>This fixes joint probabilities at $P_{\mathrm{UPD}}(r_a, r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}) = \frac{1}{4}(1 - r_a r_b\,\hat{\mathbf{a}}\cdot\hat{\mathbf{b}})$. For massless $U(1)$ vector photons in the symmetric Poincaré-sphere state $|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|HH\rangle + |VV\rangle)$, physical analyzer rotations $(\alpha,\beta)$ map to $2\alpha, 2\beta$, giving $E_{\mathrm{UPD}}^{(\gamma)}(\alpha,\beta) = \cos 2(\alpha-\beta)$ and Malus's law $P(r_a=r_b|\alpha,\beta) = \frac{1}{2}\cos^2(\alpha-\beta)$.</p>
+
+<h2>4. CHSH Violation &amp; Contour Proof of Tsirelson's Bound ($2\sqrt{2}$)</h2>
+<p>For the CHSH operator $\hat{\mathcal{B}} = \hat{A}\otimes(\hat{B}-\hat{B}') + \hat{A}'\otimes(\hat{B}+\hat{B}')$, coplanar settings $(\theta_a, \theta_{a'}, \theta_b, \theta_{b'}) = (0, \pi/2, \pi/4, 3\pi/4)$ yield $E(a,b)=-\frac{\sqrt{2}}{2}$, $E(a,b')=+\frac{\sqrt{2}}{2}$, $E(a',b)=-\frac{\sqrt{2}}{2}$, $E(a',b')=-\frac{\sqrt{2}}{2}$, giving maximal violation:</p>
+$$S_{\mathrm{UPD}} = |\langle \hat{\mathcal{B}} \rangle| = 2\sqrt{2} \approx 2.828427 &gt; 2 \quad (\text{LHV Classical Bound}).$$
+
+<div class="theorem-box">
+    <strong>Theorem 2 (Tsirelson's Bound &amp; Absence of PR Boxes):</strong> Under the OS2 reflection-positive unitary loop measure of $\mathbf{\Psi}[\Sigma]$, every dichotomic holonomy realization ($\hat{X}^2 = \mathbf{I}$) obeys $\|\hat{\mathcal{B}}\| \le 2\sqrt{2}$, excluding super-quantum Popescu&ndash;Rohrlich ($S_{\mathrm{PR}} = 4$) correlations.
+</div>
+<p><em>Proof.</em> Direct algebraic squaring yields Landau's commutator identity $\hat{\mathcal{B}}^2 = 4(\mathbf{I}_A \otimes \mathbf{I}_B) - [\hat{A},\hat{A}'] \otimes [\hat{B},\hat{B}']$. By unitary boundedness and OS2 positive-definite norm submultiplicativity, $\|[\hat{A},\hat{A}']\| \le 2$ and $\|[\hat{B},\hat{B}']\| \le 2$, hence $\|\hat{\mathcal{B}}^2\| \le 4 + 2\cdot 2 = 8 \implies \|\hat{\mathcal{B}}\| \le 2\sqrt{2}$, matching our numerical eigenvalue spectrum $\mathrm{spec}(\hat{\mathcal{B}}) = \{-2.828427, 0, 0, +2.828427\}$.</p>
+
+<div class="figure-container">
+    <img src="bell_chsh_correlation_curve.png" alt="CHSH Correlation Curve and Loophole-Free Benchmarks">
+    <div class="figure-caption"><strong>Figure 1.</strong> (A) Symmetric contour CHSH curve $S_{\mathrm{UPD}}(\theta) = |3\cos\theta - \cos 3\theta|$ vs. local hidden variable curve, peaking at Tsirelson's bound $2\sqrt{2}$ at $\theta = 45^\circ, 135^\circ$. (B) Confrontation with optical, atomic, NV-center, and superconducting Bell tests.</div>
+</div>
+
+<h2>5. Causal No-Signaling &amp; Relativistic Light-Cone Consistency ($c_T \equiv c$)</h2>
+<div class="concordance-box">
+    <strong>Theorem 3 (Exact Trace-Marginalized No-Signaling):</strong> For any analyzer settings $(\hat{\mathbf{a}}, \hat{\mathbf{b}})$, summing Alice's branches via $\sum_{r_a = \pm 1}\hat{\Pi}_{r_a}(\hat{\mathbf{a}}) = \mathbf{I}_2$ eliminates $\hat{\mathbf{a}}$ identically from Bob's marginal:
+    $$P_B(r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}) = \mathrm{Tr}_B\!\left[\hat{\rho}_B\,\hat{\Pi}_{r_b}(\hat{\mathbf{b}})\right] = \frac{1}{2}\mathrm{Tr}\!\left[\hat{\Pi}_{r_b}(\hat{\mathbf{b}})\right] \equiv \frac{1}{2}, \qquad \frac{\partial P_B}{\partial \hat{\mathbf{a}}} \equiv 0.$$
+</div>
+<p>Numerical verification comparing $\theta_a = 0$ vs. $\theta_a = 1.23\ \mathrm{rad}$ at fixed $\theta_b = \pi/4$ confirms strong joint probability modulation ($P_{++}: 0.07322 \to 0.02430$) while Bob's marginal stays invariant at $0.500000000000000$ within $5.55 \times 10^{-17}$. Combined with UPD Lemma 2 ($c_T \equiv c$ and causal retarded Green's functions under $\mathcal{E}(\Box)$), contour non-locality transmits zero superluminal signals.</p>
+
+<h2>6. Multipartite GHZ&ndash;Mermin Paradox</h2>
+<p>A 3-prong closed Wilson junction $\gamma_{ABC}$ in state $|\mathrm{GHZ}\rangle = \frac{1}{\sqrt{2}}(|000\rangle + |111\rangle)$ yields simultaneous deterministic expectation values $\langle XYY\rangle = \langle YXY\rangle = \langle YYX\rangle = -1$ and $\langle XXX\rangle = +1$. Any local hidden-variable model satisfies $(x_1 y_2 y_3)(y_1 x_2 y_3)(y_1 y_2 x_3) = x_1 x_2 x_3 = -1$, conflicting deterministically with $+1$, and yielding maximal Mermin violation $\langle \hat{M}_3 \rangle_{\mathrm{UPD}} = \langle XXX - XYY - YXY - YYX \rangle = 4 &gt; 2_{\mathrm{LHV}}$.</p>
+
+<h2>7. Schwinger UV Preservation &amp; Gravitational Bell Cutoff (EC1 Bridge)</h2>
+<p>At $\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$, the entire Schwinger contour form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$ preserves Tsirelson's bound up to quartic shifts $|\delta S^{\mathcal{E}}| \approx 2\sqrt{2}(E/\Lambda_{\mathrm{UPD}})^4$—yielding $2.49 \times 10^{-67}$ at $5\ \mathrm{GHz}$ and $2.18 \times 10^{-47}$ at $2\ \mathrm{eV}$. Conversely, for macroscopic spatial superpositions of mass $M$, gravitational Killing-vector phase gradients induce dephasing at $\tau_G(M) = \tau_{\mathrm{crit}}(M_{\mathrm{crit}}/M)^2$ (calibrated to <em>Experimentum Crucis 1</em>: $^{28}\mathrm{Si}$, $R = 81.1\ \mathrm{nm}$, $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$, $\tau_{\mathrm{crit}} = 10.0\ \mathrm{ms}$), attenuating Bell visibility as $S_{\mathrm{eff}}(t) = 2\sqrt{2}e^{-t/\tau_G}$ and crossing $S = 2$ at $t_{\mathrm{Bell}} = \tau_{\mathrm{crit}}\ln\sqrt{2} \approx 3.47\ \mathrm{ms}$.</p>
+
+<table>
+    <thead>
+        <tr><th>Regime / System</th><th>Characteristic Scale</th><th>Suppression / $\tau_G$</th><th>Shift $|\delta S^{\mathcal{E}}|$ or $t_{\mathrm{Bell}}$</th><th>Physical Consequence</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Superconducting ($5\ \mathrm{GHz}$)</td><td>$2.068 \times 10^{-14}\ \mathrm{GeV}$</td><td>$8.82 \times 10^{-68}$</td><td>$|\delta S^{\mathcal{E}}| = 2.49 \times 10^{-67}$</td><td>Exact $2\sqrt{2}$ preserved</td></tr>
+        <tr><td>Optical Photons ($2\ \mathrm{eV}$)</td><td>$2.00 \times 10^{-9}\ \mathrm{GeV}$</td><td>$7.72 \times 10^{-48}$</td><td>$|\delta S^{\mathcal{E}}| = 2.18 \times 10^{-47}$</td><td>Exact $2\sqrt{2}$ preserved</td></tr>
+        <tr><td>EW Collider ($100\ \mathrm{GeV}$)</td><td>$100.0\ \mathrm{GeV}$</td><td>$4.82 \times 10^{-5}$</td><td>$|\delta S^{\mathcal{E}}| = 1.36 \times 10^{-4}$</td><td>Within $1.4\times 10^{-4}$</td></tr>
+        <tr><td>Macro-Matter ($1.00 \times 10^{12}\ \mathrm{amu}$)</td><td>Cryogenic cavity</td><td>$\tau_G = 97.97\ \mathrm{ms}$</td><td>$t_{\mathrm{Bell}} = 33.95\ \mathrm{ms}$</td><td>Mesoscopic Bell decay</td></tr>
+        <tr style="background-color:#f0fdf4;"><td><strong>EC1 ($3.13 \times 10^{12}\ \mathrm{amu}$)</strong></td><td>$^{28}\mathrm{Si}$, $R = 81.1\ \mathrm{nm}$</td><td>$\tau_{\mathrm{crit}} = 10.00\ \mathrm{ms}$</td><td><strong>$t_{\mathrm{Bell}} = 3.47\ \mathrm{ms}$</strong></td><td><strong>Falsifiable EC1 Crossover</strong></td></tr>
+        <tr><td>Macro-Matter ($1.00 \times 10^{13}\ \mathrm{amu}$)</td><td>Cryogenic cavity</td><td>$\tau_G = 0.980\ \mathrm{ms}$</td><td>$t_{\mathrm{Bell}} = 0.340\ \mathrm{ms}$</td><td>Rapid classicalization</td></tr>
+    </tbody>
+</table>
+
+<div class="figure-container">
+    <img src="bell_decoherence_vis_cutoff.png" alt="Schwinger UV Shifts and Macroscopic Gravitational Bell Cutoff">
+    <div class="figure-caption"><strong>Figure 2.</strong> (A) Quartic UV suppression $|\delta S^{\mathcal{E}}|$ vs. probe energy at $\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$. (B) Macroscopic gravitational Bell decay $S_{\mathrm{eff}}(t)$ crossing the classical bound $S=2$ at $t_{\mathrm{Bell}} \approx 3.47\ \mathrm{ms}$ for $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$.</div>
+</div>
+
+<h2>8. Benchmark Against Loophole-Free Bell Experiments</h2>
+<table>
+    <thead>
+        <tr><th>Experiment</th><th>Platform</th><th>Measured Value</th><th>Significance</th><th>UPD Bound</th><th>Status / Loopholes</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Freedman&ndash;Clauser (1972)</td><td>Ca cascade $\gamma\gamma$</td><td>$\delta = 0.050 \pm 0.008$ ($S\approx 2.72$)</td><td>$&gt;6\sigma$</td><td>$S \le 2\sqrt{2}$</td><td>First Bell violation</td></tr>
+        <tr><td>Aspect et al. (1982)</td><td>Ca cascade + switches</td><td>$S = 2.697 \pm 0.015$</td><td>$46\sigma$</td><td>$S \le 2\sqrt{2}$</td><td>Time-varying analyzers</td></tr>
+        <tr><td>Weihs et al. (1998)</td><td>SPDC photons ($400\ \mathrm{m}$)</td><td>$S = 2.73 \pm 0.022$</td><td>$&gt;30\sigma$</td><td>$S \le 2\sqrt{2}$</td><td>Einstein locality</td></tr>
+        <tr><td>Hensen et al. (Delft 2015)</td><td>NV spins ($1.3\ \mathrm{km}$)</td><td>$S = 2.42 \pm 0.20$</td><td>$p=0.039$</td><td>$S \le 2\sqrt{2}$</td><td><strong>1st Loophole-Free</strong></td></tr>
+        <tr><td>Giustina et al. (Vienna 2015)</td><td>SPDC photons ($58\ \mathrm{m}$)</td><td>Eberhard $J &gt; 0$</td><td>$11.5\sigma$</td><td>$S \le 2\sqrt{2}$</td><td><strong>Loophole-Free Photons</strong></td></tr>
+        <tr><td>Poh et al. (2015)</td><td>High-vis. SPDC</td><td>$S = 2.82759 \pm 0.00051$</td><td>$&gt;1600\sigma$</td><td>$2.82843$</td><td>Precision Tsirelson test</td></tr>
+        <tr><td>Rosenfeld et al. (Munich 2017)</td><td>$^{87}\mathrm{Rb}$ atoms ($398\ \mathrm{m}$)</td><td>$S = 2.221 \pm 0.033$</td><td>$&gt;6\sigma$</td><td>$S \le 2\sqrt{2}$</td><td><strong>Loophole-Free Matter</strong></td></tr>
+        <tr><td>Storz et al. (ETH 2023)</td><td>SC transmons ($30\ \mathrm{m}$)</td><td>$S = 2.0747 \pm 0.0033$</td><td>$&gt;22\sigma$</td><td>$S \le 2\sqrt{2}$</td><td><strong>Loophole-Free Cryo SC</strong></td></tr>
+    </tbody>
+</table>
+
+<h2>9. Conclusion and Falsification Criteria</h2>
+<p>Non-local Bell correlations ($2\sqrt{2}$), the GHZ paradox ($\langle\hat{M}_3\rangle = 4$), Tsirelson's bound, and relativistic no-signaling arise deductively from the global closed-contour structure of $\mathbf{\Psi}[\Sigma]$ without hidden variables or superluminal signaling. The theory is decisively falsifiable via (i) any observation of $S &gt; 2\sqrt{2}$ or $\Delta P_B \neq 0$, (ii) low-energy UV departures exceeding $10^{-40}$, or (iii) survival of macroscopic Bell entanglement beyond $t_{\mathrm{Bell}} \approx 3.47\ \mathrm{ms}$ at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$ in <em>Experimentum Crucis 1</em>.</p>
+
+<div class="references">
+    <h2>References</h2>
+    <ol>
+        <li>H. Pavliuk, <em>Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem</em>, Zenodo, Concept DOI: <a href="https://doi.org/10.5281/zenodo.24226129" target="_blank">10.5281/zenodo.24226129</a>.</li>
+        <li>H. Pavliuk, <em>Deductive Derivation of the Universal Feynman Path-Contour Master-Functional in Unified Phase Dynamics</em>, Zenodo, Concept DOI: <a href="https://doi.org/10.5281/zenodo.24406587" target="_blank">10.5281/zenodo.24406587</a>.</li>
+        <li>H. Pavliuk, <em>Experimentum Crucis 1: Decisive Laboratory Test of Gravitationally Induced Quantum Decoherence</em>, Zenodo, Concept DOI: <a href="https://doi.org/10.5281/zenodo.24339964" target="_blank">10.5281/zenodo.24339964</a>.</li>
+        <li>H. Pavliuk, <em>Universal Emergent Gravitation from Localized Quantum Phase Oscillations</em>, Zenodo, Concept DOI: <a href="https://doi.org/10.5281/zenodo.24348874" target="_blank">10.5281/zenodo.24348874</a>.</li>
+        <li>H. Pavliuk, <em>Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang&ndash;Mills Theory on R<sup>4</sup></em>, Zenodo, Concept DOI: <a href="https://doi.org/10.5281/zenodo.24315867" target="_blank">10.5281/zenodo.24315867</a>.</li>
+        <li>H. Pavliuk, <em>Exact Non-Perturbative Spectral Mass Gap for 4D SU(3) Yang&ndash;Mills on Foliated Voronoi&ndash;Delaunay Complexes</em>, Zenodo, Concept DOI: <a href="https://doi.org/10.5281/zenodo.24500936" target="_blank">10.5281/zenodo.24500936</a>.</li>
+        <li>A. Einstein, B. Podolsky, and N. Rosen, Phys. Rev. <strong>47</strong>, 777&ndash;780 (1935).</li>
+        <li>J. S. Bell, Physics Physique Fizika <strong>1</strong>, 195&ndash;200 (1964).</li>
+        <li>J. F. Clauser, M. A. Horne, A. Shimony, and R. A. Holt, Phys. Rev. Lett. <strong>23</strong>, 880&ndash;884 (1969).</li>
+        <li>B. S. Tsirelson (Cirel'son), Lett. Math. Phys. <strong>4</strong>, 93&ndash;100 (1980).</li>
+        <li>A. Aspect, J. Dalibard, and G. Roger, Phys. Rev. Lett. <strong>49</strong>, 1804&ndash;1807 (1982).</li>
+        <li>D. M. Greenberger, M. A. Horne, and A. Zeilinger, in <em>Bell's Theorem, Quantum Theory and Conceptions of the Universe</em>, pp. 69&ndash;72 (1989).</li>
+        <li>B. Hensen et al., Nature <strong>526</strong>, 682&ndash;686 (2015).</li>
+        <li>M. Giustina et al., Phys. Rev. Lett. <strong>115</strong>, 250401 (2015).</li>
+        <li>S. Storz et al., Nature <strong>617</strong>, 265&ndash;270 (2023).</li>
+    </ol>
+</div>
+
+</body>
+</html>

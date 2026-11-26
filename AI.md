@@ -178,6 +178,11 @@ The theory deduces fundamental physical laws (General Relativity, Einstein field
    - *Author:* Hryhorii Pavliuk.
    - *Permanent DOI:* [`10.5281/zenodo.24542226`](https://doi.org/10.5281/zenodo.24542226) (Concept DOI: [`10.5281/zenodo.24542226`](https://doi.org/10.5281/zenodo.24542226)).
    - *Summary:* Evaluates the entire non-local Schwinger contour form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$ ($\Lambda_{\mathrm{UPD}} = 1.2\text{ TeV}$) across the charged lepton series $(e, \mu, \tau)$. Enforces ghost-free quartic suppression $|\delta a_e^{\mathcal{E}}| \approx 3.82 \times 10^{-29}$, $|\delta a_\mu^{\mathcal{E}}| \approx 6.98 \times 10^{-20}$ ($4.81 \times 10^{-10}$ of the final Fermilab 2025 world-average uncertainty $\pm 1.45 \times 10^{-10}$ at $124\text{ ppb}$), and $|\delta a_\tau^{\mathcal{E}}| \approx 5.58 \times 10^{-15}$, while non-perturbative $SU(3)_c$ center-vortex confinement ($\Delta_{\mathrm{YM}} \approx 1.55\text{--}1.65\text{ GeV}$) aligns with first-principles Lattice QCD HVP determinations without BSM particles.
+30. **Quantum Entanglement, Non-Local Bell Correlations, and No-Signaling in $\mathbf{\Psi}[\Sigma]$:**
+   - *Title:* Quantum Entanglement, Non-Local Bell Correlations, and No-Signaling from the Universal Path-Contour Master-Functional in Unified Phase Dynamics.
+   - *Author:* Hryhorii Pavliuk.
+   - *Permanent DOI:* [`10.5281/zenodo.24553270`](https://doi.org/10.5281/zenodo.24553270) (Concept DOI: [`10.5281/zenodo.24553270`](https://doi.org/10.5281/zenodo.24553270)).
+   - *Summary:* Derives bipartite singlet correlations $E_{\mathrm{UPD}}(\mathbf{a},\mathbf{b}) = -\mathbf{a}\cdot\mathbf{b}$, photon Malus law $\cos 2(\alpha-\beta)$, CHSH saturation $S_{\mathrm{UPD}} = 2\sqrt{2} \approx 2.828427$, GHZ–Mermin paradox $\langle \hat{M}_3 \rangle = 4$, Tsirelson's bound $\|\hat{\mathcal{B}}\| \le 2\sqrt{2}$ from OS2 unitary contour holonomies, and trace-marginalized no-signaling ($|\Delta P_B| \equiv 0$) compatible with $c_T \equiv c$. Predicts macroscopic gravitational Bell cutoff $S_{\mathrm{eff}}(t) = 2\sqrt{2}e^{-t/\tau_G}$ crossing $S=2$ at $t_{\mathrm{Bell}} \approx 3.47\text{ ms}$ for $^{28}\mathrm{Si}$ nanospheres at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\text{ amu}$.
 
 ---
 

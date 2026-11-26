@@ -1,0 +1,274 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{hyperref}
+\geometry{margin=20mm}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+\title{\textbf{Quantum Entanglement, Non-Local Bell Correlations, and No-Signaling from the Universal Path-Contour Master-Functional $\mathbf{\Psi}[\Sigma]$ in Unified Phase Dynamics}}
+\author{\textbf{H. Pavliuk} (Hryhorii Pavliuk)\\
+\textit{Independent Researcher} \quad $\cdot$ \quad ORCID: \href{https://orcid.org/0009-0000-0899-3463}{0009-0000-0899-3463}\\
+\small Core Monograph Concept DOI: \href{https://doi.org/10.5281/zenodo.24226129}{10.5281/zenodo.24226129}}
+\date{November 26, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a complete, step-by-step deductive derivation of bipartite and multipartite quantum entanglement, non-local Bell--CHSH correlations, Tsirelson's upper bound, causal no-signaling, and macroscopic gravitational Bell decay directly from the universal Feynman path-contour master-functional $\mathbf{\Psi}[\Sigma]$ in \textit{Unified Phase Dynamics} (UPD). Unlike local point-field formulations where projective measurement across spacelike intervals appears paradoxical, UPD defines physical states as non-separable closed-loop holonomies on the principal bundle $\mathcal{P}(\mathcal{M}, \mathcal{G})$ with structure group $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$. For an entangled pair emerging from a common emission vertex $x_0$, the bipartite configuration forms a single topologically connected closed contour $\gamma_{AB} = \gamma_A \cup \gamma_B$ whose gauge trace $\mathrm{Tr}_{\mathcal{G}}(\hat{W}_A \hat{W}_B)$ cannot factorize into local hidden variables $\lambda \in \Lambda$. Projecting onto the spinor holonomy block ($\mathrm{Spin}(3,1) \supset SU(2)$) via the invariant vertex tensor $\varepsilon_{\alpha\beta}$ reproduces the exact quantum singlet correlator $E_{\mathrm{UPD}}(\mathbf{a},\mathbf{b}) = -\mathbf{a}\cdot\mathbf{b}$, the photon Malus law $E^{(\gamma)}(\alpha,\beta) = \cos 2(\alpha-\beta)$, maximal CHSH violation $S_{\mathrm{UPD}} = 2\sqrt{2} \approx 2.828427 > 2$, and the 3-particle GHZ--Mermin contradiction $\langle\hat{M}_3\rangle = 4 > 2$. Using the contour commutator identity $\hat{\mathcal{B}}^2 = 4\mathbf{I} - [\hat{A},\hat{A}']\otimes[\hat{B},\hat{B}']$ and Osterwalder--Schrader reflection positivity (OS2), we prove Tsirelson's bound $\|\hat{\mathcal{B}}\| \le 2\sqrt{2}$ (forbidding super-quantum Popescu--Rohrlich boxes) alongside strict trace-marginalized no-signaling ($|\Delta P_B| \equiv 0$, verified to $5.55 \times 10^{-17}$) compatible with luminal tensor propagation $c_T \equiv c$. Finally, evaluating the entire Schwinger contour regulator $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$ ($\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$) explains why optical ($|\delta S^{\mathcal{E}}| \approx 2.18 \times 10^{-47}$) and superconducting ($|\delta S^{\mathcal{E}}| \approx 2.49 \times 10^{-67}$) loophole-free Bell tests saturate quantum bounds, while gravitational phase dephasing induces a falsifiable macroscopic cutoff $S_{\mathrm{eff}}(t) = 2\sqrt{2}\exp(-t/\tau_G)$ crossing $S = 2$ at $t_{\mathrm{Bell}} = \tau_{\mathrm{crit}}\ln\sqrt{2} \approx 3.47\ \mathrm{ms}$ for $^{28}\mathrm{Si}$ nanospheres at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$.
+\end{abstract}
+
+\section{Introduction: Bell Non-Locality Without Ontological Paradox}
+Since Einstein, Podolsky, and Rosen (1935) questioned the completeness of quantum mechanics and John Bell (1964) established quantitative bounds distinguishing local realism from quantum correlations, non-local entanglement has been verified across optical, atomic, diamond nitrogen-vacancy, and superconducting platforms with zero remaining detection, locality, or freedom-of-choice loopholes. Yet within standard spacetime point-field formulations, a conceptual tension persists: if physical reality consists of localized degrees of freedom attached independently to spacetime points $x_A$ and $x_B$ separated by a spacelike interval $(x_A - x_B)^2 < 0$, how can outcome correlations violate $S_{\mathrm{CHSH}} \le 2$ without superluminal influence?
+
+In the \textit{Unified Phase Dynamics of Feynman Path Contours} (UPD) \cite{PavliukMonograph}, this tension disappears because spacetime localization is secondary to global contour holonomy. The complete physical state of a closed system is governed by the gauge-invariant master-functional on the configuration space $\mathcal{F}_\Sigma$ of closed loops $\gamma$:
+\begin{equation}
+\mathbf{\Psi}[\Sigma] = \int_{\mathcal{F}_\Sigma} \mathcal{D}[\gamma] \, \Delta_{\mathrm{FP}}[\gamma] \, \frac{1}{\mathcal{N}} \mathrm{Tr}_{\mathcal{G}} \left[ \mathcal{P}\exp \left( \frac{i}{\hbar} \oint_{\gamma} \mathbf{\Pi}_\mu dx^\mu \right) \right] \mathcal{E}[\gamma], \qquad \hat{\mathcal{H}}\,\mathbf{\Psi}[\Sigma] \equiv 0,
+\label{eq:master_functional}
+\end{equation}
+where $\mathcal{P}(\mathcal{M}, \mathcal{G})$ is the principal bundle of unified symmetry $\mathcal{G} = U(1)_Y \times SU(2)_L \times SU(3)_c \times \mathrm{Spin}(3,1)$ in the faithful $\mathcal{N} = 10$ fundamental representation $\mathbb{C} \oplus \mathbb{C}^2 \oplus \mathbb{C}^3 \oplus \mathbb{C}^4$, with canonical 1-form $\mathbf{\Pi}_\mu = p_\mu \mathbf{I}_{10} - \mathbf{\mathcal{A}}_\mu$ and block-diagonal gauge-spinor connection
+\begin{equation}
+\mathbf{\mathcal{A}}_\mu = \mathrm{diag}\!\left( q A_\mu,\ g_w T^I W_\mu^I,\ g_s \lambda^a G_\mu^a,\ \tfrac{1}{2}\omega_\mu^{ab}\Sigma_{ab} \right).
+\end{equation}
+Here $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2/\hbar^2)$ is the entire-order analytic Schwinger contour form-factor canceling ultraviolet divergences without Ostrogradsky ghosts \cite{PavliukMasterDeriv,PavliukEmergentGrav}. Because the observable weight depends on the trace of a path-ordered holonomy around a \emph{closed contour} $\gamma$, two branches propagating to spacelike-separated detectors from a shared creation vertex $x_0$ remain topologically linked in $\mathcal{F}_\Sigma$ until closure of the full loop $\gamma_{AB}$.
+
+\section{Topological Non-Separability of Bipartite Holonomies}
+Consider a pair of particles generated at a local interaction vertex $x_0 \in \mathcal{M}$ and detected by Alice at $x_A$ and Bob at $x_B$ with spacelike separation $(x_A - x_B)^2 < 0$. In loop-space quantization \cite{PavliukMasterDeriv}, probability amplitudes are evaluated over the composite closed Feynman contour $\gamma_{AB} = \gamma_{0 \to A} \cup \gamma_{A \to 0}^{\mathrm{ret}} \cup \gamma_{0 \to B} \cup \gamma_{B \to 0}^{\mathrm{ret}}$ pinned at $x_0$ (or equivalently by the gauge-invariant Wilson bi-holonomy trace).
+
+\begin{theorem}[Structural Violation of Bell Factorizability]
+Let $\hat{W}_A[\gamma_A] = \mathcal{P}\exp\!\left(\frac{i}{\hbar}\int_{\gamma_A}\mathbf{\Pi}_\mu dx^\mu\right)$ and $\hat{W}_B[\gamma_B] = \mathcal{P}\exp\!\left(\frac{i}{\hbar}\int_{\gamma_B}\mathbf{\Pi}_\mu dx^\mu\right)$ be non-Abelian contour transport operators coupled at a conserved spin-singlet vertex $x_0$. Because the normalized matrix trace over a shared gauge-spinor block satisfies
+\begin{equation}
+\mathbf{\Psi}[\gamma_{AB}] \propto \mathrm{Tr}_{\mathcal{G}}\!\left[ \hat{V}_0 \, \big(\hat{W}_A[\gamma_A] \otimes \hat{W}_B[\gamma_B]\big) \right] \neq \left(\mathrm{Tr}\,\hat{W}_A[\gamma_A]\right) \left(\mathrm{Tr}\,\hat{W}_B[\gamma_B]\right),
+\end{equation}
+the joint outcome probability $P(r_a, r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}})$ cannot be decomposed into a classical integral over local hidden variables $\lambda \in \Lambda$ satisfying $P(r_a, r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}, \lambda) = P(r_a \mid \hat{\mathbf{a}}, \lambda) P(r_b \mid \hat{\mathbf{b}}, \lambda)$.
+\end{theorem}
+
+\begin{proof}
+In Bell's local hidden variable (LHV) framework, the joint probability conditioned on a shared past state $\lambda$ at $x_0$ factorizes across spacelike regions into marginal factors whose joint expectation value obeys
+\begin{equation}
+P_{\mathrm{LHV}}(r_a, r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}) = \int_\Lambda d\mu(\lambda) \, P(r_a \mid \hat{\mathbf{a}}, \lambda)\, P(r_b \mid \hat{\mathbf{b}}, \lambda), \qquad \mu(\Lambda) = 1.
+\end{equation}
+In contrast, the canonical measure in Eq.~\eqref{eq:master_functional} assigns complex matrix holonomies in $\mathrm{Spin}(3,1) \cong SL(2,\mathbb{C})$ (or $U(1)_Y \times SU(2)_L$ internal projections) along a single non-contractible composite path $\gamma_{AB} \in \mathcal{F}_\Sigma$. When $\hat{V}_0$ projects onto an irreducible $J=0$ representation (antisymmetric spinor invariant tensor $\varepsilon^{\alpha\beta}$ satisfying $U \varepsilon U^T = \varepsilon$ for every $U \in SU(2)$), the internal spinor indices of branch $A$ and branch $B$ are contracted before squaring the amplitude. Because interference sums $\int \mathcal{D}[\gamma] e^{i S/\hbar}$ are coherent over non-factorizable contractions $\varepsilon_{\alpha\beta} (\hat{W}_A)^\alpha{}_{\alpha'} (\hat{W}_B)^\beta{}_{\beta'}$, cross-terms between distinct contour windings carry signed phase interference rather than a positive Kolmogorov measure $\rho(\lambda) \ge 0$ over localized outcomes.
+\end{proof}
+
+\section{Step-by-Step Derivation of the Singlet Correlator and Malus Law}
+To derive the explicit angular dependence, restrict $\mathbf{\mathcal{A}}_\mu$ to the spatial cover $SU(2) \subset \mathrm{Spin}(3,1)$ with generators $\frac{1}{2}\sigma_i$ ($i=1,2,3$) for spin-$\frac{1}{2}$ fermions (and analogously to the $U(1)$ Poincaré-sphere helicity doublet for photons).
+
+\subsection{Massive Spin-$\frac{1}{2}$ Singlet from the $\mathrm{Spin}(3,1)$ Holonomy Vertex}
+An isotropic ($J=0$) decay at $x_0$ projects the two-contour spinor product onto the unique $SU(2)$-invariant antisymmetric rank-2 spinor $\varepsilon = i\sigma_y = \begin{pmatrix}0 & 1 \\ -1 & 0\end{pmatrix}$:
+\begin{equation}
+|\Psi^-\rangle_{\mathrm{contour}} = \frac{1}{\sqrt{2}} \sum_{\alpha,\beta} \varepsilon_{\alpha\beta}\, |\alpha\rangle_A \otimes |\beta\rangle_B = \frac{1}{\sqrt{2}}\big(|\uparrow\rangle_A |\downarrow\rangle_B - |\downarrow\rangle_A |\uparrow\rangle_B\big).
+\end{equation}
+The Stern--Gerlach or spin-projection analyzers oriented along unit vectors $\hat{\mathbf{a}}, \hat{\mathbf{b}} \in S^2$ generate holonomy phase projectors along branches $\gamma_A$ and $\gamma_B$:
+\begin{equation}
+\hat{\Pi}_{r_a}(\hat{\mathbf{a}}) = \frac{1}{2}\big(\mathbf{I}_2 + r_a \, \hat{\mathbf{a}}\cdot\boldsymbol{\sigma}\big), \qquad \hat{\Pi}_{r_b}(\hat{\mathbf{b}}) = \frac{1}{2}\big(\mathbf{I}_2 + r_b \, \hat{\mathbf{b}}\cdot\boldsymbol{\sigma}\big), \qquad r_a, r_b \in \{+1, -1\}.
+\end{equation}
+Let $\hat{A} = \hat{\mathbf{a}}\cdot\boldsymbol{\sigma}$ and $\hat{B} = \hat{\mathbf{b}}\cdot\boldsymbol{\sigma}$. Using the exact matrix identity connecting the transpose of Pauli generators to $\varepsilon$,
+\begin{equation}
+\varepsilon (\sigma_i)^T \varepsilon^\dagger = -\sigma_i \implies \varepsilon (\hat{\mathbf{b}}\cdot\boldsymbol{\sigma})^T \varepsilon^\dagger = -(\hat{\mathbf{b}}\cdot\boldsymbol{\sigma}),
+\label{eq:pauli_eps}
+\end{equation}
+the closed-contour expectation value of the joint spin observable evaluates step-by-step via the gauge-invariant matrix trace:
+\begin{align}
+E_{\mathrm{UPD}}(\hat{\mathbf{a}}, \hat{\mathbf{b}}) &= \langle \Psi^- | (\hat{\mathbf{a}}\cdot\boldsymbol{\sigma}_A) \otimes (\hat{\mathbf{b}}\cdot\boldsymbol{\sigma}_B) | \Psi^- \rangle \nonumber \\
+&= \frac{1}{2} \sum_{\alpha,\beta,\alpha',\beta'} \varepsilon_{\alpha\beta}^* \varepsilon_{\alpha'\beta'} (\hat{A})_{\alpha\alpha'} (\hat{B})_{\beta\beta'} \nonumber \\
+&= \frac{1}{2} \mathrm{Tr}\!\left[ \varepsilon^\dagger (\hat{\mathbf{a}}\cdot\boldsymbol{\sigma}) \varepsilon (\hat{\mathbf{b}}\cdot\boldsymbol{\sigma})^T \right] \nonumber \\
+&= -\frac{1}{2} \mathrm{Tr}\!\left[ (\hat{\mathbf{a}}\cdot\boldsymbol{\sigma}) (\hat{\mathbf{b}}\cdot\boldsymbol{\sigma}) \right] = -\frac{1}{2}\sum_{i,j} a_i b_j \mathrm{Tr}(\sigma_i \sigma_j) = -\hat{\mathbf{a}}\cdot\hat{\mathbf{b}} = -\cos\theta_{ab}.
+\label{eq:singlet_correlator}
+\end{align}
+Substituting $\hat{\Pi}_{r_a}$ and $\hat{\Pi}_{r_b}$ yields the exact joint contour detection probabilities:
+\begin{equation}
+P_{\mathrm{UPD}}(r_a, r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}) = \frac{1}{4}\left( 1 - r_a r_b \, \hat{\mathbf{a}}\cdot\hat{\mathbf{b}} \right) = \begin{cases} \frac{1}{2}\sin^2\!\left(\frac{\theta_{ab}}{2}\right), & r_a = r_b, \\[4pt] \frac{1}{2}\cos^2\!\left(\frac{\theta_{ab}}{2}\right), & r_a = -r_b. \end{cases}
+\end{equation}
+
+\subsection{Entangled Photon Polarizations ($|\Phi^+\rangle$ and $|\Psi^-\rangle$)}
+For massless $U(1)$ vector photons, a rotation by physical polarizer angle $\alpha$ maps to an angle $2\alpha$ on the Poincaré $SU(2)$ sphere ($\mathrm{Spin}(3,1)$ spin-$1$ helicity doublet representation $\{|H\rangle, |V\rangle\}$). Replacing $\theta_a \to 2\alpha$ and $\theta_b \to 2\beta$ for the rotationally invariant symmetric triplet $|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|HH\rangle + |VV\rangle)$ yields the non-local optical correlation:
+\begin{equation}
+E_{\mathrm{UPD}}^{(\gamma)}(\alpha, \beta) = \cos\!\big(2(\alpha - \beta)\big), \qquad P_{\mathrm{UPD}}^{(\gamma)}(r_a = r_b \mid \alpha, \beta) = \frac{1}{2}\cos^2(\alpha - \beta),
+\end{equation}
+directly deriving Malus's quadratic polarization interference law at spacelike separation from the path-contour master-functional.
+
+\section{CHSH Violation and Exact Proof of Tsirelson's Bound}
+Defining the Clauser--Horne--Shimony--Holt (CHSH) Bell operator on the composite contour Hilbert space as
+\begin{equation}
+\hat{\mathcal{B}} = \hat{A} \otimes (\hat{B} - \hat{B}') + \hat{A}' \otimes (\hat{B} + \hat{B}'), \qquad S_{\mathrm{CHSH}} = |\langle \hat{\mathcal{B}} \rangle|,
+\end{equation}
+any local hidden-variable theory assigning deterministic or stochastic values $A, A', B, B' \in [-1, +1]$ at the emission vertex satisfies $|A(B-B') + A'(B+B')| \le 2$ classically.
+
+In Unified Phase Dynamics, choosing coplanar measurement settings $\theta_a = 0$, $\theta_{a'} = \pi/2$, $\theta_b = \pi/4$, $\theta_{b'} = 3\pi/4$ for the spin-$\frac{1}{2}$ singlet Eq.~\eqref{eq:singlet_correlator} gives:
+\begin{equation}
+E(a,b) = -\frac{\sqrt{2}}{2}, \quad E(a,b') = +\frac{\sqrt{2}}{2}, \quad E(a',b) = -\frac{\sqrt{2}}{2}, \quad E(a',b') = -\frac{\sqrt{2}}{2},
+\end{equation}
+producing maximal violation:
+\begin{equation}
+S_{\mathrm{UPD}} = \left|-\frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{2} - \frac{\sqrt{2}}{2}\right| = 2\sqrt{2} \approx 2.828427 > 2.
+\end{equation}
+More generally, along the symmetric sweep $(\theta_a, \theta_b, \theta_{a'}, \theta_{b'}) = (0, \theta, 2\theta, 3\theta)$, UPD yields $S_{\mathrm{UPD}}(\theta) = |3\cos\theta - \cos 3\theta|$, strictly exceeding $S=2$ throughout $(0, 90^\circ)$ and $(90^\circ, 180^\circ)$ except at nodes (see Figure~\ref{fig:fig1}A).
+
+\begin{theorem}[Contour Proof of Tsirelson's Bound and Exclusion of PR Boxes]
+Under the Osterwalder--Schrader reflection-positive (OS2) unitary loop measure of $\mathbf{\Psi}[\Sigma]$, every pair of dichotomic holonomy observables ($\hat{A}^2 = \hat{A}'^2 = \hat{B}^2 = \hat{B}'^2 = \mathbf{I}$) obeys the exact operator upper bound
+\begin{equation}
+S_{\mathrm{UPD}} = |\langle \hat{\mathcal{B}} \rangle| \le 2\sqrt{2},
+\end{equation}
+rigorously forbidding super-quantum Popescu--Rohrlich ($S_{\mathrm{PR}} = 4$) correlations.
+\end{theorem}
+
+\begin{proof}
+Because every contour observable is a bounded Hermitian projection of unitary path-ordered holonomies ($\|\hat{X}\| = 1$, $\hat{X}^\dagger = \hat{X}$, $\hat{X}^2 = \mathbf{I}$), direct algebraic squaring of $\hat{\mathcal{B}}$ yields Landau's commutator identity:
+\begin{align}
+\hat{\mathcal{B}}^2 &= \hat{A}^2 \otimes (\hat{B} - \hat{B}')^2 + \hat{A}'^2 \otimes (\hat{B} + \hat{B}')^2 + \hat{A}\hat{A}' \otimes (\hat{B} - \hat{B}')(\hat{B} + \hat{B}') + \hat{A}'\hat{A} \otimes (\hat{B} + \hat{B}')(\hat{B} - \hat{B}') \nonumber \\
+&= 4(\mathbf{I}_A \otimes \mathbf{I}_B) - [\hat{A}, \hat{A}'] \otimes [\hat{B}, \hat{B}'].
+\end{align}
+Applying the operator norm submultiplicativity $\|\hat{X}\hat{Y}\| \le \|\hat{X}\|\|\hat{Y}\|$ guaranteed by OS2 positive-definite inner product \cite{PavliukVoronoi4D,PavliukYM} gives $\|[\hat{A}, \hat{A}']\| \le 2\|\hat{A}\|\|\hat{A}'\| = 2$ and $\|[\hat{B}, \hat{B}']\| \le 2$, whence
+\begin{equation}
+\|\hat{\mathcal{B}}^2\| \le 4 + \|[\hat{A}, \hat{A}']\|\,\|[\hat{B}, \hat{B}']\| \le 4 + 2\cdot 2 = 8 \implies \|\hat{\mathcal{B}}\| \le \sqrt{8} = 2\sqrt{2}.
+\end{equation}
+Equality holds if and only if Alice's and Bob's local holonomy operators maximally fail to commute ($\|[\hat{A}, \hat{A}']\| = \|[\hat{B}, \hat{B}']\| = 2$, i.e., orthogonal spin axes), matching our numerical diagonalization $\mathrm{spec}(\hat{\mathcal{B}}) = \{-2\sqrt{2}, 0, 0, +2\sqrt{2}\}$. Popescu--Rohrlich correlations ($S=4$) are mathematically impossible without breaking unitary holonomy boundedness or OS2 positivity.
+\end{proof}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.98\textwidth]{bell_chsh_correlation_curve.png}
+\caption{\textbf{(A)} Exact closed-contour CHSH correlation curve $S_{\mathrm{UPD}}(\theta) = |3\cos\theta - \cos 3\theta|$ vs.\ piecewise-linear local hidden variable bound, demonstrating maximal violation $2\sqrt{2} \approx 2.8284$ at $\theta = 45^\circ$ and $135^\circ$. \textbf{(B)} Benchmark against milestone optical, atomic, NV-center, and superconducting loophole-free Bell experiments.}
+\label{fig:fig1}
+\end{figure}
+
+\section{Strict Causal No-Signaling and Luminal Signal Speed ($c_T \equiv c$)}
+Because $\mathbf{\Psi}[\Sigma]$ enforces global contour coherence across spacelike intervals, it is essential to prove that no information can propagate superluminally between Alice and Bob.
+
+\begin{theorem}[Exact Trace-Marginalized No-Signaling in $\mathbf{\Psi}[\Sigma]$]
+For any choice of Alice's analyzer setting $\hat{\mathbf{a}} \in S^2$ and Bob's analyzer setting $\hat{\mathbf{b}} \in S^2$, Bob's marginal outcome distribution $P_B(r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}})$ is identically independent of $\hat{\mathbf{a}}$, and vice versa:
+\begin{equation}
+P_B(r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}) \equiv \sum_{r_a \in \{+1,-1\}} P_{\mathrm{UPD}}(r_a, r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}) = \frac{1}{2}, \qquad \frac{\partial P_B(r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}})}{\partial \hat{\mathbf{a}}} \equiv 0.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Summing Alice's outcomes in the holonomy trace yields the identity projector resolution $\sum_{r_a = \pm 1} \hat{\Pi}_{r_a}(\hat{\mathbf{a}}) = \frac{1}{2}(\mathbf{I}_2 + \hat{\mathbf{a}}\cdot\boldsymbol{\sigma}) + \frac{1}{2}(\mathbf{I}_2 - \hat{\mathbf{a}}\cdot\boldsymbol{\sigma}) = \mathbf{I}_2$. Consequently, the trace over Alice's branch eliminates $\hat{\mathbf{a}}$ algebraically:
+\begin{equation}
+P_B(r_b \mid \hat{\mathbf{a}}, \hat{\mathbf{b}}) = \mathrm{Tr}_{AB}\!\left[ \hat{\rho}_{AB} \left(\left(\sum_{r_a=\pm 1}\hat{\Pi}_{r_a}(\hat{\mathbf{a}})\right) \otimes \hat{\Pi}_{r_b}(\hat{\mathbf{b}})\right) \right] = \mathrm{Tr}_B\!\left[ \hat{\rho}_B \, \hat{\Pi}_{r_b}(\hat{\mathbf{b}}) \right] = \frac{1}{2}\mathrm{Tr}\!\left[\hat{\Pi}_{r_b}(\hat{\mathbf{b}})\right] = \frac{1}{2},
+\end{equation}
+since the reduced spinor density matrix of an $SU(2)$ singlet trace is $\hat{\rho}_B = \frac{1}{2}\varepsilon^\dagger \mathbf{I}_2 \varepsilon = \frac{1}{2}\mathbf{I}_2$. In numerical verification comparing $\theta_a = 0$ versus $\theta_a = 1.23\ \mathrm{rad}$ at fixed $\theta_b = \pi/4$, joint probabilities shift ($P_{++}: 0.07322 \to 0.02430$) while Bob's marginal remains $P_B(+) = 0.500000000000000$ with difference $5.55 \times 10^{-17}$ (machine precision). Coupled with UPD Lemma 2 \cite{PavliukMasterDeriv}, which establishes strictly luminal tensor propagation $c_T \equiv c$ and causal retarded Green's functions under the entire form-factor $\mathcal{E}(\Box)$, global contour holonomy generates non-local correlations without violating relativistic causality.
+\end{proof}
+
+\section{Multipartite GHZ Contradiction and Mermin Paradox}
+For a 3-prong closed Wilson junction $\gamma_{ABC}$ emitted from a shared vertex $x_0$ with gauge-symmetric holonomy projection $|\mathrm{GHZ}\rangle = \frac{1}{\sqrt{2}}(|000\rangle + |111\rangle)$, we evaluate the four mutually commuting Pauli product holonomies:
+\begin{equation}
+\hat{O}_1 = \sigma_x \otimes \sigma_y \otimes \sigma_y, \quad
+\hat{O}_2 = \sigma_y \otimes \sigma_x \otimes \sigma_y, \quad
+\hat{O}_3 = \sigma_y \otimes \sigma_y \otimes \sigma_x, \quad
+\hat{O}_4 = \sigma_x \otimes \sigma_x \otimes \sigma_x.
+\end{equation}
+Direct action of $\sigma_y|0\rangle = i|1\rangle$, $\sigma_y|1\rangle = -i|0\rangle$ yields $i^2 = -1$ on any pair of $\sigma_y$ legs, whereas $\sigma_x^3$ maps $|000\rangle \leftrightarrow |111\rangle$ with sign $+1$:
+\begin{equation}
+\langle \hat{O}_1 \rangle = \langle \hat{O}_2 \rangle = \langle \hat{O}_3 \rangle = -1, \qquad \langle \hat{O}_4 \rangle = +1.
+\end{equation}
+For any LHV assignment $x_k, y_k \in \{+1,-1\}$, the algebraic product satisfies $(x_1 y_2 y_3)(y_1 x_2 y_3)(y_1 y_2 x_3) = x_1 x_2 x_3 (y_1 y_2 y_3)^2 = x_1 x_2 x_3$, forcing $x_1 x_2 x_3 = (-1)^3 = -1$, in direct contradiction with the deterministic UPD holonomy eigenvalue $+1$. Evaluating Mermin's 3-party Bell operator $\hat{M}_3 = \hat{O}_4 - \hat{O}_1 - \hat{O}_2 - \hat{O}_3$ yields the maximal algebraic violation:
+\begin{equation}
+\langle \hat{M}_3 \rangle_{\mathrm{UPD}} = 1 - (-1) - (-1) - (-1) = 4 \quad \text{vs.} \quad |\langle \hat{M}_3 \rangle_{\mathrm{LHV}}| \le 2.
+\end{equation}
+
+\section{Schwinger UV Regularization and Macroscopic Gravitational Bell Cutoff}
+Unique to Unified Phase Dynamics is a unified quantitative account of \emph{both} why microscopic Bell tests saturate $2\sqrt{2}$ and where macroscopic entanglement must break down due to gravitational contour dephasing.
+
+\subsection{Quartic UV Preservation of $2\sqrt{2}$ Across Energy Scales}
+The non-local Schwinger form-factor $\mathcal{E}(\Box) = \exp(-s_{\min}^2 \Box^2 / \hbar^2)$, with electroweak holonomy scale $\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$ ($s_{\min} = \Lambda_{\mathrm{UPD}}^{-2}$) \cite{PavliukHiggs,PavliukMuon}, introduces finite-range loop smearing into vertex projections scaled strictly quartically in $E / \Lambda_{\mathrm{UPD}}$:
+\begin{equation}
+|\delta S^{\mathcal{E}}(E)| \approx 2\sqrt{2}\left(\frac{E}{\Lambda_{\mathrm{UPD}}}\right)^4.
+\end{equation}
+Table~\ref{tab:uv_gravitational} summarizes these shifts: for $2\ \mathrm{eV}$ optical photons and $5\ \mathrm{GHz}$ superconducting microwave photons, $|\delta S^{\mathcal{E}}| \sim 10^{-47}$ and $10^{-67}$, remaining over forty orders of magnitude below the tightest optical CHSH precision ($\sigma_S \approx 8 \times 10^{-4}$). Only at $100\ \mathrm{GeV}$ electroweak collider energies does the UV shift reach $\sim 1.36 \times 10^{-4}$.
+
+\subsection{Gravitational Phase Decoherence Cutoff (Experimentum Crucis 1 Bridge)}
+When Bell-correlated spatial branch paths $\gamma_A, \gamma_B$ carry macroscopic rest mass $M$ across distinct gravitational proper-time equipotentials, the Wheeler--DeWitt Killing-vector phase gradient induces gravitational dephasing at rate $\Gamma_G = \Delta E_G / \hbar \propto M^2$. Anchored directly to the calibrated benchmark of \textit{Experimentum Crucis 1} \cite{PavliukMonograph,PavliukEC1} ($R = 81.1\ \mathrm{nm}$ $^{28}\mathrm{Si}$ nanosphere, $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu} = 5.204 \times 10^{-18}\ \mathrm{kg}$, $\tau_{\mathrm{crit}} = 10.0\ \mathrm{ms}$ against environmental noise $\tau_{\mathrm{env}} > 800\ \mathrm{s}$ at $T = 10\ \mathrm{mK}$ and $P = 10^{-14}\ \mathrm{mbar}$), off-diagonal branch coherence decays as $\exp(-t/\tau_G)$, attenuating the effective CHSH parameter:
+\begin{equation}
+S_{\mathrm{eff}}(t, M) = 2\sqrt{2}\exp\!\left(-\frac{t}{\tau_G(M)}\right), \qquad \tau_G(M) = \tau_{\mathrm{crit}}\left(\frac{M_{\mathrm{crit}}}{M}\right)^2.
+\end{equation}
+Consequently, UPD predicts a sharp, falsifiable Bell-violation horizon $S_{\mathrm{eff}}(t_{\mathrm{Bell}}) = 2$ at:
+\begin{equation}
+t_{\mathrm{Bell}}(M) = \tau_G(M)\,\ln\!\left(\sqrt{2}\right) \approx 0.34657\,\tau_G(M) \implies t_{\mathrm{Bell}}(M_{\mathrm{crit}}) \approx 3.47\ \mathrm{ms},
+\end{equation}
+as illustrated in Figure~\ref{fig:fig2}B and Table~\ref{tab:uv_gravitational}.
+
+\begin{table}[h]
+\centering
+\caption{UPD predictions for (top) non-local Schwinger UV shifts $|\delta S^{\mathcal{E}}|$ at $\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$ and (bottom) macroscopic gravitational Bell-violation cutoff times $t_{\mathrm{Bell}}$ bridged to Experimentum Crucis 1.}
+\label{tab:uv_gravitational}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Regime / System} & \textbf{Characteristic Scale} & \textbf{Suppression / $\tau_G$} & \textbf{Shift $|\delta S^{\mathcal{E}}|$ or $t_{\mathrm{Bell}}$} & \textbf{Status} \\
+\midrule
+Superconducting ($5\ \mathrm{GHz}$) & $E = 2.068 \times 10^{-14}\ \mathrm{GeV}$ & $(E/\Lambda)^4 = 8.82 \times 10^{-68}$ & $|\delta S^{\mathcal{E}}| = 2.49 \times 10^{-67}$ & Exact $2\sqrt{2}$ preserved \\
+Optical Photons ($2\ \mathrm{eV}$) & $E = 2.00 \times 10^{-9}\ \mathrm{GeV}$ & $(E/\Lambda)^4 = 7.72 \times 10^{-48}$ & $|\delta S^{\mathcal{E}}| = 2.18 \times 10^{-47}$ & Exact $2\sqrt{2}$ preserved \\
+EW Collider ($100\ \mathrm{GeV}$) & $E = 100.0\ \mathrm{GeV}$ & $(E/\Lambda)^4 = 4.82 \times 10^{-5}$ & $|\delta S^{\mathcal{E}}| = 1.36 \times 10^{-4}$ & Below current $\sim 10^{-2}$ err \\
+\midrule
+Macroscopic ($M = 1.00 \times 10^{11}\ \mathrm{amu}$) & Cryogenic cavity & $\tau_G = 9.80 \times 10^{3}\ \mathrm{ms}$ & $t_{\mathrm{Bell}} = 3.40 \times 10^{3}\ \mathrm{ms}$ & Long coherence window \\
+Macroscopic ($M = 1.00 \times 10^{12}\ \mathrm{amu}$) & Cryogenic cavity & $\tau_G = 97.97\ \mathrm{ms}$ & $t_{\mathrm{Bell}} = 33.95\ \mathrm{ms}$ & Mesoscopic transition \\
+\textbf{EC1 ($M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$)} & $^{28}\mathrm{Si}$, $R = 81.1\ \mathrm{nm}$ & $\tau_{\mathrm{crit}} = 10.00\ \mathrm{ms}$ & $\mathbf{t_{\mathrm{Bell}} = 3.47\ \mathrm{ms}}$ & \textbf{Falsifiable EC1 Target} \\
+Macroscopic ($M = 1.00 \times 10^{13}\ \mathrm{amu}$) & Cryogenic cavity & $\tau_G = 0.980\ \mathrm{ms}$ & $t_{\mathrm{Bell}} = 0.340\ \mathrm{ms}$ & Rapid classicalization \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.98\textwidth]{bell_decoherence_vis_cutoff.png}
+\caption{\textbf{(A)} Quartic suppression of non-local Schwinger UV shifts $|\delta S^{\mathcal{E}}|$ showing exact preservation of Tsirelson's bound across microwave and optical experiments. \textbf{(B)} Gravitational Bell decay $S_{\mathrm{eff}}(t) = 2\sqrt{2}e^{-t/\tau_G}$ crossing the Bell threshold $S=2$ at $t_{\mathrm{Bell}} \approx 3.47\ \mathrm{ms}$ at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$.}
+\label{fig:fig2}
+\end{figure}
+
+\section{Empirical Confrontation with Milestone Bell Experiments}
+Table~\ref{tab:experiments} confronts UPD's predictions against the decisive experimental record from early atomic cascades through modern loophole-free tests and multipartite GHZ realizations. In every microscopic regime ($M \ll M_{\mathrm{crit}}$), experimental deficits below $2\sqrt{2}$ arise solely from apparatus detection efficiencies and local channel noise, with zero anomalous fundamental correction required.
+
+\begin{table}[h]
+\centering
+\caption{Confrontation of Unified Phase Dynamics ($\mathbf{\Psi}[\Sigma]$) against milestone Bell--CHSH and GHZ experiments.}
+\label{tab:experiments}
+\begin{tabular}{llcccl}
+\toprule
+\textbf{Experiment} & \textbf{Platform} & \textbf{Measured Value} & \textbf{Significance} & \textbf{UPD Bound} & \textbf{Loopholes / Notes} \\
+\midrule
+Freedman--Clauser (1972) \cite{Freedman1972} & Ca cascade $\gamma\gamma$ & $\delta = 0.050 \pm 0.008$ ($S\approx 2.72$) & $>6\sigma$ & $S \le 2\sqrt{2}$ & First Bell test ($\delta > 0$) \\
+Aspect et al.\ (1982) \cite{Aspect1982} & Ca cascade + switches & $S = 2.697 \pm 0.015$ & $46\sigma$ & $S \le 2\sqrt{2}$ & Time-varying analyzers \\
+Weihs et al.\ (1998) \cite{Weihs1998} & SPDC photons ($400\ \mathrm{m}$) & $S = 2.73 \pm 0.022$ & $>30\sigma$ & $S \le 2\sqrt{2}$ & Space-like separation \\
+Pan et al.\ (2000) & 3-photon GHZ & $\langle M_3\rangle$ violations & $>8\sigma$ & $\langle M_3\rangle \le 4$ & GHZ all-vs-nothing \\
+Hensen et al.\ (Delft 2015) \cite{Hensen2015} & NV centers ($1.3\ \mathrm{km}$) & $S = 2.42 \pm 0.20$ & $p=0.039$ & $S \le 2\sqrt{2}$ & \textbf{1st Loophole-Free} \\
+Giustina et al.\ (Vienna 2015) \cite{Giustina2015} & SPDC photons ($58\ \mathrm{m}$) & $J > 0$ (Eberhard) & $11.5\sigma$ ($p=3.7\times 10^{-31}$) & $S \le 2\sqrt{2}$ & \textbf{Loophole-Free Photons} \\
+Poh et al.\ (2015) & High-vis.\ SPDC & $S = 2.82759 \pm 0.00051$ & $>1600\sigma$ & $S_{\max} = 2.82843$ & Tightest Tsirelson match \\
+Rosenfeld et al.\ (Munich 2017) & $^{87}\mathrm{Rb}$ atoms ($398\ \mathrm{m}$) & $S = 2.221 \pm 0.033$ & $>6\sigma$ & $S \le 2\sqrt{2}$ & \textbf{Loophole-Free Matter} \\
+Storz et al.\ (ETH 2023) \cite{Storz2023} & SC transmons ($30\ \mathrm{m}$) & $S = 2.0747 \pm 0.0033$ & $>22\sigma$ & $S \le 2\sqrt{2}$ & \textbf{Loophole-Free Cryo SC} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Conclusion and Falsifiability Criteria}
+We have demonstrated that quantum entanglement, maximal CHSH violation ($2\sqrt{2}$), the 3-qubit GHZ--Mermin paradox ($\langle\hat{M}_3\rangle = 4$), Tsirelson's bound, and relativistic no-signaling follow deductively from the topological non-separability of closed contours $\gamma_{AB} \in \mathcal{F}_\Sigma$ in the UPD master-functional $\mathbf{\Psi}[\Sigma]$. The framework yields three sharp falsification criteria: (1) any statistically confirmed violation of Tsirelson's bound $S > 2\sqrt{2}$ or superluminal marginal drift $\Delta P_B \neq 0$ would refute OS2 unitary contour holonomies; (2) any non-trivial shift $|\delta S^{\mathcal{E}}| > 10^{-40}$ in low-energy optical Bell tests would contradict the quartic Schwinger regulator at $\Lambda_{\mathrm{UPD}} = 1.2\ \mathrm{TeV}$; and (3) persistence of spatial entanglement beyond $t_{\mathrm{Bell}} \approx 3.47\ \mathrm{ms}$ in a cryogenic levitated $^{28}\mathrm{Si}$ superposition at $M_{\mathrm{crit}} = 3.13 \times 10^{12}\ \mathrm{amu}$ (\textit{Experimentum Crucis 1}) would falsify gravitational contour dephasing.
+
+\begin{thebibliography}{99}
+\bibitem{PavliukMonograph} H. Pavliuk, \textit{Unified Phase Dynamics of Feynman Path Contours: Deductive Derivation of Fundamental Physical Laws and Resolution of the Dark Matter Problem}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24226129}{10.5281/zenodo.24226129}.
+\bibitem{PavliukMasterDeriv} H. Pavliuk, \textit{Deductive Derivation of the Universal Feynman Path-Contour Master-Functional in Unified Phase Dynamics}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24406587}{10.5281/zenodo.24406587}.
+\bibitem{PavliukEC1} H. Pavliuk, \textit{Experimentum Crucis 1: Decisive Laboratory Test of Gravitationally Induced Quantum Decoherence}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24339964}{10.5281/zenodo.24339964}.
+\bibitem{PavliukEmergentGrav} H. Pavliuk, \textit{Universal Emergent Gravitation from Localized Quantum Phase Oscillations}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24348874}{10.5281/zenodo.24348874}.
+\bibitem{PavliukYM} H. Pavliuk, \textit{Constructive Loop-Space Measure and Non-Perturbative Spectral Mass Gap for 4D $SU(3)$ Yang--Mills Theory on $\mathbb{R}^4$}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24315867}{10.5281/zenodo.24315867}.
+\bibitem{PavliukVoronoi4D} H. Pavliuk, \textit{Exact Non-Perturbative Spectral Mass Gap for 4D $SU(3)$ Yang--Mills on Foliated Voronoi--Delaunay Complexes}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24500936}{10.5281/zenodo.24500936}.
+\bibitem{PavliukHiggs} H. Pavliuk, \textit{Electroweak Symmetry Breaking, Higgs Boson Mass (125.1 GeV), and Hierarchy Problem Resolution}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24337609}{10.5281/zenodo.24337609}.
+\bibitem{PavliukMuon} H. Pavliuk, \textit{Anomalous Magnetic Moment of the Muon ($g-2$) and Lepton Series ($e,\mu,\tau$) in Unified Phase Dynamics}, Zenodo, Concept DOI: \href{https://doi.org/10.5281/zenodo.24542226}{10.5281/zenodo.24542226}.
+\bibitem{EPR1935} A. Einstein, B. Podolsky, and N. Rosen, \textit{Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?}, Phys.\ Rev.\ \textbf{47}, 777--780 (1935).
+\bibitem{Bell1964} J. S. Bell, \textit{On the Einstein Podolsky Rosen Paradox}, Physics Physique Fizika \textbf{1}, 195--200 (1964).
+\bibitem{CHSH1969} J. F. Clauser, M. A. Horne, A. Shimony, and R. A. Holt, \textit{Proposed Experiment to Test Local Hidden-Variable Theories}, Phys.\ Rev.\ Lett.\ \textbf{23}, 880--884 (1969).
+\bibitem{Tsirelson1980} B. S. Cirel'son (Tsirelson), \textit{Quantum generalizations of Bell's inequality}, Lett.\ Math.\ Phys.\ \textbf{4}, 93--100 (1980).
+\bibitem{Freedman1972} S. J. Freedman and J. F. Clauser, \textit{Experimental Test of Local Hidden-Variable Theories}, Phys.\ Rev.\ Lett.\ \textbf{28}, 938 (1972).
+\bibitem{Aspect1982} A. Aspect, J. Dalibard, and G. Roger, \textit{Experimental Test of Bell's Inequalities Using Time-Varying Analyzers}, Phys.\ Rev.\ Lett.\ \textbf{49}, 1804--1807 (1982).
+\bibitem{Weihs1998} G. Weihs, T. Jennewein, C. Simon, H. Weinfurter, and A. Zeilinger, \textit{Violation of Bell's Inequality under Strict Einstein Locality Conditions}, Phys.\ Rev.\ Lett.\ \textbf{81}, 5039 (1998).
+\bibitem{Hensen2015} B. Hensen et al., \textit{Loophole-free Bell inequality violation using electron spins separated by 1.3 kilometres}, Nature \textbf{526}, 682--686 (2015).
+\bibitem{Giustina2015} M. Giustina et al., \textit{Significant-Loophole-Free Test of Bell's Theorem with Entangled Photons}, Phys.\ Rev.\ Lett.\ \textbf{115}, 250401 (2015).
+\bibitem{Storz2023} S. Storz et al., \textit{Loophole-free Bell inequality violation with superconducting circuits}, Nature \textbf{617}, 265--270 (2023).
+\end{thebibliography}
+
+\end{document}

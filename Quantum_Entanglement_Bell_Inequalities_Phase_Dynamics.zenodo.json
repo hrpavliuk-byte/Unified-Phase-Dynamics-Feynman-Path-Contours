@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "Quantum Entanglement, Non-Local Bell Correlations, and No-Signaling from the Universal Path-Contour Master-Functional in Unified Phase Dynamics",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p>We present a step-by-step deductive derivation of bipartite and multipartite quantum entanglement, non-local Bell&ndash;CHSH correlations, Tsirelson's upper bound, relativistic no-signaling, and macroscopic gravitational Bell decay directly from the universal Feynman path-contour master-functional &Psi;[&Sigma;] in <strong>Unified Phase Dynamics (UPD)</strong> by H. Pavliuk.</p><p>Key analytical and numerical results:</p><ul><li><strong>Topological Non-Separability:</strong> Entangled branches emerging from a shared creation vertex x<sub>0</sub> form a single non-factorizable closed contour &gamma;<sub>AB</sub> = &gamma;<sub>A</sub> &cup; &gamma;<sub>B</sub> in loop space &Fscr;<sub>&Sigma;</sub> over &Gscr; = U(1)<sub>Y</sub> &times; SU(2)<sub>L</sub> &times; SU(3)<sub>c</sub> &times; Spin(3,1).</li><li><strong>Exact Correlators &amp; CHSH Saturation:</strong> Spinor projection yields E<sub>UPD</sub>(a,b) = &minus;a&middot;b, photonic Malus law cos 2(&alpha;&minus;&beta;), S<sub>UPD</sub> = 2&radic;2 &approx; 2.828427 &gt; 2, and GHZ&ndash;Mermin violation &langle;M<sub>3</sub>&rangle; = 4 &gt; 2.</li><li><strong>Tsirelson Bound &amp; No-Signaling:</strong> Commutator algebra and OS2 reflection positivity prove |S| &le; 2&radic;2 (excluding PR boxes) and exact trace-marginalized no-signaling (&Delta;P<sub>B</sub> = 5.55 &times; 10<sup>&minus;17</sup>) compatible with luminal c<sub>T</sub> &equiv; c.</li><li><strong>Experimentum Crucis 1 Bell Crossover:</strong> While &Escr;(&square;) at &Lambda;<sub>UPD</sub> = 1.2 TeV preserves optical Bell tests within 10<sup>&minus;47</sup>, gravitational phase dephasing enforces S<sub>eff</sub>(t) = 2&radic;2 exp(&minus;t/&tau;<sub>G</sub>) &le; 2 for t &gt; 3.47 ms at M<sub>crit</sub> = 3.13 &times; 10<sup>12</sup> amu.</li></ul>",
+    "creators": [
+      {
+        "name": "Pavliuk, Hryhorii",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0000-0899-3463"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "Quantum Entanglement",
+      "Bell Inequalities",
+      "CHSH",
+      "Tsirelson Bound",
+      "GHZ Paradox",
+      "No-Signaling Theorem",
+      "Unified Phase Dynamics",
+      "Feynman Path Contours",
+      "Experimentum Crucis 1",
+      "H. Pavliuk"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24226129",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.24406587",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.24339964",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.24315867",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+        "relation": "isSupplementedBy",
+        "resource_type": "software"
+      },
+      {
+        "identifier": "https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/",
+        "relation": "isDocumentedBy",
+        "resource_type": "software"
+      }
+    ],
+    "publication_date": "2026-11-26",
+    "version": "1.0.0"
+  }
+}
