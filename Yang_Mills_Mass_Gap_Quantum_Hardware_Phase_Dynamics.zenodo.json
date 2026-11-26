@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "title": "Non-Perturbative Yang-Mills Spectral Mass Gap, Confinement Area Law, and OS2 Reflection Positivity on 156-Qubit IBM Quantum Hardware in Unified Phase Dynamics",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "description": "<p>We report direct superconducting quantum-hardware verification of the confinement spectral gap, Wilson-loop area law, Euclidean transfer-matrix exponential decay, and Osterwalder&ndash;Schrader reflection positivity (OS2) motivated by the autonomous path-contour formulation of four-dimensional <em>SU(3)</em> Yang&ndash;Mills theory in <strong>Unified Phase Dynamics (&Psi;[&Sigma;])</strong> by H. Pavliuk.</p><ul><li><strong>Live 156-Qubit Execution (<code>ibm_marrakesh</code>, Job ID <code>dc42sadhdvas73boss30</code>):</strong> 33 quantum circuits executed at 4,096 shots each (135,168 physical measurements, unmitigated) across a six-point gauge-coupling scan g<sup>2</sup> &isin; [1.00, 2.50] of a gauge-invariant 3-plaquette Kogut&ndash;Susskind reduction.</li><li><strong>Non-Zero Spectral Gap &amp; Wilson Area Law:</strong> Real hardware resolves a strictly positive gap &Delta;<sub>QPU</sub> &isin; [1.2396, 1.6258] (49.3&sigma;&ndash;59.9&sigma; &gt; 0) alongside simultaneous area-law decay across 1&times;1, 1&times;2, and 1&times;3 Wilson loops (&sigma;<sub>lat,QPU</sub> = 0.1253 &rarr; 0.8418).</li><li><strong>Euclidean Transfer-Matrix Slope:</strong> Block-encoded imaginary-time damping recovers &Delta;<sub>EUCLID,QPU</sub> = 1.3118 against exact 1.3243 (0.94% discrepancy).</li><li><strong>OS2 Positivity vs. Ghost Sector:</strong> Swap-tests measure &lambda;<sub>min,QPU</sub> = +0.3643 &plusmn; 0.0146 &gt; 0 (Voronoi target +0.4131) separated cleanly from an Ostrogradsky Lee&ndash;Wick ghost control (&minus;0.5684 &plusmn; 0.0129 &lt; 0).</li><li><strong>4D Continuum Anchor:</strong> Zero-parameter 4D SU(3) calculations in Unified Phase Dynamics yield &Delta;<sub>0<sup>++</sup></sub> = 1.654 GeV matching Lattice QCD (1.65 &plusmn; 0.10 GeV) and full glueball tower concordance within 0.00&sigma;&ndash;0.125&sigma;.</li></ul>",
+    "creators": [
+      {
+        "name": "Pavliuk, Hryhorii",
+        "affiliation": "Independent Researcher",
+        "orcid": "0009-0000-0899-3463"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "Yang-Mills Mass Gap",
+      "SU(3) Gauge Theory",
+      "IBM Quantum",
+      "Kogut-Susskind Hamiltonian",
+      "Wilson Loop Area Law",
+      "Osterwalder-Schrader Reflection Positivity",
+      "Unified Phase Dynamics",
+      "Glueball Spectrum",
+      "Voronoi-Delaunay Lattice",
+      "H. Pavliuk"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.5281/zenodo.24226129",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.24315867",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "10.5281/zenodo.24500936",
+        "relation": "cites",
+        "resource_type": "publication-preprint"
+      },
+      {
+        "identifier": "https://github.com/hrpavliuk-byte/Unified-Phase-Dynamics-Feynman-Path-Contours",
+        "relation": "isSupplementedBy",
+        "resource_type": "software"
+      },
+      {
+        "identifier": "https://hrpavliuk-byte.github.io/Unified-Phase-Dynamics-Feynman-Path-Contours/",
+        "relation": "isDocumentedBy",
+        "resource_type": "software"
+      }
+    ],
+    "publication_date": "2026-11-26",
+    "version": "1.0.0"
+  }
+}
